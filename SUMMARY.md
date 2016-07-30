@@ -187,7 +187,7 @@ LeetCode
 POJ
 ---
 
-* [[POJ 3264] Balanced Lineup](problems/balanced-lineup.md)
+* [POJ 3264 - Balanced Lineup](problems/balanced-lineup.md)
 
 Hacker Rank
 -----------

@@ -1,0 +1,14 @@
+{
+  "plugins": ["sitemap", "ga", "disqus"],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-77760660-5"
+    },
+    "sitemap": {
+      "hostname": "http://coding-interview-solutions.hackingnote.com/"
+    },
+    "disqus": {
+      "shortName": "coding-interview-solutions"
+    }
+  }
+}

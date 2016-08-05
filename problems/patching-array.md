@@ -57,10 +57,15 @@ The greedy idea here is to get as many values as possible. Meanwhile, if we alre
 For example, [1, 1, 5, 10] and n = 20.
 
 [] -> [], the next missing value is 1, and 1 is in given array.
+
 [1] -> [1], there is another 1 <= max value, so we can get [1, 1], 1, and [2, 2].
+
 [1, 1] -> [1, 2], the next missing value is 3. Add 3.
+
 [1, 1, 3] -> [1, 2, 3, 4, 5], In array, 5 <= max value in range, so we can get [1, 5], 5 and [6, 10].
+
 [1, 1, 3, 5] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], Then we get [1, 10], 10 and [11, 20].
+
 [1, 2, 3, 5, 10] -> [1, 2,..., 20]
 
 Code

@@ -54,7 +54,14 @@ Assume there is not any element in array.
 
 The greedy idea here is to get as many values as possible. Meanwhile, if we already can get values [1, k] and add a new value p, we are supposed to get [1, k] and [p, p+k]. If p <= k+1, it would be [1, p+k].
 
-Given this sorted array, we start from []. If the value in array is out of range, use previous greedy idea to get the max number of integer from 1. Otherwise, we merge two range together.
+For example, [1, 1, 5, 10] and n = 20.
+
+[] -> [], the next missing value is 1, and 1 is in given array.
+[1] -> [1], there is another 1 <= max value, so we can get [1, 1], 1, and [2, 2].
+[1, 1] -> [1, 2], the next missing value is 3. Add 3.
+[1, 1, 3] -> [1, 2, 3, 4, 5], In array, 5 <= max value in range, so we can get [1, 5], 5 and [6, 10].
+[1, 1, 3, 5] -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], Then we get [1, 10], 10 and [11, 20].
+[1, 2, 3, 5, 10] -> [1, 2,..., 20]
 
 Code
 ----
@@ -66,8 +73,7 @@ public:
         unsigned int cnt = 1, idx = 0;
         int ret = 0;
         while (cnt <= n) {
-            // If the values in array is out of range,
-            // add one value to maximize the range.
+            // Extend the range by adding next missing value.
             if (idx >= nums.size() || cnt < nums[idx]) {
                 cnt *= 2;
                 ret++;

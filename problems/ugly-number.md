@@ -1,22 +1,22 @@
-Ugly Number
-===
+---
+title: Ugly Number II
+---
+
+LintCode 517: https://www.lintcode.com/en/problem/ugly-number/
 
 Problem
 -------
 
-Ugly number is a number that only have factors 3, 5 and 7.
 
-Design an algorithm to find the Kth ugly number. The first 5 ugly numbers are 3, 5, 7, 9, 15 ...
 
-Example
--------
+Write a program to check whether a given number is an ugly number`.
 
-If K=4, return 9.
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 6, 8 are ugly while 14 is not ugly since it includes another prime factor 7.
 
-Challenge
----------
+Note that 1 is typically treated as an ugly number.
 
-O(K log K) or O(K) time.
+
+
 
 Solution
 --------
@@ -24,24 +24,21 @@ Solution
 Code
 ----
 
-    class Solution {
-        /**
-         * @param k: The number k.
-         * @return: The kth prime number as description.
-         */
-        public long kthPrimeNumber(int k) {
-            long[] a = new long[k + 1];
-            a[0] = 1;
-            int i3 = 0, i5 = 0, i7 = 0;
-            
-            for (int i = 1; i <= k; i++) {
-                a[i] = Collections.min(Arrays.asList(a[i3] * 3, a[i5] * 5, a[i7] * 7));
-            
-                if (a[i] % 3 == 0) i3++;
-                if (a[i] % 5 == 0) i5++;
-                if (a[i] % 7 == 0) i7++;
-            }
-         
-            return a[k];           
-        }
-    };
+```java
+public class Solution {
+    /**
+     * @param num an integer
+     * @return true if num is an ugly number or false
+     */
+    public boolean isUgly(int num) {
+        // Write your code here
+        if (num == 0) return false;
+        
+        while (num % 2 == 0) num /= 2;
+        while (num % 3 == 0) num /= 3;
+        while (num % 5 == 0) num /= 5;
+        
+        return num == 1;
+    }
+}
+```

@@ -2,6 +2,7 @@ Coding Interview Solutions
 ==========================
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
+
 LeetCode | LintCode | Problem Name
 ---|---|---
 [LeetCode 456](https://leetcode.com/problems/132-pattern)|-|132 Pattern

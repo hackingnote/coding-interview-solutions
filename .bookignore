@@ -1,2 +1,7 @@
 .gitignore
+.idea
 src
+_template.md
+update.sh
+.bookignore
+node_modules

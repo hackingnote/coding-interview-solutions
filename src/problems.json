@@ -1,0 +1,2748 @@
+{
+  "Two Sum": {
+    "leetcode_num": 1,
+    "leetcode_url": "https://leetcode.com/problems/two-sum",
+    "lintcode_num": 56,
+    "lintcode_url": "http://www.lintcode.com/problem/two-sum"
+  },
+  "Add Two Numbers": {
+    "leetcode_num": 2,
+    "leetcode_url": "https://leetcode.com/problems/add-two-numbers",
+    "lintcode_num": 167,
+    "lintcode_url": "http://www.lintcode.com/problem/add-two-numbers"
+  },
+  "Longest Substring Without Repeating Characters": {
+    "leetcode_num": 3,
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "lintcode_num": 384,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-substring-without-repeating-characters"
+  },
+  "Median of Two Sorted Arrays": {
+    "leetcode_num": 4,
+    "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays"
+  },
+  "Longest Palindromic Substring": {
+    "leetcode_num": 5,
+    "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring",
+    "lintcode_num": 200,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-palindromic-substring"
+  },
+  "ZigZag Conversion": {
+    "leetcode_num": 6,
+    "leetcode_url": "https://leetcode.com/problems/zigzag-conversion"
+  },
+  "Reverse Integer": {
+    "leetcode_num": 7,
+    "leetcode_url": "https://leetcode.com/problems/reverse-integer",
+    "lintcode_num": 413,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-integer"
+  },
+  "String to Integer (atoi)": {
+    "leetcode_num": 8,
+    "leetcode_url": "https://leetcode.com/problems/string-to-integer-atoi"
+  },
+  "Palindrome Number": {
+    "leetcode_num": 9,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-number"
+  },
+  "Regular Expression Matching": {
+    "leetcode_num": 10,
+    "leetcode_url": "https://leetcode.com/problems/regular-expression-matching",
+    "lintcode_num": 154,
+    "lintcode_url": "http://www.lintcode.com/problem/regular-expression-matching"
+  },
+  "Container With Most Water": {
+    "leetcode_num": 11,
+    "leetcode_url": "https://leetcode.com/problems/container-with-most-water",
+    "lintcode_num": 383,
+    "lintcode_url": "http://www.lintcode.com/problem/container-with-most-water"
+  },
+  "Integer to Roman": {
+    "leetcode_num": 12,
+    "leetcode_url": "https://leetcode.com/problems/integer-to-roman",
+    "lintcode_num": 418,
+    "lintcode_url": "http://www.lintcode.com/problem/integer-to-roman"
+  },
+  "Roman to Integer": {
+    "leetcode_num": 13,
+    "leetcode_url": "https://leetcode.com/problems/roman-to-integer",
+    "lintcode_num": 419,
+    "lintcode_url": "http://www.lintcode.com/problem/roman-to-integer"
+  },
+  "Longest Common Prefix": {
+    "leetcode_num": 14,
+    "leetcode_url": "https://leetcode.com/problems/longest-common-prefix",
+    "lintcode_num": 78,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-common-prefix"
+  },
+  "3Sum": {
+    "leetcode_num": 15,
+    "leetcode_url": "https://leetcode.com/problems/3sum",
+    "lintcode_num": 57,
+    "lintcode_url": "http://www.lintcode.com/problem/3sum"
+  },
+  "3Sum Closest": {
+    "leetcode_num": 16,
+    "leetcode_url": "https://leetcode.com/problems/3sum-closest",
+    "lintcode_num": 59,
+    "lintcode_url": "http://www.lintcode.com/problem/3sum-closest"
+  },
+  "Letter Combinations of a Phone Number": {
+    "leetcode_num": 17,
+    "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+    "lintcode_num": 425,
+    "lintcode_url": "http://www.lintcode.com/problem/letter-combinations-of-a-phone-number"
+  },
+  "4Sum": {
+    "leetcode_num": 18,
+    "leetcode_url": "https://leetcode.com/problems/4sum",
+    "lintcode_num": 58,
+    "lintcode_url": "http://www.lintcode.com/problem/4sum"
+  },
+  "Remove Nth Node From End of List": {
+    "leetcode_num": 19,
+    "leetcode_url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list",
+    "lintcode_num": 174,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-nth-node-from-end-of-list"
+  },
+  "Valid Parentheses": {
+    "leetcode_num": 20,
+    "leetcode_url": "https://leetcode.com/problems/valid-parentheses",
+    "lintcode_num": 423,
+    "lintcode_url": "http://www.lintcode.com/problem/valid-parentheses"
+  },
+  "Merge Two Sorted Lists": {
+    "leetcode_num": 21,
+    "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists",
+    "lintcode_num": 165,
+    "lintcode_url": "http://www.lintcode.com/problem/merge-two-sorted-lists"
+  },
+  "Generate Parentheses": {
+    "leetcode_num": 22,
+    "leetcode_url": "https://leetcode.com/problems/generate-parentheses",
+    "lintcode_num": 427,
+    "lintcode_url": "http://www.lintcode.com/problem/generate-parentheses"
+  },
+  "Merge k Sorted Lists": {
+    "leetcode_num": 23,
+    "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists",
+    "lintcode_num": 104,
+    "lintcode_url": "http://www.lintcode.com/problem/merge-k-sorted-lists"
+  },
+  "Swap Nodes in Pairs": {
+    "leetcode_num": 24,
+    "leetcode_url": "https://leetcode.com/problems/swap-nodes-in-pairs",
+    "lintcode_num": 451,
+    "lintcode_url": "http://www.lintcode.com/problem/swap-nodes-in-pairs"
+  },
+  "Reverse Nodes in k-Group": {
+    "leetcode_num": 25,
+    "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-k-group",
+    "lintcode_num": 450,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-nodes-in-k-group"
+  },
+  "Remove Duplicates from Sorted Array": {
+    "leetcode_num": 26,
+    "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array",
+    "lintcode_num": 100,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-duplicates-from-sorted-array"
+  },
+  "Remove Element": {
+    "leetcode_num": 27,
+    "leetcode_url": "https://leetcode.com/problems/remove-element",
+    "lintcode_num": 172,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-element"
+  },
+  "Implement strStr()": {
+    "leetcode_num": 28,
+    "leetcode_url": "https://leetcode.com/problems/implement-strstr"
+  },
+  "Divide Two Integers": {
+    "leetcode_num": 29,
+    "leetcode_url": "https://leetcode.com/problems/divide-two-integers",
+    "lintcode_num": 414,
+    "lintcode_url": "http://www.lintcode.com/problem/divide-two-integers"
+  },
+  "Substring with Concatenation of All Words": {
+    "leetcode_num": 30,
+    "leetcode_url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words"
+  },
+  "Next Permutation": {
+    "leetcode_num": 31,
+    "leetcode_url": "https://leetcode.com/problems/next-permutation",
+    "lintcode_num": 52,
+    "lintcode_url": "http://www.lintcode.com/problem/next-permutation"
+  },
+  "Longest Valid Parentheses": {
+    "leetcode_num": 32,
+    "leetcode_url": "https://leetcode.com/problems/longest-valid-parentheses"
+  },
+  "Search in Rotated Sorted Array": {
+    "leetcode_num": 33,
+    "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+    "lintcode_num": 62,
+    "lintcode_url": "http://www.lintcode.com/problem/search-in-rotated-sorted-array"
+  },
+  "Search for a Range": {
+    "leetcode_num": 34,
+    "leetcode_url": "https://leetcode.com/problems/search-for-a-range",
+    "lintcode_num": 61,
+    "lintcode_url": "http://www.lintcode.com/problem/search-for-a-range"
+  },
+  "Search Insert Position": {
+    "leetcode_num": 35,
+    "leetcode_url": "https://leetcode.com/problems/search-insert-position",
+    "lintcode_num": 60,
+    "lintcode_url": "http://www.lintcode.com/problem/search-insert-position"
+  },
+  "Valid Sudoku": {
+    "leetcode_num": 36,
+    "leetcode_url": "https://leetcode.com/problems/valid-sudoku",
+    "lintcode_num": 389,
+    "lintcode_url": "http://www.lintcode.com/problem/valid-sudoku"
+  },
+  "Sudoku Solver": {
+    "leetcode_num": 37,
+    "leetcode_url": "https://leetcode.com/problems/sudoku-solver"
+  },
+  "Count and Say": {
+    "leetcode_num": 38,
+    "leetcode_url": "https://leetcode.com/problems/count-and-say",
+    "lintcode_num": 420,
+    "lintcode_url": "http://www.lintcode.com/problem/count-and-say"
+  },
+  "Combination Sum": {
+    "leetcode_num": 39,
+    "leetcode_url": "https://leetcode.com/problems/combination-sum",
+    "lintcode_num": 135,
+    "lintcode_url": "http://www.lintcode.com/problem/combination-sum"
+  },
+  "Combination Sum II": {
+    "leetcode_num": 40,
+    "leetcode_url": "https://leetcode.com/problems/combination-sum-ii",
+    "lintcode_num": 153,
+    "lintcode_url": "http://www.lintcode.com/problem/combination-sum-ii"
+  },
+  "First Missing Positive": {
+    "leetcode_num": 41,
+    "leetcode_url": "https://leetcode.com/problems/first-missing-positive",
+    "lintcode_num": 189,
+    "lintcode_url": "http://www.lintcode.com/problem/first-missing-positive"
+  },
+  "Trapping Rain Water": {
+    "leetcode_num": 42,
+    "leetcode_url": "https://leetcode.com/problems/trapping-rain-water",
+    "lintcode_num": 363,
+    "lintcode_url": "http://www.lintcode.com/problem/trapping-rain-water"
+  },
+  "Multiply Strings": {
+    "leetcode_num": 43,
+    "leetcode_url": "https://leetcode.com/problems/multiply-strings"
+  },
+  "Wildcard Matching": {
+    "leetcode_num": 44,
+    "leetcode_url": "https://leetcode.com/problems/wildcard-matching",
+    "lintcode_num": 192,
+    "lintcode_url": "http://www.lintcode.com/problem/wildcard-matching"
+  },
+  "Jump Game II": {
+    "leetcode_num": 45,
+    "leetcode_url": "https://leetcode.com/problems/jump-game-ii",
+    "lintcode_num": 117,
+    "lintcode_url": "http://www.lintcode.com/problem/jump-game-ii"
+  },
+  "Permutations": {
+    "leetcode_num": 46,
+    "leetcode_url": "https://leetcode.com/problems/permutations",
+    "lintcode_num": 15,
+    "lintcode_url": "http://www.lintcode.com/problem/permutations"
+  },
+  "Permutations II": {
+    "leetcode_num": 47,
+    "leetcode_url": "https://leetcode.com/problems/permutations-ii",
+    "lintcode_num": 16,
+    "lintcode_url": "http://www.lintcode.com/problem/permutations-ii"
+  },
+  "Rotate Image": {
+    "leetcode_num": 48,
+    "leetcode_url": "https://leetcode.com/problems/rotate-image",
+    "lintcode_num": 161,
+    "lintcode_url": "http://www.lintcode.com/problem/rotate-image"
+  },
+  "Group Anagrams": {
+    "leetcode_num": 49,
+    "leetcode_url": "https://leetcode.com/problems/anagrams"
+  },
+  "Pow(x, n)": {
+    "leetcode_num": 50,
+    "leetcode_url": "https://leetcode.com/problems/powx-n",
+    "lintcode_num": 428,
+    "lintcode_url": "http://www.lintcode.com/problem/powx-n"
+  },
+  "N-Queens": {
+    "leetcode_num": 51,
+    "leetcode_url": "https://leetcode.com/problems/n-queens",
+    "lintcode_num": 33,
+    "lintcode_url": "http://www.lintcode.com/problem/n-queens"
+  },
+  "N-Queens II": {
+    "leetcode_num": 52,
+    "leetcode_url": "https://leetcode.com/problems/n-queens-ii",
+    "lintcode_num": 34,
+    "lintcode_url": "http://www.lintcode.com/problem/n-queens-ii"
+  },
+  "Maximum Subarray": {
+    "leetcode_num": 53,
+    "leetcode_url": "https://leetcode.com/problems/maximum-subarray",
+    "lintcode_num": 41,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-subarray"
+  },
+  "Spiral Matrix": {
+    "leetcode_num": 54,
+    "leetcode_url": "https://leetcode.com/problems/spiral-matrix",
+    "lintcode_num": 374,
+    "lintcode_url": "http://www.lintcode.com/problem/spiral-matrix"
+  },
+  "Jump Game": {
+    "leetcode_num": 55,
+    "leetcode_url": "https://leetcode.com/problems/jump-game",
+    "lintcode_num": 116,
+    "lintcode_url": "http://www.lintcode.com/problem/jump-game"
+  },
+  "Merge Intervals": {
+    "leetcode_num": 56,
+    "leetcode_url": "https://leetcode.com/problems/merge-intervals",
+    "lintcode_num": 156,
+    "lintcode_url": "http://www.lintcode.com/problem/merge-intervals"
+  },
+  "Insert Interval": {
+    "leetcode_num": 57,
+    "leetcode_url": "https://leetcode.com/problems/insert-interval",
+    "lintcode_num": 30,
+    "lintcode_url": "http://www.lintcode.com/problem/insert-interval"
+  },
+  "Length of Last Word": {
+    "leetcode_num": 58,
+    "leetcode_url": "https://leetcode.com/problems/length-of-last-word",
+    "lintcode_num": 422,
+    "lintcode_url": "http://www.lintcode.com/problem/length-of-last-word"
+  },
+  "Spiral Matrix II": {
+    "leetcode_num": 59,
+    "leetcode_url": "https://leetcode.com/problems/spiral-matrix-ii",
+    "lintcode_num": 381,
+    "lintcode_url": "http://www.lintcode.com/problem/spiral-matrix-ii"
+  },
+  "Permutation Sequence": {
+    "leetcode_num": 60,
+    "leetcode_url": "https://leetcode.com/problems/permutation-sequence",
+    "lintcode_num": 388,
+    "lintcode_url": "http://www.lintcode.com/problem/permutation-sequence"
+  },
+  "Rotate List": {
+    "leetcode_num": 61,
+    "leetcode_url": "https://leetcode.com/problems/rotate-list",
+    "lintcode_num": 170,
+    "lintcode_url": "http://www.lintcode.com/problem/rotate-list"
+  },
+  "Unique Paths": {
+    "leetcode_num": 62,
+    "leetcode_url": "https://leetcode.com/problems/unique-paths",
+    "lintcode_num": 114,
+    "lintcode_url": "http://www.lintcode.com/problem/unique-paths"
+  },
+  "Unique Paths II": {
+    "leetcode_num": 63,
+    "leetcode_url": "https://leetcode.com/problems/unique-paths-ii",
+    "lintcode_num": 115,
+    "lintcode_url": "http://www.lintcode.com/problem/unique-paths-ii"
+  },
+  "Minimum Path Sum": {
+    "leetcode_num": 64,
+    "leetcode_url": "https://leetcode.com/problems/minimum-path-sum",
+    "lintcode_num": 110,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-path-sum"
+  },
+  "Valid Number": {
+    "leetcode_num": 65,
+    "leetcode_url": "https://leetcode.com/problems/valid-number",
+    "lintcode_num": 417,
+    "lintcode_url": "http://www.lintcode.com/problem/valid-number"
+  },
+  "Plus One": {
+    "leetcode_num": 66,
+    "leetcode_url": "https://leetcode.com/problems/plus-one",
+    "lintcode_num": 407,
+    "lintcode_url": "http://www.lintcode.com/problem/plus-one"
+  },
+  "Add Binary": {
+    "leetcode_num": 67,
+    "leetcode_url": "https://leetcode.com/problems/add-binary",
+    "lintcode_num": 408,
+    "lintcode_url": "http://www.lintcode.com/problem/add-binary"
+  },
+  "Text Justification": {
+    "leetcode_num": 68,
+    "leetcode_url": "https://leetcode.com/problems/text-justification"
+  },
+  "Sqrt(x)": {
+    "leetcode_num": 69,
+    "leetcode_url": "https://leetcode.com/problems/sqrtx",
+    "lintcode_num": 141,
+    "lintcode_url": "http://www.lintcode.com/problem/sqrtx"
+  },
+  "Climbing Stairs": {
+    "leetcode_num": 70,
+    "leetcode_url": "https://leetcode.com/problems/climbing-stairs",
+    "lintcode_num": 111,
+    "lintcode_url": "http://www.lintcode.com/problem/climbing-stairs"
+  },
+  "Simplify Path": {
+    "leetcode_num": 71,
+    "leetcode_url": "https://leetcode.com/problems/simplify-path",
+    "lintcode_num": 421,
+    "lintcode_url": "http://www.lintcode.com/problem/simplify-path"
+  },
+  "Edit Distance": {
+    "leetcode_num": 72,
+    "leetcode_url": "https://leetcode.com/problems/edit-distance",
+    "lintcode_num": 119,
+    "lintcode_url": "http://www.lintcode.com/problem/edit-distance"
+  },
+  "Set Matrix Zeroes": {
+    "leetcode_num": 73,
+    "leetcode_url": "https://leetcode.com/problems/set-matrix-zeroes",
+    "lintcode_num": 162,
+    "lintcode_url": "http://www.lintcode.com/problem/set-matrix-zeroes"
+  },
+  "Search a 2D Matrix": {
+    "leetcode_num": 74,
+    "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix",
+    "lintcode_num": 28,
+    "lintcode_url": "http://www.lintcode.com/problem/search-a-2d-matrix"
+  },
+  "Sort Colors": {
+    "leetcode_num": 75,
+    "leetcode_url": "https://leetcode.com/problems/sort-colors",
+    "lintcode_num": 148,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-colors"
+  },
+  "Minimum Window Substring": {
+    "leetcode_num": 76,
+    "leetcode_url": "https://leetcode.com/problems/minimum-window-substring",
+    "lintcode_num": 32,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-window-substring"
+  },
+  "Combinations": {
+    "leetcode_num": 77,
+    "leetcode_url": "https://leetcode.com/problems/combinations",
+    "lintcode_num": 152,
+    "lintcode_url": "http://www.lintcode.com/problem/combinations"
+  },
+  "Subsets": {
+    "leetcode_num": 78,
+    "leetcode_url": "https://leetcode.com/problems/subsets",
+    "lintcode_num": 17,
+    "lintcode_url": "http://www.lintcode.com/problem/subsets"
+  },
+  "Word Search": {
+    "leetcode_num": 79,
+    "leetcode_url": "https://leetcode.com/problems/word-search",
+    "lintcode_num": 123,
+    "lintcode_url": "http://www.lintcode.com/problem/word-search"
+  },
+  "Remove Duplicates from Sorted Array II": {
+    "leetcode_num": 80,
+    "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii",
+    "lintcode_num": 101,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-duplicates-from-sorted-array-ii"
+  },
+  "Search in Rotated Sorted Array II": {
+    "leetcode_num": 81,
+    "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
+    "lintcode_num": 63,
+    "lintcode_url": "http://www.lintcode.com/problem/search-in-rotated-sorted-array-ii"
+  },
+  "Remove Duplicates from Sorted List II": {
+    "leetcode_num": 82,
+    "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii",
+    "lintcode_num": 113,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii"
+  },
+  "Remove Duplicates from Sorted List": {
+    "leetcode_num": 83,
+    "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list",
+    "lintcode_num": 112,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-duplicates-from-sorted-list"
+  },
+  "Largest Rectangle in Histogram": {
+    "leetcode_num": 84,
+    "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+    "lintcode_num": 122,
+    "lintcode_url": "http://www.lintcode.com/problem/largest-rectangle-in-histogram"
+  },
+  "Maximal Rectangle": {
+    "leetcode_num": 85,
+    "leetcode_url": "https://leetcode.com/problems/maximal-rectangle",
+    "lintcode_num": 510,
+    "lintcode_url": "http://www.lintcode.com/problem/maximal-rectangle"
+  },
+  "Partition List": {
+    "leetcode_num": 86,
+    "leetcode_url": "https://leetcode.com/problems/partition-list",
+    "lintcode_num": 96,
+    "lintcode_url": "http://www.lintcode.com/problem/partition-list"
+  },
+  "Scramble String": {
+    "leetcode_num": 87,
+    "leetcode_url": "https://leetcode.com/problems/scramble-string",
+    "lintcode_num": 430,
+    "lintcode_url": "http://www.lintcode.com/problem/scramble-string"
+  },
+  "Merge Sorted Array": {
+    "leetcode_num": 88,
+    "leetcode_url": "https://leetcode.com/problems/merge-sorted-array",
+    "lintcode_num": 64,
+    "lintcode_url": "http://www.lintcode.com/problem/merge-sorted-array"
+  },
+  "Gray Code": {
+    "leetcode_num": 89,
+    "leetcode_url": "https://leetcode.com/problems/gray-code",
+    "lintcode_num": 411,
+    "lintcode_url": "http://www.lintcode.com/problem/gray-code"
+  },
+  "Subsets II": {
+    "leetcode_num": 90,
+    "leetcode_url": "https://leetcode.com/problems/subsets-ii",
+    "lintcode_num": 18,
+    "lintcode_url": "http://www.lintcode.com/problem/subsets-ii"
+  },
+  "Decode Ways": {
+    "leetcode_num": 91,
+    "leetcode_url": "https://leetcode.com/problems/decode-ways",
+    "lintcode_num": 512,
+    "lintcode_url": "http://www.lintcode.com/problem/decode-ways"
+  },
+  "Reverse Linked List II": {
+    "leetcode_num": 92,
+    "leetcode_url": "https://leetcode.com/problems/reverse-linked-list-ii",
+    "lintcode_num": 36,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-linked-list-ii"
+  },
+  "Restore IP Addresses": {
+    "leetcode_num": 93,
+    "leetcode_url": "https://leetcode.com/problems/restore-ip-addresses",
+    "lintcode_num": 426,
+    "lintcode_url": "http://www.lintcode.com/problem/restore-ip-addresses"
+  },
+  "Binary Tree Inorder Traversal": {
+    "leetcode_num": 94,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-inorder-traversal",
+    "lintcode_num": 67,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-inorder-traversal"
+  },
+  "Unique Binary Search Trees II": {
+    "leetcode_num": 95,
+    "leetcode_url": "https://leetcode.com/problems/unique-binary-search-trees-ii",
+    "lintcode_num": 164,
+    "lintcode_url": "http://www.lintcode.com/problem/unique-binary-search-trees-ii"
+  },
+  "Unique Binary Search Trees": {
+    "leetcode_num": 96,
+    "leetcode_url": "https://leetcode.com/problems/unique-binary-search-trees",
+    "lintcode_num": 163,
+    "lintcode_url": "http://www.lintcode.com/problem/unique-binary-search-trees"
+  },
+  "Interleaving String": {
+    "leetcode_num": 97,
+    "leetcode_url": "https://leetcode.com/problems/interleaving-string",
+    "lintcode_num": 29,
+    "lintcode_url": "http://www.lintcode.com/problem/interleaving-string"
+  },
+  "Validate Binary Search Tree": {
+    "leetcode_num": 98,
+    "leetcode_url": "https://leetcode.com/problems/validate-binary-search-tree",
+    "lintcode_num": 95,
+    "lintcode_url": "http://www.lintcode.com/problem/validate-binary-search-tree"
+  },
+  "Recover Binary Search Tree": {
+    "leetcode_num": 99,
+    "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree"
+  },
+  "Same Tree": {
+    "leetcode_num": 100,
+    "leetcode_url": "https://leetcode.com/problems/same-tree"
+  },
+  "Symmetric Tree": {
+    "leetcode_num": 101,
+    "leetcode_url": "https://leetcode.com/problems/symmetric-tree"
+  },
+  "Binary Tree Level Order Traversal": {
+    "leetcode_num": 102,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal",
+    "lintcode_num": 69,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-level-order-traversal"
+  },
+  "Binary Tree Zigzag Level Order Traversal": {
+    "leetcode_num": 103,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
+    "lintcode_num": 71,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-zigzag-level-order-traversal"
+  },
+  "Maximum Depth of Binary Tree": {
+    "leetcode_num": 104,
+    "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+    "lintcode_num": 97,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-depth-of-binary-tree"
+  },
+  "Construct Binary Tree from Preorder and Inorder Traversal": {
+    "leetcode_num": 105,
+    "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+    "lintcode_num": 73,
+    "lintcode_url": "http://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  "Construct Binary Tree from Inorder and Postorder Traversal": {
+    "leetcode_num": 106,
+    "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal",
+    "lintcode_num": 72,
+    "lintcode_url": "http://www.lintcode.com/problem/construct-binary-tree-from-inorder-and-postorder-traversal"
+  },
+  "Binary Tree Level Order Traversal II": {
+    "leetcode_num": 107,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii",
+    "lintcode_num": 70,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-level-order-traversal-ii"
+  },
+  "Convert Sorted Array to Binary Search Tree": {
+    "leetcode_num": 108,
+    "leetcode_url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree"
+  },
+  "Convert Sorted List to Binary Search Tree": {
+    "leetcode_num": 109,
+    "leetcode_url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree"
+  },
+  "Balanced Binary Tree": {
+    "leetcode_num": 110,
+    "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree",
+    "lintcode_num": 93,
+    "lintcode_url": "http://www.lintcode.com/problem/balanced-binary-tree"
+  },
+  "Minimum Depth of Binary Tree": {
+    "leetcode_num": 111,
+    "leetcode_url": "https://leetcode.com/problems/minimum-depth-of-binary-tree",
+    "lintcode_num": 155,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-depth-of-binary-tree"
+  },
+  "Path Sum": {
+    "leetcode_num": 112,
+    "leetcode_url": "https://leetcode.com/problems/path-sum"
+  },
+  "Path Sum II": {
+    "leetcode_num": 113,
+    "leetcode_url": "https://leetcode.com/problems/path-sum-ii"
+  },
+  "Flatten Binary Tree to Linked List": {
+    "leetcode_num": 114,
+    "leetcode_url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list",
+    "lintcode_num": 453,
+    "lintcode_url": "http://www.lintcode.com/problem/flatten-binary-tree-to-linked-list"
+  },
+  "Distinct Subsequences": {
+    "leetcode_num": 115,
+    "leetcode_url": "https://leetcode.com/problems/distinct-subsequences",
+    "lintcode_num": 118,
+    "lintcode_url": "http://www.lintcode.com/problem/distinct-subsequences"
+  },
+  "Populating Next Right Pointers in Each Node": {
+    "leetcode_num": 116,
+    "leetcode_url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node"
+  },
+  "Populating Next Right Pointers in Each Node II": {
+    "leetcode_num": 117,
+    "leetcode_url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii"
+  },
+  "Pascal's Triangle": {
+    "leetcode_num": 118,
+    "leetcode_url": "https://leetcode.com/problems/pascals-triangle"
+  },
+  "Pascal's Triangle II": {
+    "leetcode_num": 119,
+    "leetcode_url": "https://leetcode.com/problems/pascals-triangle-ii"
+  },
+  "Triangle": {
+    "leetcode_num": 120,
+    "leetcode_url": "https://leetcode.com/problems/triangle",
+    "lintcode_num": 109,
+    "lintcode_url": "http://www.lintcode.com/problem/triangle"
+  },
+  "Best Time to Buy and Sell Stock": {
+    "leetcode_num": 121,
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "lintcode_num": 149,
+    "lintcode_url": "http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock"
+  },
+  "Best Time to Buy and Sell Stock II": {
+    "leetcode_num": 122,
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii",
+    "lintcode_num": 150,
+    "lintcode_url": "http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-ii"
+  },
+  "Best Time to Buy and Sell Stock III": {
+    "leetcode_num": 123,
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii",
+    "lintcode_num": 151,
+    "lintcode_url": "http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iii"
+  },
+  "Binary Tree Maximum Path Sum": {
+    "leetcode_num": 124,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+    "lintcode_num": 94,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-maximum-path-sum"
+  },
+  "Valid Palindrome": {
+    "leetcode_num": 125,
+    "leetcode_url": "https://leetcode.com/problems/valid-palindrome",
+    "lintcode_num": 415,
+    "lintcode_url": "http://www.lintcode.com/problem/valid-palindrome"
+  },
+  "Word Ladder II": {
+    "leetcode_num": 126,
+    "leetcode_url": "https://leetcode.com/problems/word-ladder-ii",
+    "lintcode_num": 121,
+    "lintcode_url": "http://www.lintcode.com/problem/word-ladder-ii"
+  },
+  "Word Ladder": {
+    "leetcode_num": 127,
+    "leetcode_url": "https://leetcode.com/problems/word-ladder",
+    "lintcode_num": 120,
+    "lintcode_url": "http://www.lintcode.com/problem/word-ladder"
+  },
+  "Longest Consecutive Sequence": {
+    "leetcode_num": 128,
+    "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence",
+    "lintcode_num": 124,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-consecutive-sequence"
+  },
+  "Sum Root to Leaf Numbers": {
+    "leetcode_num": 129,
+    "leetcode_url": "https://leetcode.com/problems/sum-root-to-leaf-numbers"
+  },
+  "Surrounded Regions": {
+    "leetcode_num": 130,
+    "leetcode_url": "https://leetcode.com/problems/surrounded-regions",
+    "lintcode_num": 477,
+    "lintcode_url": "http://www.lintcode.com/problem/surrounded-regions"
+  },
+  "Palindrome Partitioning": {
+    "leetcode_num": 131,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning"
+  },
+  "Palindrome Partitioning II": {
+    "leetcode_num": 132,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning-ii",
+    "lintcode_num": 108,
+    "lintcode_url": "http://www.lintcode.com/problem/palindrome-partitioning-ii"
+  },
+  "Clone Graph": {
+    "leetcode_num": 133,
+    "leetcode_url": "https://leetcode.com/problems/clone-graph",
+    "lintcode_num": 137,
+    "lintcode_url": "http://www.lintcode.com/problem/clone-graph"
+  },
+  "Gas Station": {
+    "leetcode_num": 134,
+    "leetcode_url": "https://leetcode.com/problems/gas-station",
+    "lintcode_num": 187,
+    "lintcode_url": "http://www.lintcode.com/problem/gas-station"
+  },
+  "Candy": {
+    "leetcode_num": 135,
+    "leetcode_url": "https://leetcode.com/problems/candy",
+    "lintcode_num": 412,
+    "lintcode_url": "http://www.lintcode.com/problem/candy"
+  },
+  "Single Number": {
+    "leetcode_num": 136,
+    "leetcode_url": "https://leetcode.com/problems/single-number",
+    "lintcode_num": 82,
+    "lintcode_url": "http://www.lintcode.com/problem/single-number"
+  },
+  "Single Number II": {
+    "leetcode_num": 137,
+    "leetcode_url": "https://leetcode.com/problems/single-number-ii",
+    "lintcode_num": 83,
+    "lintcode_url": "http://www.lintcode.com/problem/single-number-ii"
+  },
+  "Copy List with Random Pointer": {
+    "leetcode_num": 138,
+    "leetcode_url": "https://leetcode.com/problems/copy-list-with-random-pointer",
+    "lintcode_num": 105,
+    "lintcode_url": "http://www.lintcode.com/problem/copy-list-with-random-pointer"
+  },
+  "Word Break": {
+    "leetcode_num": 139,
+    "leetcode_url": "https://leetcode.com/problems/word-break",
+    "lintcode_num": 107,
+    "lintcode_url": "http://www.lintcode.com/problem/word-break"
+  },
+  "Word Break II": {
+    "leetcode_num": 140,
+    "leetcode_url": "https://leetcode.com/problems/word-break-ii"
+  },
+  "Linked List Cycle": {
+    "leetcode_num": 141,
+    "leetcode_url": "https://leetcode.com/problems/linked-list-cycle",
+    "lintcode_num": 102,
+    "lintcode_url": "http://www.lintcode.com/problem/linked-list-cycle"
+  },
+  "Linked List Cycle II": {
+    "leetcode_num": 142,
+    "leetcode_url": "https://leetcode.com/problems/linked-list-cycle-ii",
+    "lintcode_num": 103,
+    "lintcode_url": "http://www.lintcode.com/problem/linked-list-cycle-ii"
+  },
+  "Reorder List": {
+    "leetcode_num": 143,
+    "leetcode_url": "https://leetcode.com/problems/reorder-list",
+    "lintcode_num": 99,
+    "lintcode_url": "http://www.lintcode.com/problem/reorder-list"
+  },
+  "Binary Tree Preorder Traversal": {
+    "leetcode_num": 144,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-preorder-traversal",
+    "lintcode_num": 66,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-preorder-traversal"
+  },
+  "Binary Tree Postorder Traversal": {
+    "leetcode_num": 145,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-postorder-traversal",
+    "lintcode_num": 68,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-postorder-traversal"
+  },
+  "LRU Cache": {
+    "leetcode_num": 146,
+    "leetcode_url": "https://leetcode.com/problems/lru-cache",
+    "lintcode_num": 134,
+    "lintcode_url": "http://www.lintcode.com/problem/lru-cache"
+  },
+  "Insertion Sort List": {
+    "leetcode_num": 147,
+    "leetcode_url": "https://leetcode.com/problems/insertion-sort-list",
+    "lintcode_num": 173,
+    "lintcode_url": "http://www.lintcode.com/problem/insertion-sort-list"
+  },
+  "Sort List": {
+    "leetcode_num": 148,
+    "leetcode_url": "https://leetcode.com/problems/sort-list",
+    "lintcode_num": 98,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-list"
+  },
+  "Max Points on a Line": {
+    "leetcode_num": 149,
+    "leetcode_url": "https://leetcode.com/problems/max-points-on-a-line"
+  },
+  "Evaluate Reverse Polish Notation": {
+    "leetcode_num": 150,
+    "leetcode_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
+    "lintcode_num": 424,
+    "lintcode_url": "http://www.lintcode.com/problem/evaluate-reverse-polish-notation"
+  },
+  "Reverse Words in a String": {
+    "leetcode_num": 151,
+    "leetcode_url": "https://leetcode.com/problems/reverse-words-in-a-string",
+    "lintcode_num": 53,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-words-in-a-string"
+  },
+  "Maximum Product Subarray": {
+    "leetcode_num": 152,
+    "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray",
+    "lintcode_num": 191,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-product-subarray"
+  },
+  "Find Minimum in Rotated Sorted Array": {
+    "leetcode_num": 153,
+    "leetcode_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array",
+    "lintcode_num": 159,
+    "lintcode_url": "http://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array"
+  },
+  "Find Minimum in Rotated Sorted Array II": {
+    "leetcode_num": 154,
+    "leetcode_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii",
+    "lintcode_num": 160,
+    "lintcode_url": "http://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array-ii"
+  },
+  "Min Stack": {
+    "leetcode_num": 155,
+    "leetcode_url": "https://leetcode.com/problems/min-stack",
+    "lintcode_num": 12,
+    "lintcode_url": "http://www.lintcode.com/problem/min-stack"
+  },
+  "Binary Tree Upside Down": {
+    "leetcode_num": 156,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-upside-down"
+  },
+  "Read N Characters Given Read4": {
+    "leetcode_num": 157,
+    "leetcode_url": "https://leetcode.com/problems/read-n-characters-given-read4"
+  },
+  "Read N Characters Given Read4 II - Call multiple times": {
+    "leetcode_num": 158,
+    "leetcode_url": "https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times"
+  },
+  "Longest Substring with At Most Two Distinct Characters": {
+    "leetcode_num": 159,
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters"
+  },
+  "Intersection of Two Linked Lists": {
+    "leetcode_num": 160,
+    "leetcode_url": "https://leetcode.com/problems/intersection-of-two-linked-lists",
+    "lintcode_num": 380,
+    "lintcode_url": "http://www.lintcode.com/problem/intersection-of-two-linked-lists"
+  },
+  "One Edit Distance": {
+    "leetcode_num": 161,
+    "leetcode_url": "https://leetcode.com/problems/one-edit-distance"
+  },
+  "Find Peak Element": {
+    "leetcode_num": 162,
+    "leetcode_url": "https://leetcode.com/problems/find-peak-element",
+    "lintcode_num": 75,
+    "lintcode_url": "http://www.lintcode.com/problem/find-peak-element"
+  },
+  "Missing Ranges": {
+    "leetcode_num": 163,
+    "leetcode_url": "https://leetcode.com/problems/missing-ranges"
+  },
+  "Maximum Gap": {
+    "leetcode_num": 164,
+    "leetcode_url": "https://leetcode.com/problems/maximum-gap",
+    "lintcode_num": 400,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-gap"
+  },
+  "Compare Version Numbers": {
+    "leetcode_num": 165,
+    "leetcode_url": "https://leetcode.com/problems/compare-version-numbers"
+  },
+  "Fraction to Recurring Decimal": {
+    "leetcode_num": 166,
+    "leetcode_url": "https://leetcode.com/problems/fraction-to-recurring-decimal"
+  },
+  "Two Sum II - Input array is sorted": {
+    "leetcode_num": 167,
+    "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted"
+  },
+  "Excel Sheet Column Title": {
+    "leetcode_num": 168,
+    "leetcode_url": "https://leetcode.com/problems/excel-sheet-column-title"
+  },
+  "Majority Element": {
+    "leetcode_num": 169,
+    "leetcode_url": "https://leetcode.com/problems/majority-element"
+  },
+  "Two Sum III - Data structure design": {
+    "leetcode_num": 170,
+    "leetcode_url": "https://leetcode.com/problems/two-sum-iii-data-structure-design"
+  },
+  "Excel Sheet Column Number": {
+    "leetcode_num": 171,
+    "leetcode_url": "https://leetcode.com/problems/excel-sheet-column-number"
+  },
+  "Factorial Trailing Zeroes": {
+    "leetcode_num": 172,
+    "leetcode_url": "https://leetcode.com/problems/factorial-trailing-zeroes"
+  },
+  "Binary Search Tree Iterator": {
+    "leetcode_num": 173,
+    "leetcode_url": "https://leetcode.com/problems/binary-search-tree-iterator",
+    "lintcode_num": 86,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-search-tree-iterator"
+  },
+  "Dungeon Game": {
+    "leetcode_num": 174,
+    "leetcode_url": "https://leetcode.com/problems/dungeon-game"
+  },
+  "Largest Number": {
+    "leetcode_num": 179,
+    "leetcode_url": "https://leetcode.com/problems/largest-number",
+    "lintcode_num": 184,
+    "lintcode_url": "http://www.lintcode.com/problem/largest-number"
+  },
+  "Reverse Words in a String II": {
+    "leetcode_num": 186,
+    "leetcode_url": "https://leetcode.com/problems/reverse-words-in-a-string-ii"
+  },
+  "Repeated DNA Sequences": {
+    "leetcode_num": 187,
+    "leetcode_url": "https://leetcode.com/problems/repeated-dna-sequences"
+  },
+  "Best Time to Buy and Sell Stock IV": {
+    "leetcode_num": 188,
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv",
+    "lintcode_num": 393,
+    "lintcode_url": "http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iv"
+  },
+  "Rotate Array": {
+    "leetcode_num": 189,
+    "leetcode_url": "https://leetcode.com/problems/rotate-array"
+  },
+  "Reverse Bits": {
+    "leetcode_num": 190,
+    "leetcode_url": "https://leetcode.com/problems/reverse-bits"
+  },
+  "Number of 1 Bits": {
+    "leetcode_num": 191,
+    "leetcode_url": "https://leetcode.com/problems/number-of-1-bits"
+  },
+  "House Robber": {
+    "leetcode_num": 198,
+    "leetcode_url": "https://leetcode.com/problems/house-robber",
+    "lintcode_num": 392,
+    "lintcode_url": "http://www.lintcode.com/problem/house-robber"
+  },
+  "Binary Tree Right Side View": {
+    "leetcode_num": 199,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view"
+  },
+  "Number of Islands": {
+    "leetcode_num": 200,
+    "leetcode_url": "https://leetcode.com/problems/number-of-islands",
+    "lintcode_num": 433,
+    "lintcode_url": "http://www.lintcode.com/problem/number-of-islands"
+  },
+  "Bitwise AND of Numbers Range": {
+    "leetcode_num": 201,
+    "leetcode_url": "https://leetcode.com/problems/bitwise-and-of-numbers-range"
+  },
+  "Happy Number": {
+    "leetcode_num": 202,
+    "leetcode_url": "https://leetcode.com/problems/happy-number",
+    "lintcode_num": 488,
+    "lintcode_url": "http://www.lintcode.com/problem/happy-number"
+  },
+  "Remove Linked List Elements": {
+    "leetcode_num": 203,
+    "leetcode_url": "https://leetcode.com/problems/remove-linked-list-elements",
+    "lintcode_num": 452,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-linked-list-elements"
+  },
+  "Count Primes": {
+    "leetcode_num": 204,
+    "leetcode_url": "https://leetcode.com/problems/count-primes"
+  },
+  "Isomorphic Strings": {
+    "leetcode_num": 205,
+    "leetcode_url": "https://leetcode.com/problems/isomorphic-strings"
+  },
+  "Reverse Linked List": {
+    "leetcode_num": 206,
+    "leetcode_url": "https://leetcode.com/problems/reverse-linked-list",
+    "lintcode_num": 35,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-linked-list"
+  },
+  "Course Schedule": {
+    "leetcode_num": 207,
+    "leetcode_url": "https://leetcode.com/problems/course-schedule"
+  },
+  "Implement Trie (Prefix Tree)": {
+    "leetcode_num": 208,
+    "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree"
+  },
+  "Minimum Size Subarray Sum": {
+    "leetcode_num": 209,
+    "leetcode_url": "https://leetcode.com/problems/minimum-size-subarray-sum",
+    "lintcode_num": 406,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-size-subarray-sum"
+  },
+  "Course Schedule II": {
+    "leetcode_num": 210,
+    "leetcode_url": "https://leetcode.com/problems/course-schedule-ii"
+  },
+  "Add and Search Word - Data structure design": {
+    "leetcode_num": 211,
+    "leetcode_url": "https://leetcode.com/problems/add-and-search-word-data-structure-design"
+  },
+  "Word Search II": {
+    "leetcode_num": 212,
+    "leetcode_url": "https://leetcode.com/problems/word-search-ii",
+    "lintcode_num": 132,
+    "lintcode_url": "http://www.lintcode.com/problem/word-search-ii"
+  },
+  "House Robber II": {
+    "leetcode_num": 213,
+    "leetcode_url": "https://leetcode.com/problems/house-robber-ii",
+    "lintcode_num": 534,
+    "lintcode_url": "http://www.lintcode.com/problem/house-robber-ii"
+  },
+  "Shortest Palindrome": {
+    "leetcode_num": 214,
+    "leetcode_url": "https://leetcode.com/problems/shortest-palindrome"
+  },
+  "Kth Largest Element in an Array": {
+    "leetcode_num": 215,
+    "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array"
+  },
+  "Combination Sum III": {
+    "leetcode_num": 216,
+    "leetcode_url": "https://leetcode.com/problems/combination-sum-iii"
+  },
+  "Contains Duplicate": {
+    "leetcode_num": 217,
+    "leetcode_url": "https://leetcode.com/problems/contains-duplicate"
+  },
+  "The Skyline Problem": {
+    "leetcode_num": 218,
+    "leetcode_url": "https://leetcode.com/problems/the-skyline-problem"
+  },
+  "Contains Duplicate II": {
+    "leetcode_num": 219,
+    "leetcode_url": "https://leetcode.com/problems/contains-duplicate-ii"
+  },
+  "Contains Duplicate III": {
+    "leetcode_num": 220,
+    "leetcode_url": "https://leetcode.com/problems/contains-duplicate-iii"
+  },
+  "Maximal Square": {
+    "leetcode_num": 221,
+    "leetcode_url": "https://leetcode.com/problems/maximal-square",
+    "lintcode_num": 436,
+    "lintcode_url": "http://www.lintcode.com/problem/maximal-square"
+  },
+  "Count Complete Tree Nodes": {
+    "leetcode_num": 222,
+    "leetcode_url": "https://leetcode.com/problems/count-complete-tree-nodes"
+  },
+  "Rectangle Area": {
+    "leetcode_num": 223,
+    "leetcode_url": "https://leetcode.com/problems/rectangle-area"
+  },
+  "Basic Calculator": {
+    "leetcode_num": 224,
+    "leetcode_url": "https://leetcode.com/problems/basic-calculator"
+  },
+  "Implement Stack using Queues": {
+    "leetcode_num": 225,
+    "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues"
+  },
+  "Invert Binary Tree": {
+    "leetcode_num": 226,
+    "leetcode_url": "https://leetcode.com/problems/invert-binary-tree"
+  },
+  "Basic Calculator II": {
+    "leetcode_num": 227,
+    "leetcode_url": "https://leetcode.com/problems/basic-calculator-ii"
+  },
+  "Summary Ranges": {
+    "leetcode_num": 228,
+    "leetcode_url": "https://leetcode.com/problems/summary-ranges"
+  },
+  "Majority Element II": {
+    "leetcode_num": 229,
+    "leetcode_url": "https://leetcode.com/problems/majority-element-ii"
+  },
+  "Kth Smallest Element in a BST": {
+    "leetcode_num": 230,
+    "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst"
+  },
+  "Power of Two": {
+    "leetcode_num": 231,
+    "leetcode_url": "https://leetcode.com/problems/power-of-two"
+  },
+  "Implement Queue using Stacks": {
+    "leetcode_num": 232,
+    "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks"
+  },
+  "Number of Digit One": {
+    "leetcode_num": 233,
+    "leetcode_url": "https://leetcode.com/problems/number-of-digit-one"
+  },
+  "Palindrome Linked List": {
+    "leetcode_num": 234,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-linked-list"
+  },
+  "Lowest Common Ancestor of a Binary Search Tree": {
+    "leetcode_num": 235,
+    "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree"
+  },
+  "Lowest Common Ancestor of a Binary Tree": {
+    "leetcode_num": 236,
+    "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree"
+  },
+  "Delete Node in a Linked List": {
+    "leetcode_num": 237,
+    "leetcode_url": "https://leetcode.com/problems/delete-node-in-a-linked-list"
+  },
+  "Product of Array Except Self": {
+    "leetcode_num": 238,
+    "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self"
+  },
+  "Sliding Window Maximum": {
+    "leetcode_num": 239,
+    "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum",
+    "lintcode_num": 362,
+    "lintcode_url": "http://www.lintcode.com/problem/sliding-window-maximum"
+  },
+  "Search a 2D Matrix II": {
+    "leetcode_num": 240,
+    "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix-ii",
+    "lintcode_num": 38,
+    "lintcode_url": "http://www.lintcode.com/problem/search-a-2d-matrix-ii"
+  },
+  "Different Ways to Add Parentheses": {
+    "leetcode_num": 241,
+    "leetcode_url": "https://leetcode.com/problems/different-ways-to-add-parentheses"
+  },
+  "Valid Anagram": {
+    "leetcode_num": 242,
+    "leetcode_url": "https://leetcode.com/problems/valid-anagram"
+  },
+  "Shortest Word Distance": {
+    "leetcode_num": 243,
+    "leetcode_url": "https://leetcode.com/problems/shortest-word-distance"
+  },
+  "Shortest Word Distance II": {
+    "leetcode_num": 244,
+    "leetcode_url": "https://leetcode.com/problems/shortest-word-distance-ii"
+  },
+  "Shortest Word Distance III": {
+    "leetcode_num": 245,
+    "leetcode_url": "https://leetcode.com/problems/shortest-word-distance-iii"
+  },
+  "Strobogrammatic Number": {
+    "leetcode_num": 246,
+    "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number"
+  },
+  "Strobogrammatic Number II": {
+    "leetcode_num": 247,
+    "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number-ii"
+  },
+  "Strobogrammatic Number III": {
+    "leetcode_num": 248,
+    "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number-iii"
+  },
+  "Group Shifted Strings": {
+    "leetcode_num": 249,
+    "leetcode_url": "https://leetcode.com/problems/group-shifted-strings"
+  },
+  "Count Univalue Subtrees": {
+    "leetcode_num": 250,
+    "leetcode_url": "https://leetcode.com/problems/count-univalue-subtrees"
+  },
+  "Flatten 2D Vector": {
+    "leetcode_num": 251,
+    "leetcode_url": "https://leetcode.com/problems/flatten-2d-vector"
+  },
+  "Meeting Rooms": {
+    "leetcode_num": 252,
+    "leetcode_url": "https://leetcode.com/problems/meeting-rooms"
+  },
+  "Meeting Rooms II": {
+    "leetcode_num": 253,
+    "leetcode_url": "https://leetcode.com/problems/meeting-rooms-ii"
+  },
+  "Factor Combinations": {
+    "leetcode_num": 254,
+    "leetcode_url": "https://leetcode.com/problems/factor-combinations"
+  },
+  "Verify Preorder Sequence in Binary Search Tree": {
+    "leetcode_num": 255,
+    "leetcode_url": "https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree"
+  },
+  "Paint House": {
+    "leetcode_num": 256,
+    "leetcode_url": "https://leetcode.com/problems/paint-house",
+    "lintcode_num": 515,
+    "lintcode_url": "http://www.lintcode.com/problem/paint-house"
+  },
+  "Binary Tree Paths": {
+    "leetcode_num": 257,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-paths",
+    "lintcode_num": 480,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-paths"
+  },
+  "Add Digits": {
+    "leetcode_num": 258,
+    "leetcode_url": "https://leetcode.com/problems/add-digits",
+    "lintcode_num": 569,
+    "lintcode_url": "http://www.lintcode.com/problem/add-digits"
+  },
+  "3Sum Smaller": {
+    "leetcode_num": 259,
+    "leetcode_url": "https://leetcode.com/problems/3sum-smaller"
+  },
+  "Single Number III": {
+    "leetcode_num": 260,
+    "leetcode_url": "https://leetcode.com/problems/single-number-iii",
+    "lintcode_num": 84,
+    "lintcode_url": "http://www.lintcode.com/problem/single-number-iii"
+  },
+  "Graph Valid Tree": {
+    "leetcode_num": 261,
+    "leetcode_url": "https://leetcode.com/problems/graph-valid-tree"
+  },
+  "Ugly Number": {
+    "leetcode_num": 263,
+    "leetcode_url": "https://leetcode.com/problems/ugly-number",
+    "lintcode_num": 517,
+    "lintcode_url": "http://www.lintcode.com/problem/ugly-number"
+  },
+  "Ugly Number II": {
+    "leetcode_num": 264,
+    "leetcode_url": "https://leetcode.com/problems/ugly-number-ii",
+    "lintcode_num": 4,
+    "lintcode_url": "http://www.lintcode.com/problem/ugly-number-ii"
+  },
+  "Paint House II": {
+    "leetcode_num": 265,
+    "leetcode_url": "https://leetcode.com/problems/paint-house-ii",
+    "lintcode_num": 516,
+    "lintcode_url": "http://www.lintcode.com/problem/paint-house-ii"
+  },
+  "Palindrome Permutation": {
+    "leetcode_num": 266,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-permutation"
+  },
+  "Palindrome Permutation II": {
+    "leetcode_num": 267,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-permutation-ii"
+  },
+  "Missing Number": {
+    "leetcode_num": 268,
+    "leetcode_url": "https://leetcode.com/problems/missing-number"
+  },
+  "Alien Dictionary": {
+    "leetcode_num": 269,
+    "leetcode_url": "https://leetcode.com/problems/alien-dictionary"
+  },
+  "Closest Binary Search Tree Value": {
+    "leetcode_num": 270,
+    "leetcode_url": "https://leetcode.com/problems/closest-binary-search-tree-value"
+  },
+  "Encode and Decode Strings": {
+    "leetcode_num": 271,
+    "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings"
+  },
+  "Closest Binary Search Tree Value II": {
+    "leetcode_num": 272,
+    "leetcode_url": "https://leetcode.com/problems/closest-binary-search-tree-value-ii"
+  },
+  "Integer to English Words": {
+    "leetcode_num": 273,
+    "leetcode_url": "https://leetcode.com/problems/integer-to-english-words"
+  },
+  "H-Index": {
+    "leetcode_num": 274,
+    "leetcode_url": "https://leetcode.com/problems/h-index"
+  },
+  "H-Index II": {
+    "leetcode_num": 275,
+    "leetcode_url": "https://leetcode.com/problems/h-index-ii"
+  },
+  "Paint Fence": {
+    "leetcode_num": 276,
+    "leetcode_url": "https://leetcode.com/problems/paint-fence",
+    "lintcode_num": 514,
+    "lintcode_url": "http://www.lintcode.com/problem/paint-fence"
+  },
+  "Find the Celebrity": {
+    "leetcode_num": 277,
+    "leetcode_url": "https://leetcode.com/problems/find-the-celebrity"
+  },
+  "First Bad Version": {
+    "leetcode_num": 278,
+    "leetcode_url": "https://leetcode.com/problems/first-bad-version",
+    "lintcode_num": 74,
+    "lintcode_url": "http://www.lintcode.com/problem/first-bad-version"
+  },
+  "Perfect Squares": {
+    "leetcode_num": 279,
+    "leetcode_url": "https://leetcode.com/problems/perfect-squares",
+    "lintcode_num": 513,
+    "lintcode_url": "http://www.lintcode.com/problem/perfect-squares"
+  },
+  "Wiggle Sort": {
+    "leetcode_num": 280,
+    "leetcode_url": "https://leetcode.com/problems/wiggle-sort",
+    "lintcode_num": 508,
+    "lintcode_url": "http://www.lintcode.com/problem/wiggle-sort"
+  },
+  "Zigzag Iterator": {
+    "leetcode_num": 281,
+    "leetcode_url": "https://leetcode.com/problems/zigzag-iterator"
+  },
+  "Expression Add Operators": {
+    "leetcode_num": 282,
+    "leetcode_url": "https://leetcode.com/problems/expression-add-operators"
+  },
+  "Move Zeroes": {
+    "leetcode_num": 283,
+    "leetcode_url": "https://leetcode.com/problems/move-zeroes",
+    "lintcode_num": 539,
+    "lintcode_url": "http://www.lintcode.com/problem/move-zeroes"
+  },
+  "Peeking Iterator": {
+    "leetcode_num": 284,
+    "leetcode_url": "https://leetcode.com/problems/peeking-iterator"
+  },
+  "Inorder Successor in BST": {
+    "leetcode_num": 285,
+    "leetcode_url": "https://leetcode.com/problems/inorder-successor-in-bst"
+  },
+  "Walls and Gates": {
+    "leetcode_num": 286,
+    "leetcode_url": "https://leetcode.com/problems/walls-and-gates"
+  },
+  "Find the Duplicate Number": {
+    "leetcode_num": 287,
+    "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number"
+  },
+  "Unique Word Abbreviation": {
+    "leetcode_num": 288,
+    "leetcode_url": "https://leetcode.com/problems/unique-word-abbreviation"
+  },
+  "Game of Life": {
+    "leetcode_num": 289,
+    "leetcode_url": "https://leetcode.com/problems/game-of-life"
+  },
+  "Word Pattern": {
+    "leetcode_num": 290,
+    "leetcode_url": "https://leetcode.com/problems/word-pattern"
+  },
+  "Word Pattern II": {
+    "leetcode_num": 291,
+    "leetcode_url": "https://leetcode.com/problems/word-pattern-ii"
+  },
+  "Nim Game": {
+    "leetcode_num": 292,
+    "leetcode_url": "https://leetcode.com/problems/nim-game"
+  },
+  "Flip Game": {
+    "leetcode_num": 293,
+    "leetcode_url": "https://leetcode.com/problems/flip-game"
+  },
+  "Flip Game II": {
+    "leetcode_num": 294,
+    "leetcode_url": "https://leetcode.com/problems/flip-game-ii"
+  },
+  "Find Median from Data Stream": {
+    "leetcode_num": 295,
+    "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream"
+  },
+  "Best Meeting Point": {
+    "leetcode_num": 296,
+    "leetcode_url": "https://leetcode.com/problems/best-meeting-point"
+  },
+  "Serialize and Deserialize Binary Tree": {
+    "leetcode_num": 297,
+    "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree"
+  },
+  "Binary Tree Longest Consecutive Sequence": {
+    "leetcode_num": 298,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-longest-consecutive-sequence"
+  },
+  "Bulls and Cows": {
+    "leetcode_num": 299,
+    "leetcode_url": "https://leetcode.com/problems/bulls-and-cows"
+  },
+  "Longest Increasing Subsequence": {
+    "leetcode_num": 300,
+    "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence",
+    "lintcode_num": 76,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-increasing-subsequence"
+  },
+  "Remove Invalid Parentheses": {
+    "leetcode_num": 301,
+    "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses"
+  },
+  "Smallest Rectangle Enclosing Black Pixels": {
+    "leetcode_num": 302,
+    "leetcode_url": "https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels"
+  },
+  "Range Sum Query - Immutable": {
+    "leetcode_num": 303,
+    "leetcode_url": "https://leetcode.com/problems/range-sum-query-immutable"
+  },
+  "Range Sum Query 2D - Immutable": {
+    "leetcode_num": 304,
+    "leetcode_url": "https://leetcode.com/problems/range-sum-query-2d-immutable"
+  },
+  "Number of Islands II": {
+    "leetcode_num": 305,
+    "leetcode_url": "https://leetcode.com/problems/number-of-islands-ii"
+  },
+  "Additive Number": {
+    "leetcode_num": 306,
+    "leetcode_url": "https://leetcode.com/problems/additive-number"
+  },
+  "Range Sum Query - Mutable": {
+    "leetcode_num": 307,
+    "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable"
+  },
+  "Range Sum Query 2D - Mutable": {
+    "leetcode_num": 308,
+    "leetcode_url": "https://leetcode.com/problems/range-sum-query-2d-mutable"
+  },
+  "Best Time to Buy and Sell Stock with Cooldown": {
+    "leetcode_num": 309,
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown"
+  },
+  "Minimum Height Trees": {
+    "leetcode_num": 310,
+    "leetcode_url": "https://leetcode.com/problems/minimum-height-trees"
+  },
+  "Sparse Matrix Multiplication": {
+    "leetcode_num": 311,
+    "leetcode_url": "https://leetcode.com/problems/sparse-matrix-multiplication"
+  },
+  "Burst Balloons": {
+    "leetcode_num": 312,
+    "leetcode_url": "https://leetcode.com/problems/burst-balloons"
+  },
+  "Super Ugly Number": {
+    "leetcode_num": 313,
+    "leetcode_url": "https://leetcode.com/problems/super-ugly-number",
+    "lintcode_num": 518,
+    "lintcode_url": "http://www.lintcode.com/problem/super-ugly-number"
+  },
+  "Binary Tree Vertical Order Traversal": {
+    "leetcode_num": 314,
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-vertical-order-traversal"
+  },
+  "Count of Smaller Numbers After Self": {
+    "leetcode_num": 315,
+    "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self"
+  },
+  "Remove Duplicate Letters": {
+    "leetcode_num": 316,
+    "leetcode_url": "https://leetcode.com/problems/remove-duplicate-letters"
+  },
+  "Shortest Distance from All Buildings": {
+    "leetcode_num": 317,
+    "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings"
+  },
+  "Maximum Product of Word Lengths": {
+    "leetcode_num": 318,
+    "leetcode_url": "https://leetcode.com/problems/maximum-product-of-word-lengths"
+  },
+  "Bulb Switcher": {
+    "leetcode_num": 319,
+    "leetcode_url": "https://leetcode.com/problems/bulb-switcher"
+  },
+  "Generalized Abbreviation": {
+    "leetcode_num": 320,
+    "leetcode_url": "https://leetcode.com/problems/generalized-abbreviation"
+  },
+  "Create Maximum Number": {
+    "leetcode_num": 321,
+    "leetcode_url": "https://leetcode.com/problems/create-maximum-number",
+    "lintcode_num": 552,
+    "lintcode_url": "http://www.lintcode.com/problem/create-maximum-number"
+  },
+  "Coin Change": {
+    "leetcode_num": 322,
+    "leetcode_url": "https://leetcode.com/problems/coin-change"
+  },
+  "Number of Connected Components in an Undirected Graph": {
+    "leetcode_num": 323,
+    "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph"
+  },
+  "Wiggle Sort II": {
+    "leetcode_num": 324,
+    "leetcode_url": "https://leetcode.com/problems/wiggle-sort-ii",
+    "lintcode_num": 507,
+    "lintcode_url": "http://www.lintcode.com/problem/wiggle-sort-ii"
+  },
+  "Maximum Size Subarray Sum Equals k": {
+    "leetcode_num": 325,
+    "leetcode_url": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k"
+  },
+  "Power of Three": {
+    "leetcode_num": 326,
+    "leetcode_url": "https://leetcode.com/problems/power-of-three"
+  },
+  "Count of Range Sum": {
+    "leetcode_num": 327,
+    "leetcode_url": "https://leetcode.com/problems/count-of-range-sum"
+  },
+  "Odd Even Linked List": {
+    "leetcode_num": 328,
+    "leetcode_url": "https://leetcode.com/problems/odd-even-linked-list"
+  },
+  "Longest Increasing Path in a Matrix": {
+    "leetcode_num": 329,
+    "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix"
+  },
+  "Patching Array": {
+    "leetcode_num": 330,
+    "leetcode_url": "https://leetcode.com/problems/patching-array"
+  },
+  "Verify Preorder Serialization of a Binary Tree": {
+    "leetcode_num": 331,
+    "leetcode_url": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree"
+  },
+  "Reconstruct Itinerary": {
+    "leetcode_num": 332,
+    "leetcode_url": "https://leetcode.com/problems/reconstruct-itinerary"
+  },
+  "Largest BST Subtree": {
+    "leetcode_num": 333,
+    "leetcode_url": "https://leetcode.com/problems/largest-bst-subtree"
+  },
+  "Increasing Triplet Subsequence": {
+    "leetcode_num": 334,
+    "leetcode_url": "https://leetcode.com/problems/increasing-triplet-subsequence"
+  },
+  "Self Crossing": {
+    "leetcode_num": 335,
+    "leetcode_url": "https://leetcode.com/problems/self-crossing"
+  },
+  "Palindrome Pairs": {
+    "leetcode_num": 336,
+    "leetcode_url": "https://leetcode.com/problems/palindrome-pairs"
+  },
+  "House Robber III": {
+    "leetcode_num": 337,
+    "leetcode_url": "https://leetcode.com/problems/house-robber-iii",
+    "lintcode_num": 535,
+    "lintcode_url": "http://www.lintcode.com/problem/house-robber-iii"
+  },
+  "Counting Bits": {
+    "leetcode_num": 338,
+    "leetcode_url": "https://leetcode.com/problems/counting-bits"
+  },
+  "Nested List Weight Sum": {
+    "leetcode_num": 339,
+    "leetcode_url": "https://leetcode.com/problems/nested-list-weight-sum"
+  },
+  "Longest Substring with At Most K Distinct Characters": {
+    "leetcode_num": 340,
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters"
+  },
+  "Flatten Nested List Iterator": {
+    "leetcode_num": 341,
+    "leetcode_url": "https://leetcode.com/problems/flatten-nested-list-iterator",
+    "lintcode_num": 528,
+    "lintcode_url": "http://www.lintcode.com/problem/flatten-nested-list-iterator"
+  },
+  "Power of Four": {
+    "leetcode_num": 342,
+    "leetcode_url": "https://leetcode.com/problems/power-of-four"
+  },
+  "Integer Break": {
+    "leetcode_num": 343,
+    "leetcode_url": "https://leetcode.com/problems/integer-break"
+  },
+  "Reverse String": {
+    "leetcode_num": 344,
+    "leetcode_url": "https://leetcode.com/problems/reverse-string"
+  },
+  "Reverse Vowels of a String": {
+    "leetcode_num": 345,
+    "leetcode_url": "https://leetcode.com/problems/reverse-vowels-of-a-string"
+  },
+  "Moving Average from Data Stream": {
+    "leetcode_num": 346,
+    "leetcode_url": "https://leetcode.com/problems/moving-average-from-data-stream"
+  },
+  "Top K Frequent Elements": {
+    "leetcode_num": 347,
+    "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements"
+  },
+  "Design Tic-Tac-Toe": {
+    "leetcode_num": 348,
+    "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe"
+  },
+  "Intersection of Two Arrays": {
+    "leetcode_num": 349,
+    "leetcode_url": "https://leetcode.com/problems/intersection-of-two-arrays",
+    "lintcode_num": 547,
+    "lintcode_url": "http://www.lintcode.com/problem/intersection-of-two-arrays"
+  },
+  "Intersection of Two Arrays II": {
+    "leetcode_num": 350,
+    "leetcode_url": "https://leetcode.com/problems/intersection-of-two-arrays-ii",
+    "lintcode_num": 548,
+    "lintcode_url": "http://www.lintcode.com/problem/intersection-of-two-arrays-ii"
+  },
+  "Android Unlock Patterns": {
+    "leetcode_num": 351,
+    "leetcode_url": "https://leetcode.com/problems/android-unlock-patterns"
+  },
+  "Data Stream as Disjoint Intervals": {
+    "leetcode_num": 352,
+    "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals"
+  },
+  "Design Snake Game": {
+    "leetcode_num": 353,
+    "leetcode_url": "https://leetcode.com/problems/design-snake-game"
+  },
+  "Russian Doll Envelopes": {
+    "leetcode_num": 354,
+    "leetcode_url": "https://leetcode.com/problems/russian-doll-envelopes"
+  },
+  "Design Twitter": {
+    "leetcode_num": 355,
+    "leetcode_url": "https://leetcode.com/problems/design-twitter"
+  },
+  "Line Reflection": {
+    "leetcode_num": 356,
+    "leetcode_url": "https://leetcode.com/problems/line-reflection"
+  },
+  "Count Numbers with Unique Digits": {
+    "leetcode_num": 357,
+    "leetcode_url": "https://leetcode.com/problems/count-numbers-with-unique-digits"
+  },
+  "Rearrange String k Distance Apart": {
+    "leetcode_num": 358,
+    "leetcode_url": "https://leetcode.com/problems/rearrange-string-k-distance-apart"
+  },
+  "Logger Rate Limiter": {
+    "leetcode_num": 359,
+    "leetcode_url": "https://leetcode.com/problems/logger-rate-limiter"
+  },
+  "Sort Transformed Array": {
+    "leetcode_num": 360,
+    "leetcode_url": "https://leetcode.com/problems/sort-transformed-array"
+  },
+  "Bomb Enemy": {
+    "leetcode_num": 361,
+    "leetcode_url": "https://leetcode.com/problems/bomb-enemy"
+  },
+  "Design Hit Counter": {
+    "leetcode_num": 362,
+    "leetcode_url": "https://leetcode.com/problems/design-hit-counter"
+  },
+  "Max Sum of Rectangle No Larger Than K": {
+    "leetcode_num": 363,
+    "leetcode_url": "https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k"
+  },
+  "Nested List Weight Sum II": {
+    "leetcode_num": 364,
+    "leetcode_url": "https://leetcode.com/problems/nested-list-weight-sum-ii"
+  },
+  "Water and Jug Problem": {
+    "leetcode_num": 365,
+    "leetcode_url": "https://leetcode.com/problems/water-and-jug-problem"
+  },
+  "Find Leaves of Binary Tree": {
+    "leetcode_num": 366,
+    "leetcode_url": "https://leetcode.com/problems/find-leaves-of-binary-tree"
+  },
+  "Valid Perfect Square": {
+    "leetcode_num": 367,
+    "leetcode_url": "https://leetcode.com/problems/valid-perfect-square"
+  },
+  "Largest Divisible Subset": {
+    "leetcode_num": 368,
+    "leetcode_url": "https://leetcode.com/problems/largest-divisible-subset"
+  },
+  "Plus One Linked List": {
+    "leetcode_num": 369,
+    "leetcode_url": "https://leetcode.com/problems/plus-one-linked-list"
+  },
+  "Range Addition": {
+    "leetcode_num": 370,
+    "leetcode_url": "https://leetcode.com/problems/range-addition"
+  },
+  "Sum of Two Integers": {
+    "leetcode_num": 371,
+    "leetcode_url": "https://leetcode.com/problems/sum-of-two-integers"
+  },
+  "Super Pow": {
+    "leetcode_num": 372,
+    "leetcode_url": "https://leetcode.com/problems/super-pow"
+  },
+  "Find K Pairs with Smallest Sums": {
+    "leetcode_num": 373,
+    "leetcode_url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums"
+  },
+  "Guess Number Higher or Lower": {
+    "leetcode_num": 374,
+    "leetcode_url": "https://leetcode.com/problems/guess-number-higher-or-lower"
+  },
+  "Guess Number Higher or Lower II": {
+    "leetcode_num": 375,
+    "leetcode_url": "https://leetcode.com/problems/guess-number-higher-or-lower-ii"
+  },
+  "Wiggle Subsequence": {
+    "leetcode_num": 376,
+    "leetcode_url": "https://leetcode.com/problems/wiggle-subsequence"
+  },
+  "Combination Sum IV": {
+    "leetcode_num": 377,
+    "leetcode_url": "https://leetcode.com/problems/combination-sum-iv"
+  },
+  "Kth Smallest Element in a Sorted Matrix": {
+    "leetcode_num": 378,
+    "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix"
+  },
+  "Design Phone Directory": {
+    "leetcode_num": 379,
+    "leetcode_url": "https://leetcode.com/problems/design-phone-directory"
+  },
+  "Insert Delete GetRandom O(1)": {
+    "leetcode_num": 380,
+    "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1"
+  },
+  "Insert Delete GetRandom O(1) - Duplicates allowed": {
+    "leetcode_num": 381,
+    "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed"
+  },
+  "Linked List Random Node": {
+    "leetcode_num": 382,
+    "leetcode_url": "https://leetcode.com/problems/linked-list-random-node"
+  },
+  "Ransom Note": {
+    "leetcode_num": 383,
+    "leetcode_url": "https://leetcode.com/problems/ransom-note"
+  },
+  "Shuffle an Array": {
+    "leetcode_num": 384,
+    "leetcode_url": "https://leetcode.com/problems/shuffle-an-array"
+  },
+  "Mini Parser": {
+    "leetcode_num": 385,
+    "leetcode_url": "https://leetcode.com/problems/mini-parser"
+  },
+  "Lexicographical Numbers": {
+    "leetcode_num": 386,
+    "leetcode_url": "https://leetcode.com/problems/lexicographical-numbers"
+  },
+  "First Unique Character in a String": {
+    "leetcode_num": 387,
+    "leetcode_url": "https://leetcode.com/problems/first-unique-character-in-a-string"
+  },
+  "Longest Absolute File Path": {
+    "leetcode_num": 388,
+    "leetcode_url": "https://leetcode.com/problems/longest-absolute-file-path"
+  },
+  "Find the Difference": {
+    "leetcode_num": 389,
+    "leetcode_url": "https://leetcode.com/problems/find-the-difference"
+  },
+  "Elimination Game": {
+    "leetcode_num": 390,
+    "leetcode_url": "https://leetcode.com/problems/elimination-game"
+  },
+  "Perfect Rectangle": {
+    "leetcode_num": 391,
+    "leetcode_url": "https://leetcode.com/problems/perfect-rectangle"
+  },
+  "Is Subsequence": {
+    "leetcode_num": 392,
+    "leetcode_url": "https://leetcode.com/problems/is-subsequence"
+  },
+  "UTF-8 Validation": {
+    "leetcode_num": 393,
+    "leetcode_url": "https://leetcode.com/problems/utf-8-validation"
+  },
+  "Decode String": {
+    "leetcode_num": 394,
+    "leetcode_url": "https://leetcode.com/problems/decode-string"
+  },
+  "Longest Substring with At Least K Repeating Characters": {
+    "leetcode_num": 395,
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters"
+  },
+  "Rotate Function": {
+    "leetcode_num": 396,
+    "leetcode_url": "https://leetcode.com/problems/rotate-function"
+  },
+  "Integer Replacement": {
+    "leetcode_num": 397,
+    "leetcode_url": "https://leetcode.com/problems/integer-replacement"
+  },
+  "Random Pick Index": {
+    "leetcode_num": 398,
+    "leetcode_url": "https://leetcode.com/problems/random-pick-index"
+  },
+  "Evaluate Division": {
+    "leetcode_num": 399,
+    "leetcode_url": "https://leetcode.com/problems/evaluate-division"
+  },
+  "Nth Digit": {
+    "leetcode_num": 400,
+    "leetcode_url": "https://leetcode.com/problems/nth-digit"
+  },
+  "Binary Watch": {
+    "leetcode_num": 401,
+    "leetcode_url": "https://leetcode.com/problems/binary-watch"
+  },
+  "Remove K Digits": {
+    "leetcode_num": 402,
+    "leetcode_url": "https://leetcode.com/problems/remove-k-digits"
+  },
+  "Frog Jump": {
+    "leetcode_num": 403,
+    "leetcode_url": "https://leetcode.com/problems/frog-jump"
+  },
+  "Sum of Left Leaves": {
+    "leetcode_num": 404,
+    "leetcode_url": "https://leetcode.com/problems/sum-of-left-leaves"
+  },
+  "Convert a Number to Hexadecimal": {
+    "leetcode_num": 405,
+    "leetcode_url": "https://leetcode.com/problems/convert-a-number-to-hexadecimal"
+  },
+  "Queue Reconstruction by Height": {
+    "leetcode_num": 406,
+    "leetcode_url": "https://leetcode.com/problems/queue-reconstruction-by-height"
+  },
+  "Trapping Rain Water II": {
+    "leetcode_num": 407,
+    "leetcode_url": "https://leetcode.com/problems/trapping-rain-water-ii"
+  },
+  "Valid Word Abbreviation": {
+    "leetcode_num": 408,
+    "leetcode_url": "https://leetcode.com/problems/valid-word-abbreviation"
+  },
+  "Longest Palindrome": {
+    "leetcode_num": 409,
+    "leetcode_url": "https://leetcode.com/problems/longest-palindrome"
+  },
+  "Split Array Largest Sum": {
+    "leetcode_num": 410,
+    "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum"
+  },
+  "Minimum Unique Word Abbreviation": {
+    "leetcode_num": 411,
+    "leetcode_url": "https://leetcode.com/problems/minimum-unique-word-abbreviation"
+  },
+  "Fizz Buzz": {
+    "leetcode_num": 412,
+    "leetcode_url": "https://leetcode.com/problems/fizz-buzz",
+    "lintcode_num": 9,
+    "lintcode_url": "http://www.lintcode.com/problem/fizz-buzz"
+  },
+  "Arithmetic Slices": {
+    "leetcode_num": 413,
+    "leetcode_url": "https://leetcode.com/problems/arithmetic-slices"
+  },
+  "Third Maximum Number": {
+    "leetcode_num": 414,
+    "leetcode_url": "https://leetcode.com/problems/third-maximum-number"
+  },
+  "Add Strings": {
+    "leetcode_num": 415,
+    "leetcode_url": "https://leetcode.com/problems/add-strings"
+  },
+  "Partition Equal Subset Sum": {
+    "leetcode_num": 416,
+    "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum"
+  },
+  "Pacific Atlantic Water Flow": {
+    "leetcode_num": 417,
+    "leetcode_url": "https://leetcode.com/problems/pacific-atlantic-water-flow"
+  },
+  "Sentence Screen Fitting": {
+    "leetcode_num": 418,
+    "leetcode_url": "https://leetcode.com/problems/sentence-screen-fitting"
+  },
+  "Battleships in a Board": {
+    "leetcode_num": 419,
+    "leetcode_url": "https://leetcode.com/problems/battleships-in-a-board"
+  },
+  "Strong Password Checker": {
+    "leetcode_num": 420,
+    "leetcode_url": "https://leetcode.com/problems/strong-password-checker"
+  },
+  "Maximum XOR of Two Numbers in an Array": {
+    "leetcode_num": 421,
+    "leetcode_url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array"
+  },
+  "Valid Word Square": {
+    "leetcode_num": 422,
+    "leetcode_url": "https://leetcode.com/problems/valid-word-square"
+  },
+  "Reconstruct Original Digits from English": {
+    "leetcode_num": 423,
+    "leetcode_url": "https://leetcode.com/problems/reconstruct-original-digits-from-english"
+  },
+  "Longest Repeating Character Replacement": {
+    "leetcode_num": 424,
+    "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement"
+  },
+  "Word Squares": {
+    "leetcode_num": 425,
+    "leetcode_url": "https://leetcode.com/problems/word-squares"
+  },
+  "All O`one Data Structure": {
+    "leetcode_num": 432,
+    "leetcode_url": "https://leetcode.com/problems/all-oone-data-structure"
+  },
+  "Number of Segments in a String": {
+    "leetcode_num": 434,
+    "leetcode_url": "https://leetcode.com/problems/number-of-segments-in-a-string"
+  },
+  "Non-overlapping Intervals": {
+    "leetcode_num": 435,
+    "leetcode_url": "https://leetcode.com/problems/non-overlapping-intervals"
+  },
+  "Find Right Interval": {
+    "leetcode_num": 436,
+    "leetcode_url": "https://leetcode.com/problems/find-right-interval"
+  },
+  "Path Sum III": {
+    "leetcode_num": 437,
+    "leetcode_url": "https://leetcode.com/problems/path-sum-iii"
+  },
+  "Find All Anagrams in a String": {
+    "leetcode_num": 438,
+    "leetcode_url": "https://leetcode.com/problems/find-all-anagrams-in-a-string"
+  },
+  "Ternary Expression Parser": {
+    "leetcode_num": 439,
+    "leetcode_url": "https://leetcode.com/problems/ternary-expression-parser"
+  },
+  "K-th Smallest in Lexicographical Order": {
+    "leetcode_num": 440,
+    "leetcode_url": "https://leetcode.com/problems/k-th-smallest-in-lexicographical-order"
+  },
+  "Arranging Coins": {
+    "leetcode_num": 441,
+    "leetcode_url": "https://leetcode.com/problems/arranging-coins"
+  },
+  "Find All Duplicates in an Array": {
+    "leetcode_num": 442,
+    "leetcode_url": "https://leetcode.com/problems/find-all-duplicates-in-an-array"
+  },
+  "Sequence Reconstruction": {
+    "leetcode_num": 444,
+    "leetcode_url": "https://leetcode.com/problems/sequence-reconstruction"
+  },
+  "Add Two Numbers II": {
+    "leetcode_num": 445,
+    "leetcode_url": "https://leetcode.com/problems/add-two-numbers-ii"
+  },
+  "Arithmetic Slices II - Subsequence": {
+    "leetcode_num": 446,
+    "leetcode_url": "https://leetcode.com/problems/arithmetic-slices-ii-subsequence"
+  },
+  "Number of Boomerangs": {
+    "leetcode_num": 447,
+    "leetcode_url": "https://leetcode.com/problems/number-of-boomerangs"
+  },
+  "Find All Numbers Disappeared in an Array": {
+    "leetcode_num": 448,
+    "leetcode_url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array"
+  },
+  "Serialize and Deserialize BST": {
+    "leetcode_num": 449,
+    "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-bst"
+  },
+  "Delete Node in a BST": {
+    "leetcode_num": 450,
+    "leetcode_url": "https://leetcode.com/problems/delete-node-in-a-bst"
+  },
+  "Sort Characters By Frequency": {
+    "leetcode_num": 451,
+    "leetcode_url": "https://leetcode.com/problems/sort-characters-by-frequency"
+  },
+  "Minimum Number of Arrows to Burst Balloons": {
+    "leetcode_num": 452,
+    "leetcode_url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons"
+  },
+  "Minimum Moves to Equal Array Elements": {
+    "leetcode_num": 453,
+    "leetcode_url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements"
+  },
+  "4Sum II": {
+    "leetcode_num": 454,
+    "leetcode_url": "https://leetcode.com/problems/4sum-ii"
+  },
+  "Assign Cookies": {
+    "leetcode_num": 455,
+    "leetcode_url": "https://leetcode.com/problems/assign-cookies"
+  },
+  "132 Pattern": {
+    "leetcode_num": 456,
+    "leetcode_url": "https://leetcode.com/problems/132-pattern"
+  },
+  "Repeated Substring Pattern": {
+    "leetcode_num": 459,
+    "leetcode_url": "https://leetcode.com/problems/repeated-substring-pattern"
+  },
+  "LFU Cache": {
+    "leetcode_num": 460,
+    "leetcode_url": "https://leetcode.com/problems/lfu-cache",
+    "lintcode_num": 24,
+    "lintcode_url": "http://www.lintcode.com/problem/lfu-cache"
+  },
+  "Hamming Distance": {
+    "leetcode_num": 461,
+    "leetcode_url": "https://leetcode.com/problems/hamming-distance"
+  },
+  "Minimum Moves to Equal Array Elements II": {
+    "leetcode_num": 462,
+    "leetcode_url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii"
+  },
+  "Island Perimeter": {
+    "leetcode_num": 463,
+    "leetcode_url": "https://leetcode.com/problems/island-perimeter"
+  },
+  "Can I Win": {
+    "leetcode_num": 464,
+    "leetcode_url": "https://leetcode.com/problems/can-i-win"
+  },
+  "Optimal Account Balancing": {
+    "leetcode_num": 465,
+    "leetcode_url": "https://leetcode.com/problems/optimal-account-balancing"
+  },
+  "Count The Repetitions": {
+    "leetcode_num": 466,
+    "leetcode_url": "https://leetcode.com/problems/count-the-repetitions"
+  },
+  "Unique Substrings in Wraparound String": {
+    "leetcode_num": 467,
+    "leetcode_url": "https://leetcode.com/problems/unique-substrings-in-wraparound-string"
+  },
+  "Validate IP Address": {
+    "leetcode_num": 468,
+    "leetcode_url": "https://leetcode.com/problems/validate-ip-address"
+  },
+  "Convex Polygon": {
+    "leetcode_num": 469,
+    "leetcode_url": "https://leetcode.com/problems/convex-polygon"
+  },
+  "Encode String with Shortest Length": {
+    "leetcode_num": 471,
+    "leetcode_url": "https://leetcode.com/problems/encode-string-with-shortest-length"
+  },
+  "Concatenated Words": {
+    "leetcode_num": 472,
+    "leetcode_url": "https://leetcode.com/problems/concatenated-words"
+  },
+  "Matchsticks to Square": {
+    "leetcode_num": 473,
+    "leetcode_url": "https://leetcode.com/problems/matchsticks-to-square"
+  },
+  "Ones and Zeroes": {
+    "leetcode_num": 474,
+    "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes"
+  },
+  "Heaters": {
+    "leetcode_num": 475,
+    "leetcode_url": "https://leetcode.com/problems/heaters"
+  },
+  "Number Complement": {
+    "leetcode_num": 476,
+    "leetcode_url": "https://leetcode.com/problems/number-complement"
+  },
+  "Total Hamming Distance": {
+    "leetcode_num": 477,
+    "leetcode_url": "https://leetcode.com/problems/total-hamming-distance"
+  },
+  "Sliding Window Median": {
+    "leetcode_num": 480,
+    "leetcode_url": "https://leetcode.com/problems/sliding-window-median",
+    "lintcode_num": 360,
+    "lintcode_url": "http://www.lintcode.com/problem/sliding-window-median"
+  },
+  "Magical String": {
+    "leetcode_num": 481,
+    "leetcode_url": "https://leetcode.com/problems/magical-string"
+  },
+  "License Key Formatting": {
+    "leetcode_num": 482,
+    "leetcode_url": "https://leetcode.com/problems/license-key-formatting"
+  },
+  "Smallest Good Base": {
+    "leetcode_num": 483,
+    "leetcode_url": "https://leetcode.com/problems/smallest-good-base"
+  },
+  "Find Permutation": {
+    "leetcode_num": 484,
+    "leetcode_url": "https://leetcode.com/problems/find-permutation"
+  },
+  "Max Consecutive Ones": {
+    "leetcode_num": 485,
+    "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones"
+  },
+  "Predict the Winner": {
+    "leetcode_num": 486,
+    "leetcode_url": "https://leetcode.com/problems/predict-the-winner"
+  },
+  "Max Consecutive Ones II": {
+    "leetcode_num": 487,
+    "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones-ii"
+  },
+  "Zuma Game": {
+    "leetcode_num": 488,
+    "leetcode_url": "https://leetcode.com/problems/zuma-game"
+  },
+  "The Maze": {
+    "leetcode_num": 490,
+    "leetcode_url": "https://leetcode.com/problems/the-maze"
+  },
+  "Increasing Subsequences": {
+    "leetcode_num": 491,
+    "leetcode_url": "https://leetcode.com/problems/increasing-subsequences"
+  },
+  "Construct the Rectangle": {
+    "leetcode_num": 492,
+    "leetcode_url": "https://leetcode.com/problems/construct-the-rectangle"
+  },
+  "Reverse Pairs": {
+    "leetcode_num": 493,
+    "leetcode_url": "https://leetcode.com/problems/reverse-pairs",
+    "lintcode_num": 532,
+    "lintcode_url": "http://www.lintcode.com/problem/reverse-pairs"
+  },
+  "Target Sum": {
+    "leetcode_num": 494,
+    "leetcode_url": "https://leetcode.com/problems/target-sum"
+  },
+  "Teemo Attacking": {
+    "leetcode_num": 495,
+    "leetcode_url": "https://leetcode.com/problems/teemo-attacking"
+  },
+  "Next Greater Element I": {
+    "leetcode_num": 496,
+    "leetcode_url": "https://leetcode.com/problems/next-greater-element-i"
+  },
+  "Diagonal Traverse": {
+    "leetcode_num": 498,
+    "leetcode_url": "https://leetcode.com/problems/diagonal-traverse"
+  },
+  "The Maze III": {
+    "leetcode_num": 499,
+    "leetcode_url": "https://leetcode.com/problems/the-maze-iii"
+  },
+  "Keyboard Row": {
+    "leetcode_num": 500,
+    "leetcode_url": "https://leetcode.com/problems/keyboard-row"
+  },
+  "Find Mode in Binary Search Tree": {
+    "leetcode_num": 501,
+    "leetcode_url": "https://leetcode.com/problems/find-mode-in-binary-search-tree"
+  },
+  "IPO": {
+    "leetcode_num": 502,
+    "leetcode_url": "https://leetcode.com/problems/ipo"
+  },
+  "Next Greater Element II": {
+    "leetcode_num": 503,
+    "leetcode_url": "https://leetcode.com/problems/next-greater-element-ii"
+  },
+  "Base 7": {
+    "leetcode_num": 504,
+    "leetcode_url": "https://leetcode.com/problems/base-7"
+  },
+  "The Maze II": {
+    "leetcode_num": 505,
+    "leetcode_url": "https://leetcode.com/problems/the-maze-ii"
+  },
+  "Relative Ranks": {
+    "leetcode_num": 506,
+    "leetcode_url": "https://leetcode.com/problems/relative-ranks"
+  },
+  "Most Frequent Subtree Sum": {
+    "leetcode_num": 508,
+    "leetcode_url": "https://leetcode.com/problems/most-frequent-subtree-sum"
+  },
+  "Find Bottom Left Tree Value": {
+    "leetcode_num": 513,
+    "leetcode_url": "https://leetcode.com/problems/find-bottom-left-tree-value"
+  },
+  "Find Largest Value in Each Tree Row": {
+    "leetcode_num": 515,
+    "leetcode_url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row"
+  },
+  "Longest Palindromic Subsequence": {
+    "leetcode_num": 516,
+    "leetcode_url": "https://leetcode.com/problems/longest-palindromic-subsequence"
+  },
+  "Super Washing Machines": {
+    "leetcode_num": 517,
+    "leetcode_url": "https://leetcode.com/problems/super-washing-machines"
+  },
+  "Detect Capital": {
+    "leetcode_num": 520,
+    "leetcode_url": "https://leetcode.com/problems/detect-capital"
+  },
+  "Continuous Subarray Sum": {
+    "leetcode_num": 523,
+    "leetcode_url": "https://leetcode.com/problems/continuous-subarray-sum",
+    "lintcode_num": 402,
+    "lintcode_url": "http://www.lintcode.com/problem/continuous-subarray-sum"
+  },
+  "Longest Word in Dictionary through Deleting": {
+    "leetcode_num": 524,
+    "leetcode_url": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting"
+  },
+  "Contiguous Array": {
+    "leetcode_num": 525,
+    "leetcode_url": "https://leetcode.com/problems/contiguous-array"
+  },
+  "Beautiful Arrangement": {
+    "leetcode_num": 526,
+    "leetcode_url": "https://leetcode.com/problems/beautiful-arrangement"
+  },
+  "Minesweeper": {
+    "leetcode_num": 529,
+    "leetcode_url": "https://leetcode.com/problems/minesweeper"
+  },
+  "Minimum Absolute Difference in BST   New": {
+    "leetcode_num": 530,
+    "leetcode_url": "https://leetcode.com/problems/minimum-absolute-difference-in-bst"
+  },
+  "Maximum Average Subarray": {
+    "lintcode_num": 617,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-average-subarray"
+  },
+  "Backpack VI": {
+    "lintcode_num": 564,
+    "lintcode_url": "http://www.lintcode.com/problem/backpack-vi"
+  },
+  "Left Pad": {
+    "lintcode_num": 524,
+    "lintcode_url": "http://www.lintcode.com/problem/left-pad"
+  },
+  "Swap Two Nodes in Linked List": {
+    "lintcode_num": 511,
+    "lintcode_url": "http://www.lintcode.com/problem/swap-two-nodes-in-linked-list"
+  },
+  "Mini Twitter": {
+    "lintcode_num": 501,
+    "lintcode_url": "http://www.lintcode.com/problem/mini-twitter"
+  },
+  "Word Count (Map Reduce)": {
+    "lintcode_num": 499,
+    "lintcode_url": "http://www.lintcode.com/problem/word-count-map-reduce"
+  },
+  "Toy Factory": {
+    "lintcode_num": 496,
+    "lintcode_url": "http://www.lintcode.com/problem/toy-factory"
+  },
+  "Add and Search Word": {
+    "lintcode_num": 473,
+    "lintcode_url": "http://www.lintcode.com/problem/add-and-search-word"
+  },
+  "Identical Binary Tree": {
+    "lintcode_num": 469,
+    "lintcode_url": "http://www.lintcode.com/problem/identical-binary-tree"
+  },
+  "Sort Integers II": {
+    "lintcode_num": 464,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-integers-ii"
+  },
+  "Sort Integers": {
+    "lintcode_num": 463,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-integers"
+  },
+  "Classical Binary Search": {
+    "lintcode_num": 457,
+    "lintcode_url": "http://www.lintcode.com/problem/classical-binary-search"
+  },
+  "Cosine Similarity": {
+    "lintcode_num": 445,
+    "lintcode_url": "http://www.lintcode.com/problem/cosine-similarity"
+  },
+  "Implement Trie": {
+    "lintcode_num": 442,
+    "lintcode_url": "http://www.lintcode.com/problem/implement-trie"
+  },
+  "Segment Tree Build II": {
+    "lintcode_num": 439,
+    "lintcode_url": "http://www.lintcode.com/problem/segment-tree-build-ii"
+  },
+  "Copy Books": {
+    "lintcode_num": 437,
+    "lintcode_url": "http://www.lintcode.com/problem/copy-books"
+  },
+  "Submatrix Sum": {
+    "lintcode_num": 405,
+    "lintcode_url": "http://www.lintcode.com/problem/submatrix-sum"
+  },
+  "Kth Smallest Number in Sorted Matrix": {
+    "lintcode_num": 401,
+    "lintcode_url": "http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix"
+  },
+  "Nuts & Bolts Problem": {
+    "lintcode_num": 399,
+    "lintcode_url": "http://www.lintcode.com/problem/nuts-bolts-problem"
+  },
+  "Longest Increasing Continuous Subsequence": {
+    "lintcode_num": 397,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-increasing-continuous-subsequence"
+  },
+  "Coins in a Line II": {
+    "lintcode_num": 395,
+    "lintcode_url": "http://www.lintcode.com/problem/coins-in-a-line-ii"
+  },
+  "Coins in a Line": {
+    "lintcode_num": 394,
+    "lintcode_url": "http://www.lintcode.com/problem/coins-in-a-line"
+  },
+  "Number of Airplanes in the Sky": {
+    "lintcode_num": 391,
+    "lintcode_url": "http://www.lintcode.com/problem/number-of-airplanes-in-the-sky"
+  },
+  "The Smallest Difference": {
+    "lintcode_num": 387,
+    "lintcode_url": "http://www.lintcode.com/problem/the-smallest-difference"
+  },
+  "Triangle Count": {
+    "lintcode_num": 382,
+    "lintcode_url": "http://www.lintcode.com/problem/triangle-count"
+  },
+  "Reorder array to construct the minimum number": {
+    "lintcode_num": 379,
+    "lintcode_url": "http://www.lintcode.com/problem/reorder-array-to-construct-the-minimum-number"
+  },
+  "Convert Binary Search Tree to Doubly Linked List": {
+    "lintcode_num": 378,
+    "lintcode_url": "http://www.lintcode.com/problem/convert-binary-search-tree-to-doubly-linked-list"
+  },
+  "Binary Tree Path Sum": {
+    "lintcode_num": 376,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-path-sum"
+  },
+  "Clone Binary Tree": {
+    "lintcode_num": 375,
+    "lintcode_url": "http://www.lintcode.com/problem/clone-binary-tree"
+  },
+  "Partition Array by Odd and Even": {
+    "lintcode_num": 373,
+    "lintcode_url": "http://www.lintcode.com/problem/partition-array-by-odd-and-even"
+  },
+  "Delete Node in the Middle of Singly Linked List": {
+    "lintcode_num": 372,
+    "lintcode_url": "http://www.lintcode.com/problem/delete-node-in-the-middle-of-singly-linked-list"
+  },
+  "Print Numbers by Recursion": {
+    "lintcode_num": 371,
+    "lintcode_url": "http://www.lintcode.com/problem/print-numbers-by-recursion"
+  },
+  "Convert Expression to Reverse Polish Notation": {
+    "lintcode_num": 370,
+    "lintcode_url": "http://www.lintcode.com/problem/convert-expression-to-reverse-polish-notation"
+  },
+  "Expression Evaluation": {
+    "lintcode_num": 368,
+    "lintcode_url": "http://www.lintcode.com/problem/expression-evaluation"
+  },
+  "Expression Tree Build": {
+    "lintcode_num": 367,
+    "lintcode_url": "http://www.lintcode.com/problem/expression-tree-build"
+  },
+  "Fibonacci": {
+    "lintcode_num": 366,
+    "lintcode_url": "http://www.lintcode.com/problem/fibonacci"
+  },
+  "Count 1 in Binary": {
+    "lintcode_num": 365,
+    "lintcode_url": "http://www.lintcode.com/problem/count-1-in-binary"
+  },
+  "Next Permutation II": {
+    "lintcode_num": 190,
+    "lintcode_url": "http://www.lintcode.com/problem/next-permutation-ii"
+  },
+  "Subtree": {
+    "lintcode_num": 245,
+    "lintcode_url": "http://www.lintcode.com/problem/subtree"
+  },
+  "Convert Sorted Array to Binary Search Tree With Minimal Height": {
+    "lintcode_num": 177,
+    "lintcode_url": "http://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height"
+  },
+  "Count of Smaller Number before itself": {
+    "lintcode_num": 249,
+    "lintcode_url": "http://www.lintcode.com/problem/count-of-smaller-number-before-itself"
+  },
+  "Building Outline": {
+    "lintcode_num": 131,
+    "lintcode_url": "http://www.lintcode.com/problem/building-outline"
+  },
+  "Count of Smaller Number": {
+    "lintcode_num": 248,
+    "lintcode_url": "http://www.lintcode.com/problem/count-of-smaller-number"
+  },
+  "Flatten List": {
+    "lintcode_num": 22,
+    "lintcode_url": "http://www.lintcode.com/problem/flatten-list"
+  },
+  "Dices Sum": {
+    "lintcode_num": 20,
+    "lintcode_url": "http://www.lintcode.com/problem/dices-sum"
+  },
+  "Mock Hanoi Tower by Stacks": {
+    "lintcode_num": 227,
+    "lintcode_url": "http://www.lintcode.com/problem/mock-hanoi-tower-by-stacks"
+  },
+  "Segment Tree Query II": {
+    "lintcode_num": 247,
+    "lintcode_url": "http://www.lintcode.com/problem/segment-tree-query-ii"
+  },
+  "Interval Sum II": {
+    "lintcode_num": 207,
+    "lintcode_url": "http://www.lintcode.com/problem/interval-sum-ii"
+  },
+  "Interval Sum": {
+    "lintcode_num": 206,
+    "lintcode_url": "http://www.lintcode.com/problem/interval-sum"
+  },
+  "Interval Minimum Number": {
+    "lintcode_num": 205,
+    "lintcode_url": "http://www.lintcode.com/problem/interval-minimum-number"
+  },
+  "Segment Tree Modify": {
+    "lintcode_num": 203,
+    "lintcode_url": "http://www.lintcode.com/problem/segment-tree-modify"
+  },
+  "Segment Tree Query": {
+    "lintcode_num": 202,
+    "lintcode_url": "http://www.lintcode.com/problem/segment-tree-query"
+  },
+  "Segment Tree Build": {
+    "lintcode_num": 201,
+    "lintcode_url": "http://www.lintcode.com/problem/segment-tree-build"
+  },
+  "Permutation Index II": {
+    "lintcode_num": 198,
+    "lintcode_url": "http://www.lintcode.com/problem/permutation-index-ii"
+  },
+  "Permutation Index": {
+    "lintcode_num": 197,
+    "lintcode_url": "http://www.lintcode.com/problem/permutation-index"
+  },
+  "Matrix Zigzag Traversal": {
+    "lintcode_num": 185,
+    "lintcode_url": "http://www.lintcode.com/problem/matrix-zigzag-traversal"
+  },
+  "Wood Cut": {
+    "lintcode_num": 183,
+    "lintcode_url": "http://www.lintcode.com/problem/wood-cut"
+  },
+  "Delete Digits": {
+    "lintcode_num": 182,
+    "lintcode_url": "http://www.lintcode.com/problem/delete-digits"
+  },
+  "Flip Bits": {
+    "lintcode_num": 181,
+    "lintcode_url": "http://www.lintcode.com/problem/flip-bits"
+  },
+  "Binary Representation": {
+    "lintcode_num": 180,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-representation"
+  },
+  "Update Bits": {
+    "lintcode_num": 179,
+    "lintcode_url": "http://www.lintcode.com/problem/update-bits"
+  },
+  "Route Between Two Nodes in Graph": {
+    "lintcode_num": 176,
+    "lintcode_url": "http://www.lintcode.com/problem/route-between-two-nodes-in-graph"
+  },
+  "Anagrams": {
+    "lintcode_num": 171,
+    "lintcode_url": "http://www.lintcode.com/problem/anagrams"
+  },
+  "Nth to Last Node in List": {
+    "lintcode_num": 166,
+    "lintcode_url": "http://www.lintcode.com/problem/nth-to-last-node-in-list"
+  },
+  "Two Strings Are Anagrams": {
+    "lintcode_num": 158,
+    "lintcode_url": "http://www.lintcode.com/problem/two-strings-are-anagrams"
+  },
+  "Unique Characters": {
+    "lintcode_num": 157,
+    "lintcode_url": "http://www.lintcode.com/problem/unique-characters"
+  },
+  "Interleaving Positive and Negative Numbers": {
+    "lintcode_num": 144,
+    "lintcode_url": "http://www.lintcode.com/problem/interleaving-positive-and-negative-numbers"
+  },
+  "Sort Colors II": {
+    "lintcode_num": 143,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-colors-ii"
+  },
+  "O(1) Check Power of 2": {
+    "lintcode_num": 142,
+    "lintcode_url": "http://www.lintcode.com/problem/o1-check-power-of-2"
+  },
+  "Fast Power": {
+    "lintcode_num": 140,
+    "lintcode_url": "http://www.lintcode.com/problem/fast-power"
+  },
+  "Subarray Sum Closest": {
+    "lintcode_num": 139,
+    "lintcode_url": "http://www.lintcode.com/problem/subarray-sum-closest"
+  },
+  "Subarray Sum": {
+    "lintcode_num": 138,
+    "lintcode_url": "http://www.lintcode.com/problem/subarray-sum"
+  },
+  "Heapify": {
+    "lintcode_num": 130,
+    "lintcode_url": "http://www.lintcode.com/problem/heapify"
+  },
+  "Rehashing": {
+    "lintcode_num": 129,
+    "lintcode_url": "http://www.lintcode.com/problem/rehashing"
+  },
+  "Hash Function": {
+    "lintcode_num": 128,
+    "lintcode_url": "http://www.lintcode.com/problem/hash-function"
+  },
+  "Topological Sorting": {
+    "lintcode_num": 127,
+    "lintcode_url": "http://www.lintcode.com/problem/topological-sorting"
+  },
+  "Backpack II": {
+    "lintcode_num": 125,
+    "lintcode_url": "http://www.lintcode.com/problem/backpack-ii"
+  },
+  "Convert Sorted List to Balanced BST": {
+    "lintcode_num": 106,
+    "lintcode_url": "http://www.lintcode.com/problem/convert-sorted-list-to-balanced-bst"
+  },
+  "Backpack": {
+    "lintcode_num": 92,
+    "lintcode_url": "http://www.lintcode.com/problem/backpack"
+  },
+  "Minimum Adjustment Cost": {
+    "lintcode_num": 91,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-adjustment-cost"
+  },
+  "k Sum II": {
+    "lintcode_num": 90,
+    "lintcode_url": "http://www.lintcode.com/problem/k-sum-ii"
+  },
+  "k Sum": {
+    "lintcode_num": 89,
+    "lintcode_url": "http://www.lintcode.com/problem/k-sum"
+  },
+  "Lowest Common Ancestor": {
+    "lintcode_num": 88,
+    "lintcode_url": "http://www.lintcode.com/problem/lowest-common-ancestor"
+  },
+  "Remove Node in Binary Search Tree": {
+    "lintcode_num": 87,
+    "lintcode_url": "http://www.lintcode.com/problem/remove-node-in-binary-search-tree"
+  },
+  "Insert Node in a Binary Search Tree": {
+    "lintcode_num": 85,
+    "lintcode_url": "http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree"
+  },
+  "Data Stream Median": {
+    "lintcode_num": 81,
+    "lintcode_url": "http://www.lintcode.com/problem/data-stream-median"
+  },
+  "Median": {
+    "lintcode_num": 80,
+    "lintcode_url": "http://www.lintcode.com/problem/median"
+  },
+  "Longest Common Substring": {
+    "lintcode_num": 79,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-common-substring"
+  },
+  "Longest Common Subsequence": {
+    "lintcode_num": 77,
+    "lintcode_url": "http://www.lintcode.com/problem/longest-common-subsequence"
+  },
+  "Median of two Sorted Arrays": {
+    "lintcode_num": 65,
+    "lintcode_url": "http://www.lintcode.com/problem/median-of-two-sorted-arrays"
+  },
+  "Compare Strings": {
+    "lintcode_num": 55,
+    "lintcode_url": "http://www.lintcode.com/problem/compare-strings"
+  },
+  "String to Integer II": {
+    "lintcode_num": 54,
+    "lintcode_url": "http://www.lintcode.com/problem/string-to-integer-ii"
+  },
+  "Previous Permutation": {
+    "lintcode_num": 51,
+    "lintcode_url": "http://www.lintcode.com/problem/previous-permutation"
+  },
+  "Product of Array Exclude Itself": {
+    "lintcode_num": 50,
+    "lintcode_url": "http://www.lintcode.com/problem/product-of-array-exclude-itself"
+  },
+  "Sort Letters by Case": {
+    "lintcode_num": 49,
+    "lintcode_url": "http://www.lintcode.com/problem/sort-letters-by-case"
+  },
+  "Majority Number III": {
+    "lintcode_num": 48,
+    "lintcode_url": "http://www.lintcode.com/problem/majority-number-iii"
+  },
+  "Majority Number II": {
+    "lintcode_num": 47,
+    "lintcode_url": "http://www.lintcode.com/problem/majority-number-ii"
+  },
+  "Majority Number": {
+    "lintcode_num": 46,
+    "lintcode_url": "http://www.lintcode.com/problem/majority-number"
+  },
+  "Maximum Subarray Difference": {
+    "lintcode_num": 45,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-subarray-difference"
+  },
+  "Minimum Subarray": {
+    "lintcode_num": 44,
+    "lintcode_url": "http://www.lintcode.com/problem/minimum-subarray"
+  },
+  "Maximum Subarray III": {
+    "lintcode_num": 43,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-subarray-iii"
+  },
+  "Maximum Subarray II": {
+    "lintcode_num": 42,
+    "lintcode_url": "http://www.lintcode.com/problem/maximum-subarray-ii"
+  },
+  "Implement Queue by Two Stacks": {
+    "lintcode_num": 40,
+    "lintcode_url": "http://www.lintcode.com/problem/implement-queue-by-two-stacks"
+  },
+  "Recover Rotated Sorted Array": {
+    "lintcode_num": 39,
+    "lintcode_url": "http://www.lintcode.com/problem/recover-rotated-sorted-array"
+  },
+  "Partition Array": {
+    "lintcode_num": 31,
+    "lintcode_url": "http://www.lintcode.com/problem/partition-array"
+  },
+  "First Position of Target": {
+    "lintcode_num": 14,
+    "lintcode_url": "http://www.lintcode.com/problem/first-position-of-target"
+  },
+  "strStr": {
+    "lintcode_num": 13,
+    "lintcode_url": "http://www.lintcode.com/problem/strstr"
+  },
+  "Search Range in Binary Search Tree": {
+    "lintcode_num": 11,
+    "lintcode_url": "http://www.lintcode.com/problem/search-range-in-binary-search-tree"
+  },
+  "Rotate String": {
+    "lintcode_num": 8,
+    "lintcode_url": "http://www.lintcode.com/problem/rotate-string"
+  },
+  "Binary Tree Serialization": {
+    "lintcode_num": 7,
+    "lintcode_url": "http://www.lintcode.com/problem/binary-tree-serialization"
+  },
+  "Merge Two Sorted Arrays": {
+    "lintcode_num": 6,
+    "lintcode_url": "http://www.lintcode.com/problem/merge-two-sorted-arrays"
+  },
+  "Kth Largest Element": {
+    "lintcode_num": 5,
+    "lintcode_url": "http://www.lintcode.com/problem/kth-largest-element"
+  },
+  "Digit Counts": {
+    "lintcode_num": 3,
+    "lintcode_url": "http://www.lintcode.com/problem/digit-counts"
+  },
+  "Trailing Zeros": {
+    "lintcode_num": 2,
+    "lintcode_url": "http://www.lintcode.com/problem/trailing-zeros"
+  },
+  "A + B Problem": {
+    "lintcode_num": 1,
+    "lintcode_url": "http://www.lintcode.com/problem/a-b-problem"
+  }
+}

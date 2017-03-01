@@ -1,9 +1,9 @@
-Coding Interview Solutions
+LeetCode/LintCode Solutions
 ==========================
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 
-LeetCode | LintCode | Problem Name
+LeetCode | LintCode | Solutions
 ---|---|---
 [LeetCode 456](https://leetcode.com/problems/132-pattern)|-|132 Pattern
 [LeetCode 15](https://leetcode.com/problems/3sum)|[LintCode 57](http://www.lintcode.com/problem/3sum)|[3Sum](problems/3sum.md)

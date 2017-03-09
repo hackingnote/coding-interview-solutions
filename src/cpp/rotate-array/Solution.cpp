@@ -1,26 +1,4 @@
-Rotate Array
-====
 
-Problem
-----
-
-Rotate an array of n elements to the right by k steps.
-*[LeetCode 189](https://leetcode.com/problems/rotate-array/)
-
-Example
-----
-
-For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
-
-Solution #1
-----
-
-Rotate one step to the right each time and rotate k times totally. Time complexity O(k*n), Space complexity O(1). (Status:Time Limit Exceeded) 
-
-Code #1
-----
-
-```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -37,17 +15,9 @@ public:
         }
     }
 };
-```
 
-Solution #2
-----
 
-Create a new array and fill each element right into the position. Time complexity O(n), Space complexity O(n). (Status: 24 ms) 
 
-Code #2
-----
-
-```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -62,17 +32,7 @@ public:
         }
     }
 };
-```
 
-Solution #3
-----
-
-Firstly reverse the whole array in place. Then reverse the first k elements, and also the rest n-k elements. Time complexity O(n), Space complexity O(1). (Status: 24 ms) 
-
-Code #3
-----
-
-```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -97,8 +57,3 @@ public:
         }
     }
 };
-```
-
-Solution #4
-----
-TBD

@@ -1,33 +1,3 @@
-Evaluate Reverse Polish Notation
-===
-
-
-Problem
--------
-
-Evaluate the value of an arithmetic expression in Reverse Polish Notation.
-
-Valid operators are +, -, *, /. Each operand may be an integer or another expression.
-
-Example
--------
-
-    ["2", "1", "+", "3", "*"] -> ((2 + 1) * 3) -> 9
-    ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
-
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-Code
-----
-
-```java
 public class Solution {
     /**
      * @param tokens The Reverse Polish Notation
@@ -56,4 +26,3 @@ public class Solution {
         return stack.pop();
     }
 }
-```

@@ -1,36 +1,3 @@
-Find Minimum in Rotated Sorted Array
-===
-
-
-Problem
--------
-
-Suppose a sorted array is rotated at some pivot unknown to you beforehand.
-
-(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
-
-Find the minimum element.
-
-Example
--------
-
-Given [4, 5, 6, 7, 0, 1, 2] return 0
-
-Note
----------
-
-You may assume no duplicate exists in the array.
-
-Challenge
----------
-
-Solution
---------
-
-Code
-----
-
-```java
 public class Solution {
     /**
      * @param num: a rotated sorted array
@@ -57,4 +24,3 @@ public class Solution {
         return num[low];
     }
 }
-```

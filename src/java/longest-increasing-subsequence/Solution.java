@@ -1,65 +1,22 @@
-Longest Increasing Subsequence
-===
 
+public class Solution {
+    /**
+     * @param nums: The integer array
+     * @return: The length of LIS (longest increasing subsequence)
+     */
+    public int longestIncreasingSubsequence(int[] nums) {
+        int[] cnt = new int[nums.length];
+        int max = 0;
 
-Problem
--------
-
-Given a sequence of integers, find the longest increasing subsequence (LIS).
-
-You code should return the length of the LIS.
-
-Example
--------
-
-For [5, 4, 1, 2, 3], the LIS  is [1, 2, 3], return 3
-
-For [4, 2, 4, 5, 3, 7], the LIS is [4, 4, 5, 7], return 4
-
-Note
----------
-
-Challenge
----------
-
-Time complexity O(n^2) or O(nlogn)
-
-Clarification
--------------
-
-What's the definition of longest increasing subsequence?
-
-    * The longest increasing subsequence problem is to find a subsequence of a given sequence in which the subsequence's elements are in sorted order, lowest to highest, and in which the subsequence is as long as possible. This subsequence is not necessarily contiguous, or unique.  
-
-    * https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
-
-
-
-Solution
---------
-
-Code
-----
-
-    #!java
-    public class Solution {
-        /**
-         * @param nums: The integer array
-         * @return: The length of LIS (longest increasing subsequence)
-         */
-        public int longestIncreasingSubsequence(int[] nums) {
-            int[] cnt = new int[nums.length];
-            int max = 0;
-            
-            for (int i = 0; i < nums.length; i++) {
-                cnt[i] = 1;
-                for (int j = 0; j < i; j++) {
-                    if (nums[i] >= nums[j]) {
-                        cnt[i] = Math.max(cnt[i], cnt[j] + 1);
-                        max = Math.max(max, cnt[i]);
-                    }
+        for (int i = 0; i < nums.length; i++) {
+            cnt[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] >= nums[j]) {
+                    cnt[i] = Math.max(cnt[i], cnt[j] + 1);
+                    max = Math.max(max, cnt[i]);
                 }
             }
-            return max;
         }
+        return max;
     }
+}

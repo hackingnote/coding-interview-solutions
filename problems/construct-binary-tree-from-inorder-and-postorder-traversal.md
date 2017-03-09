@@ -31,51 +31,53 @@ If you are using ``Arrays.copyOfRange(arr, from, to)``, remember ``from`` is inc
 Code
 ----
 
-    /**
-     * Definition for binary tree
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
-     */
-    public class Solution {
+```java
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
 
 
 
-        public TreeNode buildTree(int[] inorder, int[] postorder) {
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
 
-            if (postorder.length == 0 || inorder.length == 0) {
-                return null;
-            }
+        if (postorder.length == 0 || inorder.length == 0) {
+            return null;
+        }
 
-            int root = postorder[postorder.length - 1];
-            int rootIndex = 0;
-            while(inorder[rootIndex] != root) {
-                rootIndex++;
-            }
+        int root = postorder[postorder.length - 1];
+        int rootIndex = 0;
+        while(inorder[rootIndex] != root) {
+            rootIndex++;
+        }
 
-            TreeNode rootNode = new TreeNode(root);
-            if (postorder.length == 1) {
-                return rootNode;
-            }
-            if (0 > rootIndex - 1) {
-                rootNode.left = null;
-            } else {
-            rootNode.left = buildTree(
-                Arrays.copyOfRange(inorder, 0, rootIndex),
-                Arrays.copyOfRange(postorder, 0, rootIndex));
-            }
-
-            if (rootIndex + 1 > inorder.length - 1  || rootIndex > postorder.length - 2) {
-                rootNode.right = null;
-            } else {
-            rootNode.right = buildTree(
-                Arrays.copyOfRange(inorder, rootIndex + 1, inorder.length),
-                Arrays.copyOfRange(postorder, rootIndex, postorder.length - 1));
-
-            }
+        TreeNode rootNode = new TreeNode(root);
+        if (postorder.length == 1) {
             return rootNode;
         }
+        if (0 > rootIndex - 1) {
+            rootNode.left = null;
+        } else {
+        rootNode.left = buildTree(
+            Arrays.copyOfRange(inorder, 0, rootIndex),
+            Arrays.copyOfRange(postorder, 0, rootIndex));
+        }
+
+        if (rootIndex + 1 > inorder.length - 1  || rootIndex > postorder.length - 2) {
+            rootNode.right = null;
+        } else {
+        rootNode.right = buildTree(
+            Arrays.copyOfRange(inorder, rootIndex + 1, inorder.length),
+            Arrays.copyOfRange(postorder, rootIndex, postorder.length - 1));
+
+        }
+        return rootNode;
     }
+}
+```

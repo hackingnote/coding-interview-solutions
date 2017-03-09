@@ -21,22 +21,23 @@ Both n and m are 32-bit integers
 Code
 ----
 
-    #!java
-    class Solution {
-        /**
-         *@param a, b: Two integer
-         *return: An integer
-         */
-        public static int bitSwapRequired(int a, int b) {
-            int c = a ^ b;
-            int cnt = 0;
-            while (c != 0) {
-                c &= c-1;
-                cnt++;
-            }
-            return cnt;
+```java
+class Solution {
+    /**
+     *@param a, b: Two integer
+     *return: An integer
+     */
+    public static int bitSwapRequired(int a, int b) {
+        int c = a ^ b;
+        int cnt = 0;
+        while (c != 0) {
+            c &= c-1;
+            cnt++;
         }
-    };
+        return cnt;
+    }
+};
+```
 
 Problem 2: unsigned 32-bit integer
 -------------------------
@@ -57,26 +58,27 @@ Java does not have unsigned integers, use long instead; for the lowest 32 bits:
 Code
 ----
 
-    import java.io.*;
-    import java.util.*;
+```java
+import java.io.*;
+import java.util.*;
 
-    public class Solution {
+public class Solution {
 
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            int n = scanner.nextInt();
-            while (n-- > 0) {
-                long k = scanner.nextLong();
-                long s = 0;
-                long b = 1;
-                for (int i = 0; i < 32; i++) {
-                    s += (k & 1 ^ 1) * b;
-                    b *= 2;
-                    k = k >> 1;
-                }
-                System.out.println(s);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        while (n-- > 0) {
+            long k = scanner.nextLong();
+            long s = 0;
+            long b = 1;
+            for (int i = 0; i < 32; i++) {
+                s += (k & 1 ^ 1) * b;
+                b *= 2;
+                k = k >> 1;
             }
+            System.out.println(s);
         }
     }
-
+}
+```
     

@@ -11,7 +11,12 @@ const sortedKeys = Object.keys(problems).sort(function (a, b) {
 });
 
 var content = [
-    "LeetCode | LintCode | Problem Name",
+    "LeetCode/LintCode Solutions",
+    "==========================",
+    "",
+    "Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.",
+    "",
+    "Problem Name | LeetCode | LintCode",
     "---|---|---"
 ];
 sortedKeys.forEach(function(key) {
@@ -20,12 +25,13 @@ sortedKeys.forEach(function(key) {
     const solutionLinkName = urlParts[urlParts.length - 1];
     const exists = fs.existsSync('../problems/' + solutionLinkName + ".md");
     const row = [
+        exists ? "[" + key + "](problems/" + solutionLinkName + ".md)" : key,
         'leetcode_num' in problem ? "[LeetCode " + problem['leetcode_num'] + "](" + problem['leetcode_url'] + ")" : "-",
         'lintcode_num' in problem ? "[LintCode " + problem['lintcode_num'] + "](" + problem['lintcode_url'] + ")" : "-",
-        exists ? "[" + key + "](problems/" + solutionLinkName + ".md)" : key
+
 ];
 
     content.push(row.join("|"));
 });
 
-fs.writeFileSync("index_table.md", content.join("\n"));
+fs.writeFileSync("../README.md", content.join("\n"));

@@ -35,10 +35,12 @@ leftpad("1", 2, "0")
 
 
 
-Solution
---------
+
+Code(Java)
+----------
 
 ```java
+
 public class StringUtils {
     /**
      * @param originalStr the string we want to append to with spaces
@@ -62,4 +64,5 @@ public class StringUtils {
         return new String(new char[size - len]).replace("\0", String.valueOf(padChar)) + originalStr;
     }
 }
+
 ```

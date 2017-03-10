@@ -24,12 +24,9 @@ Given an example [4,4,6,1,1,4,2,5], return 6.
 
 
 
-Solution
---------
 
-
-
-
+Code(Java)
+----------
 
 ```java
 class Solution {
@@ -50,4 +47,5 @@ class Solution {
         return sell2;
     }
 };
+
 ```

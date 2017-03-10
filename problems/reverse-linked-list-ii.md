@@ -21,7 +21,12 @@ Reverse it in-place and in one-pass
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 /**
  * Definition for ListNode
  * public class ListNode {
@@ -60,4 +65,6 @@ public class Solution {
         return dummy.next;
     }
 }
+
+
 ```

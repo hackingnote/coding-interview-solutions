@@ -29,8 +29,10 @@ O(n x m) memory is also acceptable if you do not know how to optimize memory.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -67,4 +69,5 @@ public class Solution {
     
     }
 }
+
 ```

@@ -26,7 +26,11 @@ Solution
 --------
 
 
+Code(Java)
+----------
+
 ```java
+
 public class Solution {
     /**
      * @param costs n x 3 cost matrix
@@ -59,4 +63,5 @@ public class Solution {
         return min;
     }
 }
+
 ```

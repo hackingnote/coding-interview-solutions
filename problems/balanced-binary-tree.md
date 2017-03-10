@@ -25,10 +25,10 @@ The binary tree A is a height-balanced binary tree, but B is not.
 
 
 
-Solution
---------
 
 
+Code(Java)
+----------
 
 ```java
 /**
@@ -72,4 +72,5 @@ public class Solution {
     
   
 }
+
 ```

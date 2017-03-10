@@ -26,10 +26,13 @@ Challenge
 Solution
 --------
 
-Code
-----
 
-    #!java
+
+Code(Java)
+----------
+
+```java
+
     public class Solution {
         /**
          * @param nums: a list of integers
@@ -49,3 +52,5 @@ Code
         }
     }
 
+
+```

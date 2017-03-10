@@ -27,8 +27,10 @@ return ``6``
 
 
 
-Solution
---------
+
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -52,4 +54,5 @@ public class Solution {
         return cnt[target];
     }
 }
+
 ```

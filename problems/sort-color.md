@@ -23,7 +23,12 @@ Given [1, 0, 1, 2], sort it in-place to [0, 1, 1, 2].
 Solution
 ---------
 
+
+Code(Java)
+----------
+
 ```java
+
 class Solution {
     /**
      * @param nums: A list of integer which is 0, 1 or 2 
@@ -47,4 +52,5 @@ class Solution {
         }
     }
 }
+```
 ```

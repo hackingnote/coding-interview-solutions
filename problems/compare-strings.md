@@ -23,8 +23,10 @@ The characters of B in A are not necessary continuous or ordered.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -48,4 +50,5 @@ public class Solution {
         return true;
     }
 }
+
 ```

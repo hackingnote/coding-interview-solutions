@@ -21,10 +21,12 @@ Example
 
 Given n = 6, primes = [2, 7, 13, 19] return 13
 
-Solution
---------
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param n a positive integer
@@ -57,4 +59,5 @@ public class Solution {
         
     }
 }
+
 ```

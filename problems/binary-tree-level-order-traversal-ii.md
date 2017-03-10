@@ -33,8 +33,10 @@ Challenge
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -86,4 +88,5 @@ public class Solution {
         traverse(node.right, level + 1, result);
     }
 }
+
 ```

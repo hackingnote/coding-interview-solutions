@@ -25,7 +25,12 @@ Order does not matter.
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 public class Solution {
     /**
      * @param s the IP string
@@ -66,4 +71,5 @@ public class Solution {
         }
     }
 }
+
 ```

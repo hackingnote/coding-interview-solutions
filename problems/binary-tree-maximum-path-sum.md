@@ -30,8 +30,10 @@ Challenge
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -67,4 +69,5 @@ public class Solution {
         return Math.max(left, right) + root.val;
     }
 }
+
 ```

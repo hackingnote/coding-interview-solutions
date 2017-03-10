@@ -23,8 +23,10 @@ Could you solve it with O(1) space?
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -71,4 +73,5 @@ public class Solution {
         return newHead;
     }
 }
+
 ```

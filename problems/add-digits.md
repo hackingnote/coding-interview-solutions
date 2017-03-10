@@ -17,6 +17,10 @@ The process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return 2
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
 public class Solution {
     /**
@@ -28,4 +32,5 @@ public class Solution {
         return 1 + (num - 1) % 9;
     }
 }
+
 ```

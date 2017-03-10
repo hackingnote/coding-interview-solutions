@@ -36,8 +36,10 @@ Time complexity O(logN)
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 class Solution {
@@ -64,4 +66,5 @@ class Solution {
         return 0;
     }
 }
+
 ```

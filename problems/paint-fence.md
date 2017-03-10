@@ -32,7 +32,12 @@ way6    1         1       0
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 public class Solution {
     /**
      * @param n non-negative integer, n posts
@@ -55,4 +60,6 @@ public class Solution {
         
     }
 }
+
+
 ```

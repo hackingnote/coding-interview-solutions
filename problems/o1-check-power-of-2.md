@@ -25,18 +25,22 @@ O(1) time
 Solution
 --------
 
-Code
-----
-
-    #!java
-    class Solution {
-        /*
-         * @param n: An integer
-         * @return: True or false
-         */
-        public boolean checkPowerOf2(int n) {
-            long p = (long)n;
-            return n != 0 && (p & (p - 1)) == 0;
-        }
-    };
     
+
+Code(Java)
+----------
+
+```java
+
+class Solution {
+    /*
+     * @param n: An integer
+     * @return: True or false
+     */
+    public boolean checkPowerOf2(int n) {
+        long p = (long)n;
+        return n != 0 && (p & (p - 1)) == 0;
+    }
+};
+
+```

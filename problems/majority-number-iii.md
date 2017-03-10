@@ -26,10 +26,13 @@ O(n) time and O(k) extra space
 
 
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param nums: A list of integers
@@ -84,4 +87,5 @@ public class Solution {
         return maxKey;
     }
 }
+
 ```

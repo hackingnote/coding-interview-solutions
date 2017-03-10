@@ -20,6 +20,10 @@ Given ``[4,[3,[2,[1]]]]``, return ``[4,3,2,1]``.
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
 /**
  * // This is the interface that allows for creating nested lists.
@@ -60,4 +64,5 @@ public class Solution {
         return result;
     }
 }
+
 ```

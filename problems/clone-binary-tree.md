@@ -30,8 +30,9 @@ return the new binary tree with same structure and same value:
 
 
 
-Solution
---------
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -58,4 +59,5 @@ public class Solution {
         return newNode;
     }
 }
+
 ```

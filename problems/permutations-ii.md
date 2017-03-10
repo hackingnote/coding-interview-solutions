@@ -27,7 +27,12 @@ For numbers [1,2,2] the unique permutations are:
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 class Solution {
     /**
      * @param nums: A list of integers.

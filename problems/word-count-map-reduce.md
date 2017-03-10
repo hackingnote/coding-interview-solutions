@@ -34,7 +34,12 @@ Get MapReduce result:
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 /**
  * Definition of OutputCollector:
  * class OutputCollector<K, V> {
@@ -69,5 +74,6 @@ public class WordCount {
         }
     }
 }
+
 
 ```

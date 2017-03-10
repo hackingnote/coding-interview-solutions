@@ -21,10 +21,12 @@ Note that 1 is typically treated as an ugly number.
 Solution
 --------
 
-Code
-----
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param num an integer
@@ -41,4 +43,5 @@ public class Solution {
         return num == 1;
     }
 }
+
 ```

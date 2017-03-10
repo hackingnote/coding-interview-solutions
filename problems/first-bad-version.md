@@ -32,8 +32,10 @@ You should call isBadVersion as few as possible.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -64,4 +66,5 @@ class Solution {
         
     }
 }
+
 ```

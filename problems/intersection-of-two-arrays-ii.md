@@ -22,7 +22,12 @@ Given nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2, 2].
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 public class Solution {
     /**
      * @param nums1 an integer array
@@ -60,4 +65,5 @@ public class Solution {
         return arr;
     }
 }
+
 ```

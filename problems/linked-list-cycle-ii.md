@@ -25,10 +25,13 @@ Challenge
 Follow up:
 Can you solve it without using extra space?
 
-Solution
---------
+
+
+Code(Java)
+----------
 
 ```java
+
 /**
  * Definition for ListNode.
  * public class ListNode {

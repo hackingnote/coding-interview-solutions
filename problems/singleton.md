@@ -30,19 +30,23 @@ If we call getInstance concurrently, can you make sure your code could run corre
 Solution
 --------
 
-Code
-----
 
-    #!java
-    class Solution {
-        /**
-         * @return: The same instance of this class every time
-         */
-        private static Solution solution = new Solution();
-        
-        private Solution() {} 
-         
-        public static Solution getInstance() {
-            return solution;
-        }
-    };
+
+Code(Java)
+----------
+
+```java
+
+class Solution {
+    /**
+     * @return: The same instance of this class every time
+     */
+    private static Solution solution = new Solution();
+
+    private Solution() {}
+
+    public static Solution getInstance() {
+        return solution;
+    }
+};
+```

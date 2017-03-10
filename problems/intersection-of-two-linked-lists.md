@@ -35,61 +35,65 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 Solution
 --------
 
-Code
-----
 
-    #!java
+
+Code(Java)
+----------
+
+```java
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
     /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) {
-     *         val = x;
-     *         next = null;      
-     *     }
-     * }
+     * @param headA: the first list
+     * @param headB: the second list
+     * @return: a ListNode
      */
-    public class Solution {
-        /**
-         * @param headA: the first list
-         * @param headB: the second list
-         * @return: a ListNode 
-         */
-        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-            int sizeA = 0, sizeB = 0;
-            ListNode ptrA = headA, ptrB = headB;
-            
-            while (ptrA != null) {
-                ptrA = ptrA.next;
-                sizeA++;
-            }
-            
-            while (ptrB != null) {
-                ptrB = ptrB.next;
-                sizeB++;
-            }
-            
-            if (ptrA != ptrB) {
-                return null;
-            }
-            
-            int diff = sizeA - sizeB;
-            if (diff > 0) {
-                while (diff-- > 0) {
-                    headA = headA.next;
-                }
-            } else {
-                while (diff++ < 0) {
-                    headB = headB.next;
-                }
-            }
-            
-            while (headA != headB) {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        int sizeA = 0, sizeB = 0;
+        ListNode ptrA = headA, ptrB = headB;
+
+        while (ptrA != null) {
+            ptrA = ptrA.next;
+            sizeA++;
+        }
+
+        while (ptrB != null) {
+            ptrB = ptrB.next;
+            sizeB++;
+        }
+
+        if (ptrA != ptrB) {
+            return null;
+        }
+
+        int diff = sizeA - sizeB;
+        if (diff > 0) {
+            while (diff-- > 0) {
                 headA = headA.next;
+            }
+        } else {
+            while (diff++ < 0) {
                 headB = headB.next;
             }
-            
-            return headA;
-        }  
+        }
+
+        while (headA != headB) {
+            headA = headA.next;
+            headB = headB.next;
+        }
+
+        return headA;
     }
+}
+```

@@ -37,8 +37,10 @@ Challenge 2: Use DFS algorithm to do it.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -91,4 +93,5 @@ public class Solution {
         traverse(node.right, level + 1, result);
     }
 }
+
 ```

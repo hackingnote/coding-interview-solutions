@@ -34,8 +34,10 @@ O(n) time and O(1) memory
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -48,4 +50,5 @@ public class Solution {
         return true;
     }
 }
+
 ```

@@ -27,10 +27,13 @@ O(n) time and O(1) extra space.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param nums: A list of integers
@@ -68,4 +71,5 @@ public class Solution {
         return (cnt > nums.size() / 3 ? num1 : num2);
     }
 }
+
 ```

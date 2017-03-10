@@ -22,8 +22,10 @@ If the count of numbers is bigger than 2^32, can your code work properly?
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 class Solution {
@@ -48,4 +50,5 @@ class Solution {
         return -1;
     }
 }
+
 ```

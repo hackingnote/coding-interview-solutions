@@ -24,10 +24,13 @@ Can you solve it without using extra space?
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 /**
  * Definition for ListNode.
  * public class ListNode {
@@ -59,4 +62,5 @@ public class Solution {
         return false;
     }
 }
+
 ```

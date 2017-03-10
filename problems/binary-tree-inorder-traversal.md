@@ -31,8 +31,9 @@ Can you do it without recursion?
 Solution
 --------
 
-Code
-----
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -70,4 +71,5 @@ public class Solution {
         traverse(node.right, result);
     }
 }
+
 ```

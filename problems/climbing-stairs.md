@@ -17,8 +17,9 @@ Key Point
 
 Store the result in a list or array, otherwise it will TLE.
 
-Code
-----
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -59,4 +60,5 @@ public class Solution {
         return a;
     }
 }
+
 ```

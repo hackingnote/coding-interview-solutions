@@ -20,10 +20,13 @@ O(n) time and O(1) extra space
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param nums: a list of integers
@@ -45,4 +48,5 @@ public class Solution {
         return n;
     }
 }
+
 ```

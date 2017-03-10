@@ -24,7 +24,12 @@ toy.talk();
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
+
 /**
  * Your object will be instantiated and called as such:
  * ToyFactory tf = new ToyFactory();
@@ -67,4 +72,5 @@ public class ToyFactory {
         }
     }
 }
+
 ```

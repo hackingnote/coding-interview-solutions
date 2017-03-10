@@ -37,8 +37,10 @@ Do it in-place without any extra memory.
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -76,4 +78,5 @@ public class Solution {
         flatten(root.right);
     }
 }
+
 ```

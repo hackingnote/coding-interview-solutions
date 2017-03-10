@@ -22,10 +22,13 @@ Given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3
 
 
 
-Solution
---------
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
     /**
      * @param nums an integer array
@@ -46,4 +49,5 @@ public class Solution {
         }
     }
 }
+
 ```

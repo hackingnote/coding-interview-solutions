@@ -27,10 +27,13 @@ For nums = [1,2,3], the permutations are:
 ]
 ```
 
-Solution
---------
+
+
+Code(Java)
+----------
 
 ```java
+
 class Solution {
     /**
      * @param nums: A list of integers.
@@ -65,4 +68,5 @@ class Solution {
         }
     }
 }
+
 ```

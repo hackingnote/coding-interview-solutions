@@ -35,10 +35,13 @@ Challenge
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 class Solution {
     /**
      * @param n: an integer
@@ -54,4 +57,5 @@ class Solution {
         return a;
     }
 }
+
 ```

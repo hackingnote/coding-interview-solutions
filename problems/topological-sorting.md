@@ -33,6 +33,10 @@ The topological order can be:
 Solution
 --------
 
+
+Code(Java)
+----------
+
 ```java
 
 /**
@@ -82,4 +86,5 @@ public class Solution {
     }
     
 }
+
 ```

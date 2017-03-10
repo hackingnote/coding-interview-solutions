@@ -27,8 +27,10 @@ If the integer is n bits with m 1 bits. Can you do it in O(m) time?
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -46,4 +48,5 @@ public class Solution {
         return cnt;
     }
 };
+
 ```

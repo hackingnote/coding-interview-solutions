@@ -33,10 +33,13 @@ Challenge
 Solution
 --------
 
-Code
-----
 
-    #!java
+
+Code(Java)
+----------
+
+```java
+
     /**
      * Definition of TreeNode:
      * public class TreeNode {
@@ -75,3 +78,4 @@ Code
             
         }
     }
+```

@@ -30,9 +30,11 @@ Challenge
 Solution
 --------
 
-Code
-----
-    
+
+
+Code(Java)
+----------
+
 ```java
 class Solution {
     /**
@@ -55,4 +57,6 @@ class Solution {
         return results;
     }
 }
+
+
 ```

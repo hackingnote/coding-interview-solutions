@@ -25,10 +25,13 @@ Note: Given n will be between 1 and 9 inclusive.
 
 
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Solution {
 
     private int[] lkp = new int[10];
@@ -71,4 +74,6 @@ public class Solution {
         return s;
     }
 }
+
+
 ```

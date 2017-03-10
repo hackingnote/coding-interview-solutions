@@ -20,7 +20,12 @@ Given colors=[3, 2, 2, 1, 4], k=4, your code should sort colors in-place to [1, 
 Solution
 ---------
 
+
+Code(Java)
+----------
+
 ```java
+
 class Solution {
     /**
      * @param colors: A list of integer
@@ -51,4 +56,5 @@ class Solution {
         }
     }
 }
+
 ```

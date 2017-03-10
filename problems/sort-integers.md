@@ -15,7 +15,12 @@ Given [3, 2, 1, 4, 5], return [1, 2, 3, 4, 5].
 Solution
 ---------
 
+
+Code(Java)
+----------
+
 ```java
+
 public class Solution {
     /**
      * @param A an integer array
@@ -33,4 +38,5 @@ public class Solution {
         }
     }
 }
+
 ```

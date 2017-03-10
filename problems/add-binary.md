@@ -24,8 +24,9 @@ Challenge
 Solution
 --------
 
-Code
-----
+
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -74,4 +75,5 @@ public class Solution {
         return c;
     }
 }
+
 ```

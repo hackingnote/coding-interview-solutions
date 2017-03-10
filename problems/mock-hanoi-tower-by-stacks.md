@@ -17,10 +17,13 @@ In the classic problem of Towers of Hanoi, you have 3 towers and N disks of diff
 Write a program to move the disks from the first tower to the last using stacks.
 
 
-Solution
---------
+
+
+Code(Java)
+----------
 
 ```java
+
 public class Tower {
     private Stack<Integer> disks;
     // create three towers (i from 0 to 2)

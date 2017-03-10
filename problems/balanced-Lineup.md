@@ -50,8 +50,10 @@ Solution
 
 RMQ
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 import java.util.Scanner;
@@ -92,4 +94,6 @@ public class POJ3264 {
         }
     }
 }
+
+
 ```

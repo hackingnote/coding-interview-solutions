@@ -3,6 +3,9 @@ A + B Problem
 
 
 
+Code(Java)
+----------
+
 ```java
 class Solution {
     /*
@@ -14,4 +17,5 @@ class Solution {
         return a + b;
     }
 };
+
 ```

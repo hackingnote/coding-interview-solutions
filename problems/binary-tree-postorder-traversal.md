@@ -30,8 +30,10 @@ Can you do it without recursion?
 Solution
 --------
 
-Code
-----
+
+
+Code(Java)
+----------
 
 ```java
 /**
@@ -69,4 +71,5 @@ public class Solution {
         result.add(node.val);
     }
 }
+
 ```

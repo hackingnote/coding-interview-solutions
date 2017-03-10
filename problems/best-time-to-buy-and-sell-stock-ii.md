@@ -24,9 +24,9 @@ Greedy.
 
 
 
-Code
-----
 
+Code(Java)
+----------
 
 ```java
 public class Solution {
@@ -94,4 +94,5 @@ class Solution {
     
     }
 };
+
 ```

@@ -6,3 +6,5 @@ _template.md
 update.sh
 .bookignore
 node_modules
+_book
+raw

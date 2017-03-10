@@ -20,8 +20,9 @@ sortedKeys.forEach(function(key) {
     const name = urlParts[urlParts.length - 1];
 
 
-
-    content.push("* [" + key + "](problems/" + name + ".md)");
+    if (fs.existsSync("../problems/" + name + ".md")) {
+        content.push("* [" + key + "](problems/" + name + ".md)");
+    }
 });
 
 fs.writeFileSync("../SUMMARY.md", content.join("\n"));

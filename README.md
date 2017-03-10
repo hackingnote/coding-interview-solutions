@@ -1,8 +1,8 @@
 LeetCode/LintCode Solutions
 ==========================
 
-LeetCode: 124 Solved / 486 Total
-LintCode: 190 Solved / 319 Total
+- LeetCode: 124 Solved / 486 Total
+- LintCode: 190 Solved / 319 Total
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 

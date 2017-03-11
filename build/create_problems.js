@@ -10,7 +10,9 @@ fileNames.map(function(filename) {
     var combined = [
         content
         ];
-
+    console.log(filename);
+    console.log("../src/java/" + problemName);
+    console.log(fs.existsSync("../src/java/" + problemName));
     if (fs.existsSync("../src/java/" + problemName)) {
 
         const java = fs.readFileSync("../src/java/" + problemName + "/Solution.java");
@@ -25,8 +27,12 @@ fileNames.map(function(filename) {
             "```"
         ].forEach(function(line) {combined.push(line)});
 
+        //console.log("writing to: ../problems/" + filename)
+        //console.log(combined.join("\n"));
+
         // write only if there is java solution
         fs.writeFileSync("../problems/" + filename, combined.join("\n"));
+
     }
 
     //console.log(combined);

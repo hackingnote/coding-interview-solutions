@@ -13,9 +13,9 @@ fileNames.map(function(filename) {
     //console.log(filename);
     //console.log("../src/java/" + problemName);
     //console.log(fs.existsSync("../src/java/" + problemName));
-    if (fs.existsSync("../src/java/" + problemName)) {
+    if (fs.existsSync("../src/main/java/" + problemName)) {
 
-        const java = fs.readFileSync("../src/java/" + problemName + "/Solution.java");
+        const java = fs.readFileSync("../src/main/java/" + problemName + "/Solution.java");
 
         [
             "",

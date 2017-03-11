@@ -43,7 +43,54 @@ while(b != 0) {
 }
 ```
 
+For example, ``a`` = 1(binary as ``1``), ``b`` = 3(binary as ``11``)
 
+```
+======    Iteration #1    ======
+                   a =          1
+                   b =         11
+        carry(a & b) =          1
+        new a(a ^ b) =         10
+new b(shifted carry) =         10
+
+======    Iteration #2    ======
+                   a =         10
+                   b =         10
+        carry(a & b) =         10
+        new a(a ^ b) =          0
+new b(shifted carry) =        100
+
+======    Iteration #3    ======
+                   a =          0
+                   b =        100
+        carry(a & b) =          0
+        new a(a ^ b) =        100
+new b(shifted carry) =          0
+
+Final Result: 4
+```
+
+Try to plugin other numbers to fully understand how it works: [Source Code](https://github.com/hackingnote/coding-interview-solutions/tree/master/src/test/java/a-b-problem/StepByStep.java)
+
+How about negative numbers?
+
+Since negative numbers are in the form of [Two's Complement](https://en.wikipedia.org/wiki/Two%27s_complement), they can be treated in the same way. For example ``a`` = 1, ``b`` = -3:
+
+======    Iteration #1    ======
+                   a =                                1
+                   b = 11111111111111111111111111111101
+        carry(a & b) =                                1
+        new a(a ^ b) = 11111111111111111111111111111100
+new b(shifted carry) =                               10
+
+======    Iteration #2    ======
+                   a = 11111111111111111111111111111100
+                   b =                               10
+        carry(a & b) =                                0
+        new a(a ^ b) = 11111111111111111111111111111110
+new b(shifted carry) =                                0
+
+Final Result: -2
 
 Code(Java)
 ----------

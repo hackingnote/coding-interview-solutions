@@ -1,8 +1,8 @@
 LeetCode/LintCode Solutions
 ==========================
 
-- LeetCode: 125 Solved / 486 Total
-- LintCode: 191 Solved / 319 Total
+- LeetCode: 127 Solved / 486 Total
+- LintCode: 196 Solved / 319 Total
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 
@@ -15,7 +15,7 @@ Problem Name | LeetCode | LintCode
 [4Sum](problems/4sum.md)|[LeetCode 18](https://leetcode.com/problems/4sum)|[LintCode 58](http://www.lintcode.com/problem/4sum)
 4Sum II|[LeetCode 454](https://leetcode.com/problems/4sum-ii)|-
 [A + B Problem](problems/a-b-problem.md)|-|[LintCode 1](http://www.lintcode.com/problem/a-b-problem)
-Add and Search Word|-|[LintCode 473](http://www.lintcode.com/problem/add-and-search-word)
+[Add and Search Word](problems/add-and-search-word.md)|-|[LintCode 473](http://www.lintcode.com/problem/add-and-search-word)
 Add and Search Word - Data structure design|[LeetCode 211](https://leetcode.com/problems/add-and-search-word-data-structure-design)|-
 [Add Binary](problems/add-binary.md)|[LeetCode 67](https://leetcode.com/problems/add-binary)|[LintCode 408](http://www.lintcode.com/problem/add-binary)
 [Add Digits](problems/add-digits.md)|[LeetCode 258](https://leetcode.com/problems/add-digits)|[LintCode 569](http://www.lintcode.com/problem/add-digits)
@@ -48,15 +48,15 @@ Best Meeting Point|[LeetCode 296](https://leetcode.com/problems/best-meeting-poi
 [Best Time to Buy and Sell Stock III](problems/best-time-to-buy-and-sell-stock-iii.md)|[LeetCode 123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[LintCode 151](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iii)
 Best Time to Buy and Sell Stock IV|[LeetCode 188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[LintCode 393](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iv)
 Best Time to Buy and Sell Stock with Cooldown|[LeetCode 309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|-
-Binary Representation|-|[LintCode 180](http://www.lintcode.com/problem/binary-representation)
-Binary Search Tree Iterator|[LeetCode 173](https://leetcode.com/problems/binary-search-tree-iterator)|[LintCode 86](http://www.lintcode.com/problem/binary-search-tree-iterator)
+[Binary Representation](problems/binary-representation.md)|-|[LintCode 180](http://www.lintcode.com/problem/binary-representation)
+[Binary Search Tree Iterator](problems/binary-search-tree-iterator.md)|[LeetCode 173](https://leetcode.com/problems/binary-search-tree-iterator)|[LintCode 86](http://www.lintcode.com/problem/binary-search-tree-iterator)
 [Binary Tree Inorder Traversal](problems/binary-tree-inorder-traversal.md)|[LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal)|[LintCode 67](http://www.lintcode.com/problem/binary-tree-inorder-traversal)
 [Binary Tree Level Order Traversal](problems/binary-tree-level-order-traversal.md)|[LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal)|[LintCode 69](http://www.lintcode.com/problem/binary-tree-level-order-traversal)
 [Binary Tree Level Order Traversal II](problems/binary-tree-level-order-traversal-ii.md)|[LeetCode 107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[LintCode 70](http://www.lintcode.com/problem/binary-tree-level-order-traversal-ii)
 Binary Tree Longest Consecutive Sequence|[LeetCode 298](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)|-
 Binary Tree Maximum Node|-|[LintCode 632](http://www.lintcode.com/problem/binary-tree-maximum-node)
 [Binary Tree Maximum Path Sum](problems/binary-tree-maximum-path-sum.md)|[LeetCode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[LintCode 94](http://www.lintcode.com/problem/binary-tree-maximum-path-sum)
-Binary Tree Path Sum|-|[LintCode 376](http://www.lintcode.com/problem/binary-tree-path-sum)
+[Binary Tree Path Sum](problems/binary-tree-path-sum.md)|-|[LintCode 376](http://www.lintcode.com/problem/binary-tree-path-sum)
 Binary Tree Path Sum II|-|[LintCode 246](http://www.lintcode.com/problem/binary-tree-path-sum-ii)
 [Binary Tree Paths](problems/binary-tree-paths.md)|[LeetCode 257](https://leetcode.com/problems/binary-tree-paths)|[LintCode 480](http://www.lintcode.com/problem/binary-tree-paths)
 [Binary Tree Postorder Traversal](problems/binary-tree-postorder-traversal.md)|[LeetCode 145](https://leetcode.com/problems/binary-tree-postorder-traversal)|[LintCode 68](http://www.lintcode.com/problem/binary-tree-postorder-traversal)
@@ -74,7 +74,7 @@ Bulb Switcher|[LeetCode 319](https://leetcode.com/problems/bulb-switcher)|-
 Bulls and Cows|[LeetCode 299](https://leetcode.com/problems/bulls-and-cows)|-
 Burst Balloons|[LeetCode 312](https://leetcode.com/problems/burst-balloons)|[LintCode 168](http://www.lintcode.com/problem/burst-balloons)
 Can I Win|[LeetCode 464](https://leetcode.com/problems/can-i-win)|-
-Candy|[LeetCode 135](https://leetcode.com/problems/candy)|[LintCode 412](http://www.lintcode.com/problem/candy)
+[Candy](problems/candy.md)|[LeetCode 135](https://leetcode.com/problems/candy)|[LintCode 412](http://www.lintcode.com/problem/candy)
 Classical Binary Search|-|[LintCode 457](http://www.lintcode.com/problem/classical-binary-search)
 [Climbing Stairs](problems/climbing-stairs.md)|[LeetCode 70](https://leetcode.com/problems/climbing-stairs)|[LintCode 111](http://www.lintcode.com/problem/climbing-stairs)
 Climbing Stairs II|-|[LintCode 272](http://www.lintcode.com/problem/climbing-stairs-ii)

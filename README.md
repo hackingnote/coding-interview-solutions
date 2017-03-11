@@ -1,8 +1,8 @@
 LeetCode/LintCode Solutions
 ==========================
 
-- LeetCode: 144 Solved / 486 Total
-- LintCode: 222 Solved / 319 Total
+- LeetCode: 159 Solved / 486 Total
+- LintCode: 246 Solved / 319 Total
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 
@@ -349,7 +349,7 @@ Minimum Moves to Equal Array Elements|[LeetCode 453](https://leetcode.com/proble
 Minimum Moves to Equal Array Elements II|[LeetCode 462](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|-
 Minimum Number of Arrows to Burst Balloons|[LeetCode 452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|-
 [Minimum Path Sum](problems/minimum-path-sum.md)|[LeetCode 64](https://leetcode.com/problems/minimum-path-sum)|[LintCode 110](http://www.lintcode.com/problem/minimum-path-sum)
-Minimum Size Subarray Sum|[LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum)|[LintCode 406](http://www.lintcode.com/problem/minimum-size-subarray-sum)
+[Minimum Size Subarray Sum](problems/minimum-size-subarray-sum.md)|[LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum)|[LintCode 406](http://www.lintcode.com/problem/minimum-size-subarray-sum)
 [Minimum Subarray](problems/minimum-subarray.md)|-|[LintCode 44](http://www.lintcode.com/problem/minimum-subarray)
 Minimum Unique Word Abbreviation|[LeetCode 411](https://leetcode.com/problems/minimum-unique-word-abbreviation)|-
 Minimum Window Substring|[LeetCode 76](https://leetcode.com/problems/minimum-window-substring)|[LintCode 32](http://www.lintcode.com/problem/minimum-window-substring)
@@ -378,7 +378,7 @@ Nth Digit|[LeetCode 400](https://leetcode.com/problems/nth-digit)|-
 Null-terminated String|-|[LintCode 210](http://www.lintcode.com/problem/null-terminated-string)
 Number Complement|[LeetCode 476](https://leetcode.com/problems/number-complement)|-
 Number of 1 Bits|[LeetCode 191](https://leetcode.com/problems/number-of-1-bits)|-
-Number of Airplanes in the Sky|-|[LintCode 391](http://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+[Number of Airplanes in the Sky](problems/number-of-airplanes-in-the-sky.md)|-|[LintCode 391](http://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 Number of Boomerangs|[LeetCode 447](https://leetcode.com/problems/number-of-boomerangs)|-
 Number of Connected Components in an Undirected Graph|[LeetCode 323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph)|-
 Number of Digit One|[LeetCode 233](https://leetcode.com/problems/number-of-digit-one)|-
@@ -399,7 +399,7 @@ Paint House II|[LeetCode 265](https://leetcode.com/problems/paint-house-ii)|[Lin
 [Palindrome Linked List](problems/palindrome-linked-list.md)|[LeetCode 234](https://leetcode.com/problems/palindrome-linked-list)|[LintCode 223](http://www.lintcode.com/problem/palindrome-linked-list)
 Palindrome Number|[LeetCode 9](https://leetcode.com/problems/palindrome-number)|-
 Palindrome Pairs|[LeetCode 336](https://leetcode.com/problems/palindrome-pairs)|-
-Palindrome Partitioning|[LeetCode 131](https://leetcode.com/problems/palindrome-partitioning)|[LintCode 136](http://www.lintcode.com/problem/palindrome-partitioning)
+[Palindrome Partitioning](problems/palindrome-partitioning.md)|[LeetCode 131](https://leetcode.com/problems/palindrome-partitioning)|[LintCode 136](http://www.lintcode.com/problem/palindrome-partitioning)
 Palindrome Partitioning II|[LeetCode 132](https://leetcode.com/problems/palindrome-partitioning-ii)|[LintCode 108](http://www.lintcode.com/problem/palindrome-partitioning-ii)
 Palindrome Permutation|[LeetCode 266](https://leetcode.com/problems/palindrome-permutation)|-
 Palindrome Permutation II|[LeetCode 267](https://leetcode.com/problems/palindrome-permutation-ii)|-
@@ -430,8 +430,8 @@ Power of Four|[LeetCode 342](https://leetcode.com/problems/power-of-four)|-
 Power of Three|[LeetCode 326](https://leetcode.com/problems/power-of-three)|-
 Power of Two|[LeetCode 231](https://leetcode.com/problems/power-of-two)|-
 Predict the Winner|[LeetCode 486](https://leetcode.com/problems/predict-the-winner)|-
-Previous Permutation|-|[LintCode 51](http://www.lintcode.com/problem/previous-permutation)
-Print Numbers by Recursion|-|[LintCode 371](http://www.lintcode.com/problem/print-numbers-by-recursion)
+[Previous Permutation](problems/previous-permutation.md)|-|[LintCode 51](http://www.lintcode.com/problem/previous-permutation)
+[Print Numbers by Recursion](problems/print-numbers-by-recursion.md)|-|[LintCode 371](http://www.lintcode.com/problem/print-numbers-by-recursion)
 Product of Array Except Self|[LeetCode 238](https://leetcode.com/problems/product-of-array-except-self)|-
 [Product of Array Exclude Itself](problems/product-of-array-exclude-itself.md)|-|[LintCode 50](http://www.lintcode.com/problem/product-of-array-exclude-itself)
 Queue Reconstruction by Height|[LeetCode 406](https://leetcode.com/problems/queue-reconstruction-by-height)|-
@@ -457,13 +457,13 @@ Remove Duplicate Letters|[LeetCode 316](https://leetcode.com/problems/remove-dup
 [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)|[LeetCode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[LintCode 100](http://www.lintcode.com/problem/remove-duplicates-from-sorted-array)
 [Remove Duplicates from Sorted Array II](problems/remove-duplicates-from-sorted-array-ii.md)|[LeetCode 80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[LintCode 101](http://www.lintcode.com/problem/remove-duplicates-from-sorted-array-ii)
 [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)|[LeetCode 83](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|[LintCode 112](http://www.lintcode.com/problem/remove-duplicates-from-sorted-list)
-Remove Duplicates from Sorted List II|[LeetCode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[LintCode 113](http://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii)
+[Remove Duplicates from Sorted List II](problems/remove-duplicates-from-sorted-list-ii.md)|[LeetCode 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[LintCode 113](http://www.lintcode.com/problem/remove-duplicates-from-sorted-list-ii)
 Remove Duplicates from Unsorted List|-|[LintCode 217](http://www.lintcode.com/problem/remove-duplicates-from-unsorted-list)
-Remove Element|[LeetCode 27](https://leetcode.com/problems/remove-element)|[LintCode 172](http://www.lintcode.com/problem/remove-element)
+[Remove Element](problems/remove-element.md)|[LeetCode 27](https://leetcode.com/problems/remove-element)|[LintCode 172](http://www.lintcode.com/problem/remove-element)
 Remove Invalid Parentheses|[LeetCode 301](https://leetcode.com/problems/remove-invalid-parentheses)|-
 Remove K Digits|[LeetCode 402](https://leetcode.com/problems/remove-k-digits)|-
 [Remove Linked List Elements](problems/remove-linked-list-elements.md)|[LeetCode 203](https://leetcode.com/problems/remove-linked-list-elements)|[LintCode 452](http://www.lintcode.com/problem/remove-linked-list-elements)
-Remove Node in Binary Search Tree|-|[LintCode 87](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
+[Remove Node in Binary Search Tree](problems/remove-node-in-binary-search-tree.md)|-|[LintCode 87](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
 [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list.md)|[LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[LintCode 174](http://www.lintcode.com/problem/remove-nth-node-from-end-of-list)
 Reorder array to construct the minimum number|-|[LintCode 379](http://www.lintcode.com/problem/reorder-array-to-construct-the-minimum-number)
 [Reorder List](problems/reorder-list.md)|[LeetCode 143](https://leetcode.com/problems/reorder-list)|[LintCode 99](http://www.lintcode.com/problem/reorder-list)
@@ -475,7 +475,7 @@ Reverse Bits|[LeetCode 190](https://leetcode.com/problems/reverse-bits)|-
 [Reverse Linked List](problems/reverse-linked-list.md)|[LeetCode 206](https://leetcode.com/problems/reverse-linked-list)|[LintCode 35](http://www.lintcode.com/problem/reverse-linked-list)
 [Reverse Linked List II](problems/reverse-linked-list-ii.md)|[LeetCode 92](https://leetcode.com/problems/reverse-linked-list-ii)|[LintCode 36](http://www.lintcode.com/problem/reverse-linked-list-ii)
 [Reverse Nodes in k-Group](problems/reverse-nodes-in-k-group.md)|[LeetCode 25](https://leetcode.com/problems/reverse-nodes-in-k-group)|[LintCode 450](http://www.lintcode.com/problem/reverse-nodes-in-k-group)
-Reverse Pairs|[LeetCode 493](https://leetcode.com/problems/reverse-pairs)|[LintCode 532](http://www.lintcode.com/problem/reverse-pairs)
+[Reverse Pairs](problems/reverse-pairs.md)|[LeetCode 493](https://leetcode.com/problems/reverse-pairs)|[LintCode 532](http://www.lintcode.com/problem/reverse-pairs)
 Reverse String|[LeetCode 344](https://leetcode.com/problems/reverse-string)|-
 Reverse Vowels of a String|[LeetCode 345](https://leetcode.com/problems/reverse-vowels-of-a-string)|-
 [Reverse Words in a String](problems/reverse-words-in-a-string.md)|[LeetCode 151](https://leetcode.com/problems/reverse-words-in-a-string)|[LintCode 53](http://www.lintcode.com/problem/reverse-words-in-a-string)
@@ -493,15 +493,15 @@ Scramble String|[LeetCode 87](https://leetcode.com/problems/scramble-string)|[Li
 [Search a 2D Matrix](problems/search-a-2d-matrix.md)|[LeetCode 74](https://leetcode.com/problems/search-a-2d-matrix)|[LintCode 28](http://www.lintcode.com/problem/search-a-2d-matrix)
 [Search a 2D Matrix II](problems/search-a-2d-matrix-ii.md)|[LeetCode 240](https://leetcode.com/problems/search-a-2d-matrix-ii)|[LintCode 38](http://www.lintcode.com/problem/search-a-2d-matrix-ii)
 [Search for a Range](problems/search-for-a-range.md)|[LeetCode 34](https://leetcode.com/problems/search-for-a-range)|[LintCode 61](http://www.lintcode.com/problem/search-for-a-range)
-Search in Rotated Sorted Array|[LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array)|[LintCode 62](http://www.lintcode.com/problem/search-in-rotated-sorted-array)
-Search in Rotated Sorted Array II|[LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[LintCode 63](http://www.lintcode.com/problem/search-in-rotated-sorted-array-ii)
+[Search in Rotated Sorted Array](problems/search-in-rotated-sorted-array.md)|[LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array)|[LintCode 62](http://www.lintcode.com/problem/search-in-rotated-sorted-array)
+[Search in Rotated Sorted Array II](problems/search-in-rotated-sorted-array-ii.md)|[LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[LintCode 63](http://www.lintcode.com/problem/search-in-rotated-sorted-array-ii)
 [Search Insert Position](problems/search-insert-position.md)|[LeetCode 35](https://leetcode.com/problems/search-insert-position)|[LintCode 60](http://www.lintcode.com/problem/search-insert-position)
 [Search Range in Binary Search Tree](problems/search-range-in-binary-search-tree.md)|-|[LintCode 11](http://www.lintcode.com/problem/search-range-in-binary-search-tree)
 [Segment Tree Build](problems/segment-tree-build.md)|-|[LintCode 201](http://www.lintcode.com/problem/segment-tree-build)
 [Segment Tree Build II](problems/segment-tree-build-ii.md)|-|[LintCode 439](http://www.lintcode.com/problem/segment-tree-build-ii)
 [Segment Tree Modify](problems/segment-tree-modify.md)|-|[LintCode 203](http://www.lintcode.com/problem/segment-tree-modify)
 [Segment Tree Query](problems/segment-tree-query.md)|-|[LintCode 202](http://www.lintcode.com/problem/segment-tree-query)
-Segment Tree Query II|-|[LintCode 247](http://www.lintcode.com/problem/segment-tree-query-ii)
+[Segment Tree Query II](problems/segment-tree-query-ii.md)|-|[LintCode 247](http://www.lintcode.com/problem/segment-tree-query-ii)
 Self Crossing|[LeetCode 335](https://leetcode.com/problems/self-crossing)|-
 Sentence Screen Fitting|[LeetCode 418](https://leetcode.com/problems/sentence-screen-fitting)|-
 Sequence Reconstruction|[LeetCode 444](https://leetcode.com/problems/sequence-reconstruction)|-
@@ -515,10 +515,10 @@ Shortest Word Distance|[LeetCode 243](https://leetcode.com/problems/shortest-wor
 Shortest Word Distance II|[LeetCode 244](https://leetcode.com/problems/shortest-word-distance-ii)|-
 Shortest Word Distance III|[LeetCode 245](https://leetcode.com/problems/shortest-word-distance-iii)|-
 Shuffle an Array|[LeetCode 384](https://leetcode.com/problems/shuffle-an-array)|-
-Simplify Path|[LeetCode 71](https://leetcode.com/problems/simplify-path)|[LintCode 421](http://www.lintcode.com/problem/simplify-path)
+[Simplify Path](problems/simplify-path.md)|[LeetCode 71](https://leetcode.com/problems/simplify-path)|[LintCode 421](http://www.lintcode.com/problem/simplify-path)
 [Single Number](problems/single-number.md)|[LeetCode 136](https://leetcode.com/problems/single-number)|[LintCode 82](http://www.lintcode.com/problem/single-number)
-Single Number II|[LeetCode 137](https://leetcode.com/problems/single-number-ii)|[LintCode 83](http://www.lintcode.com/problem/single-number-ii)
-Single Number III|[LeetCode 260](https://leetcode.com/problems/single-number-iii)|[LintCode 84](http://www.lintcode.com/problem/single-number-iii)
+[Single Number II](problems/single-number-ii.md)|[LeetCode 137](https://leetcode.com/problems/single-number-ii)|[LintCode 83](http://www.lintcode.com/problem/single-number-ii)
+[Single Number III](problems/single-number-iii.md)|[LeetCode 260](https://leetcode.com/problems/single-number-iii)|[LintCode 84](http://www.lintcode.com/problem/single-number-iii)
 [Singleton](problems/singleton.md)|-|[LintCode 204](http://www.lintcode.com/problem/singleton)
 Sliding Window Maximum|[LeetCode 239](https://leetcode.com/problems/sliding-window-maximum)|[LintCode 362](http://www.lintcode.com/problem/sliding-window-maximum)
 Sliding Window Median|[LeetCode 480](https://leetcode.com/problems/sliding-window-median)|[LintCode 360](http://www.lintcode.com/problem/sliding-window-median)
@@ -530,7 +530,7 @@ Sort Colors II|-|[LintCode 143](http://www.lintcode.com/problem/sort-colors-ii)
 [Sort Integers](problems/sort-integers.md)|-|[LintCode 463](http://www.lintcode.com/problem/sort-integers)
 [Sort Integers II](problems/sort-integers-ii.md)|-|[LintCode 464](http://www.lintcode.com/problem/sort-integers-ii)
 [Sort Letters by Case](problems/sort-letters-by-case.md)|-|[LintCode 49](http://www.lintcode.com/problem/sort-letters-by-case)
-Sort List|[LeetCode 148](https://leetcode.com/problems/sort-list)|[LintCode 98](http://www.lintcode.com/problem/sort-list)
+[Sort List](problems/sort-list.md)|[LeetCode 148](https://leetcode.com/problems/sort-list)|[LintCode 98](http://www.lintcode.com/problem/sort-list)
 Sort Transformed Array|[LeetCode 360](https://leetcode.com/problems/sort-transformed-array)|-
 [Space Replacement](problems/space-replacement.md)|-|[LintCode 212](http://www.lintcode.com/problem/space-replacement)
 Sparse Matrix Multiplication|[LeetCode 311](https://leetcode.com/problems/sparse-matrix-multiplication)|-
@@ -540,7 +540,7 @@ Split Array Largest Sum|[LeetCode 410](https://leetcode.com/problems/split-array
 [Sqrt(x)](problems/sqrtx.md)|[LeetCode 69](https://leetcode.com/problems/sqrtx)|[LintCode 141](http://www.lintcode.com/problem/sqrtx)
 Stack Sorting|-|[LintCode 229](http://www.lintcode.com/problem/stack-sorting)
 String Compression|-|[LintCode 213](http://www.lintcode.com/problem/string-compression)
-String Permutation|-|[LintCode 211](http://www.lintcode.com/problem/string-permutation)
+[String Permutation](problems/string-permutation.md)|-|[LintCode 211](http://www.lintcode.com/problem/string-permutation)
 String to Integer (atoi)|[LeetCode 8](https://leetcode.com/problems/string-to-integer-atoi)|-
 String to Integer II|-|[LintCode 54](http://www.lintcode.com/problem/string-to-integer-ii)
 Strobogrammatic Number|[LeetCode 246](https://leetcode.com/problems/strobogrammatic-number)|-
@@ -567,7 +567,7 @@ Super Washing Machines|[LeetCode 517](https://leetcode.com/problems/super-washin
 [Surrounded Regions](problems/surrounded-regions.md)|[LeetCode 130](https://leetcode.com/problems/surrounded-regions)|[LintCode 477](http://www.lintcode.com/problem/surrounded-regions)
 Swap Bits|-|[LintCode 236](http://www.lintcode.com/problem/swap-bits)
 [Swap Nodes in Pairs](problems/swap-nodes-in-pairs.md)|[LeetCode 24](https://leetcode.com/problems/swap-nodes-in-pairs)|[LintCode 451](http://www.lintcode.com/problem/swap-nodes-in-pairs)
-Swap Two Nodes in Linked List|-|[LintCode 511](http://www.lintcode.com/problem/swap-two-nodes-in-linked-list)
+[Swap Two Nodes in Linked List](problems/swap-two-nodes-in-linked-list.md)|-|[LintCode 511](http://www.lintcode.com/problem/swap-two-nodes-in-linked-list)
 [Symmetric Tree](problems/symmetric-tree.md)|[LeetCode 101](https://leetcode.com/problems/symmetric-tree)|-
 Target Sum|[LeetCode 494](https://leetcode.com/problems/target-sum)|-
 Teemo Attacking|[LeetCode 495](https://leetcode.com/problems/teemo-attacking)|-
@@ -584,7 +584,7 @@ Top K Frequent Elements|[LeetCode 347](https://leetcode.com/problems/top-k-frequ
 Total Hamming Distance|[LeetCode 477](https://leetcode.com/problems/total-hamming-distance)|-
 [Toy Factory](problems/toy-factory.md)|-|[LintCode 496](http://www.lintcode.com/problem/toy-factory)
 [Trailing Zeros](problems/trailing-zeros.md)|-|[LintCode 2](http://www.lintcode.com/problem/trailing-zeros)
-Trapping Rain Water|[LeetCode 42](https://leetcode.com/problems/trapping-rain-water)|[LintCode 363](http://www.lintcode.com/problem/trapping-rain-water)
+[Trapping Rain Water](problems/trapping-rain-water.md)|[LeetCode 42](https://leetcode.com/problems/trapping-rain-water)|[LintCode 363](http://www.lintcode.com/problem/trapping-rain-water)
 Trapping Rain Water II|[LeetCode 407](https://leetcode.com/problems/trapping-rain-water-ii)|-
 [Triangle](problems/triangle.md)|[LeetCode 120](https://leetcode.com/problems/triangle)|[LintCode 109](http://www.lintcode.com/problem/triangle)
 Triangle Count|-|[LintCode 382](http://www.lintcode.com/problem/triangle-count)
@@ -595,13 +595,13 @@ Two Sum III - Data structure design|[LeetCode 170](https://leetcode.com/problems
 [Ugly Number](problems/ugly-number.md)|[LeetCode 263](https://leetcode.com/problems/ugly-number)|[LintCode 517](http://www.lintcode.com/problem/ugly-number)
 [Ugly Number II](problems/ugly-number-ii.md)|[LeetCode 264](https://leetcode.com/problems/ugly-number-ii)|[LintCode 4](http://www.lintcode.com/problem/ugly-number-ii)
 [Unique Binary Search Trees](problems/unique-binary-search-trees.md)|[LeetCode 96](https://leetcode.com/problems/unique-binary-search-trees)|[LintCode 163](http://www.lintcode.com/problem/unique-binary-search-trees)
-Unique Binary Search Trees II|[LeetCode 95](https://leetcode.com/problems/unique-binary-search-trees-ii)|[LintCode 164](http://www.lintcode.com/problem/unique-binary-search-trees-ii)
+[Unique Binary Search Trees II](problems/unique-binary-search-trees-ii.md)|[LeetCode 95](https://leetcode.com/problems/unique-binary-search-trees-ii)|[LintCode 164](http://www.lintcode.com/problem/unique-binary-search-trees-ii)
 [Unique Characters](problems/unique-characters.md)|-|[LintCode 157](http://www.lintcode.com/problem/unique-characters)
 [Unique Paths](problems/unique-paths.md)|[LeetCode 62](https://leetcode.com/problems/unique-paths)|[LintCode 114](http://www.lintcode.com/problem/unique-paths)
 [Unique Paths II](problems/unique-paths-ii.md)|[LeetCode 63](https://leetcode.com/problems/unique-paths-ii)|[LintCode 115](http://www.lintcode.com/problem/unique-paths-ii)
 Unique Substrings in Wraparound String|[LeetCode 467](https://leetcode.com/problems/unique-substrings-in-wraparound-string)|-
 Unique Word Abbreviation|[LeetCode 288](https://leetcode.com/problems/unique-word-abbreviation)|-
-Update Bits|-|[LintCode 179](http://www.lintcode.com/problem/update-bits)
+[Update Bits](problems/update-bits.md)|-|[LintCode 179](http://www.lintcode.com/problem/update-bits)
 UTF-8 Validation|[LeetCode 393](https://leetcode.com/problems/utf-8-validation)|-
 Valid Anagram|[LeetCode 242](https://leetcode.com/problems/valid-anagram)|-
 Valid Number|[LeetCode 65](https://leetcode.com/problems/valid-number)|[LintCode 417](http://www.lintcode.com/problem/valid-number)
@@ -617,11 +617,11 @@ Verify Preorder Sequence in Binary Search Tree|[LeetCode 255](https://leetcode.c
 Verify Preorder Serialization of a Binary Tree|[LeetCode 331](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|-
 Walls and Gates|[LeetCode 286](https://leetcode.com/problems/walls-and-gates)|-
 Water and Jug Problem|[LeetCode 365](https://leetcode.com/problems/water-and-jug-problem)|-
-Wiggle Sort|[LeetCode 280](https://leetcode.com/problems/wiggle-sort)|[LintCode 508](http://www.lintcode.com/problem/wiggle-sort)
+[Wiggle Sort](problems/wiggle-sort.md)|[LeetCode 280](https://leetcode.com/problems/wiggle-sort)|[LintCode 508](http://www.lintcode.com/problem/wiggle-sort)
 Wiggle Sort II|[LeetCode 324](https://leetcode.com/problems/wiggle-sort-ii)|[LintCode 507](http://www.lintcode.com/problem/wiggle-sort-ii)
 Wiggle Subsequence|[LeetCode 376](https://leetcode.com/problems/wiggle-subsequence)|-
 Wildcard Matching|[LeetCode 44](https://leetcode.com/problems/wildcard-matching)|[LintCode 192](http://www.lintcode.com/problem/wildcard-matching)
-Wood Cut|-|[LintCode 183](http://www.lintcode.com/problem/wood-cut)
+[Wood Cut](problems/wood-cut.md)|-|[LintCode 183](http://www.lintcode.com/problem/wood-cut)
 [Word Break](problems/word-break.md)|[LeetCode 139](https://leetcode.com/problems/word-break)|[LintCode 107](http://www.lintcode.com/problem/word-break)
 Word Break II|[LeetCode 140](https://leetcode.com/problems/word-break-ii)|-
 [Word Count (Map Reduce)](problems/word-count-map-reduce.md)|-|[LintCode 499](http://www.lintcode.com/problem/word-count-map-reduce)
@@ -629,7 +629,7 @@ Word Break II|[LeetCode 140](https://leetcode.com/problems/word-break-ii)|-
 [Word Ladder II](problems/word-ladder-ii.md)|[LeetCode 126](https://leetcode.com/problems/word-ladder-ii)|[LintCode 121](http://www.lintcode.com/problem/word-ladder-ii)
 Word Pattern|[LeetCode 290](https://leetcode.com/problems/word-pattern)|-
 Word Pattern II|[LeetCode 291](https://leetcode.com/problems/word-pattern-ii)|-
-Word Search|[LeetCode 79](https://leetcode.com/problems/word-search)|[LintCode 123](http://www.lintcode.com/problem/word-search)
+[Word Search](problems/word-search.md)|[LeetCode 79](https://leetcode.com/problems/word-search)|[LintCode 123](http://www.lintcode.com/problem/word-search)
 Word Search II|[LeetCode 212](https://leetcode.com/problems/word-search-ii)|[LintCode 132](http://www.lintcode.com/problem/word-search-ii)
 Word Squares|[LeetCode 425](https://leetcode.com/problems/word-squares)|-
 ZigZag Conversion|[LeetCode 6](https://leetcode.com/problems/zigzag-conversion)|-

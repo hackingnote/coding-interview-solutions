@@ -29,7 +29,6 @@ Code(Java)
 ----------
 
 ```java
-
 public class Solution {
     /**
      *@param A : an integer array

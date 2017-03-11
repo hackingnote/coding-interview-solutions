@@ -1,4 +1,3 @@
-
 public class Solution {
     /**
      *@param A : an integer array

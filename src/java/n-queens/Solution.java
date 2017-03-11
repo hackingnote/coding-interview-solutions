@@ -2,8 +2,10 @@
 class Solution {
 
     private ArrayList<ArrayList<String>> result;
+
     /**
      * Get all distinct N-Queen solutions
+     *
      * @param n: The number of queens
      * @return: All distinct solutions
      * For example, A string '...Q' shows a queen on forth position

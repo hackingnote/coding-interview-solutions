@@ -1,7 +1,7 @@
 public class Solution {
     /**
-     *@param n: Given a decimal number that is passed in as a string
-     *@return: A string
+     * @param n: Given a decimal number that is passed in as a string
+     * @return: A string
      */
     public String binaryRepresentation(String n) {
 
@@ -11,7 +11,7 @@ public class Solution {
 
         double num = Double.parseDouble(n);
 
-        int part1 = (int)num;
+        int part1 = (int) num;
         double part2 = Double.parseDouble("0." + s[1]);
 
         while (part1 > 0) {

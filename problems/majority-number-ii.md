@@ -44,7 +44,7 @@ public class Solution {
         int cnt2 = 0;
         int num1 = 0;
         int num2 = 0;
-        
+
         for (int n : nums) {
             if (cnt1 == 0) {
                 num1 = n;
@@ -61,7 +61,7 @@ public class Solution {
                 cnt2--;
             }
         }
-        
+
         int cnt = 0;
         for (int n : nums) {
             if (n == num1) {

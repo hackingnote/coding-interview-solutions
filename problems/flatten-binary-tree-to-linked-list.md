@@ -46,12 +46,12 @@ Code(Java)
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  */
 public class Solution {
@@ -63,7 +63,7 @@ public class Solution {
         if (root == null || root.left == null && root.right == null) {
             return;
         }
-        
+
         if (root.left != null) {
             flatten(root.left);
             TreeNode tmpRight = root.right;

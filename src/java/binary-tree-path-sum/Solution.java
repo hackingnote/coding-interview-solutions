@@ -1,17 +1,17 @@
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  */
 public class Solution {
     /**
-     * @param root the root of binary tree
+     * @param root   the root of binary tree
      * @param target an integer
      * @return all valid paths
      */
@@ -33,7 +33,7 @@ public class Solution {
                 sum += i;
             }
             if (sum == target) {
-               result.add(new ArrayList<Integer>(buffer));
+                result.add(new ArrayList<Integer>(buffer));
             }
             return;
         }

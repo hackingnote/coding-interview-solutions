@@ -39,7 +39,7 @@ class Solution {
      * @return: A list of unique permutations.
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
-      
+
         Arrays.sort(nums);
         boolean[] visited = new boolean[nums.length];
         LinkedList<Integer> buffer = new LinkedList<>();
@@ -47,10 +47,8 @@ class Solution {
         perm(result, 0, buffer, visited, nums);
         return result;
     }
-    
- 
 
-    
+
     private void perm(List<List<Integer>> result, int level, LinkedList<Integer> buffer, boolean[] visited, int[] nums) {
         if (level == nums.length) {
             result.add(new ArrayList<Integer>(buffer));

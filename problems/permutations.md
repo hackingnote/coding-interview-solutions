@@ -48,10 +48,10 @@ class Solution {
         perm(result, 0, buffer, visited);
         return result;
     }
-    
+
     private int[] nums;
 
-    
+
     private void perm(List<List<Integer>> result, int level, LinkedList<Integer> buffer, boolean[] visited) {
         if (level == nums.length) {
             result.add(new ArrayList<Integer>(buffer));

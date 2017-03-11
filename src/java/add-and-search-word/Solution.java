@@ -1,10 +1,12 @@
 public class WordDictionary {
 
     private TrieNode root;
+
     public WordDictionary() {
         root = new TrieNode('_');
 
     }
+
     // Adds a word into the data structure.
     public void addWord(String word) {
         char[] c = word.toCharArray();

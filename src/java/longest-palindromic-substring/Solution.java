@@ -13,7 +13,7 @@ public class Solution {
             b[2 * i + 1] = '#';
             b[2 * i + 2] = a[i];
         }
-        
+
         int[] p = new int[b.length];
         int index = 1;
         int maxLength = 0;
@@ -25,22 +25,22 @@ public class Solution {
             } else {
                 p[i] = 1;
             }
-            
+
             // matching and extending p[i]
             while (b[i + p[i]] == b[i - p[i]]) p[i]++;
-            
+
             if (p[i] > p[index]) {
                 index = i;
             }
         }
-        
+
         String result = "";
-        for (int i = index - p[index] + 1; i<= index + p[index] - 1; i++) {
+        for (int i = index - p[index] + 1; i <= index + p[index] - 1; i++) {
             if (b[i] != '#') {
                 result += b[i];
             }
         }
-        
+
         return result;
     }
 }

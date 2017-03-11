@@ -1,8 +1,8 @@
 
 public class Solution {
     /**
-     *@param chars: The letter array you should sort by Case
-     *@return: void
+     * @param chars: The letter array you should sort by Case
+     * @return: void
      */
     public void sortLetters(char[] chars) {
         int i = 0, j = chars.length - 1;

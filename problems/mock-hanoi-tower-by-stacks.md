@@ -26,11 +26,12 @@ Code(Java)
 
 public class Tower {
     private Stack<Integer> disks;
+
     // create three towers (i from 0 to 2)
     public Tower(int i) {
         disks = new Stack<Integer>();
     }
-	
+
     // Add a disk into this tower
     public void add(int d) {
         if (!disks.isEmpty() && disks.peek() <= d) {
@@ -39,7 +40,7 @@ public class Tower {
             disks.push(d);
         }
     }
-	
+
     // @param t a tower
     // Move the top disk of this tower to the top of t.
     public void moveTopTo(Tower t) {
@@ -47,7 +48,7 @@ public class Tower {
         int v = disks.pop();
         t.add(v);
     }
-	
+
     // @param n an integer
     // @param destination a tower
     // @param buffer a tower
@@ -56,12 +57,12 @@ public class Tower {
         // Write your code here
         if (n == 0) {
             return;
-        } 
+        }
         moveDisks(n - 1, buffer, destination);
         moveTopTo(destination);
         buffer.moveDisks(n - 1, destination, this);
-            
-        
+
+
     }
 
     public Stack<Integer> getDisks() {
@@ -70,11 +71,11 @@ public class Tower {
 }
 /**
  * Your Tower object will be instantiated and called as such:
- * Tower[] towers = new Tower[3];	
+ * Tower[] towers = new Tower[3];
  * for (int i = 0; i < 3; i++) towers[i] = new Tower(i);
- * for (int i = n - 1; i >= 0; i--) towers[0].add(i);	
+ * for (int i = n - 1; i >= 0; i--) towers[0].add(i);
  * towers[0].moveDisks(n, towers[2], towers[1]);
  * print towers[0], towers[1], towers[2]
-*/
+ */
 
 ```

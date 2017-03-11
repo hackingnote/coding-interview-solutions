@@ -8,7 +8,7 @@ public class Solution {
 
         result.add(0);
 
-        for (int i = 0; i < n; i ++) {
+        for (int i = 0; i < n; i++) {
             int len = result.size();
             int k = 1 << i;
             for (int j = len - 1; j >= 0; j--) {

@@ -1,10 +1,10 @@
 public class Solution {
-	/**
-	 * @param A : An integer array
-	 * @return : An integer
-	 */
+    /**
+     * @param A : An integer array
+     * @return : An integer
+     */
     public int singleNumberII(int[] A) {
-         int result = 0;
+        int result = 0;
 
         for (int i = 0; i < 32; i++) {
             int count = 0;

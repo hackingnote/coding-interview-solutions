@@ -30,7 +30,6 @@ public class Solution {
         int low = 0, high = num.length - 1, mid;
 
 
-
         while (low < high) {
 
             mid = (low + high) / 2;

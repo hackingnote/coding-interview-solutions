@@ -37,7 +37,7 @@ Code(Java)
 ```java
 public class Solution {
     /**
-     * @param gas: an array of integers
+     * @param gas:  an array of integers
      * @param cost: an array of integers
      * @return: an integer
      */

@@ -6,9 +6,9 @@ public class Solution {
         boolean[] flag = new boolean[size];
 
         for (int i = 0; i < size; i++) {
-            if (i == 0 || flag[i-1] == true) {
+            if (i == 0 || flag[i - 1] == true) {
                 for (int j = i; j < size; j++) {
-                    if (dict.contains(s.substring(i, j+1))) {
+                    if (dict.contains(s.substring(i, j + 1))) {
                         flag[j] = true;
                     }
                 }
@@ -22,7 +22,7 @@ public class Solution {
 
 public class Solution {
     /**
-     * @param s: A string s
+     * @param s:    A string s
      * @param dict: A dictionary of words dict
      */
     public boolean wordBreak(String s, Set<String> dict) {

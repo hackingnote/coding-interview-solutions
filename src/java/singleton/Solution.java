@@ -5,7 +5,8 @@ class Solution {
      */
     private static Solution solution = new Solution();
 
-    private Solution() {}
+    private Solution() {
+    }
 
     public static Solution getInstance() {
         return solution;

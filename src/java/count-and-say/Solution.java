@@ -9,11 +9,11 @@ public class Solution {
             char[] c = s.toCharArray();
             String t = "";
             int cnt = 1;
-            
+
             int i = 1;
             while (i <= c.length) {
                 if (i == c.length) {
-                    t += cnt + "" + c[i - 1]; 
+                    t += cnt + "" + c[i - 1];
                 } else if (c[i] == c[i - 1]) {
                     cnt++;
                 } else {

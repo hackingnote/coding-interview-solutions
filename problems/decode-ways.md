@@ -42,13 +42,13 @@ public class Solution {
         // Write your code here
         char[] raw = s.toCharArray();
         int[] input = new int[raw.length];
-        
+
         if (raw.length == 0) return 0;
-        
+
         for (int i = 0; i < raw.length; i++) {
             input[i] = raw[i] - '0';
         }
-        
+
         if (raw.length == 1) {
             if (input[0] == 0) {
                 return 0;
@@ -56,11 +56,11 @@ public class Solution {
                 return 1;
             }
         }
-        
+
         int[] cnt = new int[raw.length];
         cnt[0] = 1;
         cnt[1] = input[1] == 0 ? 1 : input[0] * 10 + input[1] <= 26 ? 2 : 1;
-        
+
         int i = 2;
         while (i < raw.length) {
             if (input[i] == 0) {
@@ -70,7 +70,7 @@ public class Solution {
                 }
                 cnt[i + 1] = cnt[i];
                 i += 2;
-              
+
             } else {
                 if (input[i - 1] * 10 + input[i] <= 26) {
                     cnt[i] = cnt[i - 2] + cnt[i - 1];

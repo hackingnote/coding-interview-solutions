@@ -1,12 +1,12 @@
 public class Solution {
     /**
-     * @param n an integer
+     * @param n     an integer
      * @param edges a list of undirected edges
      * @return true if it's a valid tree, or false
      */
     public boolean validTree(int n, int[][] edges) {
         //if (edges.length == 0) return true;
-Map<Integer, Set<Integer>> map = new HashMap<>();
+        Map<Integer, Set<Integer>> map = new HashMap<>();
         boolean[] visited = new boolean[n];
         for (int i = 0; i < edges.length; i++) {
             Integer x = edges[i][0];
@@ -23,7 +23,7 @@ Map<Integer, Set<Integer>> map = new HashMap<>();
 
         queue.offer(0);
         visited[0] = true;
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             int node = queue.poll();
             if (!map.containsKey(node)) break;
             for (int k : map.get(node)) {

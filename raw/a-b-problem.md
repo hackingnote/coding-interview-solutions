@@ -27,3 +27,19 @@ Challenge
 ---------
 
 Of course you can just return a + b to get accepted. But Can you challenge not do it like that?
+
+Solution
+--------
+
+``+`` is not allowed to use, however we can directly manipulate bits to simulate the plus operation. 
+
+In its binary format, ``1 + 0`` will be ``1``, ``0 + 0`` will be ``0``, ``1 + 1`` will become ``0``, and the carry becomes ``1``. So the result without carry can be calculated by xor ``a ^ b``, and the carry ``a & b``, if carry is not ``0``, shift it left by 1, and add again:
+ 
+```java
+while(b != 0) {
+    int carry = a & b;
+    a = a ^ b;
+    b = carry << 1;
+}
+```
+

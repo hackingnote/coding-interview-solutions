@@ -12,7 +12,7 @@ public class Solution {
         int result = 0;
         while (true) {
             int i;
-            for(i = c.length - 1; i>= 0; i--) {
+            for (i = c.length - 1; i >= 0; i--) {
                 if (s.startsWith(c[i])) {
                     result += k[i];
                     s = s.substring(c[i].length());

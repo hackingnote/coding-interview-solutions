@@ -20,9 +20,9 @@ Code(Java)
 ```java
 public class Solution {
     /**
-     *@param A : an integer rotated sorted array
-     *@param target :  an integer to be searched
-     *return : an integer
+     * @param A      : an integer rotated sorted array
+     * @param target :  an integer to be searched
+     *               return : an integer
      */
     public int search(int[] A, int target) {
         int low = 0, high = A.length - 1;
@@ -39,7 +39,7 @@ public class Solution {
                     low = mid + 1;
                 }
             } else {
-                if (A[mid] < target  && target <= A[high]) {
+                if (A[mid] < target && target <= A[high]) {
                     low = mid + 1;
                 } else {
                     high = mid - 1;

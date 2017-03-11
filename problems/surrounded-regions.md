@@ -118,26 +118,26 @@ public class Solution {
 
 public class Solution {
 
-    private int MAX_QUEUE=100000;
+    private int MAX_QUEUE = 100000;
 
     public void solve(char[][] board) {
         int xLen = board.length;
-        if (xLen ==0) return;
+        if (xLen == 0) return;
         int yLen = board[0].length;
 
         int[] qx = new int[MAX_QUEUE];
         int[] qy = new int[MAX_QUEUE];
-        int head=0;
-        int tail=0;
+        int head = 0;
+        int tail = 0;
         for (int i = 0; i < xLen; i++) {
             if (board[i][0] == 'O') {
-                qx[tail]=i;
-                qy[tail]=0;
+                qx[tail] = i;
+                qy[tail] = 0;
                 tail++;
             }
-            if (board[i][yLen - 1]=='O') {
-                qx[tail]=i;
-                qy[tail]=yLen - 1;
+            if (board[i][yLen - 1] == 'O') {
+                qx[tail] = i;
+                qy[tail] = yLen - 1;
                 tail++;
             }
 
@@ -149,9 +149,9 @@ public class Solution {
                 qy[tail] = i;
                 tail++;
             }
-            if (board[xLen-1][i] == 'O') {
-                qx[tail] = xLen -1;
-                qy[tail]=i;
+            if (board[xLen - 1][i] == 'O') {
+                qx[tail] = xLen - 1;
+                qy[tail] = i;
                 tail++;
             }
         }
@@ -164,10 +164,10 @@ public class Solution {
             int y = qy[head];
 
             board[x][y] = 'N';
-            for (int d = 0 ; d < 4; d++) {
+            for (int d = 0; d < 4; d++) {
                 int nx = x + dx[d];
                 int ny = y + dy[d];
-                if (nx >= 0 && nx < xLen && ny >= 0 && ny < yLen && board[nx][ny]=='O') {
+                if (nx >= 0 && nx < xLen && ny >= 0 && ny < yLen && board[nx][ny] == 'O') {
                     qx[tail] = nx;
                     qy[tail] = ny;
                     tail++;

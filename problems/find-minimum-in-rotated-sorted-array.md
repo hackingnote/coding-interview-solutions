@@ -69,12 +69,12 @@ public class Solution {
      * @return: the minimum number in the array
      */
     public int findMin(int[] num) {
-        
-        
+
+
         int low = 0;
         int high = num.length - 1;
-        
-        while(num[low] > num[high]) {
+
+        while (num[low] > num[high]) {
             if (low == high - 1) {
                 return num[high];
             }
@@ -85,7 +85,7 @@ public class Solution {
                 high = mid;
             }
         }
-        
+
         return num[low];
     }
 }

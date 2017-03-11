@@ -18,12 +18,12 @@ public class Solution {
                 char t = stack.pop();
 
                 if (!(t == '(' && c == ')' ||
-                    t == '[' && c == ']' ||
-                    t == '{' && c == '}')) {
-                        return false;
+                        t == '[' && c == ']' ||
+                        t == '{' && c == '}')) {
+                    return false;
 
 
-                    }
+                }
             }
         }
         if (stack.isEmpty()) {

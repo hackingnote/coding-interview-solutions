@@ -2,14 +2,14 @@
 /**
  * Definition for ListNode.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int val) {
+ * this.val = val;
+ * this.next = null;
  * }
- */ 
+ * }
+ */
 public class Solution {
     /**
      * @param head: The first node of linked list.
@@ -17,7 +17,7 @@ public class Solution {
      */
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode(0);
-        
+
         while (head != null) {
             ListNode n = dummy;
             while (n.next != null && n.next.val < head.val) n = n.next;
@@ -26,7 +26,7 @@ public class Solution {
             n.next = head;
             head = next;
         }
-        
+
         return dummy.next;
     }
 }

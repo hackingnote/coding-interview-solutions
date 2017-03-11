@@ -32,17 +32,18 @@ Code(Java)
 /**
  * Definition of Interval:
  * public classs Interval {
- *     int start, end;
- *     Interval(int start, int end) {
- *         this.start = start;
- *         this.end = end;
- *     }
+ * int start, end;
+ * Interval(int start, int end) {
+ * this.start = start;
+ * this.end = end;
+ * }
  */
 
 class Solution {
     /**
      * Insert newInterval into intervals.
-     * @param intervals: Sorted interval list.
+     *
+     * @param intervals:   Sorted interval list.
      * @param newInterval: A new interval.
      * @return: A new sorted interval list.
      */
@@ -53,14 +54,13 @@ class Solution {
         boolean inserted = false;
 
 
-
         int i = 0;
         int j = -1;
 
         while (i < size || inserted == false) {
 
             Interval candidate = null;
-            if (i == size || (inserted == false  && intervals.get(i).start > newInterval.start)) {
+            if (i == size || (inserted == false && intervals.get(i).start > newInterval.start)) {
                 candidate = newInterval;
                 inserted = true;
             } else {

@@ -1,5 +1,5 @@
 public class Solution {
-    /**    
+    /**
      * @param A: an array of integers
      * @return: an integer
      */

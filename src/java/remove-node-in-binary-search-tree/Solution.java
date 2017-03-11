@@ -1,28 +1,28 @@
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  */
 public class Solution {
     /**
-     * @param root: The root of the binary search tree.
+     * @param root:  The root of the binary search tree.
      * @param value: Remove the node with given value.
      * @return: The root of the binary search tree after removal.
      */
     public TreeNode removeNode(TreeNode root, int value) {
         TreeNode dummy = new TreeNode(Integer.MAX_VALUE);
         dummy.left = root;
-        
+
         TreeNode node = dummy;
-        while(true) {
+        while (true) {
             if (node == null) break;
-            
+
             if (node.left != null && node.left.val == value) {
                 remove(node, true);
                 break;
@@ -34,14 +34,14 @@ public class Solution {
                 else node = node.right;
             }
         }
-        
+
         return dummy.left;
-        
+
     }
-    
+
     private void remove(TreeNode parent, boolean isLeft) {
         TreeNode target = isLeft ? parent.left : parent.right;
-        
+
         if (target.left == null && target.right == null) {
             if (isLeft) parent.left = null;
             else parent.right = null;

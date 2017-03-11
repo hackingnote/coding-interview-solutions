@@ -21,7 +21,7 @@ public class Solution {
             }
         }
         int min = Integer.MAX_VALUE;
-        for (int j = 0;j < lenX; j++) {
+        for (int j = 0; j < lenX; j++) {
             min = Math.min(min, sum[lenX - 1][j]);
         }
         return min;

@@ -35,7 +35,7 @@ Code(Java)
 public class Solution {
     /**
      * @param A: An array of non-negative integers.
-     * return: The maximum amount of money you can rob tonight
+     *           return: The maximum amount of money you can rob tonight
      */
     public long houseRobber(int[] A) {
         if (A.length == 0) {

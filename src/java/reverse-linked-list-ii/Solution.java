@@ -2,27 +2,27 @@
 /**
  * Definition for ListNode
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) {
+ * val = x;
+ * next = null;
+ * }
  * }
  */
 public class Solution {
     /**
-     * @param ListNode head is the head of the linked list 
+     * @param ListNode head is the head of the linked list
      * @oaram m and n
      * @return: The head of the reversed ListNode
      */
-    public ListNode reverseBetween(ListNode head, int m , int n) {
+    public ListNode reverseBetween(ListNode head, int m, int n) {
         // write your code
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         head = dummy;
-    
-        
+
+
         for (int i = 0; i < m - 1; i++) {
             head = head.next;
         }
@@ -33,7 +33,7 @@ public class Solution {
             node.next = head.next.next;
             head.next.next = tmp;
         }
-        
+
         return dummy.next;
     }
 }

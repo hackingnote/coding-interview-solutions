@@ -30,7 +30,7 @@ Code(Java)
 
 ```java
 public class Solution {
-    /**    
+    /**
      * @param nums: an array of integers
      * @return: an integer
      */
@@ -42,7 +42,7 @@ public class Solution {
         }
         result ^= nums.length;
         return result;
-        
+
     }
 }
 

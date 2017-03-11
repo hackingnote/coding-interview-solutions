@@ -20,21 +20,21 @@ Code(Java)
 /**
  * Definition for ListNode.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int val) {
+ * this.val = val;
+ * this.next = null;
+ * }
  * }
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  */
 public class Solution {
@@ -50,7 +50,7 @@ public class Solution {
         TreeNode root = new TreeNode(mid.val);
         prev.next = null;
         if (mid != head) {
-        root.left = sortedListToBST(head);
+            root.left = sortedListToBST(head);
         }
         root.right = sortedListToBST(mid.next);
         return root;

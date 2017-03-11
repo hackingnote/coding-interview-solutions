@@ -10,24 +10,24 @@ public class Solution {
         search(result, buffer, c, s, 0);
         return result;
     }
-    
+
     private void search(List<List<String>> result, List<String> buffer, char[] c, String s, int index) {
-        
+
         if (index >= c.length) {
             result.add(buffer);
             return;
         }
-        
+
         for (int k = index; k < c.length; k++) {
             if (k == index || isPalindrome(c, index, k)) {
                 List<String> copy = new ArrayList<>(buffer);
                 copy.add(s.substring(index, k + 1));
-                
+
                 search(result, copy, c, s, k + 1);
             }
         }
     }
-    
+
     private boolean isPalindrome(char[] c, int i, int j) {
         while (i < j) {
             if (c[i] != c[j]) return false;

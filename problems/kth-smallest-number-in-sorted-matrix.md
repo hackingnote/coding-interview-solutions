@@ -43,7 +43,7 @@ Code(Java)
 public class Solution {
     /**
      * @param matrix: a matrix of integers
-     * @param k: an integer
+     * @param k:      an integer
      * @return: the kth smallest number in the matrix
      */
     public int kthSmallest(int[][] matrix, int k) {

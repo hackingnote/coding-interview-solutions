@@ -10,7 +10,7 @@ public class Solution {
         for (int i = 0; i < size; i++) {
             if (i == 0 || !result.get(i - 1).isEmpty()) {
                 for (int j = i; j < size; j++) {
-                    String sub = s.substring(i, j+1);
+                    String sub = s.substring(i, j + 1);
                     if (dict.contains(sub)) {
                         List<String> list = result.get(j);
                         list.add(sub);
@@ -18,7 +18,6 @@ public class Solution {
                 }
             }
         }
-
 
 
         return backtrack(result, new ArrayList<String>(), size - 1);

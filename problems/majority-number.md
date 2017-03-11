@@ -37,7 +37,7 @@ public class Solution {
         int n = 0;
         for (int i : nums) {
             if (cnt == 0) {
-                n = i; 
+                n = i;
                 cnt++;
             } else if (i == n) {
                 cnt++;

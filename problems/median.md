@@ -42,7 +42,7 @@ public class Solution {
      * @return: An integer denotes the middle number of the array.
      */
     public int median(int[] nums) {
-        int m = (nums.length - 1)  / 2;
+        int m = (nums.length - 1) / 2;
         int left = 0;
         int right = nums.length - 1;
         while (true) {

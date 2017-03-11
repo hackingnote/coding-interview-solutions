@@ -37,8 +37,8 @@ public class Solution {
             return cnt.get(n);
         }
 
-        for (int i = size ; i <= n; i++) {
-            cnt.add(cnt.get(i-1) + cnt.get(i-2));
+        for (int i = size; i <= n; i++) {
+            cnt.add(cnt.get(i - 1) + cnt.get(i - 2));
         }
         return cnt.get(n);
     }
@@ -53,10 +53,10 @@ public class Solution {
         int a = 1, b = 1;
         while (n-- > 0) {
             int c = a + b;
-            a = b; 
+            a = b;
             b = c;
         }
-        
+
         return a;
     }
 }

@@ -30,7 +30,7 @@ Code(Java)
 ```java
 class Solution {
     /**
-     * @param nums: The integer array.
+     * @param nums:   The integer array.
      * @param target: Target to find.
      * @return: The first position of target. Position starts from 0.
      */

@@ -39,7 +39,7 @@ class Solution {
 
         int i = m - 1;
         int j = n - 1;
-        for(int k = m + n - 1; k >= 0; k--) {
+        for (int k = m + n - 1; k >= 0; k--) {
             if (i == -1) {
                 A[k] = B[j--];
             } else if (j == -1) {

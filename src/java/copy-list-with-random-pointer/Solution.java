@@ -1,9 +1,9 @@
 /**
  * Definition for singly-linked list with a random pointer.
  * class RandomListNode {
- *     int label;
- *     RandomListNode next, random;
- *     RandomListNode(int x) { this.label = x; }
+ * int label;
+ * RandomListNode next, random;
+ * RandomListNode(int x) { this.label = x; }
  * };
  */
 public class Solution {
@@ -12,7 +12,7 @@ public class Solution {
      * @return: A new head of a deep copy of the list.
      */
     public RandomListNode copyRandomList(RandomListNode head) {
- 
+
         RandomListNode n = head;
         while (n != null) {
             RandomListNode copy = new RandomListNode(n.label);
@@ -20,7 +20,7 @@ public class Solution {
             n.next = copy;
             n = copy.next;
         }
-        
+
         n = head;
         while (n != null) {
             if (n.random != null) {
@@ -28,7 +28,7 @@ public class Solution {
             }
             n = n.next.next;
         }
-        
+
         RandomListNode old = head;
         RandomListNode newHead = head.next;
         n = head.next;

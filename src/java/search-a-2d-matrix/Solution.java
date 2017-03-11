@@ -17,7 +17,7 @@ public class Solution {
 
     private int binarySearchRow(int[][] matrix, int target) {
         int start = 0, end = matrix.length - 1;
-        while(start <= end) {
+        while (start <= end) {
             int mid = (start + end) / 2;
             int[] row = matrix[mid];
             if (target < row[0]) {

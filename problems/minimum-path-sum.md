@@ -47,7 +47,7 @@ public class Solution {
             sum[0][j] = grid[0][j] + sum[0][j - 1];
         }
 
-        for (int i = 1; i < lenX; i++)  {
+        for (int i = 1; i < lenX; i++) {
             for (int j = 1; j < lenY; j++) {
                 sum[i][j] = Math.min(sum[i][j - 1], sum[i - 1][j]) + grid[i][j];
             }

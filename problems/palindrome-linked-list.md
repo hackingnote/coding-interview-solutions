@@ -33,9 +33,9 @@ Code(Java)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
 public class Solution {
@@ -53,17 +53,17 @@ public class Solution {
             len++;
             p = p.next;
         }
-        
+
         p = head;
         int cnt = 1;
         while (cnt < len / 2) {
             p = p.next;
             cnt++;
         }
-        
+
         ListNode q = p.next;
         while (q != null) {
-            
+
             ListNode t = q.next;
             q.next = p;
             p = q;
@@ -78,8 +78,8 @@ public class Solution {
         }
         return true;
     }
-    
-   
+
+
 }
 
 ```

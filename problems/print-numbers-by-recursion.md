@@ -30,7 +30,7 @@ Code(Java)
 public class Solution {
     /**
      * @param n: An integer.
-     * return : An array storing 1 to the largest number with n digits.
+     *           return : An array storing 1 to the largest number with n digits.
      */
     public List<Integer> numbersByRecursion(int n) {
 
@@ -51,17 +51,17 @@ public class Solution {
     }
 
     private void recursion(List<Integer> result, int[] base, int s, int digit) {
-         if (digit == base.length - 1) {
-                if (s != 0) {
-                    result.add(s);
-                }
-                return;
-
+        if (digit == base.length - 1) {
+            if (s != 0) {
+                result.add(s);
             }
+            return;
 
-            for (int i = 0; i < 10; i++) {
-                recursion(result, base, s + base[digit + 1] * i, digit + 1);
-            }
+        }
+
+        for (int i = 0; i < 10; i++) {
+            recursion(result, base, s + base[digit + 1] * i, digit + 1);
+        }
     }
 }
 ```

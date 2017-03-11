@@ -1,7 +1,7 @@
 public class Solution {
     /**
      * @param board: A list of lists of character
-     * @param word: A string
+     * @param word:  A string
      * @return: A boolean
      */
     public boolean exist(char[][] board, String word) {

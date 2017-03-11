@@ -26,16 +26,16 @@ Code(Java)
 /**
  * Definition for a point.
  * class Point {
- *     int x;
- *     int y;
- *     Point() { x = 0; y = 0; }
- *     Point(int a, int b) { x = a; y = b; }
+ * int x;
+ * int y;
+ * Point() { x = 0; y = 0; }
+ * Point(int a, int b) { x = a; y = b; }
  * }
  */
 public class Solution {
 
     private boolean equals(double a, double b) {
-        return Math.abs(a - b) < 1e-5? true : false;
+        return Math.abs(a - b) < 1e-5 ? true : false;
     }
 
 
@@ -43,20 +43,20 @@ public class Solution {
         Map<Double, Set<Double>> kbmap = new HashMap<Double, Set<Double>>();
 
         int max = points.length == 0 ? 0 : 1;
-        for (int i =0 ; i< points.length;i++) {
+        for (int i = 0; i < points.length; i++) {
             Point p1 = points[i];
-            for (int j=i+1;j<points.length;j++) {
+            for (int j = i + 1; j < points.length; j++) {
                 Point p2 = points[j];
                 int cnt = 0;
                 if (p2.x == p1.x) {
-                    for (int t=0;t<points.length;t++) {
+                    for (int t = 0; t < points.length; t++) {
                         Point p = points[t];
                         if (p.x == p2.x) {
                             cnt++;
                         }
                     }
                 } else {
-                    double k = (double)(p2.y - p1.y) / (double)(p2.x - p1.x);
+                    double k = (double) (p2.y - p1.y) / (double) (p2.x - p1.x);
 
                     double b = p1.y - k * p1.x;
 
@@ -70,7 +70,7 @@ public class Solution {
                         kbmap.get(k).add(b);
                     }
 
-                    for (int t=0;t<points.length;t++) {
+                    for (int t = 0; t < points.length; t++) {
                         Point p = points[t];
                         if (equals(k * p.x + b, p.y)) {
                             cnt++;

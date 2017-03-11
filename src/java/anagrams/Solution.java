@@ -12,10 +12,10 @@ public class Solution {
             if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<String>());
             }
-            
+
             map.get(key).add(s);
         }
-        
+
         List<String> result = new ArrayList<String>();
         for (String key : map.keySet()) {
             if (map.get(key).size() > 1) {

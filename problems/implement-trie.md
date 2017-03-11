@@ -47,14 +47,14 @@ Code(Java)
 class TrieNode {
     // Initialize your data structure here.
     Map<Character, TrieNode> map;
-        char val;
-        boolean endOfWord;
+    char val;
+    boolean endOfWord;
 
     public TrieNode() {
 
 
-           this.map = new HashMap<>();
-           this.endOfWord = false;
+        this.map = new HashMap<>();
+        this.endOfWord = false;
 
     }
 }
@@ -79,8 +79,8 @@ public class Solution {
 
     private boolean search(String word, TrieNode node) {
         if (word.length() == 0) {
-            if(node.endOfWord == true) {
-            return true;
+            if (node.endOfWord == true) {
+                return true;
             }
             return false;
         }

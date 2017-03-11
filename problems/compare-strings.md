@@ -40,7 +40,7 @@ public class Solution {
         for (char c : A.toCharArray()) {
             cnt[c - 'A']++;
         }
-        
+
         for (char b : B.toCharArray()) {
             if (cnt[b - 'A'] == 0) {
                 return false;

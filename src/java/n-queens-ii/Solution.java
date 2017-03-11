@@ -2,8 +2,10 @@
 class Solution {
 
     private int cnt = 0;
+
     /**
      * Calculate the total number of distinct N-Queen solutions.
+     *
      * @param n: The number of queens.
      * @return: The total number of distinct solutions.
      */

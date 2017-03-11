@@ -22,12 +22,12 @@ Code(Java)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) {
+ * val = x;
+ * next = null;
+ * }
  * }
  */
 public class Solution {
@@ -38,7 +38,7 @@ public class Solution {
         }
 
         ListNode p = head;
-        while(p != null && p.val == head.val) {
+        while (p != null && p.val == head.val) {
             p = p.next;
         }
 
@@ -51,12 +51,12 @@ public class Solution {
 /**
  * Definition for ListNode
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) {
+ * val = x;
+ * next = null;
+ * }
  * }
  */
 public class Solution {

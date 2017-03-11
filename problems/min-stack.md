@@ -89,11 +89,11 @@ class MinStack {
     }
 
     public void pop() {
-        if (stack.size() >0) {
+        if (stack.size() > 0) {
             if (getLast(stack) == getLast(minStack)) {
-                minStack.remove(minStack.size() -1);
+                minStack.remove(minStack.size() - 1);
             }
-            stack.remove(stack.size()  - 1);
+            stack.remove(stack.size() - 1);
         }
     }
 
@@ -106,7 +106,7 @@ class MinStack {
 
     public int getMin() {
         if (minStack.size() > 0) {
-        return getLast(minStack);
+            return getLast(minStack);
         }
         return -1;
     }

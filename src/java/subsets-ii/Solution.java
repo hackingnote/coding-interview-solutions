@@ -54,7 +54,7 @@ public class Solution {
             }
             result.add(list);
         }
-        for (List<Integer> l : assemble( S, n + 1, false)) {
+        for (List<Integer> l : assemble(S, n + 1, false)) {
             List<Integer> list = new ArrayList<Integer>();
             list.addAll(l);
             if (included) {

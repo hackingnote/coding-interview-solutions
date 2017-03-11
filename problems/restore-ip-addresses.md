@@ -43,20 +43,20 @@ public class Solution {
         for (int i = 0; i < raw.length; i++) {
             digits[i] = raw[i] - '0';
         }
-        
+
         ArrayList<String> result = new ArrayList<>();
         Stack<Integer> buffer = new Stack<>();
         restore(result, digits, 0, buffer);
         return result;
     }
-    
+
     private void restore(ArrayList<String> result, int[] digits, int ptr, Stack<Integer> buffer) {
         if (buffer.size() == 4 && ptr == digits.length) {
             String s = buffer.get(0) + "." + buffer.get(1) + "." + buffer.get(2) + "." + buffer.get(3);
             result.add(s);
             return;
         }
-        
+
         int tmp = 0;
         for (int i = 0; i < 3; i++) {
             if (ptr + i >= digits.length) break;

@@ -21,7 +21,7 @@ public class Solution {
                     low = mid + 1;
                 }
             } else if (A[mid] < A[low]) {
-                if (A[mid] <= target  && target <= A[high]) {
+                if (A[mid] <= target && target <= A[high]) {
                     low = mid + 1;
                 } else {
                     high = mid - 1;

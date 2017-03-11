@@ -1,6 +1,6 @@
 public class Solution {
     /**
-     * @param nums an integer array and all positive numbers, no duplicates
+     * @param nums   an integer array and all positive numbers, no duplicates
      * @param target an integer
      * @return an integer
      */

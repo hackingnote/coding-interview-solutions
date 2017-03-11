@@ -51,22 +51,22 @@ public class Solution {
                     tmp[i + n] = true;
                 }
             }
-            
+
             for (int i = 0; i <= m; i++) {
                 if (tmp[i]) {
                     bag[i] = tmp[i];
                     tmp[i] = false;
-                    
+
                 }
             }
         }
-        
+
         while (bag[m] == false) {
             m--;
-        }    
-        
+        }
+
         return m;
-    
+
     }
 }
 

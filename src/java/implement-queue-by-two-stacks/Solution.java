@@ -4,8 +4,8 @@ public class Queue {
     private Stack<Integer> stack2;
 
     public Queue() {
-       stack1 = new Stack<>();
-       stack2 = new Stack<>();
+        stack1 = new Stack<>();
+        stack2 = new Stack<>();
     }
 
     public void push(int element) {

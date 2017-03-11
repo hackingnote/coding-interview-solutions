@@ -39,7 +39,7 @@ Code(Java)
 public class Solution {
     /**
      * @param A an array of Integer
-     * @return  an integer
+     * @return an integer
      */
     public int longestIncreasingContinuousSubsequence(int[] A) {
         if (A.length == 0) return 0;

@@ -75,8 +75,8 @@ public class Solution {
                             int tx = x + dx[k];
                             int ty = y + dy[k];
                             if (tx >= 0 && tx < lenX
-                                && ty >= 0 && ty < lenY
-                                && grid[tx][ty] && !visited[tx][ty]) {
+                                    && ty >= 0 && ty < lenY
+                                    && grid[tx][ty] && !visited[tx][ty]) {
                                 visited[tx][ty] = true;
                                 qx.offer(tx);
                                 qy.offer(ty);

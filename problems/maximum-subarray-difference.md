@@ -24,7 +24,7 @@ public class Solution {
     /**
      * @param nums: A list of integers
      * @return: An integer indicate the value of maximum difference between two
-     *          Subarrays
+     * Subarrays
      */
     public int maxDiffSubArrays(int[] nums) {
         int len = nums.length;
@@ -34,7 +34,7 @@ public class Solution {
         int[] maxRight = new int[len];
         int[] minRight = new int[len];
 
-        for (int i = 0; i <len; i++) {
+        for (int i = 0; i < len; i++) {
             maxLeft[i] = maxRight[i] = Integer.MIN_VALUE;
             minLeft[i] = minRight[i] = Integer.MAX_VALUE;
         }

@@ -1,10 +1,10 @@
 public class Solution {
     /**
-      * @param start, a string
-      * @param end, a string
-      * @param dict, a set of string
-      * @return a list of lists of string
-      */
+     * @param start, a string
+     * @param end,   a string
+     * @param dict,  a set of string
+     * @return a list of lists of string
+     */
     public List<List<String>> findLadders(String start, String end, Set<String> dict) {
         // write your code here
         Map<String, List<String>> map = new HashMap<>();
@@ -39,7 +39,7 @@ public class Solution {
 
     }
 
-    private void assemble(List<List<String>> result, Map<String, List<String>> map,  Map<String, Integer> distance, List<String> buffer, String s, String end) {
+    private void assemble(List<List<String>> result, Map<String, List<String>> map, Map<String, Integer> distance, List<String> buffer, String s, String end) {
         int currDist = distance.get(s);
         int targetDist = distance.get(end);
         if (currDist == targetDist && s.equals(end)) {

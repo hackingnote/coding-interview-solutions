@@ -2,11 +2,11 @@
 /**
  * Definition of Interval:
  * public class Interval {
- *     int start, end;
- *     Interval(int start, int end) {
- *         this.start = start;
- *         this.end = end;
- *     }
+ * int start, end;
+ * Interval(int start, int end) {
+ * this.start = start;
+ * this.end = end;
+ * }
  */
 
 class Solution {
@@ -37,8 +37,8 @@ class Solution {
             }
 
             if (i == size - 1) {
-                    result.add(intervals.get(i));
-                }
+                result.add(intervals.get(i));
+            }
 
         }
 

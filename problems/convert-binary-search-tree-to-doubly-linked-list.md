@@ -11,21 +11,21 @@ Code(Java)
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  * Definition for Doubly-ListNode.
  * public class DoublyListNode {
- *     int val;
- *     DoublyListNode next, prev;
- *     DoublyListNode(int val) {
- *         this.val = val;
- *         this.next = this.prev = null;
- *     }
+ * int val;
+ * DoublyListNode next, prev;
+ * DoublyListNode(int val) {
+ * this.val = val;
+ * this.next = this.prev = null;
+ * }
  * }
  */
 public class Solution {
@@ -57,7 +57,7 @@ public class Solution {
 
         node.next = right;
         if (node.next != null) {
-        node.next.prev = node;
+            node.next.prev = node;
         }
 
 

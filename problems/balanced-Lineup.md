@@ -63,7 +63,7 @@ public class POJ3264 {
         Scanner in = new Scanner(System.in);
         int N = Integer.parseInt(in.next());
         int Q = Integer.parseInt(in.next());
-        int k = (int)Math.floor(Math.log(N) / Math.log(2));
+        int k = (int) Math.floor(Math.log(N) / Math.log(2));
         int[] height = new int[N];
         int[][] max = new int[N][k + 1];
         int[][] min = new int[N][k + 1];
@@ -75,7 +75,7 @@ public class POJ3264 {
         }
 
         for (int j = 1; j <= k; j++) {
-            for (int i = 0; i < (N  - (1<<(j-1))); i++) {
+            for (int i = 0; i < (N - (1 << (j - 1))); i++) {
                 max[i][j] = Math.max(max[i][j - 1], max[i + (1 << (j - 1))][j - 1]);
                 min[i][j] = Math.min(min[i][j - 1], min[i + (1 << (j - 1))][j - 1]);
             }

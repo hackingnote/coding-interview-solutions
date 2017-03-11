@@ -1,7 +1,7 @@
 
 public class Solution {
     /**
-     * @param str: an array of char
+     * @param str:    an array of char
      * @param offset: an integer
      * @return: nothing
      */

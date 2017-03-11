@@ -19,13 +19,12 @@ Code(Java)
 ```java
 public class Solution {
     /**
-     *@param A: A positive integer which has N digits, A is a string.
-     *@param k: Remove k digits.
-     *@return: A string
+     * @param A: A positive integer which has N digits, A is a string.
+     * @param k: Remove k digits.
+     * @return: A string
      */
     public String DeleteDigits(String A, int k) {
         int[] cnt = new int[10];
-
 
 
         String result = "";
@@ -42,7 +41,7 @@ public class Solution {
 
         }
 
-        while(A.charAt(0) == '0') {
+        while (A.charAt(0) == '0') {
             A = A.substring(1);
         }
 

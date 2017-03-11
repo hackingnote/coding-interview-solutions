@@ -23,12 +23,12 @@ public class Solution {
             }
 
         }
-     
+
         if (lo < j) {
-        sort(A, lo, j);
+            sort(A, lo, j);
         }
         if (i < hi) {
-        sort(A, i, hi);
+            sort(A, i, hi);
         }
     }
 }

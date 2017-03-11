@@ -5,12 +5,12 @@ public class Solution {
      */
     public boolean isHappy(int n) {
         Set<Integer> known = new HashSet<>();
-        
+
         while (true) {
             if (n == 1) {
                 return true;
             }
-            
+
             known.add(n);
             n = getSum(n);
             if (known.contains(n)) {
@@ -18,7 +18,7 @@ public class Solution {
             }
         }
     }
-    
+
     private int getSum(int n) {
         int s = 0;
         while (n > 0) {

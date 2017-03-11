@@ -39,5 +39,5 @@ class Solution {
                 j += 2;
             }
         }
-   }
+    }
 }

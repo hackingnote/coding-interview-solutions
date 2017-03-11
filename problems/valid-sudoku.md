@@ -32,9 +32,9 @@ Code(Java)
 
 class Solution {
     /**
-      * @param board: the board
-        @return: wether the Sudoku is valid
-      */
+     * @param board: the board
+     * @return: wether the Sudoku is valid
+     */
     public boolean isValidSudoku(char[][] board) {
 
         List<Set<Integer>> rows = new ArrayList<>();
@@ -48,7 +48,7 @@ class Solution {
         }
 
         for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9 ;j++) {
+            for (int j = 0; j < 9; j++) {
                 if (board[i][j] != '.') {
                     int k = board[i][j] - '0';
 

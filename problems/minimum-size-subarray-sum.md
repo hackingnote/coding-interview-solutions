@@ -17,7 +17,7 @@ Code(Java)
 public class Solution {
     /**
      * @param nums: an array of integers
-     * @param s: an integer
+     * @param s:    an integer
      * @return: an integer representing the minimum size of subarray
      */
     public int minimumSize(int[] nums, int s) {
@@ -32,7 +32,7 @@ public class Solution {
                 sum -= nums[start++];
             }
         }
-        return min != Integer.MAX_VALUE ?  min:-1;
+        return min != Integer.MAX_VALUE ? min : -1;
     }
 }
 ```

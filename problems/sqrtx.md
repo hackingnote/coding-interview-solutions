@@ -54,7 +54,7 @@ class Solution {
                 high = mid;
             }
         }
-        return (int)low;
+        return (int) low;
     }
 }
 ```

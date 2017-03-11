@@ -1,13 +1,13 @@
 public class Solution {
     /**
-     * @param num: Given the candidate numbers
+     * @param num:    Given the candidate numbers
      * @param target: Given the target number
      * @return: All the combinations that sum to target
      */
     public List<List<Integer>> combinationSum2(int[] num, int target) {
         Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(num);
-        for (int i = 0 ; i < num.length; i++) {
+        for (int i = 0; i < num.length; i++) {
             List<Integer> buffer = new ArrayList<>();
             buffer.add(num[i]);
             search(result, buffer, num, target - num[i], i);

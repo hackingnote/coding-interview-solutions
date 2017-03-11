@@ -43,10 +43,10 @@ public class Solution {
             return result;
         }
         int bandwidth = lkp[n] / n;
-        Integer current = (int)Math.ceil((double)(k) / bandwidth);
+        Integer current = (int) Math.ceil((double) (k) / bandwidth);
 
         int remainder = k - (current - 1) * bandwidth;
-        int[] result = calculate(n-1, remainder);
+        int[] result = calculate(n - 1, remainder);
         int size = result.length;
         for (int i = 0; i < size; i++) {
             if (result[i] >= current) {
@@ -63,13 +63,13 @@ public class Solution {
         lkp[1] = 1;
 
         for (int p = 2; p <= n; p++) {
-            lkp[p] = lkp[p-1] * p;
+            lkp[p] = lkp[p - 1] * p;
         }
 
         int[] result = calculate(n, k);
         String s = "";
         for (int i = n; i >= 1; i--) {
-           s+=result[i];
+            s += result[i];
         }
         return s;
     }

@@ -10,9 +10,9 @@ fileNames.map(function(filename) {
     var combined = [
         content
         ];
-    console.log(filename);
-    console.log("../src/java/" + problemName);
-    console.log(fs.existsSync("../src/java/" + problemName));
+    //console.log(filename);
+    //console.log("../src/java/" + problemName);
+    //console.log(fs.existsSync("../src/java/" + problemName));
     if (fs.existsSync("../src/java/" + problemName)) {
 
         const java = fs.readFileSync("../src/java/" + problemName + "/Solution.java");

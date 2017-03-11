@@ -1,8 +1,8 @@
 LeetCode/LintCode Solutions
 ==========================
 
-- LeetCode: 124 Solved / 486 Total
-- LintCode: 190 Solved / 319 Total
+- LeetCode: 125 Solved / 486 Total
+- LintCode: 191 Solved / 319 Total
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 
@@ -626,7 +626,7 @@ Wood Cut|-|[LintCode 183](http://www.lintcode.com/problem/wood-cut)
 Word Break II|[LeetCode 140](https://leetcode.com/problems/word-break-ii)|-
 [Word Count (Map Reduce)](problems/word-count-map-reduce.md)|-|[LintCode 499](http://www.lintcode.com/problem/word-count-map-reduce)
 [Word Ladder](problems/word-ladder.md)|[LeetCode 127](https://leetcode.com/problems/word-ladder)|[LintCode 120](http://www.lintcode.com/problem/word-ladder)
-Word Ladder II|[LeetCode 126](https://leetcode.com/problems/word-ladder-ii)|[LintCode 121](http://www.lintcode.com/problem/word-ladder-ii)
+[Word Ladder II](problems/word-ladder-ii.md)|[LeetCode 126](https://leetcode.com/problems/word-ladder-ii)|[LintCode 121](http://www.lintcode.com/problem/word-ladder-ii)
 Word Pattern|[LeetCode 290](https://leetcode.com/problems/word-pattern)|-
 Word Pattern II|[LeetCode 291](https://leetcode.com/problems/word-pattern-ii)|-
 Word Search|[LeetCode 79](https://leetcode.com/problems/word-search)|[LintCode 123](http://www.lintcode.com/problem/word-search)

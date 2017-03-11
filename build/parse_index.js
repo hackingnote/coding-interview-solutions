@@ -5,6 +5,13 @@ var problems = {};
 parseLintCode();
 parseLeetCode();
 
+Object.keys(problems).forEach(function(key) {
+    const problem = problems[key];
+    const parts = (problem['leetcode_url'] || problem['lintcode_url']).split("/");
+    problem['linkname'] = parts[parts.length - 1];
+    problem['name'] = key;
+})
+
 console.log("Total Unique Problems: " + Object.keys(problems).length);
 fs.writeFileSync("./problems.json", JSON.stringify(problems, null, "  "));
 
@@ -38,7 +45,7 @@ function parseLintCode() {
         if (!(name in problems)) {
             problems[name] = {};
         }
-        console.log(parseInt(parts[0]));
+        //console.log(parseInt(parts[0]));
         problems[name]['lintcode_num'] = parseInt(parts[0]);
         problems[name]['lintcode_url'] = $(this).attr('href');
         cnt++;

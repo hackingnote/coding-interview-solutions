@@ -23,10 +23,13 @@ fileNames.map(function(filename) {
             "```java",
             java,
             "```"
-        ].forEach(function(line) {combined.push(line)})
+        ].forEach(function(line) {combined.push(line)});
+
+        // write only if there is java solution
+        fs.writeFileSync("../problems/" + filename, combined.join("\n"));
     }
 
     //console.log(combined);
 
-    fs.writeFileSync("../problems/" + filename, combined.join("\n"));
+
 });

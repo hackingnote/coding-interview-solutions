@@ -1,0 +1,4 @@
+Triangle Count
+===
+
+## Problem

@@ -76,6 +76,7 @@ How about negative numbers?
 
 Since negative numbers are in the form of [Two's Complement](https://en.wikipedia.org/wiki/Two%27s_complement), they can be treated in the same way. For example ``a`` = 1, ``b`` = -3:
 
+```
 ======    Iteration #1    ======
                    a =                                1
                    b = 11111111111111111111111111111101
@@ -91,6 +92,7 @@ new b(shifted carry) =                               10
 new b(shifted carry) =                                0
 
 Final Result: -2
+```
 
 Code(Java)
 ----------

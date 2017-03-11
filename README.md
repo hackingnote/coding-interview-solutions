@@ -1,8 +1,8 @@
 LeetCode/LintCode Solutions
 ==========================
 
-- LeetCode: 127 Solved / 486 Total
-- LintCode: 196 Solved / 319 Total
+- LeetCode: 136 Solved / 486 Total
+- LintCode: 210 Solved / 319 Total
 
 Solutions for the most common coding interview questions. Indexed by LeetCode and LintCode.
 
@@ -85,8 +85,8 @@ Closest Binary Search Tree Value II|[LeetCode 272](https://leetcode.com/problems
 Coin Change|[LeetCode 322](https://leetcode.com/problems/coin-change)|-
 [Coins in a Line](problems/coins-in-a-line.md)|-|[LintCode 394](http://www.lintcode.com/problem/coins-in-a-line)
 Coins in a Line II|-|[LintCode 395](http://www.lintcode.com/problem/coins-in-a-line-ii)
-Combination Sum|[LeetCode 39](https://leetcode.com/problems/combination-sum)|[LintCode 135](http://www.lintcode.com/problem/combination-sum)
-Combination Sum II|[LeetCode 40](https://leetcode.com/problems/combination-sum-ii)|[LintCode 153](http://www.lintcode.com/problem/combination-sum-ii)
+[Combination Sum](problems/combination-sum.md)|[LeetCode 39](https://leetcode.com/problems/combination-sum)|[LintCode 135](http://www.lintcode.com/problem/combination-sum)
+[Combination Sum II](problems/combination-sum-ii.md)|[LeetCode 40](https://leetcode.com/problems/combination-sum-ii)|[LintCode 153](http://www.lintcode.com/problem/combination-sum-ii)
 Combination Sum III|[LeetCode 216](https://leetcode.com/problems/combination-sum-iii)|-
 Combination Sum IV|[LeetCode 377](https://leetcode.com/problems/combination-sum-iv)|-
 [Combinations](problems/combinations.md)|[LeetCode 77](https://leetcode.com/problems/combinations)|[LintCode 152](http://www.lintcode.com/problem/combinations)
@@ -103,12 +103,12 @@ Contains Duplicate III|[LeetCode 220](https://leetcode.com/problems/contains-dup
 Contiguous Array|[LeetCode 525](https://leetcode.com/problems/contiguous-array)|-
 [Continuous Subarray Sum](problems/continuous-subarray-sum.md)|[LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum)|[LintCode 402](http://www.lintcode.com/problem/continuous-subarray-sum)
 Convert a Number to Hexadecimal|[LeetCode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|-
-Convert Binary Search Tree to Doubly Linked List|-|[LintCode 378](http://www.lintcode.com/problem/convert-binary-search-tree-to-doubly-linked-list)
+[Convert Binary Search Tree to Doubly Linked List](problems/convert-binary-search-tree-to-doubly-linked-list.md)|-|[LintCode 378](http://www.lintcode.com/problem/convert-binary-search-tree-to-doubly-linked-list)
 Convert Binary Tree to Linked Lists by Depth|-|[LintCode 242](http://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth)
 Convert Expression to Reverse Polish Notation|-|[LintCode 370](http://www.lintcode.com/problem/convert-expression-to-reverse-polish-notation)
 Convert Sorted Array to Binary Search Tree|[LeetCode 108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|-
 [Convert Sorted Array to Binary Search Tree With Minimal Height](problems/convert-sorted-array-to-binary-search-tree-with-minimal-height.md)|-|[LintCode 177](http://www.lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height)
-Convert Sorted List to Balanced BST|-|[LintCode 106](http://www.lintcode.com/problem/convert-sorted-list-to-balanced-bst)
+[Convert Sorted List to Balanced BST](problems/convert-sorted-list-to-balanced-bst.md)|-|[LintCode 106](http://www.lintcode.com/problem/convert-sorted-list-to-balanced-bst)
 Convert Sorted List to Binary Search Tree|[LeetCode 109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|-
 Convex Polygon|[LeetCode 469](https://leetcode.com/problems/convex-polygon)|-
 Copy Books|-|[LintCode 437](http://www.lintcode.com/problem/copy-books)
@@ -130,10 +130,10 @@ Course Schedule|[LeetCode 207](https://leetcode.com/problems/course-schedule)|-
 Course Schedule II|[LeetCode 210](https://leetcode.com/problems/course-schedule-ii)|-
 Create Maximum Number|[LeetCode 321](https://leetcode.com/problems/create-maximum-number)|[LintCode 552](http://www.lintcode.com/problem/create-maximum-number)
 Data Stream as Disjoint Intervals|[LeetCode 352](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|-
-Data Stream Median|-|[LintCode 81](http://www.lintcode.com/problem/data-stream-median)
+[Data Stream Median](problems/data-stream-median.md)|-|[LintCode 81](http://www.lintcode.com/problem/data-stream-median)
 Decode String|[LeetCode 394](https://leetcode.com/problems/decode-string)|-
 [Decode Ways](problems/decode-ways.md)|[LeetCode 91](https://leetcode.com/problems/decode-ways)|[LintCode 512](http://www.lintcode.com/problem/decode-ways)
-Delete Digits|-|[LintCode 182](http://www.lintcode.com/problem/delete-digits)
+[Delete Digits](problems/delete-digits.md)|-|[LintCode 182](http://www.lintcode.com/problem/delete-digits)
 Delete Node in a BST|[LeetCode 450](https://leetcode.com/problems/delete-node-in-a-bst)|-
 Delete Node in a Linked List|[LeetCode 237](https://leetcode.com/problems/delete-node-in-a-linked-list)|-
 [Delete Node in the Middle of Singly Linked List](problems/delete-node-in-the-middle-of-singly-linked-list.md)|-|[LintCode 372](http://www.lintcode.com/problem/delete-node-in-the-middle-of-singly-linked-list)
@@ -147,11 +147,11 @@ Diagonal Traverse|[LeetCode 498](https://leetcode.com/problems/diagonal-traverse
 Dices Sum|-|[LintCode 20](http://www.lintcode.com/problem/dices-sum)
 Different Ways to Add Parentheses|[LeetCode 241](https://leetcode.com/problems/different-ways-to-add-parentheses)|-
 Digit Counts|-|[LintCode 3](http://www.lintcode.com/problem/digit-counts)
-Distinct Subsequences|[LeetCode 115](https://leetcode.com/problems/distinct-subsequences)|[LintCode 118](http://www.lintcode.com/problem/distinct-subsequences)
+[Distinct Subsequences](problems/distinct-subsequences.md)|[LeetCode 115](https://leetcode.com/problems/distinct-subsequences)|[LintCode 118](http://www.lintcode.com/problem/distinct-subsequences)
 Divide Two Integers|[LeetCode 29](https://leetcode.com/problems/divide-two-integers)|[LintCode 414](http://www.lintcode.com/problem/divide-two-integers)
 Drop Eggs|-|[LintCode 254](http://www.lintcode.com/problem/drop-eggs)
 Dungeon Game|[LeetCode 174](https://leetcode.com/problems/dungeon-game)|-
-Edit Distance|[LeetCode 72](https://leetcode.com/problems/edit-distance)|[LintCode 119](http://www.lintcode.com/problem/edit-distance)
+[Edit Distance](problems/edit-distance.md)|[LeetCode 72](https://leetcode.com/problems/edit-distance)|[LintCode 119](http://www.lintcode.com/problem/edit-distance)
 Elimination Game|[LeetCode 390](https://leetcode.com/problems/elimination-game)|-
 Encode and Decode Strings|[LeetCode 271](https://leetcode.com/problems/encode-and-decode-strings)|-
 Encode String with Shortest Length|[LeetCode 471](https://leetcode.com/problems/encode-string-with-shortest-length)|-
@@ -164,7 +164,7 @@ Expression Evaluation|-|[LintCode 368](http://www.lintcode.com/problem/expressio
 Expression Tree Build|-|[LintCode 367](http://www.lintcode.com/problem/expression-tree-build)
 Factor Combinations|[LeetCode 254](https://leetcode.com/problems/factor-combinations)|-
 Factorial Trailing Zeroes|[LeetCode 172](https://leetcode.com/problems/factorial-trailing-zeroes)|-
-Fast Power|-|[LintCode 140](http://www.lintcode.com/problem/fast-power)
+[Fast Power](problems/fast-power.md)|-|[LintCode 140](http://www.lintcode.com/problem/fast-power)
 [Fibonacci](problems/fibonacci.md)|-|[LintCode 366](http://www.lintcode.com/problem/fibonacci)
 Find All Anagrams in a String|[LeetCode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string)|-
 Find All Duplicates in an Array|[LeetCode 442](https://leetcode.com/problems/find-all-duplicates-in-an-array)|-
@@ -175,7 +175,7 @@ Find Largest Value in Each Tree Row|[LeetCode 515](https://leetcode.com/problems
 Find Leaves of Binary Tree|[LeetCode 366](https://leetcode.com/problems/find-leaves-of-binary-tree)|-
 Find Median from Data Stream|[LeetCode 295](https://leetcode.com/problems/find-median-from-data-stream)|-
 [Find Minimum in Rotated Sorted Array](problems/find-minimum-in-rotated-sorted-array.md)|[LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[LintCode 159](http://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array)
-Find Minimum in Rotated Sorted Array II|[LeetCode 154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[LintCode 160](http://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array-ii)
+[Find Minimum in Rotated Sorted Array II](problems/find-minimum-in-rotated-sorted-array-ii.md)|[LeetCode 154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[LintCode 160](http://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array-ii)
 Find Mode in Binary Search Tree|[LeetCode 501](https://leetcode.com/problems/find-mode-in-binary-search-tree)|-
 [Find Peak Element](problems/find-peak-element.md)|[LeetCode 162](https://leetcode.com/problems/find-peak-element)|[LintCode 75](http://www.lintcode.com/problem/find-peak-element)
 Find Permutation|[LeetCode 484](https://leetcode.com/problems/find-permutation)|-
@@ -186,7 +186,7 @@ Find the Duplicate Number|[LeetCode 287](https://leetcode.com/problems/find-the-
 [Find the Missing Number](problems/find-the-missing-number.md)|-|[LintCode 196](http://www.lintcode.com/problem/find-the-missing-number)
 Find the Missing Number II|-|[LintCode 570](http://www.lintcode.com/problem/find-the-missing-number-ii)
 [First Bad Version](problems/first-bad-version.md)|[LeetCode 278](https://leetcode.com/problems/first-bad-version)|[LintCode 74](http://www.lintcode.com/problem/first-bad-version)
-First Missing Positive|[LeetCode 41](https://leetcode.com/problems/first-missing-positive)|[LintCode 189](http://www.lintcode.com/problem/first-missing-positive)
+[First Missing Positive](problems/first-missing-positive.md)|[LeetCode 41](https://leetcode.com/problems/first-missing-positive)|[LintCode 189](http://www.lintcode.com/problem/first-missing-positive)
 [First Position of Target](problems/first-position-of-target.md)|-|[LintCode 14](http://www.lintcode.com/problem/first-position-of-target)
 First Unique Character in a String|[LeetCode 387](https://leetcode.com/problems/first-unique-character-in-a-string)|-
 [Fizz Buzz](problems/fizz-buzz.md)|[LeetCode 412](https://leetcode.com/problems/fizz-buzz)|[LintCode 9](http://www.lintcode.com/problem/fizz-buzz)
@@ -202,9 +202,9 @@ Frog Jump|[LeetCode 403](https://leetcode.com/problems/frog-jump)|-
 Game of Life|[LeetCode 289](https://leetcode.com/problems/game-of-life)|-
 [Gas Station](problems/gas-station.md)|[LeetCode 134](https://leetcode.com/problems/gas-station)|[LintCode 187](http://www.lintcode.com/problem/gas-station)
 Generalized Abbreviation|[LeetCode 320](https://leetcode.com/problems/generalized-abbreviation)|-
-Generate Parentheses|[LeetCode 22](https://leetcode.com/problems/generate-parentheses)|[LintCode 427](http://www.lintcode.com/problem/generate-parentheses)
-Graph Valid Tree|[LeetCode 261](https://leetcode.com/problems/graph-valid-tree)|[LintCode 178](http://www.lintcode.com/problem/graph-valid-tree)
-Gray Code|[LeetCode 89](https://leetcode.com/problems/gray-code)|[LintCode 411](http://www.lintcode.com/problem/gray-code)
+[Generate Parentheses](problems/generate-parentheses.md)|[LeetCode 22](https://leetcode.com/problems/generate-parentheses)|[LintCode 427](http://www.lintcode.com/problem/generate-parentheses)
+[Graph Valid Tree](problems/graph-valid-tree.md)|[LeetCode 261](https://leetcode.com/problems/graph-valid-tree)|[LintCode 178](http://www.lintcode.com/problem/graph-valid-tree)
+[Gray Code](problems/gray-code.md)|[LeetCode 89](https://leetcode.com/problems/gray-code)|[LintCode 411](http://www.lintcode.com/problem/gray-code)
 [Group Anagrams](problems/anagrams.md)|[LeetCode 49](https://leetcode.com/problems/anagrams)|-
 Group Shifted Strings|[LeetCode 249](https://leetcode.com/problems/group-shifted-strings)|-
 Guess Number Higher or Lower|[LeetCode 374](https://leetcode.com/problems/guess-number-higher-or-lower)|-

@@ -1,6 +1,7 @@
 Rotate String
 ===
 
+- [LintCode 8](http://www.lintcode.com/en/problem/rotate-string/)
 
 Problem
 -------
@@ -26,13 +27,12 @@ Rotate in-place with O(1) extra memory.
 Solution
 --------
 
-
+Reverse the two parts(before and after the offset), then reverse the whole string, then the two parts are swapped, but within each part the characters are still in their original order.
 
 Code(Java)
 ----------
 
 ```java
-
 public class Solution {
     /**
      * @param str:    an array of char
@@ -43,9 +43,7 @@ public class Solution {
         if (str.length == 0) {
             return;
         }
-
         offset = offset % str.length;
-
         reverse(str, 0, str.length - 1);
         reverse(str, 0, offset - 1);
         reverse(str, offset, str.length - 1);

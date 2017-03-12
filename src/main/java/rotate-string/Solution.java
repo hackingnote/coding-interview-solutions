@@ -1,4 +1,3 @@
-
 public class Solution {
     /**
      * @param str:    an array of char
@@ -9,9 +8,7 @@ public class Solution {
         if (str.length == 0) {
             return;
         }
-
         offset = offset % str.length;
-
         reverse(str, 0, str.length - 1);
         reverse(str, 0, offset - 1);
         reverse(str, offset, str.length - 1);

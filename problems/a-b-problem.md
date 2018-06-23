@@ -1,16 +1,12 @@
-A + B Problem
-===
+# A + B Problem
 
-Problem
--------
+## Problem
 
 Write a function that add two numbers A and B. You should not use + or any arithmetic operators.
 
 Notice: There is no need to read data from standard input stream. Both parameters are given in function aplusb, you job is to calculate the sum and return it.
 
-
-Clarification
--------------
+## Clarification
 
 Are a and b both 32-bit integers?
 Yes.
@@ -18,23 +14,20 @@ Yes.
 Can I use bit operation?
 Sure you can.
 
-Example
--------
+## Example
 
-Given a=1 and b=2 return 3
+Given `a=1` and `b=2` return `3`
 
-Challenge
----------
+## Challenge
 
-Of course you can just return a + b to get accepted. But Can you challenge not do it like that?
+Of course you can just return `a + b` to get accepted. But Can you challenge not do it like that?
 
-Solution
---------
+## Solution
 
-``+`` is not allowed to use, however we can directly manipulate bits to simulate the plus operation. 
+`+` is not allowed to use, however we can directly manipulate bits to simulate the plus operation.
 
-In its binary format, ``1 + 0`` will be ``1``, ``0 + 0`` will be ``0``, ``1 + 1`` will become ``0``, and the carry becomes ``1``. So the result without carry can be calculated by xor ``a ^ b``, and the carry ``a & b``, if carry is not ``0``, shift it left by 1, and add again:
- 
+In its binary format, `1 + 0` will be `1`, `0 + 0` will be `0`, `1 + 1` will become `0`, and the carry becomes `1`. So the result without carry can be calculated by xor `a ^ b`, and the carry `a & b`, if carry is not `0`, shift it left by 1, and add again:
+
 ```java
 while(b != 0) {
     int carry = a & b;
@@ -43,7 +36,7 @@ while(b != 0) {
 }
 ```
 
-For example, ``a`` = 1(binary as ``1``), ``b`` = 3(binary as ``11``)
+For example, `a` = 1(binary as `1`), `b` = 3(binary as `11`)
 
 ```
 ======    Iteration #1    ======
@@ -74,7 +67,7 @@ Try to plugin other numbers to fully understand how it works: [Source Code](http
 
 How about negative numbers?
 
-Since negative numbers are in the form of [Two's Complement](https://en.wikipedia.org/wiki/Two%27s_complement), they can be treated in the same way. For example ``a`` = 1, ``b`` = -3:
+Since negative numbers are in the form of [Two's Complement](https://en.wikipedia.org/wiki/Two%27s_complement), they can be treated in the same way. For example `a` = 1, `b` = -3:
 
 ```
 ======    Iteration #1    ======
@@ -94,8 +87,7 @@ new b(shifted carry) =                                0
 Final Result: -2
 ```
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 class Solution {

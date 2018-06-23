@@ -1,32 +1,22 @@
-3Sum Closest
-============
+# 3Sum Closest
 
-Problem
--------
+## Problem
 
-Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers.
+Given an array `S` of n integers, find three integers in `S` such that the sum is closest to a given number, target. Return the sum of the three integers.
 
-Example
--------
+## Example
 
-For example, given array S = {-1 2 1 -4}, and target = 1. The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+For example, given array `S = {-1 2 1 -4}`, and `target = 1`. The sum that is closest to the target is `2`. (`-1 + 2 + 1 = 2`).
 
-Note
----------
+## Note
 
 You may assume that each input would have exactly one solution.
 
-Challenge
----------
+## Challenge
 
-O(n^2) time, O(1) extra space
+`O(n^2)` time, `O(1)` extra space
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -62,5 +52,4 @@ public class Solution {
         return sum;
     }
 }
-
 ```

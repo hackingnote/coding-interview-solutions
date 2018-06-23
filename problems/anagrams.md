@@ -1,35 +1,20 @@
-Anagrams
-===
+# Anagrams
 
-
-
-Problem
--------
+## Problem
 
 Given an array of strings, return all groups of strings that are anagrams.
 
-Example
--------
+## Example
 
-Given ["lint", "intl", "inlt", "code"], return ["lint", "inlt", "intl"].
+Given `["lint", "intl", "inlt", "code"]`, return `["lint", "inlt", "intl"]`.
 
-Given ["ab", "ba", "cd", "dc", "e"], return ["ab", "ba", "cd", "dc"].
+Given `["ab", "ba", "cd", "dc", "e"]`, return `["ab", "ba", "cd", "dc"]`.
 
-Note
----------
+## Note
 
 All inputs will be in lower-case
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -46,7 +31,6 @@ public class Solution {
             if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<String>());
             }
-
             map.get(key).add(s);
         }
 
@@ -59,5 +43,4 @@ public class Solution {
         return result;
     }
 }
-
 ```

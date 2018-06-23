@@ -1,32 +1,16 @@
-Add Binary
-===
+# Add Binary
 
-Problem
--------
+## Problem
 
 Given two binary strings, return their sum (also a binary string).
 
-Example
--------
+## Example
 
-a = 11
-
-b = 1
+a = 11, b = 1
 
 Return 100
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -50,16 +34,12 @@ public class Solution {
             if (i < bb.length) {
                 t += (bb[i] - '0');
             }
-
             carry = t / 2;
-
             r += (t % 2 == 0 ? '0' : '1');
         }
-
         if (carry == 1) {
             r += "1";
         }
-
         return new String(reverse(r.toCharArray()));
     }
 
@@ -75,5 +55,4 @@ public class Solution {
         return c;
     }
 }
-
 ```

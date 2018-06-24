@@ -2,18 +2,13 @@
 title: Word Count(Map Reduce)
 ---
 
-Problem
--------
-
-
+## Problem
 
 Using map reduce to count word frequency.
 
 https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html#Example%3A+WordCount+v1.0
 
-
-Example
--------
+## Example
 
 ```
 chunk1: "Google Bye GoodBye Hadoop code"
@@ -29,17 +24,9 @@ Get MapReduce result:
     lintcode: 1
 ```
 
-
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition of OutputCollector:
  * class OutputCollector<K, V> {
@@ -74,6 +61,4 @@ public class WordCount {
         }
     }
 }
-
-
 ```

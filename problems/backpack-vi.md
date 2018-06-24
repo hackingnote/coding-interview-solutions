@@ -1,16 +1,12 @@
-Backpack VI
-===
+# Backpack VI
 
+## Problem
 
-Problem
--------
+Given an integer array `nums` with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer `target`.
 
-Given an integer array ``nums`` with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer ``target``.
+## Example
 
-Example
--------
-
-Given nums = ``[1, 2, 4]``, target = ``4``
+Given `nums = [1, 2, 4]`, target = `4`
 
 The possible combination ways are:
 
@@ -23,14 +19,9 @@ The possible combination ways are:
 [4]
 ```
 
-return ``6``
+return `6`
 
-
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -54,5 +45,4 @@ public class Solution {
         return cnt[target];
     }
 }
-
 ```

@@ -1,53 +1,43 @@
-Subsets
-===
+# Subsets
 
+## Problem
 
-
-Problem
--------
-
-* [LeetCode 78](https://oj.leetcode.com/problems/subsets/)
+- [LeetCode 78](https://oj.leetcode.com/problems/subsets/)
 
 Given a list of numbers that may has duplicate numbers, return all possible subsets
 
-Example
----------
+## Example
 
-If S = [1,2,2], a solution is:
+If S = `[1,2,2]`, a solution is:
 
-    [
-      [2],
-      [1],
-      [1,2,2],
-      [2,2],
-      [1,2],
-      []
-    ]
+```
+[
+  [2],
+  [1],
+  [1,2,2],
+  [2,2],
+  [1,2],
+  []
+]
+```
 
-Note
-----
+## Note
 
 Each element in a subset must be in non-descending order.
 The ordering between two subsets is free.
 The solution set must not contain duplicate subsets.
 
-Challenge
----------
+## Challenge
+
 Can you do it in both recursively and iteratively?
 
-
-Key Point
----------
+## Key Point
 
 ** Elements in a subset must be in non-descending order.**
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param S: A set of numbers.
@@ -75,7 +65,6 @@ class Solution {
     }
 }
 
-
 public class Solution {
 
     private List<List<Integer>> assemble(int[] S, int n, boolean included) {
@@ -93,8 +82,6 @@ public class Solution {
         }
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-
-
         for (List<Integer> l : assemble(S, n + 1, true)) {
             List<Integer> list = new ArrayList<Integer>();
             list.addAll(l);
@@ -111,24 +98,17 @@ public class Solution {
             }
             result.add(list);
         }
-
         return result;
     }
 
     public List<List<Integer>> subsets(int[] S) {
-
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         result.addAll(assemble(S, 0, true));
         result.addAll(assemble(S, 0, false));
-
         for (List<Integer> list : result) {
             Collections.sort(list);
         }
-
         return result;
-
-
     }
 }
-
 ```

@@ -1,42 +1,31 @@
-Merge Two Sorted Lists
-===
+# Merge Two Sorted Lists
 
-
-Problem
--------
+## Problem
 
 Merge two sorted (ascending) linked lists and return it as a new sorted list. The new sorted list should be made by splicing together the nodes of the two lists and sorted in ascending order.
 
-Example
--------
+## Example
 
-Given 1->3->8->11->15->null, 2->null , return 1->2->3->8->11->15->null.
+Given `1->3->8->11->15->null`, `2->null` , return `1->2->3->8->11->15->null`.
 
-Note
----------
+## Note
 
-Challenge
----------
+## Challenge
 
-Solution
---------
+## Solution
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {

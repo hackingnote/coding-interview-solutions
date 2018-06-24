@@ -1,53 +1,41 @@
-Binary Tree Paths
-===
+# Binary Tree Paths
 
-
-Problem
--------
+## Problem
 
 Given a binary tree, return all root-to-leaf paths.
 
-Example
--------
+## Example
 
 Given the following binary tree:
 
+```
        1
      /   \
     2     3
      \
       5
-  
+```
+
 All root-to-leaf paths are:
 
-    [
-      "1->2->5",
-      "1->3"
-    ]
+```
+[
+  "1->2->5",
+  "1->3"
+]
+```
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
  * }
  * }
  */
@@ -85,5 +73,4 @@ public class Solution {
         return;
     }
 }
-
 ```

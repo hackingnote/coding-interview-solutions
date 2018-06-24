@@ -1,50 +1,37 @@
-Construct Binary Tree from Preorder and Inorder Traversal
-===
+# Construct Binary Tree from Preorder and Inorder Traversal
 
-
-
-Problem
--------
+## Problem
 
 Given preorder and inorder traversal of a tree, construct the binary tree.
 
-Example
--------
+## Example
 
-Given in-order [1,2,3] and pre-order [2,1,3], return a tree:
+Given in-order ```[1,2,3]``` and pre-order ```[2,1,3]```, return a tree:
 
+```
       2
      / \
     1   3
+```
 
-
-Note
----------
+## Note
 
 You may assume that duplicates do not exist in the tree.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
-
-
 public class Solution {
 
 
@@ -81,8 +68,6 @@ public class Solution {
         }
 
         return node;
-
     }
 }
-
 ```

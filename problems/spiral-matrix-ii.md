@@ -1,40 +1,26 @@
-Spiral Matrix II
-===
+# Spiral Matrix II
 
-
-Problem
--------
+## Problem
 
 Given an integer n, generate a square matrix filled with elements from 1 to n^2 in spiral order.
 
-Example
--------
+## Example
 
 Given n = 3,
 
 You should return the following matrix:
 
-    [
-      [ 1, 2, 3 ],
-      [ 8, 9, 4 ],
-      [ 7, 6, 5 ]
-    ]
+```
+[
+  [ 1, 2, 3 ],
+  [ 8, 9, 4 ],
+  [ 7, 6, 5 ]
+]
+```
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param n an integer
@@ -64,7 +50,6 @@ public class Solution {
             }
         }
         return res;
-
     }
 }
 ```

@@ -1,28 +1,25 @@
-Sort List
-===
+# Sort List
 
 ## Problem
 
-Sort a linked list in O(n log n) time using constant space complexity.
-
+Sort a linked list in `O(n log n)` time using constant space complexity.
 
 ## Example
 
-Given 1->3->2->null, sort it to 1->2->3->null.
+Given `1->3->2->null`, sort it to `1->2->3->null`.
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -81,8 +78,6 @@ public class Solution {
             ptr.next = head;
             return left;
         }
-
     }
 }
-
 ```

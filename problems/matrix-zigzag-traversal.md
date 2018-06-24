@@ -1,32 +1,28 @@
-Matrix Zigzag Traversal
-===
+# Matrix Zigzag Traversal
 
 - [LintCode 185](http://www.lintcode.com/en/problem/matrix-zigzag-traversal/)
 
-Problem
--------
+## Problem
 
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in ZigZag-order.
 
-Example
--------
+## Example
 
 Given a matrix:
 
-    [
-      [1, 2,  3,  4],
-      [5, 6,  7,  8],
-      [9,10, 11, 12]
-    ]
+```
+[
+  [1, 2,  3,  4],
+  [5, 6,  7,  8],
+  [9,10, 11, 12]
+]
+```
 
-return ``[1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12]``
+return `[1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12]`
 
+## Solution
 
-
-Solution
---------
-
-The example result can be achieved by 6(``m + n - 1``) linear scans:
+The example result can be achieved by 6(`m + n - 1`) linear scans:
 
 ```
 1
@@ -37,16 +33,16 @@ The example result can be achieved by 6(``m + n - 1``) linear scans:
 12
 ```
 
-Let ``i`` be the number of scans, starting from 0, the even scans are going up-right, while the odd scans are going down-left. The starting point of each scan:
+Let `i` be the number of scans, starting from 0, the even scans are going up-right, while the odd scans are going down-left. The starting point of each scan:
 
-``i % 2 == 0``(up-right): if ``i < m``, there are more rows down below(like ``9`` in the example), start from the first element in row(``matrix[i][0]``) otherwise we've reached the end of ``m`` rows(like ``11`` in the example), so start from the last row but ``i - m + 1`` position(``matrix[m - 1][i - m + 1]``)
+`i % 2 == 0`(up-right): if `i < m`, there are more rows down below(like `9` in the example), start from the first element in row(`matrix[i][0]`) otherwise we've reached the end of `m` rows(like `11` in the example), so start from the last row but `i - m + 1` position(`matrix[m - 1][i - m + 1]`)
 
 ```java
 int x = i < m ? i : m - 1;
 int y = i < m ? 0 : i - m + 1;
 ```
 
-``i % 2 == 1``(down-left): similar to the up-right case
+`i % 2 == 1`(down-left): similar to the up-right case
 
 ```java
 int x = i < n ? 0 : i - n + 1;
@@ -55,8 +51,7 @@ int y = i < n ? i : n - 1;
 
 After we find the starting point, we can just keep moving util we reach the edge of the matrix.
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {

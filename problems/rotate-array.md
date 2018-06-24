@@ -1,24 +1,18 @@
-Rotate Array
-====
+# Rotate Array
 
-Problem
-----
+## Problem
 
-Rotate an array of n elements to the right by k steps.
-*[LeetCode 189](https://leetcode.com/problems/rotate-array/)
+Rotate an array of n elements to the right by k steps. \*[LeetCode 189](https://leetcode.com/problems/rotate-array/)
 
-Example
-----
+## Example
 
-For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+For example, with n = 7 and k = 3, the array `[1,2,3,4,5,6,7]` is rotated to `[5,6,7,1,2,3,4]`.
 
-Solution #1
-----
+## Solution #1
 
-Rotate one step to the right each time and rotate k times totally. Time complexity O(k*n), Space complexity O(1). (Status:Time Limit Exceeded) 
+Rotate one step to the right each time and rotate k times totally. Time complexity `O(k*n)`, Space complexity `O(1)`. (Status:Time Limit Exceeded)
 
-Code #1
-----
+## Code #1
 
 ```cpp
 class Solution {
@@ -39,13 +33,11 @@ public:
 };
 ```
 
-Solution #2
-----
+## Solution #2
 
-Create a new array and fill each element right into the position. Time complexity O(n), Space complexity O(n). (Status: 24 ms) 
+Create a new array and fill each element right into the position. Time complexity O(n), Space complexity O(n). (Status: 24 ms)
 
-Code #2
-----
+## Code #2
 
 ```cpp
 class Solution {
@@ -64,13 +56,11 @@ public:
 };
 ```
 
-Solution #3
-----
+## Solution #3
 
-Firstly reverse the whole array in place. Then reverse the first k elements, and also the rest n-k elements. Time complexity O(n), Space complexity O(1). (Status: 24 ms) 
+Firstly reverse the whole array in place. Then reverse the first k elements, and also the rest n-k elements. Time complexity O(n), Space complexity O(1). (Status: 24 ms)
 
-Code #3
-----
+## Code #3
 
 ```cpp
 class Solution {
@@ -99,6 +89,6 @@ public:
 };
 ```
 
-Solution #4
-----
+## Solution #4
+
 TBD

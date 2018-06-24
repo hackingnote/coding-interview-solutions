@@ -1,49 +1,39 @@
-Binary Tree Serialization
-===
+# Binary Tree Serialization
 
-
-Problem
--------
+## Problem
 
 Design an algorithm and write code to serialize and deserialize a binary tree. Writing the tree to a file is called 'serialization' and reading back from the file to reconstruct the exact same binary tree is 'deserialization'.
 
 There is no limit of how you deserialize or serialize a binary tree, you only need to make sure you can serialize a binary tree to a string and deserialize this string to the original structure.
 
-Example
--------
+## Example
 
-An example of testdata: Binary tree {3,9,20,#,#,15,7}, denote the following structure:
+An example of test data: Binary tree `{3,9,20,#,#,15,7}`, denote the following structure:
 
+```
       3
      / \
     9  20
       /  \
      15   7
-     
-Our data serialization use bfs traversal. This is just for when you got wrong answer and want to debug the input.
+```
+
+Our data serialization use BFS traversal. This is just for when you got wrong answer and want to debug the input.
 
 You can use other method to do serialization and deserialization.
 
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 class Solution {
@@ -125,6 +115,4 @@ class Solution {
         return root;
     }
 }
-
-
 ```

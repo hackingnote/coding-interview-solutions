@@ -1,42 +1,29 @@
-Merge Intervals
-===
+# Merge Intervals
 
-
-Problem
--------
+## Problem
 
 Given a collection of intervals, merge all overlapping intervals.
 
-Example
--------
+## Example
 
 Given intervals => merged intervals:
 
+```
     [                     [
       [1, 3],               [1, 6],
       [2, 6],      =>       [8, 10],
       [8, 10],              [15, 18]
       [15, 18]            ]
     ]
+```
 
-Note
----------
+## Challenge
 
-Challenge
----------
+`O(n log n)` time and `O(1)` extra space.
 
-O(n log n) time and O(1) extra space.
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition of Interval:
  * public class Interval {
@@ -77,11 +64,8 @@ class Solution {
             if (i == size - 1) {
                 result.add(intervals.get(i));
             }
-
         }
-
         return result;
     }
-
 }
 ```

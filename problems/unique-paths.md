@@ -1,9 +1,6 @@
-Unique Paths
-===
+# Unique Paths
 
-
-Problem
--------
+## Problem
 
 A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
 
@@ -11,27 +8,13 @@ The robot can only move either down or right at any point in time. The robot is 
 
 How many possible unique paths are there?
 
-Example
--------
-
-
-Note
----------
+## Note
 
 m and n will be at most 100.
 
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param n, m: positive integer (1 <= n ,m <= 100)
@@ -51,5 +34,4 @@ public class Solution {
         return cnt[m - 1][n - 1];
     }
 }
-
 ```

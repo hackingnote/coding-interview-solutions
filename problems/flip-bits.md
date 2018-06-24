@@ -1,30 +1,24 @@
-Flip Bits
-===
+# Flip Bits
 
 - [LintCode 181](http://www.lintcode.com/en/problem/rotate-string/)
 
-Problem
--------
+## Problem
 
 Determine the number of bits required to flip if you want to convert integer n to integer m.
 
-Example
--------
+## Example
 
-Given n = 31 (11111), m = 14 (01110), return 2.
+Given `n = 31 (11111)`, `m = 14 (01110)`, return `2`.
 
-Note
-----
+## Note
 
 Both n and m are 32-bit integers
 
-Solution
---------
+## Solution
 
 Take XOR of the two numbers, and count how many 1's in it.
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 class Solution {
@@ -42,5 +36,4 @@ class Solution {
         return cnt;
     }
 };
-
 ```

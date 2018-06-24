@@ -1,24 +1,16 @@
-Trailing Zeros
-===
+# Trailing Zeros
 
+Write an algorithm which computes the number of trailing zeros in n factorial.  
 
-        
-Write an algorithm which computes the number of trailing zeros in n factorial.    
-    
 Example
--------
 
-11! = 39916800, so the out should be 2
+---
 
-Solution
---------
+`11! = 39916800`, so the out should be 2
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /*
      * param n: As description

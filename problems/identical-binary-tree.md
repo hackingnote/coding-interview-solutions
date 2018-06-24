@@ -1,56 +1,43 @@
-Identical Binary Tree
-===
+# Identical Binary Tree
 
-
-Problem
--------
+## Problem
 
 Check if two binary trees are identical. Identical means the two binary trees have the same structure and every identical position has the same value.
 
-Example
--------
+## Example
 
+```
         1             1
        / \           / \
       2   2   and   2   2
      /             /
     4             4
+```
 
 are identical.
 
+```
         1             1
        / \           / \
       2   3   and   2   3
      /               \
     4                 4
+```
 
 are not identical.
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {

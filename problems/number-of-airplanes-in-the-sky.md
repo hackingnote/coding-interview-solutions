@@ -1,41 +1,39 @@
-Number of Airplanes in the Sky
-===
+# Number of Airplanes in the Sky
 
 ## Problem
 
 Given an interval list which are flying and landing time of the flight. How many airplanes are on the sky at most?
 
- Notice
-If landing and flying happens at the same time, we consider landing should happen at first.
-
-
+Notice: If landing and flying happens at the same time, we consider landing should happen at first.
 
 ## Example
 
 For interval list
+
+```
 [
   [1,10],
   [2,3],
   [5,8],
   [4,7]
 ]
+```
 
-Return 3
+Return `3`
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of Interval:
- * public classs Interval {
- * int start, end;
- * Interval(int start, int end) {
- * this.start = start;
- * this.end = end;
+ * public class Interval {
+ *   int start, end;
+ *   Interval(int start, int end) {
+ *     this.start = start;
+ *     this.end = end;
+ *   }
  * }
  */
-
 class Solution {
     /**
      * @param intervals: An interval array

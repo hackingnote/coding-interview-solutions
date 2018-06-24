@@ -1,33 +1,16 @@
-Minimum Path Sum
-===
+# Minimum Path Sum
 
-
-Problem
--------
+## Problem
 
 Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
 
-Example
--------
-
-Note
----------
+## Note
 
 You can only move either down or right at any point in time.
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param grid: a list of lists of integers.
@@ -54,8 +37,6 @@ public class Solution {
         }
 
         return sum[lenX - 1][lenY - 1];
-
     }
 }
-
 ```

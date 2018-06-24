@@ -1,15 +1,12 @@
-Implement Trie
-===
+# Implement Trie
 
-
-Problem
--------
+## Problem
 
 Implement a trie with insert, search, and startsWith methods.
 
-Example
--------
+## Example
 
+```
 insert("lintcode")
 search("code") // return false
 startsWith("lint") // return true
@@ -17,26 +14,15 @@ startsWith("linterror") // return false
 insert("linterror")
 search("lintcode) // return true
 startsWith("linterror") // return true
+```
 
-
-Note
----------
+## Note
 
 You may assume that all inputs are consist of lowercase letters a-z.
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Your Trie object will be instantiated and called as such:
  * Trie trie = new Trie();
@@ -51,11 +37,8 @@ class TrieNode {
     boolean endOfWord;
 
     public TrieNode() {
-
-
         this.map = new HashMap<>();
         this.endOfWord = false;
-
     }
 }
 
@@ -69,7 +52,6 @@ public class Solution {
     // Inserts a word into the trie.
     public void insert(String word) {
         insert(word, root);
-
     }
 
     // Returns if the word is in the trie.
@@ -111,7 +93,6 @@ public class Solution {
     }
 
     private void insert(String word, TrieNode node) {
-
         char c = word.charAt(0);
 
         if (!node.map.containsKey(c)) {

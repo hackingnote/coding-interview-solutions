@@ -1,39 +1,26 @@
-Longest Common Substring       
-===
+# Longest Common Substring
 
-
-Problem
--------
+## Problem
 
 Given two strings, find the longest common substring.
 
 Return the length of it.
 
-Example
--------
+## Example
 
-Given A = "ABCD", B = "CBCE", return 2.
+Given `A = "ABCD"`, `B = "CBCE"`, return `2`.
 
-Note
----------
+## Note
 
 The characters in substring should occur continuously in original string. This is different with subsequence.
 
-Challenge
----------
+## Challenge
 
-O(n x m) time and memory.
+`O(nm)` time and memory.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A, B: Two string.

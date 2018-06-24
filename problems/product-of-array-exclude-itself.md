@@ -1,33 +1,18 @@
-Product of Array Exclude Itself 
-===
+# Product of Array Exclude Itself
 
-
-Problem
--------
+## Problem
 
 Given an integers array A.
 
-Define B[i] = A[0] * ... * A[i-1] * A[i+1] * ... * A[n-1], calculate B WITHOUT divide operation.
+Define `B[i] = A[0] * ... * A[i-1] * A[i+1] * ... * A[n-1]`, calculate B WITHOUT divide operation.
 
+## Example
 
-Example
--------
+For `A = [1, 2, 3]`, return `[6, 3, 2]`.
 
-For A = [1, 2, 3], return [6, 3, 2].
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A: Given an integers array A
@@ -64,6 +49,4 @@ public class Solution {
         return result;
     }
 }
-
-
 ```

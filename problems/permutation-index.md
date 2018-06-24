@@ -1,32 +1,16 @@
-Permutation Index
-===
+# Permutation Index
 
-
-Problem
--------
+## Problem
 
 Given a permutation which contains no repeated number, find its index in all the permutations of these numbers, which are ordered in lexicographical order. The index begins at 1.
 
-Example
--------
+## Example
 
-Given [1,2,4], return 1.
+Given `[1,2,4]`, return 1.
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
- 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A an integer array

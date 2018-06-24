@@ -1,35 +1,23 @@
-Search for a Range
-===
+# Search for a Range
 
-
-Problem
--------
+## Problem
 
 Given a sorted array of n integers, find the starting and ending position of a given target value.
 
-If the target is not found in the array, return [-1, -1].
+If the target is not found in the array, return `[-1, -1]`.
 
-Example
--------
+## Example
 
-Given [5, 7, 7, 8, 8, 10] and target value 8,
-return [3, 4].
+Given `[5, 7, 7, 8, 8, 10]` and target value 8,
+return `[3, 4]`.
 
-Challenge
----------
+## Challenge
 
-O(log n) time.
+`O(log n)` time.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A      : an integer sorted array
@@ -76,6 +64,4 @@ public class Solution {
         return new int[]{left, right};
     }
 }
-
-
 ```

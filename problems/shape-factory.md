@@ -1,20 +1,14 @@
-Shape Factory
-=============
+# Shape Factory
 
 LintCode 497: https://www.lintcode.com/en/problem/shape-factory/
 
-
-Problem
--------
-
-
+## Problem
 
 Factory is a design pattern in common usage. Implement a ShapeFactory that can generate correct shape.
 
 You can assume that we have only tree different shapes: Triangle, Square and Rectangle.
 
-Example
--------
+## Example
 
 ```java
 ShapeFactory sf = new ShapeFactory();
@@ -37,16 +31,10 @@ shape.draw();
 >> |    |
 >>  ----
 ```
-Solution
---------
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Your object will be instantiated and called as such:
  * ShapeFactory sf = new ShapeFactory();
@@ -105,5 +93,4 @@ public class ShapeFactory {
         }
     }
 }
-
 ```

@@ -1,44 +1,42 @@
-Binary Search Tree Iterator
-===
+# Binary Search Tree Iterator
 
 ## Problem
 
 Design an iterator over a binary search tree with the following rules:
 
 Elements are visited in ascending order (i.e. an in-order traversal)
-next() and hasNext() queries run in O(1) time in average.
-
-
+`next()` and `hasNext()` queries run in `O(1)` time in average.
 
 ## Example
 
-For the following binary search tree, in-order traversal by using iterator is [1, 6, 10, 11, 12]
+For the following binary search tree, in-order traversal by using iterator is `[1, 6, 10, 11, 12]`
+
+```
    10
  /    \
 1      11
  \       \
   6       12
+```
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  * Example of iterate a tree:
  * BSTIterator iterator = new BSTIterator(root);
  * while (iterator.hasNext()) {
- * TreeNode node = iterator.next();
- * do something for node
+ *   TreeNode node = iterator.next();
+ *   do something for node
  * }
  */
 public class BSTIterator {

@@ -1,33 +1,33 @@
-Unique Binary Search Trees II
-===
+# Unique Binary Search Trees II
 
 ## Problem
 
-Given n, generate all structurally unique BST's (binary search trees) that store values 1...n.
-
+Given n, generate all structurally unique BST's (binary search trees) that store values `1...n`.
 
 ## Example
 
 Given n = 3, your program should return all 5 unique BST's shown below.
+
+```
    1         3     3      2      1
     \       /     /      / \      \
      3     2     1      1   3      2
     /     /       \                 \
    2     1         2                 3
+```
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -84,6 +84,5 @@ public class Solution {
         updateValue(node.left, plus);
         updateValue(node.right, plus);
     }
-
 }
 ```

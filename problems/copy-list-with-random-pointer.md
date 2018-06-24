@@ -1,40 +1,30 @@
-Copy List with Random Pointer
-===
+# Copy List with Random Pointer
 
-
-Problem
--------
+## Problem
 
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 
 Return a deep copy of the list.
 
-Example
--------
+## Example
 
-Note
----------
+## Note
 
-Challenge
----------
+## Challenge
 
-Could you solve it with O(1) space?
+Could you solve it with `O(1)` space?
 
-Solution
---------
+## Solution
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition for singly-linked list with a random pointer.
  * class RandomListNode {
- * int label;
- * RandomListNode next, random;
- * RandomListNode(int x) { this.label = x; }
+ *   int label;
+ *   RandomListNode next, random;
+ *   RandomListNode(int x) { this.label = x; }
  * };
  */
 public class Solution {
@@ -73,5 +63,4 @@ public class Solution {
         return newHead;
     }
 }
-
 ```

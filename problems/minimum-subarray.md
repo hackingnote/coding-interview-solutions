@@ -1,38 +1,22 @@
-Minimum Subarray
-===
+# Minimum Subarray
 
-
-Problem
--------
+## Problem
 
 Given an array of integers, find the subarray with smallest sum.
 
 Return the sum of the subarray.
 
-Example
--------
+## Example
 
-For [1, -1, -2, 1], return -3
+For `[1, -1, -2, 1]`, return `-3`
 
-Note
-----
+## Note
 
 The subarray should contain at least one integer.
 
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums: a list of integers
@@ -47,10 +31,7 @@ public class Solution {
             minSum = Math.min(sum, minSum);
             sum = (sum > 0 ? 0 : sum);
         }
-
         return minSum;
     }
 }
-
-
 ```

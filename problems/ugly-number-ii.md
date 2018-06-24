@@ -1,33 +1,22 @@
-Ugly Number
-===
+# Ugly Number
 
-Problem
--------
+## Problem
 
 Ugly number is a number that only have factors 3, 5 and 7.
 
 Design an algorithm to find the Kth ugly number. The first 5 ugly numbers are 3, 5, 7, 9, 15 ...
 
-Example
--------
+## Example
 
 If K=4, return 9.
 
-Challenge
----------
+## Challenge
 
 O(K log K) or O(K) time.
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
-
 class Solution {
     /**
      * @param k: The number k.
@@ -40,12 +29,10 @@ class Solution {
 
         for (int i = 1; i <= k; i++) {
             a[i] = Collections.min(Arrays.asList(a[i3] * 3, a[i5] * 5, a[i7] * 7));
-
             if (a[i] % 3 == 0) i3++;
             if (a[i] % 5 == 0) i5++;
             if (a[i] % 7 == 0) i7++;
         }
-
         return a[k];
     }
 };

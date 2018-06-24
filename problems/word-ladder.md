@@ -1,17 +1,13 @@
-Word Ladder
-===
+# Word Ladder
 
-
-Problem
--------
+## Problem
 
 Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that:
 
 Only one letter can be changed at a time
 Each intermediate word must exist in the dictionary
 
-Example
--------
+## Example
 
 Given:
 
@@ -22,28 +18,15 @@ Given:
 As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
 return its length 5.
 
-Note
----------
+## Note
 
 - Return 0 if there is no such transformation sequence.
 - All words have the same length.
 - All words contain only lowercase alphabetic characters.
 
-Challenge
----------
-
-Solution
---------
-
-Code
-----
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param start, a string
@@ -70,7 +53,6 @@ public class Solution {
                     queue.offer(s);
                     visited.add(s);
                     dist.offer(dis + 1);
-
                 }
             }
         }

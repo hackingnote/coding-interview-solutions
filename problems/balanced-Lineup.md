@@ -1,8 +1,6 @@
-Balanced Lineup
-===
+# Balanced Lineup
 
-Problem
--------
+## Problem
 
 [POJ 3264](http://poj.org/problem?id=3264)
 
@@ -23,6 +21,7 @@ Lines 1..Q: Each line contains a single integer that is a response to a reply an
 
 ### Sample Input
 
+```
     6 3
     1
     7
@@ -33,27 +32,25 @@ Lines 1..Q: Each line contains a single integer that is a response to a reply an
     1 5
     4 6
     2 2
+```
 
 ### Sample Output
 
+```
     6
     3
     0
+```
 
 ### Source
 
 USACO 2007 January Silver
 
-
-Solution
---------
+## Solution
 
 RMQ
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 import java.util.Scanner;
@@ -94,6 +91,4 @@ public class POJ3264 {
         }
     }
 }
-
-
 ```

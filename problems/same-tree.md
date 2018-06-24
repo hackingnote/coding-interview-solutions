@@ -1,8 +1,6 @@
-Same Tree
-===
+# Same Tree
 
-Problem
--------
+## Problem
 
 [LeetCode 100](https://oj.leetcode.com/problems/same-tree/)
 
@@ -10,20 +8,16 @@ Given two binary trees, write a function to check if they are equal or not.
 
 Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for binary tree
  * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
+ *   int val;
+ *   TreeNode left;
+ *   TreeNode right;
+ *   TreeNode(int x) { val = x; }
  * }
  */
 public class Solution {
@@ -33,5 +27,4 @@ public class Solution {
         return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
-
 ```

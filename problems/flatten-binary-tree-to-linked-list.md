@@ -1,17 +1,14 @@
-Flatten Binary Tree to Linked List
-===
+# Flatten Binary Tree to Linked List
 
-
-Problem
--------
+## Problem
 
 Flatten a binary tree to a fake "linked list" in pre-order traversal.
 
 Here we use the right pointer in TreeNode as the next pointer in ListNode.
 
-Example
--------
+## Example
 
+```
                   1
                    \
          1          2
@@ -23,35 +20,28 @@ Example
                           5
                            \
                             6
-                            
-Note
----------
+```
+
+## Note
 
 Don't forget to mark the left child of each node to null. Or you will get Time Limit Exceeded or Memory Limit Exceeded.
 
-Challenge
----------
+## Challenge
 
 Do it in-place without any extra memory.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -78,5 +68,4 @@ public class Solution {
         flatten(root.right);
     }
 }
-
 ```

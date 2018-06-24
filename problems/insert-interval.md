@@ -1,41 +1,27 @@
-Insert Interval
-===
+# Insert Interval
 
-
-Problem
--------
+## Problem
 
 Given a non-overlapping interval list which is sorted by start point.
 
 Insert a new interval into it, make sure the list is still in order and non-overlapping (merge intervals if necessary).
 
-Example
--------
+## Example
 
-Insert [2, 5] into [[1,2], [5,9]], we get [[1,9]].
+Insert `[2, 5]` into `[[1,2], [5,9]]`, we get `[[1,9]]`.
 
-Insert [3, 4] into [[1,2], [5,9]], we get [[1,2], [3,4], [5,9]].
+Insert `[3, 4]` into `[[1,2], [5,9]]`, we get `[[1,2], [3,4], [5,9]]`.
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition of Interval:
  * public classs Interval {
  * int start, end;
  * Interval(int start, int end) {
- * this.start = start;
- * this.end = end;
+ *   this.start = start;
+ *   this.end = end;
  * }
  */
 
@@ -53,10 +39,8 @@ class Solution {
         ArrayList<Interval> result = new ArrayList<>();
         boolean inserted = false;
 
-
         int i = 0;
         int j = -1;
-
         while (i < size || inserted == false) {
 
             Interval candidate = null;
@@ -81,9 +65,7 @@ class Solution {
                 }
             }
         }
-
         return result;
     }
 }
-
 ```

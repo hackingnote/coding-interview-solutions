@@ -1,8 +1,6 @@
-Rotate Image
-===
+# Rotate Image
 
-Problem
--------
+## Problem
 
 [LeetCode 48](https://oj.leetcode.com/problems/rotate-image/)
 
@@ -10,36 +8,33 @@ You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
 
-Example
--------
+## Example
 
 Given a matrix
 
-    [
-        [1,2],
-        [3,4]
-    ]
-    
+```
+[
+    [1,2],
+    [3,4]
+]
+```
+
 rotate it by 90 degrees (clockwise), return
 
-    [
-        [3,1],
-        [4,2]
-    ]
+```
+[
+    [3,1],
+    [4,2]
+]
+```
 
-Challenge
----------
+## Challenge
 
 Could you do this in-place?
 
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     public void rotate(int[][] matrix) {
         int len = matrix.length;
@@ -54,5 +49,4 @@ public class Solution {
         }
     }
 }
-
 ```

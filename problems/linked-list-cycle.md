@@ -1,45 +1,31 @@
-Linked List Cycle
-===
+# Linked List Cycle
 
-
-Problem
--------
+## Problem
 
 Given a linked list, determine if it has a cycle in it.
 
-Example
--------
+## Example
 
-Given -21->10->4->5, tail connects to node index 1, return true
+Given `-21->10->4->5`, tail connects to node index `1`, return `true`
 
-Note
----------
-
-Challenge
----------
+## Challenge
 
 Follow up:
+
 Can you solve it without using extra space?
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -62,5 +48,4 @@ public class Solution {
         return false;
     }
 }
-
 ```

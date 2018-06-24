@@ -1,10 +1,8 @@
-Reverse Nodes in k-Group
-===
+# Reverse Nodes in k-Group
 
 LintCode: http://www.lintcode.com/en/problem/reverse-nodes-in-k-group/
 
-Problem
--------
+## Problem
 
 Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
 
@@ -13,28 +11,21 @@ If the number of nodes is not a multiple of k then left-out nodes in the end sho
 You may not alter the values in the nodes, only nodes itself may be changed.
 Only constant memory is allowed.
 
-Example
--------
+## Example
 
-Given this linked list: 1->2->3->4->5
+Given this linked list: `1->2->3->4->5`
 
-For k = 2, you should return: 2->1->4->3->5
+For k = 2, you should return: `2->1->4->3->5`
 
-For k = 3, you should return: 3->2->1->4->5
+For k = 3, you should return: `3->2->1->4->5`
 
-
-
-Solution
---------
+## Solution
 
 Use the same technique as in "Reverse Linked List II" to reverse partial list.
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -76,6 +67,4 @@ public class Solution {
         }
     }
 }
-
-
 ```

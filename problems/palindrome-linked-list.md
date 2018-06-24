@@ -1,41 +1,26 @@
-Palindrome Linked List
-===
+# Palindrome Linked List
 
-
-Problem
--------
+## Problem
 
 Implement a function to check if a linked list is a palindrome.
 
+## Example
 
-Example
--------
+Given `1->2->1`, return `true`
 
-Given 1->2->1, return true
+## Challenge
 
-Note
----------
+Could you do it in `O(n)` time and `O(1)` space?
 
-Challenge
----------
-
-Could you do it in O(n) time and O(1) space?
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int x) { val = x; }
  * }
  */
 public class Solution {
@@ -78,8 +63,5 @@ public class Solution {
         }
         return true;
     }
-
-
 }
-
 ```

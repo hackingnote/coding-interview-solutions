@@ -1,16 +1,14 @@
-Sqrt(x)
-===
+# Sqrt(x)
 
-Problem
--------
+## Problem
 
-Implement int sqrt(int x).
+Implement int `sqrt(int x)`.
 
 Compute and return the square root of x.
 
-Example
--------
+## Example
 
+```
 sqrt(3) = 1
 
 sqrt(4) = 2
@@ -18,24 +16,15 @@ sqrt(4) = 2
 sqrt(5) = 2
 
 sqrt(10) = 3
+```
 
-Note
----------
+## Challenge
 
-Challenge
----------
+`O(log(x))`
 
-O(log(x))
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param x: An integer

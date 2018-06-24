@@ -1,37 +1,30 @@
-Permutation Sequence
-===
+# Permutation Sequence
 
+## Problem
 
-Problem
--------
+- [LeetCode 60](https://oj.leetcode.com/problems/permutation-sequence/)
 
-* [LeetCode 60](https://oj.leetcode.com/problems/permutation-sequence/)
-
-The set [1,2,3,…,n] contains a total of n! unique permutations.
+The set `[1,2,3,…,n]` contains a total of n! unique permutations.
 
 By listing and labeling all of the permutations in order,
-We get the following sequence (ie, for n = 3):
+We get the following sequence (ie, for `n = 3`):
 
-    "123"
-    "132"
-    "213"
-    "231"
-    "312"
-    "321"
+```
+"123"
+"132"
+"213"
+"231"
+"312"
+"321"
+```
 
 Given n and k, return the kth permutation sequence.
 
 Note: Given n will be between 1 and 9 inclusive.
 
-
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
 
     private int[] lkp = new int[10];
@@ -57,7 +50,6 @@ public class Solution {
         return result;
     }
 
-
     public String getPermutation(int n, int k) {
 
         lkp[1] = 1;
@@ -74,6 +66,4 @@ public class Solution {
         return s;
     }
 }
-
-
 ```

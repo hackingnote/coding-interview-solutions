@@ -1,18 +1,17 @@
-Simplify Path
-===
+# Simplify Path
 
 ## Problem
 
 Given an absolute path for a file (Unix-style), simplify it.
 
-
 ## Example
 
+```
 "/home/", => "/home"
 "/a/./b/../../c/", => "/c"
+```
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {

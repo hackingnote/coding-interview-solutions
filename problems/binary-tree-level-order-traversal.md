@@ -1,61 +1,51 @@
-Binary Tree Level Order Traversal
-===
+# Binary Tree Level Order Traversal
 
-
-Problem
--------
+## Problem
 
 Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
-Example
--------
+## Example
 
-Given binary tree {3,9,20,#,#,15,7},
+Given binary tree `{3,9,20,#,#,15,7}`,
 
+```
         3
        / \
       9  20
         /  \
        15   7
- 
+```
 
 return its level order traversal as:
 
+```
     [
       [3],
       [9,20],
       [15,7]
     ]
+```
 
-Challenge
----------
+## Challenge
 
 Challenge 1: Using only 1 queue to implement it.
 
 Challenge 2: Use DFS algorithm to do it.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
-
-
 public class Solution {
     /**
      * @param root: The root of binary tree.
@@ -93,5 +83,4 @@ public class Solution {
         traverse(node.right, level + 1, result);
     }
 }
-
 ```

@@ -1,37 +1,24 @@
-Maximum Subarray
-===
+# Maximum Subarray
 
-
-Problem
--------
+## Problem
 
 Given an array of integers, find a contiguous subarray which has the largest sum.
 
-Example
--------
+## Example
 
-Given the array [−2,2,−3,4,−1,2,1,−5,3], the contiguous subarray [4,−1,2,1] has the largest sum = 6.
+Given the array `[−2,2,−3,4,−1,2,1,−5,3]`, the contiguous subarray `[4,−1,2,1]` has the largest sum = 6.
 
-Note
-----
+## Note
 
 The subarray should contain at least one number.
 
-Challenge
----------
+## Challenge
 
-Can you do it in time complexity O(n)?
+Can you do it in time complexity `O(n)`?
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums: A list of integers
@@ -50,5 +37,4 @@ public class Solution {
         return maxSum;
     }
 }
-
 ```

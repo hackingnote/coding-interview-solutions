@@ -1,10 +1,6 @@
-Best Time to Buy and Sell Stock III
-===
+# Best Time to Buy and Sell Stock III
 
-
-
-Problem
--------
+## Problem
 
 - [LeetCode 123](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 - [LintCode 151](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/)
@@ -17,16 +13,11 @@ Notice
 
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
-Example
--------
+## Example
 
-Given an example [4,4,6,1,1,4,2,5], return 6.
+Given an example `[4,4,6,1,1,4,2,5]`, return `6`.
 
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 class Solution {
@@ -47,5 +38,4 @@ class Solution {
         return sell2;
     }
 };
-
 ```

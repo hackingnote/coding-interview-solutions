@@ -1,50 +1,39 @@
-Binary Tree Postorder Traversal
-===
+# Binary Tree Postorder Traversal
 
-
-
-Problem
--------
+## Problem
 
 Given a binary tree, return the postorder traversal of its nodes' values.
 
-Example
--------
+## Example
 
-Given binary tree {1,#,2,3},
+Given binary tree `{1,#,2,3}`,
 
-   1
-    \
-     2
-    /
-   3
- 
+```
+1
+ \
+  2
+ /
+3
+```
 
-return [3,2,1].
+return `[3,2,1]`.
 
-Challenge
----------
+## Challenge
 
 Can you do it without recursion?
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -71,5 +60,4 @@ public class Solution {
         result.add(node.val);
     }
 }
-
 ```

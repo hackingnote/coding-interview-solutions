@@ -1,48 +1,35 @@
-Remove Nth Node From End of List
-===
+# Remove Nth Node From End of List
 
-
-Problem
--------
+## Problem
 
 Given a linked list, remove the nth node from the end of list and return its head.
 
-Example
--------
+## Example
 
-Given linked list: 1->2->3->4->5->null, and n = 2.
+Given linked list: `1->2->3->4->5->null`, and n = 2.
 
-After removing the second node from the end, the linked list becomes 1->2->3->5->null.
+After removing the second node from the end, the linked list becomes `1->2->3->5->null`.
 
-Note
----------
+## Note
 
 The minimum number of nodes in list is n.
 
-Challenge
----------
+## Challenge
 
-O(n) time
+`O(n)` time
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -66,5 +53,4 @@ public class Solution {
         return dummy.next;
     }
 }
-
 ```

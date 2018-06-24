@@ -1,13 +1,8 @@
-Decode Ways
-===========
-
+# Decode Ways
 
 LintCode 512: http://www.lintcode.com/en/problem/decode-ways/
 
-Problem
--------
-
-
+## Problem
 
 A message containing letters from A-Z is being encoded to numbers using the following mapping:
 
@@ -20,17 +15,12 @@ A message containing letters from A-Z is being encoded to numbers using the foll
 
 Given an encoded message containing digits, determine the total number of ways to decode it.
 
-
-Example
--------
+## Example
 
 Given encoded message 12, it could be decoded as AB (1 2) or L (12).
 The number of ways decoding 12 is 2.
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -83,5 +73,4 @@ public class Solution {
         return cnt[raw.length - 1];
     }
 }
-
 ```

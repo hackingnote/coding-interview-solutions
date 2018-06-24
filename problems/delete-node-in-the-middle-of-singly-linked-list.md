@@ -1,28 +1,14 @@
-Delete Node in the Middle of Singly Linked List
-===
+# Delete Node in the Middle of Singly Linked List
 
-
-Problem
--------
+## Problem
 
 Implement an algorithm to delete a node in the middle of a singly linked list, given only access to that node.
 
-Example
--------
+## Example
 
-Given 1->2->3->4, and node 3. return 1->2->4
+Given `1->2->3->4`, and node `3`. return `1->2->4`
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-Code
-----
+## Code
 
 ```java
 /**
@@ -35,7 +21,7 @@ Code
  *         this.next = null;
  *     }
  * }
- */ 
+ */
 public class Solution {
     /**
      * @param node: the node in the list should be deleted
@@ -48,19 +34,18 @@ public class Solution {
 }
 ```
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -73,5 +58,4 @@ public class Solution {
         node.next = node.next.next;
     }
 }
-
 ```

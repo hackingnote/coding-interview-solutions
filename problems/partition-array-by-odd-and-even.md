@@ -1,34 +1,20 @@
-Partition Array by Odd and Even
-===
+# Partition Array by Odd and Even
 
-
-Problem
--------
+## Problem
 
 Partition an integers array into odd number first and even number second.
 
-Example
--------
+## Example
 
-Given [1, 2, 3, 4], return [1, 3, 2, 4]
+Given `[1, 2, 3, 4]`, return `[1, 3, 2, 4]`
 
-Note
----------
-
-Challenge
----------
+## Challenge
 
 Do it in-place.
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums: an array of integers

@@ -1,53 +1,38 @@
-Route Between Two Nodes in Graph
-===
+# Route Between Two Nodes in Graph
 
-
-Problem
--------
+## Problem
 
 Given a directed graph, design an algorithm to find out whether there is a route between two nodes.
 
-Example
--------
+## Example
 
 Given graph:
 
+```
     A----->B----->C
      \     |
       \    |
        \   |
         \  v
          ->D----->E
-     
+```
+
 for s = B and t = E, return true
 
 for s = D and t = C, return false
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for Directed graph.
  * class DirectedGraphNode {
- * int label;
- * ArrayList<DirectedGraphNode> neighbors;
- * DirectedGraphNode(int x) {
- * label = x;
- * neighbors = new ArrayList<DirectedGraphNode>();
- * }
+ *   int label;
+ *   ArrayList<DirectedGraphNode> neighbors;
+ *   DirectedGraphNode(int x) {
+ *     label = x;
+ *     neighbors = new ArrayList<DirectedGraphNode>();
+ *   }
  * };
  */
 public class Solution {

@@ -1,32 +1,20 @@
-Majority Number
-===
+# Majority Number
 
-
-Problem
--------
+## Problem
 
 Given an array of integers, the majority number is the number that occurs more than half of the size of the array. Find it.
 
-Example
--------
+## Example
 
-Given [1, 1, 1, 1, 2, 2, 2], return 1
+Given `[1, 1, 1, 1, 2, 2, 2]`, return `1`
 
-Challenge
----------
+## Challenge
 
-O(n) time and O(1) extra space
+`O(n)` time and `O(1)` extra space
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums: a list of integers
@@ -48,5 +36,4 @@ public class Solution {
         return n;
     }
 }
-
 ```

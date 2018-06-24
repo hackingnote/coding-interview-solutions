@@ -1,38 +1,22 @@
-Remove Linked List Elements
-===
+# Remove Linked List Elements
 
-
-Problem
--------
+## Problem
 
 Remove all elements from a linked list of integers that have value val.
 
-Example
--------
+## Example
 
-Given 1->2->3->3->4->5->3, val = 3, you should return the list as 1->2->4->5
+Given `1->2->3->3->4->5->3`, val = 3, you should return the list as `1->2->4->5`
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int x) { val = x; }
  * }
  */
 public class Solution {

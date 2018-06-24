@@ -1,26 +1,16 @@
-Sort Integers II
-================
+# Sort Integers II
 
+## Problem
 
-Problem
--------
+Given an integer array, sort it in ascending order. Use quick sort, merge sort, heap sort or any `O(nlogn)` algorithm.
 
-Given an integer array, sort it in ascending order. Use quick sort, merge sort, heap sort or any O(nlogn) algorithm.
+## Example
 
-Example
--------
+Given `[3, 2, 1, 4, 5]`, return `[1, 2, 3, 4, 5]`.
 
-Given [3, 2, 1, 4, 5], return [1, 2, 3, 4, 5].
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A an integer array
@@ -43,9 +33,7 @@ public class Solution {
                 A[i++] = A[j];
                 A[j--] = tmp;
             }
-
         }
-
         if (lo < j) {
             sort(A, lo, j);
         }
@@ -54,5 +42,4 @@ public class Solution {
         }
     }
 }
-
 ```

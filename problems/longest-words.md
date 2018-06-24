@@ -1,56 +1,45 @@
-Longest Words
-===
+# Longest Words
 
-
-Problem
--------
+## Problem
 
 Given a dictionary, find all of the longest words in the dictionary.
 
-Example
--------
+## Example
 
 Given
 
-    {
-      "dog",
-      "google",
-      "facebook",
-      "internationalization",
-      "blabla"
-    }
+```
+{
+  "dog",
+  "google",
+  "facebook",
+  "internationalization",
+  "blabla"
+}
+```
 
-the longest words are(is) ["internationalization"].
+the longest words are(is) `["internationalization"]`.
 
 Given
 
-    {
-      "like",
-      "love",
-      "hate",
-      "yes"
-    }
+```
+{
+  "like",
+  "love",
+  "hate",
+  "yes"
+}
+```
 
-the longest words are ["like", "love", "hate"].
+the longest words are `["like", "love", "hate"]`.
 
-Note
----------
-
-Challenge
----------
+## Challenge
 
 It's easy to solve it in two passes, can you do it in one pass?
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param dictionary: an array of strings
@@ -70,5 +59,5 @@ class Solution {
         }
         return result;
     }
-};
+}
 ```

@@ -1,10 +1,6 @@
-Best Time to Buy and Sell Stock
-===
+# Best Time to Buy and Sell Stock
 
-
-
-Problem
--------
+## Problem
 
 [LeetCode 122](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
@@ -12,23 +8,15 @@ Say you have an array for which the ith element is the price of a given stock on
 
 If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 
-Example
--------
+## Example
 
-Given an example [3,2,3,1,2], return 1
+Given an example `[3,2,3,1,2]`, return 1
 
-
-Solution
---------
+## Solution
 
 Greedy.
 
-
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -48,5 +36,4 @@ public class Solution {
         return max;
     }
 }
-
 ```

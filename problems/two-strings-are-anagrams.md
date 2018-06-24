@@ -1,34 +1,20 @@
-Two Strings Are Anagrams
-===
+# Two Strings Are Anagrams
 
+## Problem
 
-Problem
--------
+Write a method `anagram(s,t)` to decide if two strings are anagrams or not.
 
-Write a method anagram(s,t) to decide if two strings are anagrams or not.
+## Example
 
-Example
--------
+Given `s="abcd"`, `t="dcab"`, return true.
 
-Given s="abcd", t="dcab", return true.
+## Challenge
 
-Note
----------
+`O(n)` time, `O(1)` extra space
 
-Challenge
----------
-
-O(n) time, O(1) extra space
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param s: The first string
@@ -64,7 +50,6 @@ public class Solution {
                 return false;
             }
         }
-
         return true;
     }
 };

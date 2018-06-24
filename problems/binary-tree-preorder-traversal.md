@@ -1,49 +1,41 @@
-Binary Tree Preorder Traversal
-===
+# Binary Tree Preorder Traversal
 
-
-Problem
--------
+## Problem
 
 Given a binary tree, return the preorder traversal of its nodes' values.
 
-Example
--------
+## Example
 
 Given:
-    
+
+```
         1
        / \
       2   3
      / \
     4   5
+```
 
-return [1,2,4,5,3].
+return `[1,2,4,5,3]`.
 
-
-Challenge
----------
+## Challenge
 
 Can you do it without recursion?
 
-Solution
---------
+## Solution
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -70,5 +62,4 @@ public class Solution {
         traverse(node.right, result);
     }
 }
-
 ```

@@ -1,11 +1,8 @@
-String Permutation
-===
+# String Permutation
 
 ## Problem
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {

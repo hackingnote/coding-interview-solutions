@@ -1,34 +1,18 @@
-Word Break
-===
+# Word Break
 
-
-Problem
--------
+## Problem
 
 Given a string s and a dictionary of words dict, determine if s can be break into a space-separated sequence of one or more dictionary words.
 
-Example
--------
+## Example
 
-Given s = "lintcode", dict = ["lint", "code"].
+Given `s = "lintcode"`, `dict = ["lint", "code"]`.
 
 Return true because "lintcode" can be break as "lint code".
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     public boolean wordBreak(String s, Set<String> dict) {
 
@@ -44,9 +28,7 @@ public class Solution {
                 }
             }
         }
-
         return flag[size - 1];
-
     }
 }
 
@@ -83,8 +65,6 @@ public class Solution {
             }
         }
         return false;
-
     }
 }
-
 ```

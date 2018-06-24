@@ -1,35 +1,18 @@
-N-Queens II
-===
+# N-Queens II
 
-
-Problem
--------
+## Problem
 
 Follow up for N-Queens problem.
 
 Now, instead outputting board configurations, return the total number of distinct solutions.
 
-Example
--------
+## Example
 
-For n=4, there are 2 distinct solutions.
+For `n=4`, there are 2 distinct solutions.
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
 
     private int cnt = 0;
@@ -45,13 +28,11 @@ class Solution {
         return cnt;
     }
 
-
     private void placeQueen(int[] board, int row, int nQueens) {
         if (row == nQueens) {
             cnt++;
             return;
         }
-
         for (int i = 0; i < nQueens; i++) {
             board[row] = i;
             if (isValid(board, row)) {
@@ -69,6 +50,4 @@ class Solution {
         return true;
     }
 };
-
-
 ```

@@ -1,31 +1,22 @@
-Longest Increasing Subsequence
-===
+# Longest Increasing Subsequence
 
-
-Problem
--------
+## Problem
 
 Given a sequence of integers, find the longest increasing subsequence (LIS).
 
 You code should return the length of the LIS.
 
-Example
--------
+## Example
 
-For [5, 4, 1, 2, 3], the LIS  is [1, 2, 3], return 3
+For `[5, 4, 1, 2, 3]`, the LIS is `[1, 2, 3]`, return `3`
 
-For [4, 2, 4, 5, 3, 7], the LIS is [4, 4, 5, 7], return 4
+For `[4, 2, 4, 5, 3, 7]`, the LIS is `[4, 4, 5, 7]`, return `4`
 
-Note
----------
+## Challenge
 
-Challenge
----------
+Time complexity `O(n^2)` or `O(nlogn)`
 
-Time complexity O(n^2) or O(nlogn)
-
-Clarification
--------------
+## Clarification
 
 What's the definition of longest increasing subsequence?
 
@@ -33,18 +24,9 @@ What's the definition of longest increasing subsequence?
 
     * https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 
-
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums: The integer array
@@ -66,5 +48,4 @@ public class Solution {
         return max;
     }
 }
-
 ```

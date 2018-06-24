@@ -1,35 +1,25 @@
-Insertion Sort List 
-===================
+# Insertion Sort List
 
-Problem
---------
+## Problem
 
 Sort a linked list using insertion sort.
 
-Example
--------
+## Example
 
-Given 1->3->2->0->null, return 0->1->2->3->null.
+Given `1->3->2->0->null`, return `0->1->2->3->null`.
 
-
-Solution
----------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -48,9 +38,7 @@ public class Solution {
             n.next = head;
             head = next;
         }
-
         return dummy.next;
     }
 }
-
 ```

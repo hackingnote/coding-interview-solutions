@@ -1,8 +1,6 @@
-Reverse Words in a String
-===
+# Reverse Words in a String
 
-Problem
--------
+## Problem
 
 Given an input string, reverse the string word by word.
 
@@ -10,31 +8,23 @@ For example,
 Given s = "the sky is blue",
 return "blue is sky the".
 
-Clarification
--------
+## Clarification
 
-* What constitutes a word?
+- What constitutes a word?
 
 A sequence of non-space characters constitutes a word.
 
-* Could the input string contain leading or trailing spaces?
+- Could the input string contain leading or trailing spaces?
 
 Yes. However, your reversed string should not contain leading or trailing spaces.
 
-* How about multiple spaces between two words?
+- How about multiple spaces between two words?
 
 Reduce them to a single space in the reversed string.
 
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param s : A string
@@ -53,7 +43,6 @@ public class Solution {
         }
         reverse(c, 0, c.length - 1);
         return new String(c).trim();
-
     }
 
     private void reverse(char[] c, int start, int end) {
@@ -66,6 +55,4 @@ public class Solution {
         }
     }
 }
-
-
 ```

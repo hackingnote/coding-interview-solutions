@@ -1,10 +1,8 @@
-Topological Sorting
-===================
+# Topological Sorting
 
 LintCode 127: http://www.lintcode.com/en/problem/topological-sorting/
 
-Problem
--------
+## Problem
 
 Given an directed graph, a topological order of the graph nodes is defined as follow:
 
@@ -15,8 +13,7 @@ Find any topological order for the given graph.
 
 Notice: You can assume that there is at least one topological order in the graph.
 
-Example
--------
+## Example
 
 For graph as follow:
 
@@ -30,15 +27,9 @@ The topological order can be:
 ...
 ```
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for Directed graph.
  * class DirectedGraphNode {
@@ -86,5 +77,4 @@ public class Solution {
     }
 
 }
-
 ```

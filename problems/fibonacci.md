@@ -1,9 +1,6 @@
-Fibonacci
-===
+# Fibonacci
 
-
-Problem
--------
+## Problem
 
 Find the Nth number in Fibonacci sequence.
 
@@ -15,8 +12,7 @@ The first ten numbers in Fibonacci sequence is:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ...
 
-Example
--------
+## Example
 
 Given 1, return 0
 
@@ -24,24 +20,13 @@ Given 2, return 1
 
 Given 10, return 34
 
-Note
----------
+## Note
 
 The Nth fibonacci number won't exceed the max value of signed 32-bit integer in the test cases.
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param n: an integer
@@ -57,5 +42,4 @@ class Solution {
         return a;
     }
 }
-
 ```

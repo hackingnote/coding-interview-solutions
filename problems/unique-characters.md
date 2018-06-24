@@ -1,36 +1,22 @@
-Unique Characters
-===
+# Unique Characters
 
-
-Problem
--------
+## Problem
 
 Implement an algorithm to determine if a string has all unique characters.
 
-Example
--------
+## Example
 
 Given "abc", return true.
 
 Given "aab", return false.
 
-Note
----------
-
-Challenge
----------
+## Challenge
 
 What if you can not use additional data structures?
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param str: a string

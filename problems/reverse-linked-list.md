@@ -1,39 +1,31 @@
-Reverse Linked List
-===
+# Reverse Linked List
 
 LintCode: https://www.lintcode.com/en/problem/reverse-linked-list/
 
-Problem
--------
+## Problem
 
 Reverse a linked list.
 
-Example
--------
+## Example
 
-For linked list 1->2->3, the reversed linked list is 3->2->1
+For linked list `1->2->3`, the reversed linked list is `3->2->1`
 
-Challenge
----------
+## Challenge
 
 Reverse it in-place and in one-pass
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -54,6 +46,4 @@ public class Solution {
         return a;
     }
 }
-
-
 ```

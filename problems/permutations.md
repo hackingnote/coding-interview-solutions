@@ -1,20 +1,16 @@
-Permutations
-============
+# Permutations
 
 LintCode 15: http://www.lintcode.com/en/problem/permutations/
 
-
-Problem
--------
+## Problem
 
 Given a list of numbers, return all possible permutations.
-Notice
 
-You can assume that there is no duplicate numbers in the list.
-Have you met this question in a real interview?
-Example
+Notice: You can assume that there is no duplicate numbers in the list.
 
-For nums = [1,2,3], the permutations are:
+## Example
+
+For `nums = [1,2,3]`, the permutations are:
 
 ```
 [
@@ -27,13 +23,9 @@ For nums = [1,2,3], the permutations are:
 ]
 ```
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param nums: A list of integers.
@@ -51,7 +43,6 @@ class Solution {
 
     private int[] nums;
 
-
     private void perm(List<List<Integer>> result, int level, LinkedList<Integer> buffer, boolean[] visited) {
         if (level == nums.length) {
             result.add(new ArrayList<Integer>(buffer));
@@ -68,5 +59,4 @@ class Solution {
         }
     }
 }
-
 ```

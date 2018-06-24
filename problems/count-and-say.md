@@ -1,8 +1,6 @@
-Count and Say
-===
+# Count and Say
 
-Problem
--------
+## Problem
 
 The count-and-say sequence is the sequence of integers beginning as follows:
 
@@ -16,27 +14,15 @@ The count-and-say sequence is the sequence of integers beginning as follows:
 
 Given an integer n, generate the nth sequence.
 
-Example
--------
+## Example
 
 Given n = 5, return "111221".
 
-
-Note
----------
+## Note
 
 The sequence of integers will be represented as a string.
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -68,5 +54,4 @@ public class Solution {
         return s;
     }
 }
-
 ```

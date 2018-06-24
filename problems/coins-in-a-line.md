@@ -1,17 +1,12 @@
-Coins in a Line
-===
+# Coins in a Line
 
-
-
-Problem
--------
+## Problem
 
 There are n coins in a line. Two players take turns to take one or two coins from right side until there are no more coins left. The player who take the last coin wins.
 
 Could you please decide the first play will win or lose?
 
-Example
--------
+## Example
 
 n = 1, return true.
 
@@ -23,21 +18,11 @@ n = 4, return true.
 
 n = 5, return true.
 
-Note
----------
+## Challenge
 
-Challenge
----------
+`O(n)` time and `O(1)` memory
 
-O(n) time and O(1) memory
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -50,5 +35,4 @@ public class Solution {
         return true;
     }
 }
-
 ```

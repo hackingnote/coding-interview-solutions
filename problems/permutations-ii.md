@@ -1,18 +1,14 @@
-Permutations II
-============
+# Permutations II
 
 LintCode 16: http://www.lintcode.com/en/problem/permutations-ii/
 
-Problem
--------
-
-
+## Problem
 
 Given a list of numbers with duplicate number in it. Find all unique permutations.
-Have you met this question in a real interview?
-Example
 
-For numbers [1,2,2] the unique permutations are:
+## Example
+
+For numbers `[1,2,2]` the unique permutations are:
 
 ```
 [
@@ -22,17 +18,9 @@ For numbers [1,2,2] the unique permutations are:
 ]
 ```
 
-
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 class Solution {
     /**
      * @param nums: A list of integers.
@@ -47,7 +35,6 @@ class Solution {
         perm(result, 0, buffer, visited, nums);
         return result;
     }
-
 
     private void perm(List<List<Integer>> result, int level, LinkedList<Integer> buffer, boolean[] visited, int[] nums) {
         if (level == nums.length) {
@@ -68,7 +55,4 @@ class Solution {
         }
     }
 }
-
-
-
 ```

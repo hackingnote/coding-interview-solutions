@@ -1,40 +1,38 @@
-Convert Sorted List to Balanced BST
-===
+# Convert Sorted List to Balanced BST
 
 ## Problem
 
 Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
-
 ## Example
 
+```
                2
 1->2->3  =>   / \
              1   3
+```
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -44,7 +42,6 @@ public class Solution {
      */
     public TreeNode sortedListToBST(ListNode head) {
         if (head == null) return null;
-
         ListNode prev = getMidNode(head);
         ListNode mid = prev.next;
         TreeNode root = new TreeNode(mid.val);
@@ -54,7 +51,6 @@ public class Solution {
         }
         root.right = sortedListToBST(mid.next);
         return root;
-
     }
 
     private ListNode getMidNode(ListNode head) {
@@ -68,5 +64,4 @@ public class Solution {
         return p1;
     }
 }
-
 ```

@@ -1,12 +1,8 @@
-Mock Hanoi Tower by Stacks
-==========================
+# Mock Hanoi Tower by Stacks
 
 LintCode 227: https://www.lintcode.com/en/problem/mock-hanoi-tower-by-stacks/
 
-Problem
--------
-
-
+## Problem
 
 In the classic problem of Towers of Hanoi, you have 3 towers and N disks of different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order of size from top to bottom (i.e., each disk sits on top of an even larger one). You have the following constraints:
 
@@ -16,14 +12,9 @@ In the classic problem of Towers of Hanoi, you have 3 towers and N disks of diff
 
 Write a program to move the disks from the first tower to the last using stacks.
 
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Tower {
     private Stack<Integer> disks;
 
@@ -61,8 +52,6 @@ public class Tower {
         moveDisks(n - 1, buffer, destination);
         moveTopTo(destination);
         buffer.moveDisks(n - 1, destination, this);
-
-
     }
 
     public Stack<Integer> getDisks() {
@@ -77,5 +66,4 @@ public class Tower {
  * towers[0].moveDisks(n, towers[2], towers[1]);
  * print towers[0], towers[1], towers[2]
  */
-
 ```

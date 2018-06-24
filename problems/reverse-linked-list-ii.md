@@ -1,41 +1,31 @@
-Reverse Linked List
-===
+# Reverse Linked List
 
 LintCode: https://www.lintcode.com/en/problem/reverse-linked-list-ii/
 
-Problem
--------
+## Problem
 
-Reverse a linked list from position m to n. Given m, n satisfy the following condition: 1 ≤ m ≤ n ≤ length of list.
+Reverse a linked list from position m to n. Given m, n satisfy the following condition: `1 ≤ m ≤ n ≤ length` of list.
 
-Example
--------
+## Example
 
-Given 1->2->3->4->5->NULL, m = 2 and n = 4, return 1->4->3->2->5->NULL.
+Given `1->2->3->4->5->NULL`, m = 2 and n = 4, return 1->4->3->2->5->NULL.
 
-Challenge
----------
+## Challenge
 
 Reverse it in-place and in one-pass
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) {
- * val = x;
- * next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int x) {
+ *     val = x;
+ *     next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -49,7 +39,6 @@ public class Solution {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         head = dummy;
-
 
         for (int i = 0; i < m - 1; i++) {
             head = head.next;
@@ -65,6 +54,4 @@ public class Solution {
         return dummy.next;
     }
 }
-
-
 ```

@@ -1,9 +1,6 @@
-Fizz Buzz
-===
+# Fizz Buzz
 
-
-Problem
--------
+## Problem
 
 Given number n. Print number from 1 to n. But:
 
@@ -11,29 +8,21 @@ Given number n. Print number from 1 to n. But:
 - when number is divided by 5, print "buzz".
 - when number is divided by both 3 and 5, print "fizz buzz".
 
-Example
--------
+## Example
 
 If n = 15, you should return:
 
-    [
-      "1", "2", "fizz",
-      "4", "buzz", "fizz",
-      "7", "8", "fizz",
-      "buzz", "11", "fizz",
-      "13", "14", "fizz buzz"
-    ]
+```
+[
+  "1", "2", "fizz",
+  "4", "buzz", "fizz",
+  "7", "8", "fizz",
+  "buzz", "11", "fizz",
+  "13", "14", "fizz buzz"
+]
+```
 
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 class Solution {
@@ -57,6 +46,4 @@ class Solution {
         return results;
     }
 }
-
-
 ```

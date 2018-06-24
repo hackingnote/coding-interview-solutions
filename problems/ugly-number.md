@@ -4,10 +4,7 @@ title: Ugly Number II
 
 LintCode 517: https://www.lintcode.com/en/problem/ugly-number/
 
-Problem
--------
-
-
+## Problem
 
 Write a program to check whether a given number is an ugly number`.
 
@@ -15,18 +12,9 @@ Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For 
 
 Note that 1 is typically treated as an ugly number.
 
-
-
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param num an integer
@@ -43,5 +31,4 @@ public class Solution {
         return num == 1;
     }
 }
-
 ```

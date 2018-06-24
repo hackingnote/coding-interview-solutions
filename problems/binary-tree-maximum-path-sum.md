@@ -1,50 +1,35 @@
-Binary Tree Maximum Path Sum
-===
+# Binary Tree Maximum Path Sum
 
-
-
-Problem
--------
+## Problem
 
 Given a binary tree, find the maximum path sum.
 
 The path may start and end at any node in the tree.
 
-Example
--------
+## Example
+
 Given the below binary tree:
 
+```
       1
      / \
     2   3
+```
 
-return 6.
+return `6`.
 
-
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {
@@ -69,5 +54,4 @@ public class Solution {
         return Math.max(left, right) + root.val;
     }
 }
-
 ```

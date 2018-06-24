@@ -1,37 +1,19 @@
-Remove Duplicates from Sorted Array II
-===
+# Remove Duplicates from Sorted Array II
 
-
-Problem
--------
+## Problem
 
 Follow up for "Remove Duplicates":
 What if duplicates are allowed at most twice?
 
-For example,
-Given sorted array A = [1,1,1,2,2,3],
+## Example
 
-Your function should return length = 5, and A is now [1,1,2,2,3].
+Given sorted array `A = [1,1,1,2,2,3]`,
 
-Example
--------
+Your function should return `length = 5`, and A is now `[1,1,2,2,3]`.
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param A: a array of integers

@@ -1,18 +1,18 @@
-Generate Parentheses
-===
+# Generate Parentheses
 
 ## Problem
 
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
-
 ## Example
 
-Given n = 3, a solution set is:
-"((()))", "(()())", "(())()", "()(())", "()()()"
+Given `n = 3`, a solution set is:
 
-Code(Java)
-----------
+```
+"((()))", "(()())", "(())()", "()(())", "()()()"
+```
+
+## Code(Java)
 
 ```java
 public class Solution {
@@ -25,7 +25,6 @@ public class Solution {
         ArrayList<String> result = new ArrayList<>();
         generate(result, "", n, 0, 0);
         return result;
-
     }
 
     private void generate(ArrayList<String> result, String buffer, int n, int left, int right) {
@@ -33,11 +32,9 @@ public class Solution {
             result.add(buffer);
             return;
         }
-
         if (left < n) {
             generate(result, buffer + "(", n, left + 1, right);
         }
-
         if (left > right) {
             generate(result, buffer + ")", n, left, right + 1);
         }

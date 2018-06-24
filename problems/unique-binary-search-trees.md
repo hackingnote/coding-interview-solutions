@@ -1,38 +1,24 @@
-Unique Binary Search Trees
-===
+# Unique Binary Search Trees
 
+## Problem
 
-Problem
--------
+Given n, how many structurally unique BSTs (binary search trees) that store values `1...n`?
 
-Given n, how many structurally unique BSTs (binary search trees) that store values 1...n?
-
-Example
--------
+## Example
 
 Given n = 3, there are a total of 5 unique BST's.
 
+```
     1           3    3       2      1
      \         /    /       / \      \
       3      2     1       1   3      2
      /      /       \                  \
     2     1          2                  3
+```
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @paramn n: An integer
@@ -49,7 +35,6 @@ public class Solution {
                 cnt[i] += cnt[j] * cnt[i - 1 - j];
             }
         }
-
         return cnt[n];
     }
 }

@@ -1,46 +1,35 @@
-Linked List Cycle II
-===
+# Linked List Cycle II
 
 - LeetCode: https://leetcode.com/problems/linked-list-cycle-ii/
 - LintCode: http://www.lintcode.com/en/problem/linked-list-cycle-ii/
 
-
-Problem
--------
+## Problem
 
 Given a linked list, return the node where the cycle begins.
 
 If there is no cycle, return null.
 
-Example
--------
+## Example
 
-Given -21->10->4->5, tail connects to node index 1，return 10
+Given `-21->10->4->5`, tail connects to node index `1`，return `10`
 
-
-
-Challenge
----------
+## Challenge
 
 Follow up:
 Can you solve it without using extra space?
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -59,11 +48,8 @@ public class Solution {
             fast = fast.next;
             if (fast.next == null) return null;
             fast = fast.next;
-
             if (slow == fast) {
-
                 slow = head;
-
                 while (fast != slow) {
                     fast = fast.next;
                     slow = slow.next;
@@ -74,5 +60,4 @@ public class Solution {
         return null;
     }
 }
-
 ```

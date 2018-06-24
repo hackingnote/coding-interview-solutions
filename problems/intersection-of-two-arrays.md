@@ -1,12 +1,8 @@
-Intersection of Two Arrays 
-==========================
+# Intersection of Two Arrays
 
 LintCode 574: https://www.lintcode.com/en/problem/intersection-of-two-arrays/
 
-Problem
--------
-
-
+## Problem
 
 Given two arrays, write a function to compute their intersection.
 Notice
@@ -14,18 +10,13 @@ Notice
 - Each element in the result must be unique.
 - The result can be in any order.
 
-Example
--------
+## Example
 
-Given nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2].
+Given `nums1 = [1, 2, 2, 1]`, `nums2 = [2, 2]`, return `[2]`.
 
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param nums1 an integer array
@@ -54,5 +45,4 @@ public class Solution {
         return arr;
     }
 }
-
 ```

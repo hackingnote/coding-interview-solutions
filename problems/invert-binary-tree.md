@@ -1,47 +1,35 @@
-Invert Binary Tree
-===
+# Invert Binary Tree
 
-
-Problem
--------
+## Problem
 
 Invert a binary tree.
 
-Example
--------
+## Example
 
+```
       1         1
      / \       / \
     2   3  => 3   2
        /       \
       4         4
-      
-Note
----------
+```
 
-Challenge
----------
+## Challenge
 
 Do it in recursion is acceptable, can you do it without recursion?
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
  * }
  */
 public class Solution {

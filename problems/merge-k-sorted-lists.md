@@ -1,51 +1,37 @@
-Merge k Sorted Lists
-===
+# Merge k Sorted Lists
 
-Problem
--------
+## Problem
 
 Merge k sorted linked lists and return it as one sorted list.
 
 Analyze and describe its complexity.
 
-Example
--------
+## Example
 
 Given lists:
 
-    [
-      2->4->null,
-      null,
-      -1->null
-    ],
+```
+[
+  2->4->null,
+  null,
+  -1->null
+],
+```
 
-return -1->2->4->null.
+return `-1->2->4->null`.
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for ListNode.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
+ *   int val;
+ *   ListNode next;
+ *   ListNode(int val) {
+ *     this.val = val;
+ *     this.next = null;
+ *   }
  * }
  */
 public class Solution {
@@ -87,8 +73,5 @@ public class Solution {
             return a.val - b.val;
         }
     };
-
-
 }
-
 ```

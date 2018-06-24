@@ -1,17 +1,14 @@
-Restore IP Addresses
-====================
+# Restore IP Addresses
 
 LintCode 426: http://www.lintcode.com/en/problem/restore-ip-addresses/
 
-Problem
--------
+## Problem
 
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.
 
-Example
--------
+## Example
 
-Given "25525511135", return
+Given `"25525511135"`, return
 
 ```
 [
@@ -22,15 +19,9 @@ Given "25525511135", return
 
 Order does not matter.
 
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param s the IP string
@@ -71,5 +62,4 @@ public class Solution {
         }
     }
 }
-
 ```

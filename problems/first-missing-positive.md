@@ -1,18 +1,15 @@
-First Missing Positive
-===
+# First Missing Positive
 
 ## Problem
 
 Given an unsorted integer array, find the first missing positive integer.
 
-
 ## Example
 
-Given [1,2,0] return 3,
-and [3,4,-1,1] return 2.
+Given `[1,2,0]` return 3,
+and `[3,4,-1,1]` return 2.
 
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -31,7 +28,6 @@ public class Solution {
                 A[s] = tmp;
             }
         }
-
         for (int i = 0; i < A.length; i++) {
             if (A[i] != i + 1) return i + 1;
         }

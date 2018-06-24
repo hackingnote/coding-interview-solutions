@@ -1,37 +1,33 @@
-Word Ladder II
-===
+# Word Ladder II
 
 ## Problem
-
 
 Given two words (start and end), and a dictionary, find all shortest transformation sequence(s) from start to end, such that:
 
 Only one letter can be changed at a timeEach intermediate word must exist in the dictionary
 
- Notice
-All words have the same length.All words contain only lowercase alphabetic characters.
-
-
+Notice: All words have the same length.All words contain only lowercase alphabetic characters.
 
 ## Example
 
-
 Given:
+
+```
 start = "hit"
 end = "cog"
 dict = ["hot","dot","dog","lot","log"]
-
+```
 
 Return
 
+```
   [
     ["hit","hot","dot","dog","cog"],
     ["hit","hot","lot","log","cog"]
   ]
+```
 
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
 public class Solution {
@@ -67,10 +63,7 @@ public class Solution {
                 }
             }
         }
-
         assemble(result, map, distance, new ArrayList<String>(Arrays.asList(start)), start, end);
-
-
         return result;
 
     }
@@ -79,7 +72,6 @@ public class Solution {
         int currDist = distance.get(s);
         int targetDist = distance.get(end);
         if (currDist == targetDist && s.equals(end)) {
-
             result.add(buffer);
             return;
         }
@@ -92,13 +84,10 @@ public class Solution {
         }
     }
 
-
     private void createGraph(String s, Set<String> dict, Map<String, List<String>> map) {
         if (map.containsKey(s)) return;
-
         List<String> neighbors = new ArrayList<>();
         map.put(s, neighbors);
-
         for (String t : dict) {
             if (diffByOne(s, t)) {
                 neighbors.add(t);

@@ -1,33 +1,18 @@
-Reverse Integer
-===
+# Reverse Integer
 
-Problem
--------
+## Problem
 
 Reverse digits of an integer. Returns 0 when the reversed integer overflows (signed 32-bit integer).
 
-Example
--------
+## Example
 
 Given x = 123, return 321
 
 Given x = -123, return -321
 
-Note
----------
-
-Challenge
----------
-
-Solution
---------
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
 
     /**

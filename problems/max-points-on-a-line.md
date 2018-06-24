@@ -1,35 +1,24 @@
-Max Points on a Line
-===
+# Max Points on a Line
 
+## Problem
 
-Problem
--------
+- [LeetCode 149](https://oj.leetcode.com/problems/max-points-on-a-line/)
+  Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
 
-* [LeetCode 149](https://oj.leetcode.com/problems/max-points-on-a-line/)
-Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
+## Traps
 
+Double comparison: use `==` to compare double values may result in wrong answer
 
-
-Traps
------
-
-Double comparison: use ``==`` to compare double values may result in wrong answer
-
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 /**
  * Definition for a point.
  * class Point {
- * int x;
- * int y;
- * Point() { x = 0; y = 0; }
- * Point(int a, int b) { x = a; y = b; }
+ *   int x;
+ *   int y;
+ *   Point() { x = 0; y = 0; }
+ *   Point(int a, int b) { x = a; y = b; }
  * }
  */
 public class Solution {
@@ -37,7 +26,6 @@ public class Solution {
     private boolean equals(double a, double b) {
         return Math.abs(a - b) < 1e-5 ? true : false;
     }
-
 
     public int maxPoints(Point[] points) {
         Map<Double, Set<Double>> kbmap = new HashMap<Double, Set<Double>>();
@@ -57,7 +45,6 @@ public class Solution {
                     }
                 } else {
                     double k = (double) (p2.y - p1.y) / (double) (p2.x - p1.x);
-
                     double b = p1.y - k * p1.x;
 
                     if (kbmap.containsKey(k)) {
@@ -86,5 +73,4 @@ public class Solution {
         return max;
     }
 }
-
 ```

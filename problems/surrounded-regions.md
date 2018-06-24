@@ -1,11 +1,8 @@
-Surrounded Regions
-===
+# Surrounded Regions
 
-Problem
--------
+## Problem
 
-* [LeetCode 130](https://oj.leetcode.com/problems/surrounded-regions/)
-
+- [LeetCode 130](https://oj.leetcode.com/problems/surrounded-regions/)
 
 Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'.
 
@@ -13,34 +10,31 @@ A region is captured by flipping all 'O's into 'X's in that surrounded region.
 
 For example,
 
-    X X X X
-    X O O X
-    X X O X
-    X O X X
+```
+X X X X
+X O O X
+X X O X
+X O X X
+```
 
 After running your function, the board should be:
 
-    X X X X
-    X X X X
-    X X X X
-    X O X X
+```
+X X X X
+X X X X
+X X X X
+X O X X
+```
 
-
-
-
-Code(Java)
-----------
+## Code(Java)
 
 ```java
-
 public class Solution {
     /**
      * @param board a 2D board containing 'X' and 'O'
      * @return void
      */
     public void surroundedRegions(char[][] board) {
-
-
         if (board == null || board.length == 0) {
             return;
         }
@@ -112,7 +106,6 @@ public class Solution {
                 }
             }
         }
-
     }
 }
 
@@ -140,8 +133,6 @@ public class Solution {
                 qy[tail] = yLen - 1;
                 tail++;
             }
-
-
         }
         for (int i = 0; i < yLen; i++) {
             if (board[0][i] == 'O') {
@@ -187,5 +178,4 @@ public class Solution {
         }
     }
 }
-
 ```

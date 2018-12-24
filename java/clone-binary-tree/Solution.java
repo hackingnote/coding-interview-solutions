@@ -1,5 +1,6 @@
 /**
  * Definition of TreeNode:
+ * <pre>
  * public class TreeNode {
  * public int val;
  * public TreeNode left, right;
@@ -8,7 +9,9 @@
  * this.left = this.right = null;
  * }
  * }
+ * </pre>
  */
+
 public class Solution {
     /**
      * @param root: The root of binary tree

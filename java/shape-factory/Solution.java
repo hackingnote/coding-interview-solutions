@@ -1,10 +1,16 @@
 /**
- * Your object will be instantiated and called as such: ShapeFactory sf = new ShapeFactory(); Shape
- * shape = sf.getShape(shapeType); shape.draw();
+ * Your object will be instantiated and called as such:
+ * 
+ * <pre>
+ * ShapeFactory sf = new ShapeFactory();
+ * Shape shape = sf.getShape(shapeType);
+ * shape.draw();
+ * </pre>
  */
 interface Shape {
   void draw();
 }
+
 
 class Rectangle implements Shape {
   // Write your code here
@@ -15,6 +21,7 @@ class Rectangle implements Shape {
     System.out.println(" ----");
   }
 }
+
 
 class Square implements Shape {
   // Write your code here
@@ -27,6 +34,7 @@ class Square implements Shape {
   }
 }
 
+
 class Triangle implements Shape {
   // Write your code here
   @Override
@@ -36,6 +44,7 @@ class Triangle implements Shape {
     System.out.println("/____\\");
   }
 }
+
 
 public class ShapeFactory {
   /**

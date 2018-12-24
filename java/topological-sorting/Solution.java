@@ -1,7 +1,17 @@
 /**
- * Definition for Directed graph. class DirectedGraphNode { int label; ArrayList<DirectedGraphNode>
- * neighbors; DirectedGraphNode(int x) { label = x; neighbors = new ArrayList<DirectedGraphNode>();
- * } };
+ * Definition for Directed graph.
+ * 
+ * <pre>
+ * class DirectedGraphNode {
+ *   int label;
+ *   ArrayList<DirectedGraphNode> neighbors;
+ * 
+ *   DirectedGraphNode(int x) {
+ *     label = x;
+ *     neighbors = new ArrayList<DirectedGraphNode>();
+ *   }
+ * };
+ * </pre>
  */
 public class Solution {
   /**

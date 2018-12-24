@@ -1,11 +1,21 @@
 /**
- * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode(int
- * x) { val = x; } }
+ * Definition for singly-linked list.
+ * 
+ * <pre>
+ * public class ListNode {
+ *   int val;
+ *   ListNode next;
+ * 
+ *   ListNode(int x) {
+ *     val = x;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
    * @param head a ListNode
-   * @param k an integer
+   * @param k    an integer
    * @return a ListNode
    */
   public ListNode reverseKGroup(ListNode head, int k) {

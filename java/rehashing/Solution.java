@@ -1,6 +1,17 @@
 /**
- * Definition for ListNode public class ListNode { int val; ListNode next; ListNode(int x) { val =
- * x; next = null; } }
+ * Definition for ListNode
+ * 
+ * <pre>
+ * public class ListNode {
+ *   int val;
+ *   ListNode next;
+ * 
+ *   ListNode(int x) {
+ *     val = x;
+ *     next = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
@@ -20,7 +31,8 @@ public class Solution {
           result[newHash] = new ListNode(node.val);
         } else {
           ListNode p = result[newHash];
-          while (p.next != null) p = p.next;
+          while (p.next != null)
+            p = p.next;
           p.next = new ListNode(node.val);
         }
         node = node.next;

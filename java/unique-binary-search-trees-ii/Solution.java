@@ -1,6 +1,17 @@
 /**
- * Definition of TreeNode: public class TreeNode { public int val; public TreeNode left, right;
- * public TreeNode(int val) { this.val = val; this.left = this.right = null; } }
+ * Definition of TreeNode:
+ * 
+ * <pre>
+ * public class TreeNode {
+ *   public int val;
+ *   public TreeNode left, right;
+ * 
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
@@ -13,7 +24,8 @@ public class Solution {
 
     List<TreeNode> empty = new ArrayList<>();
     empty.add(null);
-    if (n == 0) return empty;
+    if (n == 0)
+      return empty;
 
     List<TreeNode> list = new ArrayList<>();
     dp.add(empty);
@@ -43,7 +55,8 @@ public class Solution {
   }
 
   private TreeNode copy(TreeNode node) {
-    if (node == null) return null;
+    if (node == null)
+      return null;
     TreeNode newNode = new TreeNode(node.val);
     newNode.left = copy(node.left);
     newNode.right = copy(node.right);
@@ -51,7 +64,8 @@ public class Solution {
   }
 
   private void updateValue(TreeNode node, int plus) {
-    if (node == null) return;
+    if (node == null)
+      return;
     node.val += plus;
     updateValue(node.left, plus);
     updateValue(node.right, plus);

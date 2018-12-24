@@ -1,6 +1,17 @@
 /**
- * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode(int
- * x) { val = x; next = null; } }
+ * Definition for singly-linked list.
+ * 
+ * <pre>
+ * public class ListNode {
+ *   int val;
+ *   ListNode next;
+ * 
+ *   ListNode(int x) {
+ *     val = x;
+ *     next = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
@@ -10,7 +21,8 @@ public class Solution {
    */
   public ListNode rotateRight(ListNode head, int k) {
     // write your code here
-    if (head == null) return null;
+    if (head == null)
+      return null;
     int size = 0;
     ListNode dummy = new ListNode(0);
     dummy.next = head;

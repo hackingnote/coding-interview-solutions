@@ -23,7 +23,6 @@ public class Solution {
           if (j == 0) {
             firstColZero = true;
           }
-
           matrix[i][0] = 0;
           matrix[0][j] = 0;
         }

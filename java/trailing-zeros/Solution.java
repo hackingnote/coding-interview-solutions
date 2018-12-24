@@ -1,7 +1,7 @@
 class Solution {
-  /*
-   * param n: As description
-   * return: An integer, denote the number of trailing zeros in n!
+  /** 
+   * @param n: As description
+   * @return: An integer, denote the number of trailing zeros in n!
    */
   public long trailingZeros(long n) {
     long cnt = 0;

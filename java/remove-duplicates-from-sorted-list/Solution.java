@@ -1,6 +1,17 @@
 /**
- * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode(int
- * x) { val = x; next = null; } }
+ * Definition for singly-linked list.
+ * 
+ * <pre>
+ * public class ListNode {
+ *   int val;
+ *   ListNode next;
+ * 
+ *   ListNode(int x) {
+ *     val = x;
+ *     next = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   public ListNode deleteDuplicates(ListNode head) {
@@ -20,9 +31,21 @@ public class Solution {
   }
 }
 
+
 /**
- * Definition for ListNode public class ListNode { int val; ListNode next; ListNode(int x) { val =
- * x; next = null; } }
+ * Definition for ListNode
+ * 
+ * <pre>
+ * public class ListNode {
+ *   int val;
+ *   ListNode next;
+ * 
+ *   ListNode(int x) {
+ *     val = x;
+ *     next = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**

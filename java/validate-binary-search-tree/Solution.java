@@ -1,6 +1,17 @@
 /**
- * Definition of TreeNode: public class TreeNode { public int val; public TreeNode left, right;
- * public TreeNode(int val) { this.val = val; this.left = this.right = null; } }
+ * Definition of TreeNode:
+ * 
+ * <pre>
+ * public class TreeNode {
+ *   public int val;
+ *   public TreeNode left, right;
+ * 
+ *   public TreeNode(int val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ *   }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
@@ -12,7 +23,8 @@ public class Solution {
   }
 
   public boolean isValidBST(TreeNode root, double min, double max) {
-    if (root == null) return true;
+    if (root == null)
+      return true;
 
     if (root.val >= max || root.val <= min) {
       return false;

@@ -1,6 +1,6 @@
 public class Solution {
   /**
-   * @paramn n: An integer
+   * @param n: An integer
    * @return: An integer
    */
   public int numTrees(int n) {

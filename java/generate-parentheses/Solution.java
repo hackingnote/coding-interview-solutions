@@ -8,7 +8,6 @@ public class Solution {
     ArrayList<String> result = new ArrayList<>();
     generate(result, "", n, 0, 0);
     return result;
-
   }
 
   private void generate(ArrayList<String> result, String buffer, int n, int left, int right) {

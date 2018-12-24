@@ -10,11 +10,9 @@ public class Solution {
       int g = gas[start];
       while (true) {
         g -= cost[i];
-        if (g < 0)
-          break;
+        if (g < 0) break;
         i = (i + 1) % cost.length;
-        if (i == start)
-          return i;
+        if (i == start) return i;
         g += gas[i];
       }
     }

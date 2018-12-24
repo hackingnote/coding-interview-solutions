@@ -1,17 +1,16 @@
-
 /**
  * Definition for a point.
- * 
+ *
  * <pre>
  * class Point {
  *   int x;
  *   int y;
- * 
+ *
  *   Point() {
  *     x = 0;
  *     y = 0;
  *   }
- * 
+ *
  *   Point(int a, int b) {
  *     x = a;
  *     y = b;
@@ -24,7 +23,6 @@ public class Solution {
   private boolean equals(double a, double b) {
     return Math.abs(a - b) < 1e-5 ? true : false;
   }
-
 
   public int maxPoints(Point[] points) {
     Map<Double, Set<Double>> kbmap = new HashMap<Double, Set<Double>>();

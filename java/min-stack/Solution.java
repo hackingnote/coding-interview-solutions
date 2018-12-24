@@ -1,4 +1,3 @@
-
 class MinStack {
 
   private List<Integer> stack = new LinkedList<Integer>();

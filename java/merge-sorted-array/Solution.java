@@ -1,4 +1,3 @@
-
 class Solution {
   /**
    * @param A: sorted integer array A which has m elements, but size of A is m+n

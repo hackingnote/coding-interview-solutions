@@ -1,4 +1,3 @@
-
 class Solution {
   /**
    * @param A and B: sorted integer array A and B.

@@ -1,4 +1,3 @@
-
 class Solution {
   /**
    * @param n: an integer

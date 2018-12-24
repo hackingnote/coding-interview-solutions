@@ -13,15 +13,13 @@ public class Solution {
 
     boolean[][] match = new boolean[c1.length + 1][c2.length + 1];
 
-    if (c1.length + c2.length != c3.length)
-      return false;
+    if (c1.length + c2.length != c3.length) return false;
 
     match[0][0] = true;
     for (int i = 1; i <= c3.length; i++) {
       for (int j = 0; j <= i; j++) {
         int k = i - j;
-        if (j > c1.length || k > c2.length)
-          continue;
+        if (j > c1.length || k > c2.length) continue;
         if (j - 1 >= 0 && match[j - 1][k] && c1[j - 1] == c3[i - 1]) {
           match[j][k] = true;
         }

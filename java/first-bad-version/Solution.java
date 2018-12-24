@@ -1,10 +1,12 @@
 /**
+ *
+ *
  * <pre>
  * public class SVNRepo {
  *   public static boolean isBadVersion(int k);
  * }
  * </pre>
- * 
+ *
  * you can use SVNRepo.isBadVersion(k) to judge whether the kth code version is bad or not.
  */
 class Solution {
@@ -25,6 +27,5 @@ class Solution {
       }
     }
     return i;
-
   }
 }

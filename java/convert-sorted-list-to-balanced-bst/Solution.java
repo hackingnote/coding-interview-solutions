@@ -1,22 +1,8 @@
 /**
- * Definition for ListNode.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int val) {
- * this.val = val;
- * this.next = null;
- * }
- * }
- * Definition of TreeNode:
- * public class TreeNode {
- * public int val;
- * public TreeNode left, right;
- * public TreeNode(int val) {
- * this.val = val;
- * this.left = this.right = null;
- * }
- * }
+ * Definition for ListNode. public class ListNode { int val; ListNode next; ListNode(int val) {
+ * this.val = val; this.next = null; } } Definition of TreeNode: public class TreeNode { public int
+ * val; public TreeNode left, right; public TreeNode(int val) { this.val = val; this.left =
+ * this.right = null; } }
  */
 public class Solution {
   /**
@@ -24,8 +10,7 @@ public class Solution {
    * @return: a tree node
    */
   public TreeNode sortedListToBST(ListNode head) {
-    if (head == null)
-      return null;
+    if (head == null) return null;
 
     ListNode prev = getMidNode(head);
     ListNode mid = prev.next;

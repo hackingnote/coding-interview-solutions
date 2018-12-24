@@ -57,4 +57,3 @@ public class Solution {
     return diff;
   }
 }
-

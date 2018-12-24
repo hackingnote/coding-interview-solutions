@@ -1,4 +1,3 @@
-
 public class Queue {
   private Stack<Integer> stack1;
   private Stack<Integer> stack2;

@@ -5,8 +5,7 @@ class Solution {
    * @return: Cosine similarity.
    */
   public double cosineSimilarity(int[] A, int[] B) {
-    if (A.length != B.length)
-      return 2.0;
+    if (A.length != B.length) return 2.0;
     double sum = 0.0;
     for (int i = 0; i < A.length; i++) {
       sum += A[i] * B[i];
@@ -15,8 +14,7 @@ class Solution {
     long ssA = getSquaredSum(A);
     long ssB = getSquaredSum(B);
 
-    if (ssA == 0 || ssB == 0)
-      return 2.0;
+    if (ssA == 0 || ssB == 0) return 2.0;
 
     return sum / (Math.sqrt(ssA) * Math.sqrt(ssB));
   }

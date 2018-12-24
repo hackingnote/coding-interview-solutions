@@ -4,7 +4,6 @@ public class WordDictionary {
 
   public WordDictionary() {
     root = new TrieNode('_');
-
   }
 
   // Adds a word into the data structure.

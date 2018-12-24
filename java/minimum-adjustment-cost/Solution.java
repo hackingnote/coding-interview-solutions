@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param A: An integer array.
@@ -18,7 +17,6 @@ public class Solution {
     for (int i = 0; i <= 100; i++) {
       cost[0][i] = Math.abs(A.get(0) - i);
     }
-
 
     for (int i = 1; i < size; i++) {
       for (int j = 0; j <= 100; j++) {

@@ -1,6 +1,6 @@
 public class Solution {
   /**
-   * @param n     an integer
+   * @param n an integer
    * @param edges a list of undirected edges
    * @return true if it's a valid tree, or false
    */
@@ -12,10 +12,8 @@ public class Solution {
       Integer x = edges[i][0];
       Integer y = edges[i][1];
 
-      if (!map.containsKey(x))
-        map.put(x, new HashSet<Integer>());
-      if (!map.containsKey(y))
-        map.put(y, new HashSet<Integer>());
+      if (!map.containsKey(x)) map.put(x, new HashSet<Integer>());
+      if (!map.containsKey(y)) map.put(y, new HashSet<Integer>());
 
       map.get(x).add(y);
       map.get(y).add(x);
@@ -27,8 +25,7 @@ public class Solution {
     visited[0] = true;
     while (!queue.isEmpty()) {
       int node = queue.poll();
-      if (!map.containsKey(node))
-        break;
+      if (!map.containsKey(node)) break;
       for (int k : map.get(node)) {
 
         if (visited[k]) {
@@ -41,8 +38,7 @@ public class Solution {
     }
 
     for (int i = 0; i < n; i++) {
-      if (!visited[i])
-        return false;
+      if (!visited[i]) return false;
     }
     return true;
   }

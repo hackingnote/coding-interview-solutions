@@ -1,4 +1,3 @@
-
 public class Solution {
   // @param nestedList a list of NestedInteger
   // @return a list of integer

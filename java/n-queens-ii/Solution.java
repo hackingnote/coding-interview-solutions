@@ -1,4 +1,3 @@
-
 class Solution {
 
   private int cnt = 0;
@@ -36,4 +35,3 @@ class Solution {
     return true;
   }
 };
-

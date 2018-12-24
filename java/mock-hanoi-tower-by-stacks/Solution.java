@@ -1,4 +1,3 @@
-
 public class Tower {
   private Stack<Integer> disks;
 
@@ -44,7 +43,7 @@ public class Tower {
 }
 /**
  * Your Tower object will be instantiated and called as such:
- * 
+ *
  * <pre>
  * Tower[] towers = new Tower[3];
  * for (int i = 0; i < 3; i++) towers[i] = new Tower(i);

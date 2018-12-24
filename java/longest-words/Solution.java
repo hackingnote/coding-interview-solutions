@@ -1,4 +1,3 @@
-
 class Solution {
   /**
    * @param dictionary: an array of strings

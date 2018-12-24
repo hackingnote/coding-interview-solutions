@@ -7,8 +7,7 @@ public class Solution {
     char[] s = S.toCharArray();
     char[] t = T.toCharArray();
 
-    if (t.length == 0)
-      return 1;
+    if (t.length == 0) return 1;
 
     int[] curr = new int[s.length];
     for (int i = 0; i < s.length; i++) {

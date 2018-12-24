@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param A, B: Two strings.

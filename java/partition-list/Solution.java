@@ -1,12 +1,11 @@
-
 /**
  * Definition for ListNode.
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int val) {
  *     this.val = val;
  *     this.next = null;
@@ -37,7 +36,6 @@ public class Solution {
         head = head.next;
         tail2.next = null;
       }
-
     }
     tail1.next = head2.next;
     return head1.next;

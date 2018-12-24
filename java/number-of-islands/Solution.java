@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param grid a boolean 2D matrix
@@ -33,7 +32,11 @@ public class Solution {
             for (int k = 0; k < 4; k++) {
               int tx = x + dx[k];
               int ty = y + dy[k];
-              if (tx >= 0 && tx < lenX && ty >= 0 && ty < lenY && grid[tx][ty]
+              if (tx >= 0
+                  && tx < lenX
+                  && ty >= 0
+                  && ty < lenY
+                  && grid[tx][ty]
                   && !visited[tx][ty]) {
                 visited[tx][ty] = true;
                 qx.offer(tx);

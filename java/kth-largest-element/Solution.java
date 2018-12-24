@@ -1,4 +1,3 @@
-
 class Solution {
   // param k : description of k
   // param numbers : array of numbers
@@ -9,8 +8,7 @@ class Solution {
     int left = 0;
     int right = nums.length - 1;
     while (true) {
-      if (left == right)
-        return nums[left];
+      if (left == right) return nums[left];
       int n = partition(nums, left, right);
       if (n == m) {
         return nums[n];

@@ -1,11 +1,10 @@
-
 /**
  * Definition of Interval:
- * 
+ *
  * <pre>
  * public class Interval {
  *   int start, end;
- * 
+ *
  *   Interval(int start, int end) {
  *     this.start = start;
  *     this.end = end;
@@ -13,18 +12,19 @@
  * }
  * </pre>
  */
-
 class Solution {
   /**
    * @param intervals: Sorted interval list.
    * @return: A new sorted interval list.
    */
   public List<Interval> merge(List<Interval> intervals) {
-    Collections.sort(intervals, new Comparator<Interval>() {
-      public int compare(Interval a, Interval b) {
-        return a.start - b.start;
-      }
-    });
+    Collections.sort(
+        intervals,
+        new Comparator<Interval>() {
+          public int compare(Interval a, Interval b) {
+            return a.start - b.start;
+          }
+        });
 
     List<Interval> result = new ArrayList<Interval>();
 
@@ -44,10 +44,8 @@ class Solution {
       if (i == size - 1) {
         result.add(intervals.get(i));
       }
-
     }
 
     return result;
   }
-
 }

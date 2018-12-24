@@ -16,7 +16,6 @@ public class Solution {
         }
       }
       A = A.substring(0, c.length - 1);
-
     }
     while (A.charAt(0) == '0') {
       A = A.substring(1);

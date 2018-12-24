@@ -1,6 +1,6 @@
 /**
  * Definition of Interval:
- * 
+ *
  * <pre>
  * class Interval {
  * int start, end;

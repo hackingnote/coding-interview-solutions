@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param A: An array of non-negative integers.

@@ -1,5 +1,6 @@
 /**
  * Definition for undirected graph.
+ *
  * <pre>
  * class UndirectedGraphNode {
  * int label;

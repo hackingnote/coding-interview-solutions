@@ -1,7 +1,6 @@
-
 /**
  * Your Trie object will be instantiated and called as such:
- * 
+ *
  * <pre>
  * Trie trie = new Trie();
  * trie.insert("lintcode");
@@ -20,7 +19,6 @@ class TrieNode {
     this.endOfWord = false;
   }
 }
-
 
 public class Solution {
   private TrieNode root;

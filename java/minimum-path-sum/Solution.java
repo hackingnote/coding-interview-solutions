@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param grid: a list of lists of integers.

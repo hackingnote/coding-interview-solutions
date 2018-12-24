@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-        
+
 public class Solution {
   /**
    * @param nums : Give an array numbers of n integer

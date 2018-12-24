@@ -1,6 +1,6 @@
 /**
  * Definition of Interval:
- * 
+ *
  * <pre>
  * public classs Interval {
  * int start, end;
@@ -11,7 +11,6 @@
  * }
  * </pre>
  */
-
 class Solution {
   /**
    * @param intervals: An interval array

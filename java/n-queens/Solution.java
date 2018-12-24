@@ -1,4 +1,3 @@
-
 class Solution {
 
   private ArrayList<ArrayList<String>> result;

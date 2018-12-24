@@ -1,12 +1,11 @@
-
 /**
  * Definition for ListNode.
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int val) {
  *     this.val = val;
  *     this.next = null;
@@ -24,8 +23,7 @@ public class Solution {
 
     while (head != null) {
       ListNode n = dummy;
-      while (n.next != null && n.next.val < head.val)
-        n = n.next;
+      while (n.next != null && n.next.val < head.val) n = n.next;
       ListNode next = head.next;
       head.next = n.next;
       n.next = head;

@@ -19,7 +19,6 @@ public class Solution {
         if (tmp[i]) {
           bag[i] = tmp[i];
           tmp[i] = false;
-
         }
       }
     }
@@ -29,6 +28,5 @@ public class Solution {
     }
 
     return m;
-
   }
 }

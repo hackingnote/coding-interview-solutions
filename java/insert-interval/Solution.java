@@ -1,7 +1,6 @@
-
 /**
  * Definition of Interval:
- * 
+ *
  * <pre>
  * public classs Interval {
  * int start, end;
@@ -11,7 +10,6 @@
  * }
  * </pre>
  */
-
 class Solution {
   /**
    * Insert newInterval into intervals.

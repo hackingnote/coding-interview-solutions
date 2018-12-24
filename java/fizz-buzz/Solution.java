@@ -1,7 +1,5 @@
 class Solution {
-  /**
-   * param n: As description. return: A list of strings.
-   */
+  /** param n: As description. return: A list of strings. */
   public ArrayList<String> fizzBuzz(int n) {
     ArrayList<String> results = new ArrayList<String>();
     for (int i = 1; i <= n; i++) {
@@ -18,4 +16,3 @@ class Solution {
     return results;
   }
 }
-

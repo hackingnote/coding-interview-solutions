@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param nums: A list of integers

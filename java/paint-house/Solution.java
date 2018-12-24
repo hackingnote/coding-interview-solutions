@@ -1,4 +1,3 @@
-
 public class Solution {
   /**
    * @param costs n x 3 cost matrix
@@ -6,8 +5,7 @@ public class Solution {
    */
   public int minCost(int[][] costs) {
     int n = costs.length;
-    if (n == 0)
-      return 0;
+    if (n == 0) return 0;
     int[][] sum = new int[n][3];
     for (int i = 0; i < 3; i++) {
       sum[0][i] = costs[0][i];

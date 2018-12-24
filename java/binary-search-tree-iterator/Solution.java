@@ -1,25 +1,24 @@
 /**
  * Definition of TreeNode:
- * 
+ *
  * <pre>
  * public class TreeNode {
  *   public int val;
  *   public TreeNode left, right;
- * 
+ *
  *   public TreeNode(int val) {
  *     this.val = val;
  *     this.left = this.right = null;
  *   }
  * }
  * </pre>
- * 
+ *
  * Example of iterate a tree:
- * 
+ *
  * <pre>
- * BSTIterator iterator = new BSTIterator(root); 
+ * BSTIterator iterator = new BSTIterator(root);
  * while (iterator.hasNext()) { TreeNode node = iterator.next(); do something for node }
  * </pre>
- *
  */
 public class BSTIterator {
   private Stack<TreeNode> stack = new Stack<>();

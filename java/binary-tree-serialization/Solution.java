@@ -1,11 +1,11 @@
 /**
  * Definition of TreeNode:
- * 
+ *
  * <pre>
  * public class TreeNode {
  *   public int val;
  *   public TreeNode left, right;
- * 
+ *
  *   public TreeNode(int val) {
  *     this.val = val;
  *     this.left = this.right = null;
@@ -20,8 +20,7 @@ class Solution {
    * "deserialize" method later.
    */
   public String serialize(TreeNode root) {
-    if (root == null)
-      return "";
+    if (root == null) return "";
 
     Queue<TreeNode> queue = new LinkedList<>();
     List<String> parts = new ArrayList<>();
@@ -77,8 +76,7 @@ class Solution {
         queue.offer(left);
       }
 
-      if (i + 1 == parts.length)
-        break;
+      if (i + 1 == parts.length) break;
 
       if (parts[i + 1].equals("#")) {
         node.right = null;

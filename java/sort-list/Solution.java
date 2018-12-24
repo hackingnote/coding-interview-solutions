@@ -1,11 +1,11 @@
 /**
  * Definition for ListNode.
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int val) {
  *     this.val = val;
  *     this.next = null;
@@ -20,8 +20,7 @@ public class Solution {
    */
   public ListNode sortList(ListNode head) {
     // write your code here
-    if (head == null)
-      return null;
+    if (head == null) return null;
 
     ListNode dummy1 = new ListNode(0);
     ListNode dummy2 = new ListNode(0);

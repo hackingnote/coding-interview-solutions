@@ -8,8 +8,7 @@ public class Solution {
     // write your code here
     List<Integer> result = new ArrayList<>();
 
-    if (n == 0)
-      return result;
+    if (n == 0) return result;
 
     int[] base = new int[n];
     base[n - 1] = 1;

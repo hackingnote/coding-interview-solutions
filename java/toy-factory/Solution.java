@@ -1,6 +1,6 @@
 /**
  * Your object will be instantiated and called as such:
- * 
+ *
  * <pre>
  * ToyFactory tf = new ToyFactory();
  * Toy toy = tf.getToy(type);
@@ -11,7 +11,6 @@ interface Toy {
   void talk();
 }
 
-
 class Dog implements Toy {
   // Write your code here
   @Override
@@ -20,7 +19,6 @@ class Dog implements Toy {
   }
 }
 
-
 class Cat implements Toy {
   // Write your code here
   @Override
@@ -28,7 +26,6 @@ class Cat implements Toy {
     System.out.println("Meow");
   }
 }
-
 
 public class ToyFactory {
   /**

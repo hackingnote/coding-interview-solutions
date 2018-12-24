@@ -1,6 +1,6 @@
 /**
  * Definition of SegmentTreeNode:
- * 
+ *
  * <pre>
  * public class SegmentTreeNode { public int start, end, max; public
  * SegmentTreeNode left, right; public SegmentTreeNode(int start, int end, int max) { this.start =
@@ -29,7 +29,7 @@ public class Solution {
       return query(root.right, start, end);
     }
 
-    return Math.max(query(root.left, start, root.left.end),
-        query(root.right, root.right.start, end));
+    return Math.max(
+        query(root.left, start, root.left.end), query(root.right, root.right.start, end));
   }
 }

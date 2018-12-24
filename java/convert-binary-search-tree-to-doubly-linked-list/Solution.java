@@ -1,7 +1,10 @@
 /**
- * Definition of TreeNode: <pre> public class TreeNode { public int val; public TreeNode left, right;
- * public TreeNode(int val) { this.val = val; this.left = this.right = null; } }</pre> Definition for
- * Doubly-ListNode. public class DoublyListNode { int val; DoublyListNode next, prev;
+ * Definition of TreeNode:
+ *
+ * <pre> public class TreeNode { public int val; public TreeNode left, right;
+ * public TreeNode(int val) { this.val = val; this.left = this.right = null; } }</pre>
+ *
+ * Definition for Doubly-ListNode. public class DoublyListNode { int val; DoublyListNode next, prev;
  * DoublyListNode(int val) { this.val = val; this.next = this.prev = null; } }
  */
 public class Solution {

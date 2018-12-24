@@ -1,11 +1,11 @@
 /**
  * Definition for singly-linked list.
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int x) {
  *     val = x;
  *   }
@@ -15,7 +15,7 @@
 public class Solution {
   /**
    * @param head a ListNode
-   * @param val  an integer
+   * @param val an integer
    * @return a ListNode
    */
   public ListNode removeElements(ListNode head, int val) {

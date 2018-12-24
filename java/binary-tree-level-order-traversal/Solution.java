@@ -1,11 +1,11 @@
 /**
  * Definition of TreeNode:
- * 
+ *
  * <pre>
  * public class TreeNode {
  *   public int val;
  *   public TreeNode left, right;
- * 
+ *
  *   public TreeNode(int val) {
  *     this.val = val;
  *     this.left = this.right = null;
@@ -38,8 +38,7 @@ public class Solution {
   }
 
   private void traverse(TreeNode node, int level, ArrayList<ArrayList<Integer>> result) {
-    if (node == null)
-      return;
+    if (node == null) return;
 
     while (level >= result.size()) {
       result.add(new ArrayList<Integer>());

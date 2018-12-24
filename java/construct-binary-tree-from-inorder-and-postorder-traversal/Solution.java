@@ -1,5 +1,6 @@
 /**
- * Definition for binary tree 
+ * Definition for binary tree
+ *
  * <pre>
  * public class TreeNode { int val; TreeNode left; TreeNode right;
  * TreeNode(int x) { val = x; } }

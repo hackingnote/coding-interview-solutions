@@ -1,6 +1,6 @@
 /**
  * Definition of OutputCollector:
- * 
+ *
  * <pre>
  * class OutputCollector<K, V> { public void collect(K key, V value);
  * // Adds a key/value pair to the output buffer }
@@ -20,8 +20,8 @@ public class WordCount {
   }
 
   public static class Reduce {
-    public void reduce(String key, Iterator<Integer> values,
-        OutputCollector<String, Integer> output) {
+    public void reduce(
+        String key, Iterator<Integer> values, OutputCollector<String, Integer> output) {
       // Write your code here
       // Output the results into output buffer.
       // Ps. output.collect(String key, int value);

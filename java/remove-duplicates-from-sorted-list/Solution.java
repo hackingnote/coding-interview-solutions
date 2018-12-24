@@ -1,11 +1,11 @@
 /**
  * Definition for singly-linked list.
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int x) {
  *     val = x;
  *     next = null;
@@ -31,15 +31,14 @@ public class Solution {
   }
 }
 
-
 /**
  * Definition for ListNode
- * 
+ *
  * <pre>
  * public class ListNode {
  *   int val;
  *   ListNode next;
- * 
+ *
  *   ListNode(int x) {
  *     val = x;
  *     next = null;

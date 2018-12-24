@@ -1,11 +1,11 @@
 /**
  * Definition of TreeNode:
- * 
+ *
  * <pre>
  * public class TreeNode {
  *   public int val;
  *   public TreeNode left, right;
- * 
+ *
  *   public TreeNode(int val) {
  *     this.val = val;
  *     this.left = this.right = null;
@@ -25,8 +25,7 @@ public class Solution {
 
     TreeNode node = dummy;
     while (true) {
-      if (node == null)
-        break;
+      if (node == null) break;
 
       if (node.left != null && node.left.val == value) {
         remove(node, true);
@@ -35,10 +34,8 @@ public class Solution {
         remove(node, false);
         break;
       } else {
-        if (value < node.val)
-          node = node.left;
-        else
-          node = node.right;
+        if (value < node.val) node = node.left;
+        else node = node.right;
       }
     }
 
@@ -49,20 +46,14 @@ public class Solution {
     TreeNode target = isLeft ? parent.left : parent.right;
 
     if (target.left == null && target.right == null) {
-      if (isLeft)
-        parent.left = null;
-      else
-        parent.right = null;
+      if (isLeft) parent.left = null;
+      else parent.right = null;
     } else if (target.left != null && target.right == null) {
-      if (isLeft)
-        parent.left = target.left;
-      else
-        parent.right = target.left;
+      if (isLeft) parent.left = target.left;
+      else parent.right = target.left;
     } else if (target.left == null && target.right != null) {
-      if (isLeft)
-        parent.left = target.right;
-      else
-        parent.right = target.right;
+      if (isLeft) parent.left = target.right;
+      else parent.right = target.right;
     } else {
       if (target.left.left == null && target.left.right == null) {
         target.val = target.left.val;

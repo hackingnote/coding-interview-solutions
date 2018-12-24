@@ -1,11 +1,11 @@
 /**
  * Definition for singly-linked list with a random pointer.
- * 
+ *
  * <pre>
- * class RandomListNode { 
+ * class RandomListNode {
  *   int label;
- *   RandomListNode next, random; 
- *   RandomListNode(int x) { this.label = x; } 
+ *   RandomListNode next, random;
+ *   RandomListNode(int x) { this.label = x; }
  * };
  * </pre>
  */

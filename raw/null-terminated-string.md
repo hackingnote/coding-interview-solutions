@@ -1,4 +1,0 @@
-Null-terminated String
-===
-
-## Problem

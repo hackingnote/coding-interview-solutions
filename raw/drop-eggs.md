@@ -1,4 +1,0 @@
-Drop Eggs
-===
-
-## Problem

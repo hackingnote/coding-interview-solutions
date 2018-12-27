@@ -1,4 +1,0 @@
-Animal Shelter
-===
-
-## Problem

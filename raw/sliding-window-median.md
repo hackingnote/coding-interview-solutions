@@ -1,4 +1,0 @@
-Sliding Window Median
-===
-
-## Problem

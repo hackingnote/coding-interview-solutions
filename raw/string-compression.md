@@ -1,4 +1,0 @@
-String Compression
-===
-
-## Problem

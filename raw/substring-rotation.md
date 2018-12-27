@@ -1,4 +1,0 @@
-Substring Rotation
-===
-
-## Problem

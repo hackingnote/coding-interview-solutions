@@ -1,4 +1,0 @@
-String Permutation
-===
-
-## Problem

@@ -1,57 +1,64 @@
-const cheerio = require('cheerio');
-const request = require('request');
-const fs = require('fs');
+const cheerio = require("cheerio");
+const request = require("request");
+const fs = require("fs");
 
 const problems = JSON.parse(fs.readFileSync("problems.json"));
 
+Object.keys(problems).forEach(function(key) {
+  const problem = problems[key];
 
-Object.keys(problems).forEach(function (key) {
-    const problem = problems[key];
-
-    if ('lintcode_url' in problem) {
-
-
-        if (!fs.existsSync("../raw/" + problem['linkname'] + ".md")) {
-            console.log("../raw/" + problem['linkname'] + ".md")
-            console.log(problem['lintcode_url']);
-            parseLintCode(problem);
-        }
-
+  if ("lintcode_url" in problem) {
+    if (!fs.existsSync("../raw/" + problem["linkname"] + ".md")) {
+      console.log("../raw/" + problem["linkname"] + ".md");
+      console.log(problem["lintcode_url"]);
+      parseLintCode(problem);
     }
-    //request(problem)
-})
-
+  }
+  //request(problem)
+});
 
 function parseLintCode(problem) {
-    request(problem['lintcode_url'], function (error, response, body) {
-        if (error) {
-            console.log(error);
-            return;
-        }
-        $ = cheerio.load(body);
-        var content = [problem.name,
-            "===",
-            "",
-            "## Problem",
-            $('#description .panel-body').text()
-        ]
+  request(problem["lintcode_url"], function(error, response, body) {
+    if (error) {
+      console.log(error);
+      return;
+    }
+    $ = cheerio.load(body);
+    var content = [
+      problem.name,
+      "===",
+      "",
+      "## Problem",
+      $("#description .panel-body").text()
+    ];
 
-        $('#description .m-b-lg').each(function (index, obj) {
-            if ($(obj).find('b').text().trim() != 'Example') {
-                return;
-            }
-            content.push("");
-            content.push("## " + $(obj).find('b').text());
-            content.push("");
+    $("#description .m-b-lg").each(function(index, obj) {
+      if (
+        $(obj)
+          .find("b")
+          .text()
+          .trim() != "Example"
+      ) {
+        return;
+      }
+      content.push("");
+      content.push(
+        "## " +
+          $(obj)
+            .find("b")
+            .text()
+      );
+      content.push("");
 
-            content.push($(obj).find('.m-t-sm').text());
+      content.push(
+        $(obj)
+          .find(".m-t-sm")
+          .text()
+      );
+    });
 
-
-        });
-
-        fs.writeFileSync("../raw/" + problem.linkname + ".md", content.join("\n"));
-
-    })
+    fs.writeFileSync("../raw/" + problem.linkname + ".md", content.join("\n"));
+  });
 }
 
 /*

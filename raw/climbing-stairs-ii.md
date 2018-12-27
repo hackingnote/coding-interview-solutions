@@ -1,4 +1,0 @@
-Climbing Stairs II
-===
-
-## Problem

@@ -11,7 +11,8 @@ public class Solution {
     steps[0] = 0;
     for (int i = 0; i < A.length; i++) {
       for (int j = 1; j <= A[i]; j++) {
-        if (i + j >= A.length) continue;
+        if (i + j >= A.length)
+          continue;
         steps[i + j] = Math.min(steps[i + j], steps[i] + 1);
       }
     }

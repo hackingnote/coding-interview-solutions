@@ -5,7 +5,8 @@ public class Solution {
    */
   public int[][] generateMatrix(int n) {
     int[][] res = new int[n][n];
-    if (n == 0) return res;
+    if (n == 0)
+      return res;
 
     int[] dx = new int[] {0, 1, 0, -1};
     int[] dy = new int[] {1, 0, -1, 0};

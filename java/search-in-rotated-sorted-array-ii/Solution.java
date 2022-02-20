@@ -6,7 +6,8 @@ public class Solution {
    */
   public boolean search(int[] A, int target) {
 
-    if (A.length == 0) return false;
+    if (A.length == 0)
+      return false;
     int low = 0, high = A.length - 1;
 
     while (low < high) {

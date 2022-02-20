@@ -8,7 +8,8 @@ public class Solution {
     LinkedList<String> list = new LinkedList<>();
 
     for (int i = 1; i < parts.length; i++) {
-      if (parts[i].equals(".") || parts[i].length() == 0) continue;
+      if (parts[i].equals(".") || parts[i].length() == 0)
+        continue;
       if (parts[i].equals("..")) {
         if (list.size() > 0) {
           list.removeLast();

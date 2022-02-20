@@ -3,14 +3,15 @@
  *
  * <pre>
  * public class SegmentTreeNode { public int start, end, max; public
- * SegmentTreeNode left, right; public SegmentTreeNode(int start, int end, int max) { this.start =
- * start; this.end = end; this.max = max this.left = this.right = null; } }
+ * SegmentTreeNode left, right; public SegmentTreeNode(int start, int end, int
+ * max) { this.start = start; this.end = end; this.max = max this.left =
+ * this.right = null; } }
  * </pre>
  */
 public class Solution {
   /**
-   * @param root, index, value: The root of segment tree and @ change the node's value with [index,
-   *     index] to the new given value
+   * @param root, index, value: The root of segment tree and @ change the node's
+   *     value with [index, index] to the new given value
    * @return: void
    */
   public void modify(SegmentTreeNode root, int index, int value) {

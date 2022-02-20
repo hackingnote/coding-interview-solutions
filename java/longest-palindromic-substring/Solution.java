@@ -27,7 +27,8 @@ public class Solution {
       }
 
       // matching and extending p[i]
-      while (b[i + p[i]] == b[i - p[i]]) p[i]++;
+      while (b[i + p[i]] == b[i - p[i]])
+        p[i]++;
 
       if (p[i] > p[index]) {
         index = i;

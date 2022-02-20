@@ -2,9 +2,7 @@ public class Tower {
   private Stack<Integer> disks;
 
   // create three towers (i from 0 to 2)
-  public Tower(int i) {
-    disks = new Stack<Integer>();
-  }
+  public Tower(int i) { disks = new Stack<Integer>(); }
 
   // Add a disk into this tower
   public void add(int d) {
@@ -37,9 +35,7 @@ public class Tower {
     buffer.moveDisks(n - 1, destination, this);
   }
 
-  public Stack<Integer> getDisks() {
-    return disks;
-  }
+  public Stack<Integer> getDisks() { return disks; }
 }
 /**
  * Your Tower object will be instantiated and called as such:

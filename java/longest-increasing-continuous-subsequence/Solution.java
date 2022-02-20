@@ -4,7 +4,8 @@ public class Solution {
    * @return an integer
    */
   public int longestIncreasingContinuousSubsequence(int[] A) {
-    if (A.length == 0) return 0;
+    if (A.length == 0)
+      return 0;
     int max = 1;
     int cntInc = 1;
     int cntDec = 1;

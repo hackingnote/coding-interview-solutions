@@ -17,17 +17,21 @@ public class Solution {
     return result;
   }
 
-  private void restore(ArrayList<String> result, int[] digits, int ptr, Stack<Integer> buffer) {
+  private void restore(ArrayList<String> result, int[] digits, int ptr,
+                       Stack<Integer> buffer) {
     if (buffer.size() == 4 && ptr == digits.length) {
-      String s = buffer.get(0) + "." + buffer.get(1) + "." + buffer.get(2) + "." + buffer.get(3);
+      String s = buffer.get(0) + "." + buffer.get(1) + "." + buffer.get(2) +
+                 "." + buffer.get(3);
       result.add(s);
       return;
     }
 
     int tmp = 0;
     for (int i = 0; i < 3; i++) {
-      if (ptr + i >= digits.length) break;
-      if (digits[ptr] == 0 && i > 0) break;
+      if (ptr + i >= digits.length)
+        break;
+      if (digits[ptr] == 0 && i > 0)
+        break;
       tmp *= 10;
       tmp += digits[ptr + i];
       if (tmp < 256) {

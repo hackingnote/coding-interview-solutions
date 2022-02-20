@@ -17,21 +17,18 @@
  *
  * <pre>
  * BSTIterator iterator = new BSTIterator(root);
- * while (iterator.hasNext()) { TreeNode node = iterator.next(); do something for node }
+ * while (iterator.hasNext()) { TreeNode node = iterator.next(); do something
+ * for node }
  * </pre>
  */
 public class BSTIterator {
   private Stack<TreeNode> stack = new Stack<>();
 
   // @param root: The root of binary tree.
-  public BSTIterator(TreeNode root) {
-    push(root);
-  }
+  public BSTIterator(TreeNode root) { push(root); }
 
   // @return: True if there has next node, or false
-  public boolean hasNext() {
-    return !stack.isEmpty();
-  }
+  public boolean hasNext() { return !stack.isEmpty(); }
 
   // @return: return next node
   public TreeNode next() {

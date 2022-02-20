@@ -21,7 +21,8 @@ public class Solution {
    */
   public ListNode rotateRight(ListNode head, int k) {
     // write your code here
-    if (head == null) return null;
+    if (head == null)
+      return null;
     int size = 0;
     ListNode dummy = new ListNode(0);
     dummy.next = head;

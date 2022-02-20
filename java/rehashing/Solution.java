@@ -31,7 +31,8 @@ public class Solution {
           result[newHash] = new ListNode(node.val);
         } else {
           ListNode p = result[newHash];
-          while (p.next != null) p = p.next;
+          while (p.next != null)
+            p = p.next;
           p.next = new ListNode(node.val);
         }
         node = node.next;

@@ -24,7 +24,8 @@ public class Solution {
     } else if (a == null || b == null) {
       return false;
     } else {
-      return a.val == b.val && isIdentical(a.left, b.left) && isIdentical(a.right, b.right);
+      return a.val == b.val && isIdentical(a.left, b.left) &&
+          isIdentical(a.right, b.right);
     }
   }
 }

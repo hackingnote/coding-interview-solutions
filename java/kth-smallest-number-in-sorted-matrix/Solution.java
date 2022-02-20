@@ -11,15 +11,12 @@ public class Solution {
     }
     int n = matrix.length;
     int m = matrix[0].length;
-    Queue<Node> queue =
-        new PriorityQueue<>(
-            n,
-            new Comparator<Node>() {
-              @Override
-              public int compare(Node a, Node b) {
-                return a.val - b.val;
-              }
-            });
+    Queue<Node> queue = new PriorityQueue<>(n, new Comparator<Node>() {
+      @Override
+      public int compare(Node a, Node b) {
+        return a.val - b.val;
+      }
+    });
 
     for (int i = 0; i < n; i++) {
       queue.offer(new Node(matrix[i][0], i, 0));
@@ -29,7 +26,8 @@ public class Solution {
     while (k-- > 0) {
       node = queue.poll();
       if (node.col + 1 < m) {
-        queue.offer(new Node(matrix[node.row][node.col + 1], node.row, node.col + 1));
+        queue.offer(
+            new Node(matrix[node.row][node.col + 1], node.row, node.col + 1));
       }
     }
     return node.val;

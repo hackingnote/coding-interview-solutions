@@ -15,9 +15,10 @@ public class Solution {
     return new ArrayList<>(result);
   }
 
-  private void search(
-      Set<List<Integer>> result, List<Integer> buffer, int[] num, int target, int level) {
-    if (target < 0) return;
+  private void search(Set<List<Integer>> result, List<Integer> buffer,
+                      int[] num, int target, int level) {
+    if (target < 0)
+      return;
     if (target == 0) {
       result.add(buffer);
       return;

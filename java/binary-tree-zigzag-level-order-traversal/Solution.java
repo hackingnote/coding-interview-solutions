@@ -16,8 +16,8 @@
 public class Solution {
   /**
    * @param root: The root of binary tree.
-   * @return: A list of lists of integer include the zigzag level order traversal of its nodes'
-   *     values
+   * @return: A list of lists of integer include the zigzag level order
+   * traversal of its nodes' values
    */
   public ArrayList<ArrayList<Integer>> zigzagLevelOrder(TreeNode root) {
     ArrayList<ArrayList<Integer>> result = new ArrayList<>();
@@ -37,7 +37,8 @@ public class Solution {
     return result;
   }
 
-  private void traverse(ArrayList<ArrayList<Integer>> result, TreeNode node, int level) {
+  private void traverse(ArrayList<ArrayList<Integer>> result, TreeNode node,
+                        int level) {
     if (node == null) {
       return;
     }

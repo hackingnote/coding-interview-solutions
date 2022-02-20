@@ -15,8 +15,8 @@ class Solution {
 
   private int[] nums;
 
-  private void perm(
-      List<List<Integer>> result, int level, LinkedList<Integer> buffer, boolean[] visited) {
+  private void perm(List<List<Integer>> result, int level,
+                    LinkedList<Integer> buffer, boolean[] visited) {
     if (level == nums.length) {
       result.add(new ArrayList<Integer>(buffer));
     } else {

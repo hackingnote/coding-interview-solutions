@@ -12,7 +12,8 @@ public class Solution {
     // find 1 in k
     int indexOfOne = 0;
     while (true) {
-      if ((k & (1 << indexOfOne)) != 0) break;
+      if ((k & (1 << indexOfOne)) != 0)
+        break;
       indexOfOne++;
     }
 

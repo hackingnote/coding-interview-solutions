@@ -10,7 +10,8 @@ public class Solution {
     }
     result.add("");
 
-    String[] map = new String[] {" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    String[] map = new String[] {" ",   "",    "abc",  "def", "ghi",
+                                 "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     char[] c = digits.toCharArray();
     for (int i = 0; i < c.length; i++) {

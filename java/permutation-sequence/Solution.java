@@ -9,7 +9,7 @@ public class Solution {
       return result;
     }
     int bandwidth = lkp[n] / n;
-    Integer current = (int) Math.ceil((double) (k) / bandwidth);
+    Integer current = (int)Math.ceil((double)(k) / bandwidth);
 
     int remainder = k - (current - 1) * bandwidth;
     int[] result = calculate(n - 1, remainder);

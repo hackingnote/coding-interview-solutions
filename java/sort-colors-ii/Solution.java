@@ -11,7 +11,7 @@ class Solution {
 
     while (small < big) {
 
-      for (int i = 0; i <= right; ) {
+      for (int i = 0; i <= right;) {
         if (colors[i] == small) {
           colors[i] = colors[left];
           colors[left++] = small;

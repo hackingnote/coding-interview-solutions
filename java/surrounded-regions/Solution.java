@@ -69,12 +69,8 @@ public class Solution {
         int nx = xx + dx[i];
         int ny = yy + dy[i];
 
-        if (nx < n
-            && nx >= 0
-            && ny < m
-            && ny >= 0
-            && board[nx][ny] == 'O'
-            && visited[nx][ny] == false) {
+        if (nx < n && nx >= 0 && ny < m && ny >= 0 && board[nx][ny] == 'O' &&
+            visited[nx][ny] == false) {
           qx.offer(nx);
           qy.offer(ny);
           visited[nx][ny] = true;
@@ -90,7 +86,8 @@ public class Solution {
 
   public void solve(char[][] board) {
     int xLen = board.length;
-    if (xLen == 0) return;
+    if (xLen == 0)
+      return;
     int yLen = board[0].length;
 
     int[] qx = new int[MAX_QUEUE];
@@ -133,7 +130,8 @@ public class Solution {
       for (int d = 0; d < 4; d++) {
         int nx = x + dx[d];
         int ny = y + dy[d];
-        if (nx >= 0 && nx < xLen && ny >= 0 && ny < yLen && board[nx][ny] == 'O') {
+        if (nx >= 0 && nx < xLen && ny >= 0 && ny < yLen &&
+            board[nx][ny] == 'O') {
           qx[tail] = nx;
           qy[tail] = ny;
           tail++;

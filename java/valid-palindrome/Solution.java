@@ -17,7 +17,8 @@ public class Solution {
       while (j >= 0 && !Character.isLetterOrDigit(c[j])) {
         j--;
       }
-      if (i < c.length && j >= 0 && Character.toLowerCase(c[i]) != Character.toLowerCase(c[j])) {
+      if (i < c.length && j >= 0 &&
+          Character.toLowerCase(c[i]) != Character.toLowerCase(c[j])) {
         return false;
       }
       i++;

@@ -36,8 +36,10 @@ public class Solution {
     return result;
   }
 
-  private void traverse(TreeNode node, int level, ArrayList<ArrayList<Integer>> result) {
-    if (node == null) return;
+  private void traverse(TreeNode node, int level,
+                        ArrayList<ArrayList<Integer>> result) {
+    if (node == null)
+      return;
 
     while (level >= result.size()) {
       result.add(new ArrayList<Integer>());

@@ -5,7 +5,8 @@ public class Solution {
    */
   public String longestCommonPrefix(String[] strs) {
 
-    if (strs == null || strs.length == 0) return "";
+    if (strs == null || strs.length == 0)
+      return "";
 
     String shortest = strs[0];
 

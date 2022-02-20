@@ -10,7 +10,8 @@ public class Solution {
     return result;
   }
 
-  private void generate(ArrayList<String> result, String buffer, int n, int left, int right) {
+  private void generate(ArrayList<String> result, String buffer, int n,
+                        int left, int right) {
     if (buffer.length() == n * 2) {
       result.add(buffer);
       return;

@@ -4,7 +4,8 @@ class Solution {
    * @return: The sqrt of x
    */
   public int sqrt(int x) {
-    if (x == 1) return 1;
+    if (x == 1)
+      return 1;
     long low = 0;
     long high = x;
     while (low < high) {
@@ -16,6 +17,6 @@ class Solution {
         high = mid;
       }
     }
-    return (int) low;
+    return (int)low;
   }
 }

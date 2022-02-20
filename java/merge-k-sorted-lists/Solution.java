@@ -46,11 +46,10 @@ public class Solution {
     return head.next;
   }
 
-  public Comparator<ListNode> cmp =
-      new Comparator<ListNode>() {
-        @Override
-        public int compare(ListNode a, ListNode b) {
-          return a.val - b.val;
-        }
-      };
+  public Comparator<ListNode> cmp = new Comparator<ListNode>() {
+    @Override
+    public int compare(ListNode a, ListNode b) {
+      return a.val - b.val;
+    }
+  };
 }

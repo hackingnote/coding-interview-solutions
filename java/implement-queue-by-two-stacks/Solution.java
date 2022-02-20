@@ -7,9 +7,7 @@ public class Queue {
     stack2 = new Stack<>();
   }
 
-  public void push(int element) {
-    stack2.push(element);
-  }
+  public void push(int element) { stack2.push(element); }
 
   public int pop() {
     if (stack1.isEmpty()) {

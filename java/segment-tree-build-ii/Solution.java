@@ -3,8 +3,9 @@
  *
  * <pre>
  * public class SegmentTreeNode { public int start, end, max; public
- * SegmentTreeNode left, right; public SegmentTreeNode(int start, int end, int max) { this.start =
- * start; this.end = end; this.max = max this.left = this.right = null; } }
+ * SegmentTreeNode left, right; public SegmentTreeNode(int start, int end, int
+ * max) { this.start = start; this.end = end; this.max = max this.left =
+ * this.right = null; } }
  * </pre>
  */
 public class Solution {
@@ -13,7 +14,8 @@ public class Solution {
    * @return: The root of Segment Tree
    */
   public SegmentTreeNode build(int[] A) {
-    if (A.length < 1) return null;
+    if (A.length < 1)
+      return null;
     SegmentTreeNode root = build(0, A.length - 1);
     setMax(A, root);
     return root;

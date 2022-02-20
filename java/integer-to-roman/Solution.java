@@ -10,18 +10,17 @@ public class Solution {
       n /= 10;
     }
 
-    String[][] map =
-        new String[][] {
-          {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
-          {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
-          {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
-          {"", "M", "MM", "MMM"}
-        };
+    String[][] map = new String[][] {
+        {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
+        {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
+        {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
+        {"", "M", "MM", "MMM"}};
 
     String result = "";
 
     int k = 3;
-    while (s[k] == 0) k--;
+    while (s[k] == 0)
+      k--;
 
     while (k >= 0) {
       result += map[k][s[k]];

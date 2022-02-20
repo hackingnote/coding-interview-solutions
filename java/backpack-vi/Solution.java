@@ -9,7 +9,8 @@ public class Solution {
     int[] cnt = new int[target + 1];
     cnt[0] = 1;
     for (int i = 0; i <= target; i++) {
-      if (cnt[i] == 0) continue;
+      if (cnt[i] == 0)
+        continue;
       for (int j = 0; j < nums.length; j++) {
         if (i + nums[j] <= target) {
           cnt[i + nums[j]] += cnt[i];

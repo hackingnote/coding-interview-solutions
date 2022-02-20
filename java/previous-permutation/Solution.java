@@ -8,14 +8,16 @@ public class Solution {
     int len = nums.size();
     ArrayList<Integer> result = new ArrayList<>(len);
     int i;
-    for (i = len - 1; i > 0 && nums.get(i) >= nums.get(i - 1); i--) ;
+    for (i = len - 1; i > 0 && nums.get(i) >= nums.get(i - 1); i--)
+      ;
     int j = i - 1;
 
     if (j < 0) {
       reverse(nums, 0, len - 1);
     } else {
       int k = len - 1;
-      while (nums.get(k) >= nums.get(j)) k--;
+      while (nums.get(k) >= nums.get(j))
+        k--;
 
       int tmp = nums.get(j);
       nums.set(j, nums.get(k));

@@ -23,7 +23,8 @@ public class Solution {
 
     while (head != null) {
       ListNode n = dummy;
-      while (n.next != null && n.next.val < head.val) n = n.next;
+      while (n.next != null && n.next.val < head.val)
+        n = n.next;
       ListNode next = head.next;
       head.next = n.next;
       n.next = head;

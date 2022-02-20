@@ -7,7 +7,8 @@
  * }
  * </pre>
  *
- * you can use SVNRepo.isBadVersion(k) to judge whether the kth code version is bad or not.
+ * you can use SVNRepo.isBadVersion(k) to judge whether the kth code version is
+ * bad or not.
  */
 class Solution {
   /**

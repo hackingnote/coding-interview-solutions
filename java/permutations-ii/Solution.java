@@ -13,12 +13,8 @@ class Solution {
     return result;
   }
 
-  private void perm(
-      List<List<Integer>> result,
-      int level,
-      LinkedList<Integer> buffer,
-      boolean[] visited,
-      int[] nums) {
+  private void perm(List<List<Integer>> result, int level,
+                    LinkedList<Integer> buffer, boolean[] visited, int[] nums) {
     if (level == nums.length) {
       result.add(new ArrayList<Integer>(buffer));
     } else {

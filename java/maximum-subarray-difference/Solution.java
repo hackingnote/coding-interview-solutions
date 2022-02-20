@@ -1,7 +1,8 @@
 public class Solution {
   /**
    * @param nums: A list of integers
-   * @return: An integer indicate the value of maximum difference between two Subarrays
+   * @return: An integer indicate the value of maximum difference between two
+   * Subarrays
    */
   public int maxDiffSubArrays(int[] nums) {
     int len = nums.length;

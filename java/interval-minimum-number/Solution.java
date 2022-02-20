@@ -16,7 +16,8 @@ public class Solution {
    * @param A, queries: Given an integer array and an query list
    * @return: The result list
    */
-  public ArrayList<Integer> intervalMinNumber(int[] A, ArrayList<Interval> queries) {
+  public ArrayList<Integer> intervalMinNumber(int[] A,
+                                              ArrayList<Interval> queries) {
     Node root = build(A, 0, A.length - 1);
 
     ArrayList<Integer> result = new ArrayList<>();

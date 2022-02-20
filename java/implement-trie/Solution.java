@@ -23,19 +23,13 @@ class TrieNode {
 public class Solution {
   private TrieNode root;
 
-  public Solution() {
-    root = new TrieNode();
-  }
+  public Solution() { root = new TrieNode(); }
 
   // Inserts a word into the trie.
-  public void insert(String word) {
-    insert(word, root);
-  }
+  public void insert(String word) { insert(word, root); }
 
   // Returns if the word is in the trie.
-  public boolean search(String word) {
-    return search(word, root);
-  }
+  public boolean search(String word) { return search(word, root); }
 
   private boolean search(String word, TrieNode node) {
     if (word.length() == 0) {
@@ -54,9 +48,7 @@ public class Solution {
 
   // Returns if there is any word in the trie
   // that starts with the given prefix.
-  public boolean startsWith(String prefix) {
-    return startsWith(prefix, root);
-  }
+  public boolean startsWith(String prefix) { return startsWith(prefix, root); }
 
   private boolean startsWith(String prefix, TrieNode node) {
     if (prefix.length() == 0) {

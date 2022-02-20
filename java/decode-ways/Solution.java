@@ -8,7 +8,8 @@ public class Solution {
     char[] raw = s.toCharArray();
     int[] input = new int[raw.length];
 
-    if (raw.length == 0) return 0;
+    if (raw.length == 0)
+      return 0;
 
     for (int i = 0; i < raw.length; i++) {
       input[i] = raw[i] - '0';

@@ -8,7 +8,8 @@ public class Solution {
     int a = 0, b = 0;
     while (b < nums.length) {
       nums[a++] = nums[b++];
-      while (b < nums.length && nums[b] == nums[b - 1]) b++;
+      while (b < nums.length && nums[b] == nums[b - 1])
+        b++;
     }
     return a;
   }

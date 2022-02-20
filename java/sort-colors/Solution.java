@@ -7,7 +7,7 @@ class Solution {
     // write your code here
     int left = 0, right = nums.length - 1;
 
-    for (int i = 0; i <= right; ) {
+    for (int i = 0; i <= right;) {
       if (nums[i] == 0) {
         nums[i] = nums[left];
         nums[left++] = 0;

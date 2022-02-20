@@ -4,7 +4,8 @@ class Solution {
    * @return: Maximum profit
    */
   public int maxProfit(int[] prices) {
-    int buy1 = Integer.MIN_VALUE, sell1 = 0, buy2 = Integer.MIN_VALUE, sell2 = 0;
+    int buy1 = Integer.MIN_VALUE, sell1 = 0, buy2 = Integer.MIN_VALUE,
+        sell2 = 0;
 
     for (int price : prices) {
       sell2 = Math.max(sell2, price + buy2);

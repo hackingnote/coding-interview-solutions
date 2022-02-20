@@ -4,7 +4,5 @@ class Solution {
 
   private Solution() {}
 
-  public static Solution getInstance() {
-    return solution;
-  }
+  public static Solution getInstance() { return solution; }
 };

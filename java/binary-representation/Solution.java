@@ -11,7 +11,7 @@ public class Solution {
 
     double num = Double.parseDouble(n);
 
-    int part1 = (int) num;
+    int part1 = (int)num;
     double part2 = Double.parseDouble("0." + s[1]);
 
     while (part1 > 0) {

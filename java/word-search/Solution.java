@@ -6,7 +6,8 @@ public class Solution {
    */
   public boolean exist(char[][] board, String word) {
     // write your code here
-    if (board.length == 0 || board[0].length == 0) return false;
+    if (board.length == 0 || board[0].length == 0)
+      return false;
     int lenX = board.length;
     int lenY = board[0].length;
 
@@ -22,8 +23,8 @@ public class Solution {
     return false;
   }
 
-  private boolean search(
-      char[][] board, boolean[][] visited, char[] word, int wordIndex, int x, int y) {
+  private boolean search(char[][] board, boolean[][] visited, char[] word,
+                         int wordIndex, int x, int y) {
     if (visited[x][y] == true) {
       return false;
     }
@@ -39,7 +40,8 @@ public class Solution {
       return true;
     }
 
-    if (x < board.length - 1 && search(board, visited, word, wordIndex + 1, x + 1, y)) {
+    if (x < board.length - 1 &&
+        search(board, visited, word, wordIndex + 1, x + 1, y)) {
       return true;
     }
 
@@ -47,7 +49,8 @@ public class Solution {
       return true;
     }
 
-    if (y < board[0].length - 1 && search(board, visited, word, wordIndex + 1, x, y + 1)) {
+    if (y < board[0].length - 1 &&
+        search(board, visited, word, wordIndex + 1, x, y + 1)) {
       return true;
     }
     visited[x][y] = false;

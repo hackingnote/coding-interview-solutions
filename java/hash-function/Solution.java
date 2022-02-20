@@ -7,8 +7,8 @@ class Solution {
   public int hashCode(char[] key, int HASH_SIZE) {
     long result = 0;
     for (char c : key) {
-      result = (result * 33 + (int) c) % HASH_SIZE;
+      result = (result * 33 + (int)c) % HASH_SIZE;
     }
-    return (int) result;
+    return (int)result;
   }
 };

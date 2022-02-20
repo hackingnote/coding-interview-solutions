@@ -31,8 +31,10 @@ public class Solution {
   }
 
   private boolean same(TreeNode T1, TreeNode T2) {
-    if (T1 == null && T2 == null) return true;
-    if (T1 == null || T2 == null || T1.val != T2.val) return false;
+    if (T1 == null && T2 == null)
+      return true;
+    if (T1 == null || T2 == null || T1.val != T2.val)
+      return false;
     return same(T1.left, T2.left) && same(T1.right, T2.right);
   }
 }

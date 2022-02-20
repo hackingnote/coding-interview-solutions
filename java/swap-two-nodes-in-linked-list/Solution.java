@@ -25,9 +25,12 @@ public class Solution {
     dummy.next = head;
     ListNode prev1 = dummy;
     ListNode prev2 = dummy;
-    while (prev1.next != null && prev1.next.val != v1) prev1 = prev1.next;
-    while (prev2.next != null && prev2.next.val != v2) prev2 = prev2.next;
-    if (prev1.next == null || prev2.next == null) return dummy.next;
+    while (prev1.next != null && prev1.next.val != v1)
+      prev1 = prev1.next;
+    while (prev2.next != null && prev2.next.val != v2)
+      prev2 = prev2.next;
+    if (prev1.next == null || prev2.next == null)
+      return dummy.next;
 
     ListNode node1 = prev1.next;
     ListNode node2 = prev2.next;

@@ -28,7 +28,8 @@ class Solution {
 
   private boolean isValid(int[] board, int row) {
     for (int i = 0; i < row; i++) {
-      if (board[i] == board[row] || row - i == Math.abs(board[i] - board[row])) {
+      if (board[i] == board[row] ||
+          row - i == Math.abs(board[i] - board[row])) {
         return false;
       }
     }

@@ -16,7 +16,8 @@ public class Solution {
 
         char t = stack.pop();
 
-        if (!(t == '(' && c == ')' || t == '[' && c == ']' || t == '{' && c == '}')) {
+        if (!(t == '(' && c == ')' || t == '[' && c == ']' ||
+              t == '{' && c == '}')) {
           return false;
         }
       }

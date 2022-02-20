@@ -4,7 +4,8 @@ public class Solution {
    * @return total of reverse pairs
    */
   public long reversePairs(int[] A) {
-    if (A.length == 0) return 0;
+    if (A.length == 0)
+      return 0;
     return mergeSort(A, 0, A.length - 1);
   }
 

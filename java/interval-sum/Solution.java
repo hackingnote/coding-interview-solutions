@@ -25,7 +25,8 @@ public class Solution {
   }
 
   private long query(Node root, Interval query) {
-    if (root == null) return 0;
+    if (root == null)
+      return 0;
 
     if (root.start >= query.start && root.end <= query.end) {
       return root.sum;
@@ -36,8 +37,10 @@ public class Solution {
   }
 
   private Node buildTree(int[] A, int start, int end) {
-    if (start > end) return null;
-    if (start == end) return new Node(start, end, A[start]);
+    if (start > end)
+      return null;
+    if (start == end)
+      return new Node(start, end, A[start]);
     int mid = (start + end) / 2;
     Node left = buildTree(A, start, mid);
     Node right = buildTree(A, mid + 1, end);

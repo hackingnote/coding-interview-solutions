@@ -5,7 +5,8 @@ public class Solution {
    * @param dict, a set of string
    * @return a list of lists of string
    */
-  public List<List<String>> findLadders(String start, String end, Set<String> dict) {
+  public List<List<String>> findLadders(String start, String end,
+                                        Set<String> dict) {
     // write your code here
     Map<String, List<String>> map = new HashMap<>();
     dict.add(end);
@@ -22,7 +23,8 @@ public class Solution {
     distance.put(start, 0);
     while (!queue.isEmpty()) {
       String s = queue.poll();
-      if (s.equals(end)) continue;
+      if (s.equals(end))
+        continue;
       for (String t : map.get(s)) {
         if (!visited.contains(t)) {
           queue.offer(t);
@@ -32,18 +34,16 @@ public class Solution {
       }
     }
 
-    assemble(result, map, distance, new ArrayList<String>(Arrays.asList(start)), start, end);
+    assemble(result, map, distance, new ArrayList<String>(Arrays.asList(start)),
+             start, end);
 
     return result;
   }
 
-  private void assemble(
-      List<List<String>> result,
-      Map<String, List<String>> map,
-      Map<String, Integer> distance,
-      List<String> buffer,
-      String s,
-      String end) {
+  private void assemble(List<List<String>> result,
+                        Map<String, List<String>> map,
+                        Map<String, Integer> distance, List<String> buffer,
+                        String s, String end) {
     int currDist = distance.get(s);
     int targetDist = distance.get(end);
     if (currDist == targetDist && s.equals(end)) {
@@ -60,8 +60,10 @@ public class Solution {
     }
   }
 
-  private void createGraph(String s, Set<String> dict, Map<String, List<String>> map) {
-    if (map.containsKey(s)) return;
+  private void createGraph(String s, Set<String> dict,
+                           Map<String, List<String>> map) {
+    if (map.containsKey(s))
+      return;
 
     List<String> neighbors = new ArrayList<>();
     map.put(s, neighbors);
@@ -79,7 +81,8 @@ public class Solution {
     int cnt = 0;
     for (int i = 0; i < len; i++) {
       if (a.charAt(i) != b.charAt(i)) {
-        if (cnt > 0) return false;
+        if (cnt > 0)
+          return false;
         cnt++;
       }
     }

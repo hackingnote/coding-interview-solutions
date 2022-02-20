@@ -22,7 +22,8 @@ public class Solution {
     for (int key : map1.keySet()) {
       if (map2.containsKey(key)) {
         int times = Math.min(map1.get(key), map2.get(key));
-        for (int i = 0; i < times; i++) buffer.add(key);
+        for (int i = 0; i < times; i++)
+          buffer.add(key);
       }
     }
 

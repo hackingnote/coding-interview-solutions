@@ -4,10 +4,14 @@ public class Solution {
    * @return: The maximum amount of money you can rob tonight
    */
   public int houseRobber2(int[] nums) {
-    if (nums.length == 0) return 0;
-    if (nums.length == 1) return nums[0];
-    if (nums.length == 2) return Math.max(nums[0], nums[1]);
-    return Math.max(calc(nums, 0, nums.length - 2), calc(nums, 1, nums.length - 1));
+    if (nums.length == 0)
+      return 0;
+    if (nums.length == 1)
+      return nums[0];
+    if (nums.length == 2)
+      return Math.max(nums[0], nums[1]);
+    return Math.max(calc(nums, 0, nums.length - 2),
+                    calc(nums, 1, nums.length - 1));
   }
 
   private int calc(int[] nums, int left, int right) {

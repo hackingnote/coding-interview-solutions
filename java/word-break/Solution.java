@@ -25,7 +25,8 @@ public class Solution {
    */
   public boolean wordBreak(String s, Set<String> dict) {
     int len = s.length();
-    if (len == 0) return true;
+    if (len == 0)
+      return true;
     boolean[] flag = new boolean[len];
     flag[0] = true;
 

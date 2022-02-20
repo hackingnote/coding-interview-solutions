@@ -19,7 +19,8 @@ class Solution {
       }
       result = newResult;
     }
-    ArrayList<ArrayList<Integer>> finalResult = new ArrayList<ArrayList<Integer>>(result);
+    ArrayList<ArrayList<Integer>> finalResult =
+        new ArrayList<ArrayList<Integer>>(result);
 
     return finalResult;
   }

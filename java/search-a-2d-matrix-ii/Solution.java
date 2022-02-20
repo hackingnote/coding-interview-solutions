@@ -5,7 +5,8 @@ public class Solution {
    * @return: An integer indicate the occurrence of target in the given matrix
    */
   public int searchMatrix(int[][] matrix, int target) {
-    if (matrix == null || matrix.length == 0) return 0;
+    if (matrix == null || matrix.length == 0)
+      return 0;
 
     int lenX = matrix.length;
     int lenY = matrix[0].length;

@@ -41,7 +41,7 @@ public class Solution {
             }
           }
         } else {
-          double k = (double) (p2.y - p1.y) / (double) (p2.x - p1.x);
+          double k = (double)(p2.y - p1.y) / (double)(p2.x - p1.x);
 
           double b = p1.y - k * p1.x;
 

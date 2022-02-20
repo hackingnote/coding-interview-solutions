@@ -10,7 +10,8 @@ public class Solution {
     return result;
   }
 
-  private void build(List<List<Integer>> result, LinkedList<Integer> tmp, int k, int n, int start) {
+  private void build(List<List<Integer>> result, LinkedList<Integer> tmp, int k,
+                     int n, int start) {
     if (k == 0) {
       result.add(new ArrayList<>(tmp));
       return;

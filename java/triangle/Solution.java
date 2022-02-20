@@ -15,7 +15,8 @@ public class Solution {
         } else if (j == i) {
           sum[i][j] = triangle[i][j] + sum[i - 1][j - 1];
         } else {
-          sum[i][j] = triangle[i][j] + Math.min(sum[i - 1][j], sum[i - 1][j - 1]);
+          sum[i][j] =
+              triangle[i][j] + Math.min(sum[i - 1][j], sum[i - 1][j - 1]);
         }
       }
     }

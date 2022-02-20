@@ -9,7 +9,8 @@ public class Solution {
     for (int k = 0; k < A.length; k++) {
       int n = A[k];
       for (int i = m; i >= 0; i--) {
-        if ((i == 0 || bag[i] > 0) && i + n <= m && bag[i + n] < bag[i] + V[k]) {
+        if ((i == 0 || bag[i] > 0) && i + n <= m &&
+            bag[i + n] < bag[i] + V[k]) {
           bag[i + n] = bag[i] + V[k];
         }
       }

@@ -18,7 +18,8 @@ class Solution {
    * @param newInterval: A new interval.
    * @return: A new sorted interval list.
    */
-  public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
+  public ArrayList<Interval> insert(ArrayList<Interval> intervals,
+                                    Interval newInterval) {
     int size = intervals.size();
 
     ArrayList<Interval> result = new ArrayList<>();
@@ -29,7 +30,8 @@ class Solution {
 
     while (i < size || inserted == false) {
       Interval candidate = null;
-      if (i == size || (inserted == false && intervals.get(i).start > newInterval.start)) {
+      if (i == size ||
+          (inserted == false && intervals.get(i).start > newInterval.start)) {
         candidate = newInterval;
         inserted = true;
       } else {

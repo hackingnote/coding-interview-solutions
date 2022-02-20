@@ -16,11 +16,13 @@
 public class Solution {
   /**
    * @param head: The head of linked list.
-   * @return: You should return the head of the sorted linked list, using constant space complexity.
+   * @return: You should return the head of the sorted linked list, using
+   * constant space complexity.
    */
   public ListNode sortList(ListNode head) {
     // write your code here
-    if (head == null) return null;
+    if (head == null)
+      return null;
 
     ListNode dummy1 = new ListNode(0);
     ListNode dummy2 = new ListNode(0);

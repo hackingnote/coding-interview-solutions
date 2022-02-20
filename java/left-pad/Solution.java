@@ -17,7 +17,10 @@ public class StringUtils {
   public static String leftPad(String originalStr, int size, char padChar) {
     // Write your code here
     int len = originalStr.length();
-    if (len >= size) return originalStr;
-    return new String(new char[size - len]).replace("\0", String.valueOf(padChar)) + originalStr;
+    if (len >= size)
+      return originalStr;
+    return new String(new char[size - len])
+               .replace("\0", String.valueOf(padChar)) +
+        originalStr;
   }
 }

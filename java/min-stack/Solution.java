@@ -3,9 +3,7 @@ class MinStack {
   private List<Integer> stack = new LinkedList<Integer>();
   private List<Integer> minStack = new LinkedList<Integer>();
 
-  public int getLast(List<Integer> list) {
-    return list.get(list.size() - 1);
-  }
+  public int getLast(List<Integer> list) { return list.get(list.size() - 1); }
 
   public void push(int x) {
     stack.add(x);

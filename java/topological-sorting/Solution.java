@@ -18,14 +18,17 @@ public class Solution {
    * @param graph: A list of Directed graph node
    * @return: Any topological order for the given graph.
    */
-  public ArrayList<DirectedGraphNode> topSort(ArrayList<DirectedGraphNode> graph) {
+  public ArrayList<DirectedGraphNode>
+  topSort(ArrayList<DirectedGraphNode> graph) {
     // write your code here
     ArrayList<DirectedGraphNode> result = new ArrayList<>();
     Map<Integer, Integer> indegree = new HashMap<>();
 
     for (DirectedGraphNode node : graph) {
       for (DirectedGraphNode neighbor : node.neighbors) {
-        int cnt = indegree.containsKey(neighbor.label) ? indegree.get(neighbor.label) : 0;
+        int cnt = indegree.containsKey(neighbor.label)
+                      ? indegree.get(neighbor.label)
+                      : 0;
         indegree.put(neighbor.label, cnt + 1);
       }
     }

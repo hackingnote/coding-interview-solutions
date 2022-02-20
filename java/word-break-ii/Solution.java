@@ -21,7 +21,8 @@ public class Solution {
     return backtrack(result, new ArrayList<String>(), size - 1);
   }
 
-  private List<String> backtrack(List<List<String>> track, List<String> partials, int index) {
+  private List<String> backtrack(List<List<String>> track,
+                                 List<String> partials, int index) {
     if (index == -1) {
       return partials;
     }

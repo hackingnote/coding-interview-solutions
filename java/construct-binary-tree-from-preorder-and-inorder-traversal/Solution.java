@@ -2,7 +2,8 @@
  * Definition of TreeNode:
  *
  * <pre>public class TreeNode { public int val; public TreeNode left, right;
- * public TreeNode(int val) { this.val = val; this.left = this.right = null; } }</pre>
+ * public TreeNode(int val) { this.val = val; this.left = this.right = null; }
+ * }</pre>
  */
 public class Solution {
   private int preIndex = 0;
@@ -26,7 +27,8 @@ public class Solution {
 
     int i;
     for (i = start; i <= end; i++) {
-      if (inorder[i] == v) break;
+      if (inorder[i] == v)
+        break;
     }
 
     if (i > start) {

@@ -18,9 +18,7 @@ public class Solution {
    * @param root: The root of binary tree.
    * @return: True if this Binary tree is Balanced, or false.
    */
-  public boolean isBalanced(TreeNode root) {
-    return balanced(root) != -1;
-  }
+  public boolean isBalanced(TreeNode root) { return balanced(root) != -1; }
 
   private int balanced(TreeNode root) {
     if (root == null) {

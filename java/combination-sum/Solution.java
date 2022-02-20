@@ -12,8 +12,8 @@ public class Solution {
     return result;
   }
 
-  private void search(
-      List<List<Integer>> result, List<Integer> buffer, int[] candidates, int index, int target) {
+  private void search(List<List<Integer>> result, List<Integer> buffer,
+                      int[] candidates, int index, int target) {
     if (target < 0) {
       return;
     }
@@ -23,7 +23,8 @@ public class Solution {
     }
 
     for (int i = index; i < candidates.length; i++) {
-      if (i > 0 && candidates[i] == candidates[i - 1]) continue;
+      if (i > 0 && candidates[i] == candidates[i - 1])
+        continue;
       List<Integer> copy = new ArrayList<Integer>(buffer);
       copy.add(candidates[i]);
       search(result, copy, candidates, i, target - candidates[i]);

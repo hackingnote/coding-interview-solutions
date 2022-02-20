@@ -22,7 +22,8 @@ public class Solution {
       for (int j = 0; j <= 100; j++) {
         int end = Math.min(j + target, 100);
         for (int k = Math.max(0, j - target); k <= end; k++) {
-          cost[i][j] = Math.min(cost[i][j], cost[i - 1][k] + Math.abs(j - A.get(i)));
+          cost[i][j] =
+              Math.min(cost[i][j], cost[i - 1][k] + Math.abs(j - A.get(i)));
         }
       }
     }

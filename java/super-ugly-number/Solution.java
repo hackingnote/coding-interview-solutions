@@ -14,7 +14,8 @@ public class Solution {
       for (int j = 0; j < p.length; j++) {
         min = Math.min(a[p[j]] * primes[j], min);
       }
-      // a[i] = Collections.min(Arrays.asList(a[i2] * 2, a[i7] * 7, a[i13] * 13, a[i19] * 19));
+      // a[i] = Collections.min(Arrays.asList(a[i2] * 2, a[i7] * 7, a[i13] * 13,
+      // a[i19] * 19));
       a[i] = min;
 
       for (int j = 0; j < p.length; j++) {

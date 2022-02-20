@@ -6,7 +6,8 @@ class Solution {
    * Get all distinct N-Queen solutions
    *
    * @param n: The number of queens
-   * @return: All distinct solutions For example, A string '...Q' shows a queen on forth position
+   * @return: All distinct solutions For example, A string '...Q' shows a queen
+   * on forth position
    */
   ArrayList<ArrayList<String>> solveNQueens(int n) {
     result = new ArrayList<ArrayList<String>>();
@@ -30,7 +31,8 @@ class Solution {
 
   private boolean isValid(int[] board, int row) {
     for (int i = 0; i < row; i++) {
-      if (board[i] == board[row] || row - i == Math.abs(board[i] - board[row])) {
+      if (board[i] == board[row] ||
+          row - i == Math.abs(board[i] - board[row])) {
         return false;
       }
     }

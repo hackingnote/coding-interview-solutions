@@ -11,8 +11,8 @@ class Solution {
       int mid = (lo + hi) >>> 1;
       if (nums[mid] < target) {
         lo = mid + 1;
-      } else if (nums[mid] > target
-          || (nums[mid] == target && mid > 0 && nums[mid - 1] == target)) {
+      } else if (nums[mid] > target ||
+                 (nums[mid] == target && mid > 0 && nums[mid - 1] == target)) {
         hi = mid - 1;
       } else {
         return mid;

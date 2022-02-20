@@ -11,8 +11,8 @@ public class Solution {
     return result;
   }
 
-  private void search(
-      List<List<String>> result, List<String> buffer, char[] c, String s, int index) {
+  private void search(List<List<String>> result, List<String> buffer, char[] c,
+                      String s, int index) {
 
     if (index >= c.length) {
       result.add(buffer);
@@ -31,7 +31,8 @@ public class Solution {
 
   private boolean isPalindrome(char[] c, int i, int j) {
     while (i < j) {
-      if (c[i] != c[j]) return false;
+      if (c[i] != c[j])
+        return false;
       i++;
       j--;
     }

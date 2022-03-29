@@ -1,12 +1,11 @@
+#include <vector>
 
 class Solution {
-public:
-  void rotate(vector<int> &nums, int k) {
-    if (nums.empty())
-      return;
+ public:
+  void rotate(std::vector<int> &nums, int k) {
+    if (nums.empty()) return;
     k %= nums.size();
-    if (k == 0)
-      return;
+    if (k == 0) return;
     int i, j, tmp;
     for (i = 0; i < k; i++) {
       tmp = nums[nums.size() - 1];
@@ -19,17 +18,14 @@ public:
 };
 
 class Solution {
-public:
-  void rotate(vector<int> &nums, int k) {
-    if (nums.empty())
-      return;
+ public:
+  void rotate(std::vector<int> &nums, int k) {
+    if (nums.empty()) return;
     k %= nums.size();
-    if (k == 0)
-      return;
+    if (k == 0) return;
     int i;
-    vector<int> tmp;
-    for (i = 0; i < nums.size(); i++)
-      tmp.push_back(nums[i]);
+    std::vector<int> tmp;
+    for (i = 0; i < nums.size(); i++) tmp.push_back(nums[i]);
     for (i = 0; i < tmp.size(); i++) {
       nums[(i + k) % nums.size()] = tmp[i];
     }
@@ -37,13 +33,11 @@ public:
 };
 
 class Solution {
-public:
-  void rotate(vector<int> &nums, int k) {
-    if (nums.empty())
-      return;
+ public:
+  void rotate(std::vector<int> &nums, int k) {
+    if (nums.empty()) return;
     k %= nums.size();
-    if (k == 0)
-      return;
+    if (k == 0) return;
     int i, j, tmp;
     for (i = 0, j = nums.size() - 1; i < j; i++, j--) {
       tmp = nums[i];

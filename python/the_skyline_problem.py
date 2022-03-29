@@ -35,7 +35,8 @@ class Solution:
                     deleted[y] = deleted.get(y, 0) + 1
                 else:
                     highest = -heappop(heap)
-                    if heap and highest == -heap[0]: continue
+                    if heap and highest == -heap[0]:
+                        continue
                     if prevX != x:
                         result.append([prevX, x, y])
                     while heap and deleted.get(-heap[0], 0) > 0:
@@ -44,4 +45,5 @@ class Solution:
                     prevX = x
         return result
 
-print(Solution().buildingOutline([[1,3,3],[2,4,4],[5,6,1]]))
+
+print(Solution().buildingOutline([[1, 3, 3], [2, 4, 4], [5, 6, 1]]))

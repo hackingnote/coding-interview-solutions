@@ -1,7 +1,8 @@
+#include <vector>
 
 class Solution {
-public:
-  int minPatches(vector<int> &nums, int n) {
+ public:
+  int minPatches(std::vector<int> &nums, int n) {
     unsigned int cnt = 1, idx = 0;
     int ret = 0;
     while (cnt <= n) {

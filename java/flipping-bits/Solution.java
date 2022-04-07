@@ -1,8 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-// unsigned 32-bit integer
-public class Solution2 {
+
+public class Solution {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);

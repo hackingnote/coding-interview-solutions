@@ -1,13 +1,22 @@
 /**
  * Definition of TreeNode:
  *
- * <pre> public class TreeNode { public int val; public TreeNode left, right;
- * public TreeNode(int val) { this.val = val; this.left = this.right = null; }
+ * <pre>
+ * public class TreeNode {
+ *   public int val;
+ *   public TreeNode left, right;
+ *   public TreeNode(int val) { this.val = val; this.left = this.right = null; }
  * }</pre>
  *
- * Definition for Doubly-ListNode. public class DoublyListNode { int val;
- * DoublyListNode next, prev; DoublyListNode(int val) { this.val = val;
- * this.next = this.prev = null; } }
+ * Definition for Doubly-ListNode.
+ *
+ * <pre>
+ * public class DoublyListNode {
+ *   int val;
+ *   DoublyListNode next, prev;
+ *   DoublyListNode(int val) { this.val = val; this.next = this.prev = null; }
+ * }
+ * </pre>
  */
 public class Solution {
   /**
@@ -15,9 +24,7 @@ public class Solution {
    * @return: the head of doubly list node
    */
   public DoublyListNode bstToDoublyList(TreeNode root) {
-    // Write your code here
-    if (root == null)
-      return null;
+    if (root == null) return null;
 
     DoublyListNode left = null, right = null;
 
@@ -41,8 +48,7 @@ public class Solution {
   }
 
   private DoublyListNode leftMost(DoublyListNode node) {
-    if (node == null)
-      return null;
+    if (node == null) return null;
     while (node.prev != null) {
       node = node.prev;
     }
@@ -50,8 +56,7 @@ public class Solution {
   }
 
   private DoublyListNode rightMost(DoublyListNode node) {
-    if (node == null)
-      return null;
+    if (node == null) return null;
     while (node.next != null) {
       node = node.next;
     }

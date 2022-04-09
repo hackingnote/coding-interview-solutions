@@ -27,11 +27,9 @@ public class Solution {
   }
 
   private void traverse(TreeNode node, ArrayList<Integer> result) {
-
     if (node == null) {
       return;
     }
-
     result.add(node.val);
     traverse(node.left, result);
     traverse(node.right, result);

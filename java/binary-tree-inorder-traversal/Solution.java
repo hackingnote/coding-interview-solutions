@@ -27,13 +27,33 @@ public class Solution {
   }
 
   private void traverse(TreeNode node, ArrayList<Integer> result) {
-
     if (node == null) {
       return;
     }
-
     traverse(node.left, result);
     result.add(node.val);
     traverse(node.right, result);
+  }
+}
+
+// Without Recursion
+class Solution2 {
+  public List<Integer> inorderTraversal(TreeNode root) {
+    List<Integer> result = new ArrayList<>();
+    Stack<TreeNode> stack = new Stack<>();
+    addNodes(stack, root);
+    while (!stack.isEmpty()) {
+      TreeNode node = stack.pop();
+      result.add(node.val);
+      addNodes(stack, node.right);
+    }
+    return result;
+  }
+
+  private void addNodes(Stack<TreeNode> stack, TreeNode node) {
+    while (node != null) {
+      stack.push(node);
+      node = node.left;
+    }
   }
 }

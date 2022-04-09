@@ -1,54 +1,34 @@
 /**
- * Definition of TreeNode:
+ * Definition for binary tree
  *
  * <pre>
  * public class TreeNode {
- *   public int val;
- *   public TreeNode left, right;
- *
- *   public TreeNode(int val) {
- *     this.val = val;
- *     this.left = this.right = null;
- *   }
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
  * }
  * </pre>
  */
 public class Solution {
-  /**
-   * @param root: The root of binary tree.
-   * @return: Level order a list of lists of integer
-   */
-  public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {
-
-    ArrayList<ArrayList<Integer>> result = new ArrayList<>();
-
-    traverse(root, 0, result);
-
-    Stack<ArrayList<Integer>> stack = new Stack<ArrayList<Integer>>();
-    for (ArrayList<Integer> row : result) {
-      stack.push(row);
-    }
-
-    result = new ArrayList<>();
-    while (!stack.isEmpty()) {
-      result.add(stack.pop());
-    }
-
+  public List<List<Integer>> levelOrder(TreeNode root) {
+    List<List<Integer>> result = new ArrayList<List<Integer>>();
+    add(result, root, 0);
     return result;
   }
 
-  private void traverse(TreeNode node, int level,
-                        ArrayList<ArrayList<Integer>> result) {
-    if (node == null)
-      return;
-
-    while (level >= result.size()) {
-      result.add(new ArrayList<Integer>());
+  private void add(List<List<Integer>> result, TreeNode node, int level) {
+    if (node == null) return;
+    List<Integer> list;
+    if (result.size() <= level) {
+      list = new ArrayList<Integer>();
+      result.add(list);
+    } else {
+      list = result.get(level);
     }
 
-    result.get(level).add(node.val);
-
-    traverse(node.left, level + 1, result);
-    traverse(node.right, level + 1, result);
+    list.add(node.val);
+    add(result, node.left, level + 1);
+    add(result, node.right, level + 1);
   }
 }

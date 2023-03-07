@@ -1,18 +1,13 @@
-/**
- * Definition for ListNode
- *
- * <pre>
- * public class ListNode {
- *   int val;
- *   ListNode next;
- *
- *   ListNode(int x) {
- *     val = x;
- *     next = null;
- *   }
- * }
- * </pre>
- */
+class ListNode {
+  int val;
+  ListNode next;
+
+  ListNode(int x) {
+    val = x;
+    next = null;
+  }
+}
+
 public class Solution {
   /**
    * @param ListNode head is the head of the linked list
@@ -20,7 +15,6 @@ public class Solution {
    * @return: The head of the reversed ListNode
    */
   public ListNode reverseBetween(ListNode head, int m, int n) {
-    // write your code
     ListNode dummy = new ListNode(0);
     dummy.next = head;
     head = dummy;

@@ -20,9 +20,7 @@ public class Solution {
    * @return: the list after rotation
    */
   public ListNode rotateRight(ListNode head, int k) {
-    // write your code here
-    if (head == null)
-      return null;
+    if (head == null) return null;
     int size = 0;
     ListNode dummy = new ListNode(0);
     dummy.next = head;
@@ -34,19 +32,14 @@ public class Solution {
     }
 
     k = k % size;
-
     int n = size - k;
     ListNode tmp = dummy;
-
     for (int i = 0; i < n; i++) {
       tmp = tmp.next;
     }
-
     tail.next = head;
     dummy.next = tmp.next;
-
     tmp.next = null;
-
     return dummy.next;
   }
 }

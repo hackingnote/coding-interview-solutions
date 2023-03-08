@@ -19,7 +19,6 @@ public class Solution {
    * @return: ListNode head of the linked list
    */
   public static ListNode deleteDuplicates(ListNode head) {
-    // write your code here
     ListNode dummy = new ListNode(0);
     dummy.next = head;
     ListNode p = dummy;
